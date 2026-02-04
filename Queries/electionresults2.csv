@@ -1,0 +1,1000 @@
+candidate_id,candidate,date,race_id,race_name,candidate_party,votes,is_winner,election_type,is_uncontested,number_of_seats_in_election,total_number_of_ballots_in_race
+241553,Daniel Lyonsmith,2025-04-01,205583,"IL Evanston Community Consolidated School District 65, At-large",Nonpartisan,4676,N,General Election,false,4,64390
+286481,Shay Kennison-Beachy,2025-05-20,240458,OR Hermiston School District Position 4,Nonpartisan,864,N,General Election,false,1,1828
+382792,Jeff Capps,2025-11-04,368338,KS Harper City Council,Nonpartisan,161,Y,General Election,false,3,691
+422700,Dan Barbour,2025-11-04,410743,NC Clayton Town Council,Nonpartisan,901,N,General Election,false,3,5778
+422701,Jason Carter,2025-11-04,410743,NC Clayton Town Council,Nonpartisan,569,N,General Election,false,3,5778
+262692,Diane Hatcher,2025-04-01,216675,IL Prairie Skies Public Library District Trustee Board At-large,Nonpartisan,uncontested,Y,General Election,true,4,uncontested
+245764,Mark Scaggs,2025-04-01,207126,IL Channahon Village Trustee Board At-large,Independent,uncontested,Y,General Election,true,3,uncontested
+249298,Oscar Barbosa,2025-04-01,209145,IL Onarga Village Trustee Board At-large,Independent,uncontested,Y,General Election,true,3,uncontested
+284153,Phyllis Jeffers,2025-05-03,238677,TX Pampa City Commission Ward 1,Nonpartisan,606,N,General Election,false,1,1570
+290070,Rob Linebarger,2025-08-05,243215,WA Central Valley School District school board 5,Nonpartisan,4853,N,Primary,false,2,18493
+222391,Ted White,2025-04-01,192146,WI Ashland Town Board Chairperson (Ashland County),Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+218194,Andrea Pecher,2025-04-01,188510,WI Vesper Village Clerk,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+328999,Mike Kress,2025-11-04,408468,OH Franklin Township Trustee Board At-large (Brown County),Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+410962,Lewis Jackson,2025-11-04,406367,OH Manchester Village Council At-large,Nonpartisan,110,N,General Election,false,4,874
+380142,Clark McKimmy,2025-11-04,367486,MI Bad Axe City Council At-large,Nonpartisan,206,N,General Election,false,3,1286
+221161,Joe Seltzner,2025-04-01,191074,WI Sun Prairie Town Board Supervisor (Dane County),Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+218675,Judy Reas,2025-04-01,188900,WI Lake Town Treasurer (Price County),Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+274027,Daylie Arbogast,2025-05-03,224515,TX Mayor of Willis,Nonpartisan,26,N,General Election,false,1,249
+284154,Wendi Horst,2025-05-03,238677,TX Pampa City Commission Ward 1,Nonpartisan,964,Y,General Election,false,1,1570
+222829,Melissa Siemers,2025-04-01,192531,WI Elcho Town Treasurer (Langlade County),Nonpartisan,265,N,General Election,false,1,584
+271911,Virginia Cruz,2025-05-03,223448,TX Crockett Independent School District 1,Nonpartisan,127,N,General Election,false,1,288
+216346,Scott O'Brien,2025-04-01,187220,"WI Solon Springs School District, At-large",Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+222145,Matthew Buchda,2025-04-01,191934,WI Calamus Town Board Supervisor 1 (Dodge County),Nonpartisan,130,N,General Election,false,1,372
+429836,Robert Stockdale,2025-11-04,414217,IA Owasa City Council At-large,Nonpartisan,uncontested,Y,General Election,true,3,uncontested
+284781,Tyler Moses,2025-05-13,239120,"AR Conway School District, At-large",Nonpartisan,251,N,General Election,false,1,5322
+241551,Christopher DeNardo,2025-04-01,205583,"IL Evanston Community Consolidated School District 65, At-large",Nonpartisan,1407,N,General Election,false,4,64390
+263098,Sanjay Singhal,2025-06-07,241718,TX Sugar Land City Council 2,Nonpartisan,2346,Y,Runoff,false,1,3123
+389596,Hunter Sox,2025-11-04,386109,SC Cayce City Council 3,Nonpartisan,154,N,General Election,false,1,338
+218053,Esa Everroad,2025-04-01,188402,WI Spooner Alderperson 2,Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+244629,Allyson Schiltz,2025-04-01,206455,"IL Wethersfield Community Unit School District 230 school board, At-large",Nonpartisan,406,Y,General Election,false,4,2044
+242320,Dolores Wilson,2025-04-01,205798,"IL Rosemont Elementary School District 78, At-large",Nonpartisan,uncontested,Y,General Election,true,3,uncontested
+431976,Colin Erickson,2025-11-04,415368,ID Rexburg City Council,Nonpartisan,1344,Y,General Election,false,3,6287
+412162,Drew Reilly,2025-11-04,406928,OH Stow City Law Director Special,Nonpartisan,uncontested,Y,Special Election General,true,1,uncontested
+242376,Karen Chan-elarde,2025-04-01,205814,"IL Skokie School District 73.5, At-large",Nonpartisan,1108,Y,General Election,false,4,5469
+244630,Andrew Verstraete,2025-04-01,206455,"IL Wethersfield Community Unit School District 230 school board, At-large",Nonpartisan,378,N,General Election,false,4,2044
+222979,Brenda Zweifel,2025-04-01,192658,WI Washington Town Treasurer (Green County),Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+217901,Mark Juslen,2025-04-01,188300,WI Redgranite Village Trustee,Nonpartisan,uncontested,Y,General Election,true,3,uncontested
+380162,Mark Serwe,2025-11-04,367495,MI Bessemer City Council At-large,Nonpartisan,uncontested,Y,General Election,true,5,uncontested
+411643,Deanna O'Donnell,2025-11-04,406686,OH Parma Municipal Court Term starts 1/1/2026,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+286314,Phillip Spicerkuhn,2025-05-20,240458,OR Hermiston School District Position 4,Nonpartisan,964,Y,General Election,false,1,1828
+391455,Philip Galberth,2025-11-04,386832,MN Minneapolis City Council Ward 8,Nonpartisan,178,N,General Election,false,1,11873
+222695,Randy Weigel,2025-04-01,193974,WI Marshfield Town Board Supervisor (Wood County) 2,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+245720,Marty Kaylor,2025-04-01,207104,IL Cave-In-Rock Village President,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+290688,Brendan Jensen,2025-08-05,243438,KS Topeka City Council 1,Nonpartisan,66,N,Primary,false,2,803
+261608,Traci Juhas,2025-04-01,216211,IL Millstadt Township Clerk (St. Clair County),Independent,uncontested,Y,General Election,true,1,uncontested
+215861,Shannon Ruhland-Crum,2025-04-01,186957,"WI Elcho School District, At-large",Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+408367,Ronald Pribich,2025-11-04,405253,"OH Massillon City School District, At-large",Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+290068,Mark Bitz,2025-08-05,243215,WA Central Valley School District school board 5,Nonpartisan,6799,Y,Primary,false,2,18493
+241552,Chris VanNostrand,2025-04-01,205583,"IL Evanston Community Consolidated School District 65, At-large",Nonpartisan,6256,N,General Election,false,4,64390
+215552,David Melbye,2025-04-01,193085,WI Fox Point-Bayside School Board,Nonpartisan,1681,Y,General Election,false,2,4851
+240708,David Selzer,2025-04-01,205168,IL Heartland Community College District 540 Trustee Board At-large,Nonpartisan,14523,N,General Election,false,3,67343
+217889,James Wise,2025-11-04,414455,IA Mayor of Sioux Rapids,Nonpartisan,73,N,General Election,false,1,165
+436420,Lynn Worthington,2025-11-04,417106,CT Kent Selectman,Democratic,657,Y,General Election,false,1,981
+271366,Victory Rosas,2025-05-03,223255,TX Port Isabel-San Benito Navigation District Commissioner Board Place 2,Nonpartisan,117,N,General Election,false,1,910
+261439,Dan Sleaford,2025-04-01,216109,IL Manito Township Trustee Board At-large (Mason County),Republican,uncontested,Y,General Election,true,4,uncontested
+410374,Dusty Lint,2025-11-04,406114,OH Mayor of Glenmont Special,Nonpartisan,uncontested,Y,Special Election General,true,1,uncontested
+381859,Carley Tafoya,2025-11-04,367952,"NM Dulce Independent Schools, At-large",Nonpartisan,31,N,General Election,false,3,952
+380143,Jesse Klaska,2025-11-04,367486,MI Bad Axe City Council At-large,Nonpartisan,212,Y,General Election,false,3,1286
+248119,Mary Frerichs,2025-04-01,208455,IL Litchfield City Clerk,Independent,uncontested,Y,General Election,true,1,uncontested
+390799,Lane Smith,2025-11-04,386682,ID Glenns Ferry School District #192 Trustee 1,Nonpartisan,12,N,General Election,false,1,81
+377781,Ann Johnson,2025-11-04,364690,WA South Whidbey School District school board Position 5 At-large,Nonpartisan,5317,Y,General Election,false,1,8220
+410037,Dana Dedrick,2025-11-04,405947,OH Deer Park City Council At-large,Nonpartisan,662,Y,General Election,false,3,3133
+218763,David Jahns,2025-04-01,193475,WI Eldorado Town Board Chairperson,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+223579,Amber Sommer,2025-04-01,194094,OK Kiefer Public Schools school board Office 5,Nonpartisan,163,Y,General Election,false,1,254
+244610,Kristen Turner,2025-04-01,206450,IL West Washington County Community Unit School District 10 school board At-large Remaining Congressional Townships,Nonpartisan,uncontested,Y,General Election,true,4,uncontested
+273647,Karen Valentine,2025-05-03,224320,TX Port Aransas City Council Place 1,Nonpartisan,242,N,General Election,false,1,625
+425692,Lance Spence,2025-11-04,411976,GA Louisville City Council At-large Michelle Reaves' seat Special,Nonpartisan,38,N,Special Election General,false,1,734
+376753,Micah Nida,2025-11-04,363861,VA Wise School Board District Three,Independent,994,N,General Election,false,1,2606
+379839,Randy Garcia,2025-11-04,366668,WA Yakima County Fire  Commissioner Board Position 2 4,Nonpartisan,1584,N,General Election,false,1,3696
+390108,Jimmy Avant,2025-11-18,419883,SC Smoaks Town Council At-large,Nonpartisan,13,N,Runoff,false,1,35
+272954,Jacob Roan,2025-05-03,223958,TX Emory City Council Place 4,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+243516,Dale Woods,2025-04-01,206125,"IL Edwards County Community Unit School District 1, At-large",Nonpartisan,uncontested,Y,General Election,true,3,uncontested
+110207,Michelle Sullivan,2025-12-02,427038,GA Sandy Springs City Council 4,Nonpartisan,830,N,Runoff,false,1,1893
+220227,Bill Gibbs,2025-04-01,193729,WI Sharon Town Board Supervisor,Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+430574,Ron Hessenius,2025-11-04,414614,IA Vinton City Council 1,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+396544,Dick Collier,2025-11-04,411005,NC Mayor of Lasker,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+271947,Cynthia Banks,2025-05-03,223458,TX DeSoto Independent School District Place 1,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+140426,Linda Nelson,2025-11-04,367495,MI Bessemer City Council At-large,Nonpartisan,uncontested,Y,General Election,true,5,uncontested
+429653,Nicole Schneckloth,2025-11-04,414110,IA Neola City Council At-large,Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+260659,Matt Cunniff,2025-04-01,215682,IL Hume Township Highway Commissioner (Whiteside County),Independent,uncontested,Y,General Election,true,1,uncontested
+218788,Cindy Eisenman,2025-04-01,189002,WI Wheatland Town Clerk (Vernon County),Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+244231,Blake Schuchardt,2025-04-01,206332,"IL Pope County Community Unit School District 1, At-large",Nonpartisan,uncontested,Y,General Election,true,3,uncontested
+120205,David Rios,2025-11-04,386865,NJ Jersey City Council Ward B,Nonpartisan,671,N,General Election,false,1,8256
+216345,Brittany Huray,2025-04-01,187220,"WI Solon Springs School District, At-large",Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+533992,Shantell Mosley,2025-12-13,470195,TX Joshua City Council Place 1,Nonpartisan,9,N,Special Election General,false,1,92
+246250,Fitzgerald Roberts,2025-04-01,207408,IL Dixmoor Village President,Independent,393,Y,General Election,false,1,527
+428911,Robert Lane,2025-11-04,413737,IA Indianola City Council At-large,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+252315,Brandon Grubbs,2025-04-01,210857,IL Mona Township Supervisor (Ford County),Independent,uncontested,Y,General Election,true,1,uncontested
+249828,Marjorie Manchen,2025-04-01,209452,IL River Grove Village Clerk,Other,uncontested,Y,General Election,true,1,uncontested
+245878,Sue Schafroth,2025-04-01,207191,IL Clifton Village Trustee Board At-large,Independent,uncontested,Y,General Election,true,3,uncontested
+432856,Daniel Furman,2025-11-04,415645,NH Dover City Council At-Large,Nonpartisan,1361,N,General Election,false,2,9384
+258301,Tracy Rangel,2025-04-01,214330,IL Caledonia Township Trustee Board At-large (Boone County),Independent,uncontested,Y,General Election,true,4,uncontested
+389467,Ervin Richardson,2025-11-04,386055,"SC Florence School  school board, Seat 1 5",Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+220594,Sandy Wood,2025-04-01,190587,WI Grant Town Clerk (Monroe County),Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+219140,John Underwood,2025-04-01,189325,WI Hill Town Board Supervisor (Price County),Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+244790,Kirstan Gray,2025-04-01,206537,IL Alton City Council Ward 6,Independent,306,N,General Election,false,1,675
+241379,Antonio Medina,2025-04-01,205535,"IL Chicago Ridge School District 127-5, At-large",Nonpartisan,uncontested,Y,General Election,true,4,uncontested
+249701,Robert Thurston,2025-04-01,209379,IL Pulaski Village Treasurer,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+241550,Brandon Utter,2025-04-01,205583,"IL Evanston Community Consolidated School District 65, At-large",Nonpartisan,5199,N,General Election,false,4,64390
+384733,Diana Agu,2025-11-04,368982,NJ Morris Township Board of Education Morris School District,Nonpartisan,4435,Y,General Election,false,2,15038
+379467,Lynne Kastner,2025-11-04,366273,WA Clallam County Fire  Commissioner Board Position 5 4,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+381869,Teresa Cassador,2025-11-04,367952,"NM Dulce Independent Schools, At-large",Nonpartisan,75,N,General Election,false,3,952
+274525,Roberto Torres,2025-05-06,224769,OH Toledo Mayor,Nonpartisan,3204,Y,Primary,false,2,13021
+274271,Melondy Doddy-Munoz,2025-05-03,224621,TX Crowley Independent School District Place 5,Nonpartisan,2209,N,General Election,false,1,4614
+385951,Byron Allred,2025-11-04,369606,UT Rocky Ridge Town Council,Nonpartisan,161,Y,General Election,false,2,440
+241765,Naurice Moffett,2025-04-01,205645,"IL Joliet Public Schools District 86 school board, East Side",Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+391540,Idriss Zahidi,2025-11-04,386865,NJ Jersey City Council Ward B,Nonpartisan,1667,N,General Election,false,1,8256
+247771,Sara Rasmussan,2025-04-01,208254,IL Kell Village Trustee Board At-large,Nonpartisan,uncontested,Y,General Election,true,3,uncontested
+273958,Christina Fitzpatrick,2025-05-03,224480,TX Universal City City Council At-large,Nonpartisan,602,Y,General Election,false,3,1916
+286155,Matt Mejia,2025-05-20,240351,"OR Ontario Recreation District Director, Position 2",Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+290589,Greg Oakes,2025-08-05,243381,WA North County Regional Fire Authority Commissioner Board 1,Nonpartisan,957,Y,Primary,false,2,1417
+439957,Hugo Perdomo,2025-11-04,418493,MA Chelsea School Committee 1,Nonpartisan,171,N,General Election,false,1,360
+259609,Edward Bone,2025-04-01,215103,IL Berreman Township Trustee Board At-large (Jo Daviess County),Independent,uncontested,Y,General Election,true,4,uncontested
+428895,Austin Leer,2025-11-04,413723,IA Humeston City Council At-large Special,Nonpartisan,uncontested,Y,Special Election General,true,2,uncontested
+431981,Alisha Tietjen,2025-11-04,415368,ID Rexburg City Council,Nonpartisan,1058,Y,General Election,false,3,6287
+414378,Adam Knapke,2025-11-04,407951,OH Washington Township Trustee Board At-large (Mercer County),Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+380147,Steve Perez,2025-11-04,367486,MI Bad Axe City Council At-large,Nonpartisan,140,N,General Election,false,3,1286
+218563,Jon LeBlanc,2025-04-01,188805,WI Hunter Town Board Chairperson (Sawyer County),Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+308592,Joe Jones,2025-09-09,300687,OH Cleveland City Council Ward 1,Nonpartisan,1070,Y,Primary,false,2,1771
+245670,Billy Saylor,2025-04-01,207069,IL Carpentersville Village Trustee Board At-large,Independent,614,N,General Election,false,3,5284
+285927,Jordan Rooklyn,2025-05-20,239544,"OR Ashland School District 5 Director, Position 1",Nonpartisan,4376,Y,General Election,false,1,6773
+424517,Bianca Gonzales,2025-11-04,410395,TX Edcouch City Council Place 3,Nonpartisan,181,N,General Election,false,1,681
+281173,Bill Mcdonald,2025-11-04,367495,MI Bessemer City Council At-large,Nonpartisan,uncontested,Y,General Election,true,5,uncontested
+261442,Sharon Gathman,2025-04-01,216109,IL Manito Township Trustee Board At-large (Mason County),Republican,uncontested,Y,General Election,true,4,uncontested
+259219,Robert Buechler,2025-04-01,214875,IL St. Clair Township Trustee Board At-large (St. Clair County),Other,uncontested,Y,General Election,true,4,uncontested
+221234,Kenneth Bodeen,2025-04-01,191139,WI Port Wing Town Board Supervisor (Bayfield County),Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+262491,Shannon Lawton-o'boyle,2025-04-01,216580,IL Mississippi Valley Library District Trustee Board At-large Special,Nonpartisan,1496,N,Special Election General,false,1,3758
+427052,Jed Ballanger,2025-11-04,412714,"IA Moulton-Udell Community School District, At-large",Nonpartisan,67,N,General Election,false,2,410
+262399,Sarah Miller,2025-04-01,216540,IL Mahomet Public Library District Trustee Board At-large,Nonpartisan,uncontested,Y,General Election,true,4,uncontested
+411464,Maureen Carr,2025-11-04,406596,OH North Olmsted City Council Ward 4,Nonpartisan,900,Y,General Election,false,1,900
+63747,Robert Miller,2025-11-04,366353,WA Island County Fire  (North Whidbey Fire and Rescue) Commissioner Board Position 1 Special 2,Nonpartisan,2484,Y,Special Election General,false,1,3911
+398544,Randy Baucom,2025-11-04,411375,NC Mayor of Unionville,Nonpartisan,746,Y,General Election,false,1,1057
+60651,Jerome Krempasky,2025-04-01,190973,WI Warner Town Clerk (Clark County),Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+325066,Leo Zeigler,2025-08-26,273982,AL Midfield City Council Place 1,Nonpartisan,193,N,General Election,false,1,684
+385607,Misty Madsen,2025-11-04,369340,UT Orangeville City Council 4-Year Term,Nonpartisan,77,N,General Election,false,2,557
+286011,Kenny Oleman,2025-05-20,239514,OR Tillamook School District #9 – Position 1 Director (2-yr),Nonpartisan,2117,Y,General Election,false,1,4071
+409225,Ann Pillow,2025-11-04,405550,OH Addyston Village Council At-large,Nonpartisan,54,Y,General Election,false,4,267
+382796,Darren Smithhisler,2025-11-04,368338,KS Harper City Council,Nonpartisan,22,N,General Election,false,3,691
+246916,Vickie Lorenzen,2025-04-01,207786,IL Gibson City City Treasurer,Independent,uncontested,Y,General Election,true,1,uncontested
+244500,Tracie Sayre,2025-04-01,206411,"IL Triopia Community Unit School District 27, At-large",Nonpartisan,uncontested,Y,General Election,true,3,uncontested
+417371,Christopher Boozer,2025-11-04,409204,PA Clarion Limestone School Director Region II,Democratic,349,N,General Election,false,2,1172
+412054,Mike Kan,2025-11-04,406870,OH Solon City Council Ward 4,Nonpartisan,968,Y,General Election,false,1,1176
+428019,Elmarie Nel,2025-11-04,413247,IA Clarion City Council At-large Special,Nonpartisan,uncontested,Y,Special Election General,true,1,uncontested
+286216,Misty Burris,2025-05-20,239514,OR Tillamook School District #9 – Position 1 Director (2-yr),Nonpartisan,703,N,General Election,false,1,4071
+253639,Garon Weir,2025-04-01,211616,IL Kinderhook Township Highway Commissioner (Pike County),Independent,uncontested,Y,General Election,true,1,uncontested
+381868,Ted Valdez,2025-11-04,367952,"NM Dulce Independent Schools, At-large",Nonpartisan,31,N,General Election,false,3,952
+414484,Brittany Spencer,2025-11-04,408001,OH Valley Township Fiscal Officer (Scioto County) Special,Nonpartisan,uncontested,Y,Special Election General,true,1,uncontested
+217937,Janelle Beal,2025-04-01,188327,WI Roberts Village Trustee,Nonpartisan,316,Y,General Election,false,3,1373
+427019,Erick Somers,2025-11-04,412698,"IA Martensdale-St Marys Community School District, 1",Nonpartisan,104,N,General Election,false,1,223
+289816,Jacob Puckett,2025-08-05,243159,MI Cedar Springs City Council At-large,Nonpartisan,64,Y,Primary,false,4,381
+361901,Celina Reyes,2025-11-04,418542,MA Lawrence Councilor At Large,Nonpartisan,5228,Y,General Election,false,3,22654
+249881,Luis Andrade,2025-04-01,209483,IL Rochester Village Trustee Board At-large,Nonpartisan,594,Y,General Election,false,3,2335
+422908,Charles Carter III,2025-11-04,410881,NC Gatesville Town Council,Nonpartisan,uncontested,Y,General Election,true,3,uncontested
+415619,Dale Cochran,2025-11-04,408506,OH Jefferson Township Trustee Board At-large (Clinton County),Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+260875,Laura Ellet,2025-04-01,215803,IL Grand Tower Township Supervisor (Jackson County),Independent,uncontested,Y,General Election,true,1,uncontested
+219170,Joe Iverson Jr.,2025-04-01,189354,WI Hixton Town Board Supervisor 1 (Jackson County),Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+242379,Samuel Goldstein,2025-04-01,205814,"IL Skokie School District 73.5, At-large",Nonpartisan,794,N,General Election,false,4,5469
+290686,Eli Bohannan,2025-08-05,243438,KS Topeka City Council 1,Nonpartisan,18,N,Primary,false,2,803
+217936,Brian Tremblay,2025-04-01,188327,WI Roberts Village Trustee,Nonpartisan,394,Y,General Election,false,3,1373
+291066,Gil Provost,2025-06-10,243562,MA Southbridge Town Council,Nonpartisan,490,N,General Election,false,1,2096
+246306,Larry Browder,2025-04-01,207435,IL Du Bois Village Trustee Board At-large,Independent,uncontested,Y,General Election,true,3,uncontested
+423416,Terri Pitt,2025-11-04,411189,NC Plymouth Town Council Ward 2,Nonpartisan,100,N,General Election,false,2,409
+379374,Ray Mosbrucker,2025-11-04,366183,WA Klickitat County Public Hospital  Commissioner Board Position 5 1,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+258300,Don Ward,2025-04-01,214330,IL Caledonia Township Trustee Board At-large (Boone County),Independent,uncontested,Y,General Election,true,4,uncontested
+241558,Nichole Pinkard,2025-04-01,205583,"IL Evanston Community Consolidated School District 65, At-large",Nonpartisan,8775,Y,General Election,false,4,64390
+751114,Raymond Morris Jr.,2025-11-04,564926,KS The Highlands City Council,Nonpartisan,uncontested,Y,General Election,true,5,uncontested
+425691,Jamie Landrum,2025-11-04,411976,GA Louisville City Council At-large Michelle Reaves' seat Special,Nonpartisan,214,N,Special Election General,false,1,734
+413872,Ross Larue,2025-11-04,407730,OH Madison Township Trustee Board At-large (Pickaway County),Nonpartisan,129,N,General Election,false,2,552
+255944,Benjamin Graham,2025-04-01,212958,IL Waltham Township Trustee Board At-large (LaSalle County),Independent,131,Y,General Election,false,4,517
+284473,Megan Handley,2025-05-06,238978,"MT Clinton School , At-large 32",Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+224201,Marcus Wray,2025-04-01,194355,OK City of Watonga Councilmember At Large Special,Nonpartisan,77,N,Special Election General,false,1,376
+290591,Mary Foster,2025-08-05,243381,WA North County Regional Fire Authority Commissioner Board 1,Nonpartisan,244,Y,Primary,false,2,1417
+243518,Lawrence Speir Jr.,2025-04-01,206125,"IL Edwards County Community Unit School District 1, At-large",Nonpartisan,uncontested,Y,General Election,true,3,uncontested
+384766,Marianna Scaiano,2025-11-04,368991,NJ Washington Township Board of Education,Nonpartisan,3749,Y,General Election,false,3,17189
+143669,Barbara Richard,2025-03-04,110774,CO Dillon Town Council Replacement,Nonpartisan,196,Y,Special Election General,false,3,681
+250594,Asad Khan,2025-04-01,209881,IL Streamwood Village President,Independent,619,N,General Election,false,1,2424
+259954,Robert Pollett,2025-04-01,215292,IL Olive Township Trustee Board At-large (Madison County),Independent,uncontested,Y,General Election,true,4,uncontested
+381863,Jerome Tecube,2025-11-04,367952,"NM Dulce Independent Schools, At-large",Nonpartisan,106,Y,General Election,false,3,952
+59886,Ken Bork,2025-04-01,188725,WI Quincy Town Board Supervisor 1 (Adams County),Nonpartisan,213,N,General Election,false,1,565
+413742,Larry Barnett,2025-11-04,407674,OH Smith Township Trustee Board At-large (Mahoning County),Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+255446,Patricia Elswick,2025-04-01,212656,IL Hebron Township Clerk (McHenry County),Independent,uncontested,Y,General Election,true,1,uncontested
+430319,Kelly Gerlach,2025-11-04,414483,IA Springbrook City Council At-large,Nonpartisan,uncontested,Y,General Election,true,3,uncontested
+243095,Andrew Montavon,2025-04-01,206001,"IL Amboy Community Unit School District 272, At-large",Nonpartisan,354,Y,General Election,false,4,1970
+274405,Oliver Mintz,2025-05-03,224700,TX Killeen Independent School District Place 3,Nonpartisan,2116,Y,General Election,false,1,3921
+440977,Write In,2025-11-04,385189,WA Seattle Mayor,Nonpartisan,911,N,General Election,false,1,276762
+255945,Darrell Corcoran,2025-04-01,212958,IL Waltham Township Trustee Board At-large (LaSalle County),Independent,94,Y,General Election,false,4,517
+285632,Ely Cartwright,2025-05-20,239905,"OR Bonanza Memorial Park Cemetery District – Director, Position 2",Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+426055,Mary Robichaux,2025-12-02,470134,GA Mayor of Roswell,Nonpartisan,9759,Y,Runoff,false,1,18352
+291772,Dave McCall,2025-08-12,243797,UT Tooele City Council,Nonpartisan,1884,Y,Primary,false,4,7806
+381866,Phillip Salazar,2025-11-04,367952,"NM Dulce Independent Schools, At-large",Nonpartisan,62,N,General Election,false,3,952
+361905,Nilson Rosario,2025-11-04,418542,MA Lawrence Councilor At Large,Nonpartisan,3006,N,General Election,false,3,22654
+426654,Brian Freed,2025-11-04,412501,"IA Cherokee Community School District, At-large",Nonpartisan,350,Y,General Election,false,2,1017
+241382,Tierza Lammel,2025-04-01,205535,"IL Chicago Ridge School District 127-5, At-large",Nonpartisan,uncontested,Y,General Election,true,4,uncontested
+271910,Ansel Bradshaw,2025-05-03,223448,TX Crockett Independent School District 1,Nonpartisan,161,Y,General Election,false,1,288
+412874,Ryan Pelter,2025-11-04,407270,OH North Central Ohio Educational Service Center Governing Board (Subdistrict 8),Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+274406,Lan Carter,2025-05-03,224700,TX Killeen Independent School District Place 3,Nonpartisan,1805,N,General Election,false,1,3921
+290453,Mary Clymer,2025-11-04,367269,WA Renton City Council Position 2,Nonpartisan,7973,N,General Election,false,1,18660
+241561,Randall Steckman,2025-04-01,205583,"IL Evanston Community Consolidated School District 65, At-large",Nonpartisan,1477,N,General Election,false,4,64390
+425732,Carlyle Kent,2025-12-02,420153,GA Marietta City Council Ward 5,Nonpartisan,495,Y,Runoff,false,1,615
+218387,John McCollam,2025-04-01,188649,WI Yuba Village Treasurer,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+413556,Brian Funk,2025-11-04,407580,OH Perry Township Trustee Board At-large (Ashland County),Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+60885,Mark Kunze,2025-04-01,187632,WI Curtiss Village Trustee,Nonpartisan,23,Y,General Election,false,1,41
+218073,Jason Meyer,2025-11-04,412707,"IA Montezuma Community School District, At-large",Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+220293,Harley Waldhart,2025-04-01,190327,WI Deer Creek Town Board Supervisor (Taylor County),Nonpartisan,191,Y,General Election,false,2,457
+239451,Stephanie Kern,2025-11-04,363861,VA Wise School Board District Three,Independent,1612,Y,General Election,false,1,2606
+378954,Brent Lane,2025-11-04,365783,WA Uniontown Town Council Position 4,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+222151,Shawn Boeder,2025-04-01,191939,WI Herman Town Board Supervisor 2 (Dodge County),Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+291270,Paul Binns,2025-11-04,369552,UT Lehi Mayor,Nonpartisan,7909,Y,General Election,false,1,14782
+223721,Scott Brown,2025-11-04,411344,NC Sugar Mountain Village Council,Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+425733,Reggie Copeland,2025-12-02,420153,GA Marietta City Council Ward 5,Nonpartisan,120,N,Runoff,false,1,615
+381811,George Jenkins Jr.,2025-11-04,367935,"NM Central Consolidated Schools, 1",Nonpartisan,322,N,General Election,false,1,740
+409227,Jennifer Wiehe,2025-11-04,405550,OH Addyston Village Council At-large,Nonpartisan,47,N,General Election,false,4,267
+286505,Stephanie Case,2025-05-20,240602,OR Oregon Trail Library District Board – Position 3,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+142813,Jeff Jackson,2025-11-04,564926,KS The Highlands City Council,Nonpartisan,uncontested,Y,General Election,true,5,uncontested
+379536,Maria Carlstrom,2025-11-04,366352,WA Island County Fire  Commissioner Board Position 5 Special 1,Nonpartisan,uncontested,Y,Special Election General,true,1,uncontested
+417370,David Louder,2025-11-04,409204,PA Clarion Limestone School Director Region II,Democratic,393,Y,General Election,false,2,1172
+218925,Wes Vlcek,2025-04-01,189128,WI Brunswick Town Board Chairperson (Eau Claire County),Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+432858,Robert Lonergan,2025-11-04,415645,NH Dover City Council At-Large,Nonpartisan,741,N,General Election,false,2,9384
+143982,Alysa Plummer,2025-03-18,110980,NY Pittsford Mayor,Republican,258,Y,General Election,false,1,515
+262695,Rachel Kocis,2025-04-01,216675,IL Prairie Skies Public Library District Trustee Board At-large,Nonpartisan,uncontested,Y,General Election,true,4,uncontested
+422699,Andria Archer,2025-11-04,410743,NC Clayton Town Council,Nonpartisan,1195,Y,General Election,false,3,5778
+423692,Barry Tucker,2025-11-04,411375,NC Mayor of Unionville,Nonpartisan,311,N,General Election,false,1,1057
+217876,Stephen Kehler,2025-04-01,188280,WI Pulaski Village Trustee,Nonpartisan,491,N,General Election,false,3,2242
+143670,Joshua Samuel,2025-03-04,110774,CO Dillon Town Council Replacement,Nonpartisan,175,Y,Special Election General,false,3,681
+262694,Kevin Kesselring,2025-04-01,216675,IL Prairie Skies Public Library District Trustee Board At-large,Nonpartisan,uncontested,Y,General Election,true,4,uncontested
+259921,Clay Gusewelle,2025-04-01,215273,IL Hamel Township Highway Commissioner (Madison County),Independent,uncontested,Y,General Election,true,1,uncontested
+391452,Josh Bassais,2025-11-04,386832,MN Minneapolis City Council Ward 8,Nonpartisan,4594,N,General Election,false,1,11873
+258399,Ned Null,2025-04-01,214388,IL Hire Township Trustee Board At-large (McDonough County),Independent,uncontested,Y,General Election,true,4,uncontested
+429451,Bill Korver,2025-11-04,413997,IA Maurice City Council At-large,Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+262397,Melissa Daley,2025-04-01,216540,IL Mahomet Public Library District Trustee Board At-large,Nonpartisan,uncontested,Y,General Election,true,4,uncontested
+271749,David Rector Sr.,2025-05-03,223365,TX Aransas Pass Independent School District Place 5,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+384731,Melissa Spiotta,2025-11-04,368982,NJ Morris Township Board of Education Morris School District,Nonpartisan,6659,Y,General Election,false,2,15038
+382587,David Dean,2025-11-04,407816,OH Greenville Township Trustee Board At-large (Darke County),Nonpartisan,29,N,General Election,false,2,3896
+216522,Kristi Hubele-Shore,2025-04-01,187319,"WI Wonewoc-Union Center School District, At-large",Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+240980,Gregory Wolfe,2025-04-01,205363,IL Danville Area Community College District 507 Trustee Board At-large,Nonpartisan,2138,Y,General Election,false,2,8617
+427397,Holly Henricks,2025-11-04,412911,"IA West Fork Community School District, 1",Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+224283,Ray Schmahl,2025-04-01,194394,CO Glenwood Springs City Council Ward 2,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+286488,Sherry Uran,2025-05-20,240591,OR Christmas Valley Park & Rec District – Position 2,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+217431,Brian Van Lankveldt,2025-04-01,187958,WI Little Chute Village Trustee,Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+291063,Michael Montigny,2025-06-10,243562,MA Southbridge Town Council,Nonpartisan,539,N,General Election,false,1,2096
+272549,Charles Batty,2025-05-03,223742,TX Alvin City Council At-large Position 2,Nonpartisan,44,N,General Election,false,1,1076
+379942,Kip Kelly,2025-11-04,366767,WA Port of Walla Walla District Commissioner Board 1,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+382795,Pat Kerschen,2025-11-04,368338,KS Harper City Council,Nonpartisan,120,Y,General Election,false,3,691
+410039,Mark Feldhaus,2025-11-04,405947,OH Deer Park City Council At-large,Nonpartisan,697,Y,General Election,false,3,3133
+411349,Barbara Schick,2025-11-04,406537,OH New Miami Village Council At-large,Nonpartisan,81,Y,General Election,false,4,437
+423414,Jerry Rhodes,2025-11-04,411189,NC Plymouth Town Council Ward 2,Nonpartisan,118,Y,General Election,false,2,409
+120944,Joe Martinez,2025-05-03,223255,TX Port Isabel-San Benito Navigation District Commissioner Board Place 2,Nonpartisan,793,Y,General Election,false,1,910
+377643,Steven Trower,2025-11-04,364567,WA Orient School District school board 1,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+258398,Mark Peterson,2025-04-01,214388,IL Hire Township Trustee Board At-large (McDonough County),Republican,uncontested,Y,General Election,true,4,uncontested
+245763,Chantal Host,2025-04-01,207126,IL Channahon Village Trustee Board At-large,Independent,uncontested,Y,General Election,true,3,uncontested
+274287,T. Craig Morgan,2025-05-03,224630,TX Eagle Mountain-Saginaw Independent School District Place 3,Nonpartisan,1327,Y,General Election,false,1,3314
+261938,Kimberley Kuni,2025-04-01,216355,IL Daugherty Public Library District Trustee Board At-large,Nonpartisan,uncontested,Y,General Election,true,3,uncontested
+221968,Paul Madson,2025-04-01,191776,WI Little River Town Board Supervisor 1 (Oconto County),Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+217057,Claudia Ploeger,2025-04-01,187706,WI Eland Village Treasurer,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+411354,Victoria Hall,2025-11-04,406537,OH New Miami Village Council At-large,Nonpartisan,109,Y,General Election,false,4,437
+430320,Richard Heiar,2025-11-04,414483,IA Springbrook City Council At-large,Nonpartisan,uncontested,Y,General Election,true,3,uncontested
+243000,Richard Tutoky,2025-04-01,205977,"IL Streator Township High School District 40, At-large",Nonpartisan,606,N,General Election,false,3,4309
+427430,Mallory Shaw,2025-11-04,412933,"IA Whiting Community School District, At-large",Nonpartisan,uncontested,Y,General Election,true,3,uncontested
+244612,Tracey Habrock-bach,2025-04-01,206450,IL West Washington County Community Unit School District 10 school board At-large Remaining Congressional Townships,Nonpartisan,uncontested,Y,General Election,true,4,uncontested
+259612,William Signer,2025-04-01,215103,IL Berreman Township Trustee Board At-large (Jo Daviess County),Independent,uncontested,Y,General Election,true,4,uncontested
+245765,Sam Greco,2025-04-01,207126,IL Channahon Village Trustee Board At-large,Independent,uncontested,Y,General Election,true,3,uncontested
+290128,Stephanie Horn,2025-08-05,243234,WA Pullman School District school board 5,Nonpartisan,1802,Y,Primary,false,2,3990
+216812,Holly McManus,2025-04-01,187532,WI Caledonia Village Trustee 5,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+69695,David Lawrence,2025-11-04,364847,WA Aberdeen City Council Ward 6 Position 11,Nonpartisan,166,N,General Election,false,1,333
+241555,Kimberly Fair,2025-04-01,205583,"IL Evanston Community Consolidated School District 65, At-large",Nonpartisan,1048,N,General Election,false,4,64390
+431982,Kevin Baxter,2025-11-04,415368,ID Rexburg City Council,Nonpartisan,240,N,General Election,false,3,6287
+430318,Jeffrey Gerlach,2025-11-04,414483,IA Springbrook City Council At-large,Nonpartisan,uncontested,Y,General Election,true,3,uncontested
+249879,Kevin Forestier,2025-04-01,209483,IL Rochester Village Trustee Board At-large,Nonpartisan,495,N,General Election,false,3,2335
+423859,William Stolz,2025-11-04,411458,NC Youngsville Town Council,Nonpartisan,166,Y,General Election,false,3,641
+220292,Alex Lichtl,2025-04-01,190327,WI Deer Creek Town Board Supervisor (Taylor County),Nonpartisan,111,N,General Election,false,2,457
+430466,Shelly Reeves,2025-11-04,414559,IA Mayor of Thurman,Nonpartisan,33,Y,General Election,false,1,38
+380352,Garrett Shumate,2025-11-04,367574,MI Mayor of Gibraltar,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+259611,Michael Mammoser,2025-04-01,215103,IL Berreman Township Trustee Board At-large (Jo Daviess County),Independent,uncontested,Y,General Election,true,4,uncontested
+140375,Amanda Rodriguez,2025-11-04,367023,WA Grandview School District school board 5,Nonpartisan,403,N,General Election,false,1,1303
+415010,Rick Shumaker,2025-11-04,408229,OH Clayton Township Trustee Board At-large (Perry County),Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+217900,Gary Rodencal,2025-04-01,188300,WI Redgranite Village Trustee,Nonpartisan,uncontested,Y,General Election,true,3,uncontested
+390800,Alan Crane,2025-11-04,386682,ID Glenns Ferry School District #192 Trustee 1,Nonpartisan,34,N,General Election,false,1,81
+380161,Mark Movrich,2025-11-04,367495,MI Bessemer City Council At-large,Nonpartisan,uncontested,Y,General Election,true,5,uncontested
+426178,David Hartley,2025-11-04,412235,GA Tennille City Council Post 3,Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+383017,Bob Schumm,2025-11-04,368410,KS Lawrence City Commissioner,Nonpartisan,6448,N,General Election,false,2,27507
+390844,Debbie Skaug,2025-11-04,386702,ID Nampa City Council 1,Nonpartisan,955,Y,General Election,false,1,1615
+390252,Matthew Hickey,2025-11-04,386405,SC York City Council 1,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+263039,E. Gayle Crompton,2025-04-01,216818,IL White Oak Library District Trustee Board At-large,Nonpartisan,6906,Y,General Election,false,2,11025
+379267,Candace Ragsdale,2025-11-04,366085,WA San Juan Island Park and Recreation District Commissioner Board Position 2,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+241070,Rhonda Casagrande,2025-04-01,205422,IL Lockport Township Fire Protection District Trustee Board At-large,Nonpartisan,4014,Y,General Election,false,2,11714
+243096,Elsa Payne,2025-04-01,206001,"IL Amboy Community Unit School District 272, At-large",Nonpartisan,367,Y,General Election,false,4,1970
+64534,Mark Johnson,2025-04-01,191615,WI Lincoln Town Board Supervisor (Polk County),Nonpartisan,338,N,General Election,false,2,1545
+262398,Michelle Baker,2025-04-01,216540,IL Mahomet Public Library District Trustee Board At-large,Nonpartisan,uncontested,Y,General Election,true,4,uncontested
+261180,Anthony Mickley,2025-04-01,215960,IL Fenton Township Trustee Board At-large (Whiteside County),Independent,uncontested,Y,General Election,true,4,uncontested
+254631,James Krummrich,2025-04-01,212192,IL Caseyville Township Supervisor (St. Clair County),Other,uncontested,Y,General Election,true,1,uncontested
+142835,Bural Coffey,2025-02-18,110214,"WI Monona Grove School District, At-large",Nonpartisan,811,Y,Primary,false,4,4652
+426869,Cody Thompson,2025-11-04,412625,"IA Highland Community School District, 1",Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+411350,Christine Reichert,2025-11-04,406537,OH New Miami Village Council At-large,Nonpartisan,57,N,General Election,false,4,437
+289815,Christian Cantrell,2025-08-05,243159,MI Cedar Springs City Council At-large,Nonpartisan,45,N,Primary,false,4,381
+239151,Hazel Smith,2025-11-04,363418,VA Charlotte Board of Supervisors Wylliesburg-Red Oak District,Independent,265,N,General Election,false,1,686
+60655,Scott Johnson,2025-04-01,192320,WI Porter Town Constable (Rock County),Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+379567,Ryan Blakemore,2025-11-04,366380,WA King County Fire  (Woodinville Fire and Rescue) Commissioner Board Position 4 36,Nonpartisan,3728,N,General Election,false,1,11283
+218052,Drew Lake,2025-04-01,188402,WI Spooner Alderperson 2,Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+222352,Carrie Powell,2025-04-01,192109,WI Harrison Town Clerk (Waupaca County),Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+241549,Andrew Wymer,2025-04-01,205583,"IL Evanston Community Consolidated School District 65, At-large",Nonpartisan,6982,Y,General Election,false,4,64390
+143971,Jose Barraza,2025-03-18,110976,CA Fresno City Council 5,Nonpartisan,568,N,Special Election General,false,1,4619
+410040,Thomas Camp,2025-11-04,405947,OH Deer Park City Council At-large,Nonpartisan,608,Y,General Election,false,3,3133
+429304,Kevin Boddicker,2025-11-04,413916,IA Luana City Council At-large,Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+244609,Bridget Lange,2025-04-01,206450,IL West Washington County Community Unit School District 10 school board At-large Remaining Congressional Townships,Nonpartisan,uncontested,Y,General Election,true,4,uncontested
+218903,Nick Scholtes,2025-04-01,189108,WI Pelican Town Board Chairperson (Oneida County),Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+415620,Joe Panetta,2025-11-04,408506,OH Jefferson Township Trustee Board At-large (Clinton County),Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+385731,Meredith Harker,2025-11-04,369422,UT Taylorsville City Council 4,Nonpartisan,1140,Y,General Election,false,1,2035
+224203,Trey Chapman,2025-04-01,194355,OK City of Watonga Councilmember At Large Special,Nonpartisan,27,N,Special Election General,false,1,376
+431979,Aaron Richards,2025-11-04,415368,ID Rexburg City Council,Nonpartisan,567,N,General Election,false,3,6287
+126218,Doug Bailey,2025-11-04,385374,MT Mayor of Opheim,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+379473,Ronald Homola,2025-11-04,366279,WA Clark County Fire  Commissioner Board Position 1 13,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+272385,Lorenzo Luevano,2025-05-03,223661,TX San Elizario Independent School District Place 1,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+430262,Michael Katschman,2025-11-04,414455,IA Mayor of Sioux Rapids,Nonpartisan,92,Y,General Election,false,1,165
+259987,Ryan Holland,2025-04-01,215306,IL Wood River Township Trustee Board At-large (Madison County),Nonpartisan,1344,Y,General Election,false,4,8278
+361900,Ana Levy,2025-11-04,418542,MA Lawrence Councilor At Large,Nonpartisan,4034,Y,General Election,false,3,22654
+413927,LeAnn Brown,2025-11-04,407755,OH Monroe Township Fiscal Officer (Adams County) Special,Nonpartisan,90,Y,Special Election General,false,1,133
+220294,Richard Halopka,2025-04-01,190327,WI Deer Creek Town Board Supervisor (Taylor County),Nonpartisan,155,Y,General Election,false,2,457
+274353,David Abundis,2025-05-03,224670,TX Harlandale Independent School District 4,Nonpartisan,201,N,General Election,false,1,467
+290748,Diane Albert,2025-11-04,368610,KS USD 259 Wichita Board of Education 1,Nonpartisan,2690,Y,General Election,false,1,4718
+63437,Jeffrey Hansher,2025-04-01,188054,WI Mequon Common Council 4,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+765960,Tricia Canonico,2025-11-04,571453,CO Fort Collins Mayor (RCV Final Round),Nonpartisan,20460,N,General Election,false,1,46770
+247023,Cassie Vermeire,2025-04-01,207840,IL Golconda City Treasurer,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+247770,Lisa Hocking,2025-04-01,208254,IL Kell Village Trustee Board At-large,Nonpartisan,uncontested,Y,General Election,true,3,uncontested
+141245,Julie Tapia-Ruano,2025-11-04,388286,FL High Springs City Commissioner Board Seat 3,Nonpartisan,279,N,General Election,false,1,866
+426194,Ayla Breece,2025-11-04,412243,GA Thomson City Council  Seat A 1,Nonpartisan,37,N,General Election,false,1,523
+255948,Nicholas Barto,2025-04-01,212958,IL Waltham Township Trustee Board At-large (LaSalle County),Independent,126,Y,General Election,false,4,517
+250931,Tillie Brooks,2025-04-01,210081,IL Vernon Village Trustee Board At-large Special,Independent,uncontested,Y,Special Election General,true,2,uncontested
+410960,Cody Lewis,2025-11-04,406367,OH Manchester Village Council At-large,Nonpartisan,133,Y,General Election,false,4,874
+410116,Andrew Arcuragi,2025-11-04,405982,OH East Liverpool City Council Ward 4,Independent,uncontested,Y,General Election,true,1,uncontested
+415839,Steven Leonard,2025-11-04,408599,OH Wayne Township Trustee Board At-large (Adams County),Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+428066,Sadie Gasparotto,2025-11-04,413268,IA Clive City Council At-large,Nonpartisan,2265,Y,General Election,false,2,5841
+76462,Christy Pickett,2025-11-04,385434,MT Walkerville Town Council Ward 2,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+409230,Jenny Fetherolf,2025-11-04,405551,OH Adelphi Village Council At-large,Nonpartisan,uncontested,Y,General Election,true,4,uncontested
+286222,Monica Coleman,2025-05-20,240398,OR Oregon Trail Library District Board – Position 4,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+289817,Jill Owen,2025-08-05,243159,MI Cedar Springs City Council At-large,Nonpartisan,63,Y,Primary,false,4,381
+429329,Paden Knoke,2025-11-04,413930,IA Mayor of Macedonia,Nonpartisan,47,Y,General Election,false,1,91
+398506,Sam Rogers,2025-11-04,406877,OH South Charleston Village Commission At-large,Nonpartisan,105,N,General Election,false,2,499
+283629,Tracy Session,2025-05-03,238427,TX Rusk Independent School District school board Position 3,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+126204,Ted Williams,2025-11-04,413723,IA Humeston City Council At-large Special,Nonpartisan,uncontested,Y,Special Election General,true,2,uncontested
+379785,Eric Klein,2025-11-04,413268,IA Clive City Council At-large,Nonpartisan,2099,Y,General Election,false,2,5841
+285584,Diane Kilkenny,2025-05-20,239860,OR Morrow County Health District Board – Position 2,Nonpartisan,307,N,General Election,false,1,2577
+251057,Kathryn Davolos,2025-04-01,210159,IL Warrenville City Council Ward 3,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+391539,Efrain Orleans,2025-11-04,386865,NJ Jersey City Council Ward B,Nonpartisan,1803,N,General Election,false,1,8256
+383018,Kristine Polian,2025-11-04,368410,KS Lawrence City Commissioner,Nonpartisan,7833,Y,General Election,false,2,27507
+391453,Soren Stevenson,2025-11-04,386832,MN Minneapolis City Council Ward 8,Nonpartisan,6685,Y,General Election,false,1,11873
+242319,Daniel Price,2025-04-01,205798,"IL Rosemont Elementary School District 78, At-large",Nonpartisan,uncontested,Y,General Election,true,3,uncontested
+723300,Jon Mallo,2025-11-04,553597,CO Loveland City Council Ward 4,Nonpartisan,3142,N,General Election,false,1,7092
+260594,Rebecca Warlow,2025-04-01,215649,IL Ridgeland Township Clerk (Iroquois County),Independent,uncontested,Y,General Election,true,1,uncontested
+224204,Verlen Bills,2025-04-01,194355,OK City of Watonga Councilmember At Large Special,Nonpartisan,89,N,Special Election General,false,1,376
+283648,Jake Lackey,2025-05-03,238436,"TX San Saba Independent School District, At-large",Nonpartisan,417,Y,General Election,false,2,1119
+62558,Jordan Reynolds,2025-04-01,190001,WI Hull Town Board Chairperson (Marathon County),Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+283831,Sally Allen,2025-05-03,238525,TX Big Sandy City Council At-large,Nonpartisan,52,Y,General Election,false,2,181
+261182,Loren Gabriel,2025-04-01,215960,IL Fenton Township Trustee Board At-large (Whiteside County),Independent,uncontested,Y,General Election,true,4,uncontested
+259988,Teresa King,2025-04-01,215306,IL Wood River Township Trustee Board At-large (Madison County),Nonpartisan,1675,Y,General Election,false,4,8278
+250087,Denise Allen,2025-04-01,209602,IL San Jose Village Trustee Board At-large Special,Independent,uncontested,Y,Special Election General,true,1,uncontested
+379147,Steven Queener,2025-11-04,365978,WA Spokane County Cemetery  (Elk) Commissioner Board Position 1 4,Nonpartisan,161,N,General Election,false,1,684
+249231,Jordan Uselding,2025-04-01,209106,IL Odell Village Trustee Board At-large,Independent,uncontested,Y,General Election,true,3,uncontested
+391536,Travis Heller,2025-11-04,386865,NJ Jersey City Council Ward B,Nonpartisan,260,N,General Election,false,1,8256
+224044,Ercy Easley,2025-04-01,194297,OK Town of Oakland Board of Trustees,Nonpartisan,21,N,General Election,false,3,129
+411463,Jose Leon,2025-11-04,406596,OH North Olmsted City Council Ward 4,Nonpartisan,0,N,General Election,false,1,900
+381862,Diana Vigil,2025-11-04,367952,"NM Dulce Independent Schools, At-large",Nonpartisan,118,Y,General Election,false,3,952
+219288,Michael Gifford,2025-04-01,189458,WI Sherman Town Board Supervisor 2 (Dunn County),Nonpartisan,92,N,General Election,false,1,330
+222828,Greg Mejak,2025-04-01,192531,WI Elcho Town Treasurer (Langlade County),Nonpartisan,319,Y,General Election,false,1,584
+247572,Benjamin Gottlieb,2025-04-01,208145,IL Inverness Village President,Independent,532,N,General Election,false,1,1514
+286220,Molly Rhea,2025-05-20,239860,OR Morrow County Health District Board – Position 2,Nonpartisan,810,N,General Election,false,1,2577
+425694,Andrew Carlyle,2025-11-04,411979,GA Lula City Council 2,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+246307,Thomas Kabat,2025-04-01,207435,IL Du Bois Village Trustee Board At-large,Independent,uncontested,Y,General Election,true,3,uncontested
+221349,Donald Sukala,2025-04-01,191245,WI La Grange Town Board Supervisor 2 (Walworth County),Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+390162,Doris Simmons,2025-11-04,386364,SC Mayor of Swansea,Nonpartisan,91,Y,General Election,false,1,166
+341304,Aylwin Bridges,2025-09-09,300687,OH Cleveland City Council Ward 1,Nonpartisan,47,N,Primary,false,2,1771
+249838,Aaron Merreighn,2025-04-01,209461,IL Riverton Village Trustee Board At-large,Independent,160,N,General Election,false,3,764
+259216,Brian Dulski,2025-04-01,214875,IL St. Clair Township Trustee Board At-large (St. Clair County),Other,uncontested,Y,General Election,true,4,uncontested
+261939,Linda Branson,2025-04-01,216355,IL Daugherty Public Library District Trustee Board At-large,Nonpartisan,uncontested,Y,General Election,true,3,uncontested
+403414,Vicky Darden,2025-11-04,411114,NC Mount Olive Town Council 1,Nonpartisan,63,Y,General Election,false,1,127
+216965,Carl Swarr,2025-04-01,187632,WI Curtiss Village Trustee,Nonpartisan,18,N,General Election,false,1,41
+413465,Jaclyn Causey,2025-11-04,407538,OH Jackson Township Fiscal Officer (Jackson County) Special,Nonpartisan,uncontested,Y,Special Election General,true,1,uncontested
+249878,Chadd Carver,2025-04-01,209483,IL Rochester Village Trustee Board At-large,Nonpartisan,558,Y,General Election,false,3,2335
+273542,Joseph Polizzi,2025-05-03,224272,TX Onalaska City Council At-large,Nonpartisan,50,N,General Election,false,3,596
+217939,Michelle Odden,2025-04-01,188327,WI Roberts Village Trustee,Nonpartisan,314,N,General Election,false,3,1373
+255947,Katie Corcoran,2025-04-01,212958,IL Waltham Township Trustee Board At-large (LaSalle County),Independent,97,Y,General Election,false,4,517
+224046,Samuel Dishmon Jr.,2025-04-01,194297,OK Town of Oakland Board of Trustees,Nonpartisan,36,Y,General Election,false,3,129
+241069,John Batusich,2025-04-01,205422,IL Lockport Township Fire Protection District Trustee Board At-large,Nonpartisan,4472,Y,General Election,false,2,11714
+412065,Lorie Delaney,2025-11-04,406877,OH South Charleston Village Commission At-large,Nonpartisan,118,N,General Election,false,2,499
+221571,David Eliot,2025-04-01,191435,WI Baileys Harbor Town Board Chairperson (Door County),Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+222011,Tim Strohkirch,2025-04-01,191816,WI Goodman Town Clerk (Marinette County),Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+137617,Linda McCoy,2025-05-03,223868,TX Cockrell Hill City Council Place 3,Nonpartisan,25,N,General Election,false,1,91
+389603,Bobby Wilkins,2025-11-04,386113,SC Central Pacolet Town Council At-large,Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+226009,Alan Williams,2025-04-01,212987,IL Manteno Township Supervisor (Kankakee County),Other,uncontested,Y,General Election,true,1,uncontested
+119310,Carlos Romero,2025-11-04,368042,NM Tucumcari Public Schools school board Special 1,Nonpartisan,uncontested,Y,Special Election General,true,1,uncontested
+413557,Burton Williams,2025-11-04,407580,OH Perry Township Trustee Board At-large (Ashland County),Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+413343,Keith Vermillion,2025-11-04,407481,OH Washington Township Trustee Board At-large (Hocking County),Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+285193,Rick McGraw,2025-05-20,239465,OR Position 2 Commissioner (2-year) – Belle Mer Sigl Tract Road Dist.,Independent,uncontested,Y,General Election,true,1,uncontested
+424613,Cindy Cash,2025-11-04,410453,TX Lowry Crossing City Council Ward 3,Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+142719,Marvin Provo,2025-02-11,110100,OK Millwood Public Schools Board of Education Office 5,Nonpartisan,255,Y,Primary,false,1,536
+408366,Liz Hersher,2025-11-04,405253,"OH Massillon City School District, At-large",Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+379048,Kandi Peto,2025-11-04,365872,WA Yacolt Town Council Position 2,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+414655,Jeffrey Delong,2025-11-04,408077,OH Lebanon Township Trustee Board At-large (Meigs County),Nonpartisan,112,Y,General Election,false,2,242
+290127,Brandon Kruger,2025-08-05,243234,WA Pullman School District school board 5,Nonpartisan,1291,Y,Primary,false,2,3990
+259956,Thomas Burcham,2025-04-01,215292,IL Olive Township Trustee Board At-large (Madison County),Independent,uncontested,Y,General Election,true,4,uncontested
+414653,Donald Dailey,2025-11-04,408077,OH Lebanon Township Trustee Board At-large (Meigs County),Nonpartisan,46,N,General Election,false,2,242
+288416,Daylon Cannon,2025-06-03,241658,MS Byhalia Mayor,Nonpartisan,77,N,General Election,false,1,193
+378732,Bill Koutrouba,2025-11-04,365571,WA Rainier City Council Position 3,Nonpartisan,132,N,General Election,false,1,345
+217873,Becky Beaulieu,2025-04-01,188280,WI Pulaski Village Trustee,Nonpartisan,673,Y,General Election,false,3,2242
+283830,Rex Rozell,2025-05-03,238525,TX Big Sandy City Council At-large,Nonpartisan,55,Y,General Election,false,2,181
+273957,Bear Goolsby,2025-05-03,224480,TX Universal City City Council At-large,Nonpartisan,548,Y,General Election,false,3,1916
+223580,Eric Watson,2025-04-01,194094,OK Kiefer Public Schools school board Office 5,Nonpartisan,91,N,General Election,false,1,254
+109606,Joe Burns,2025-08-05,243344,WA Sedro-Woolley City Council Ward 6,Nonpartisan,146,Y,Primary,false,2,274
+261890,Karen Pfeiffer,2025-04-01,216338,IL Clover Public Library District Trustee Board At-large,Nonpartisan,254,Y,General Election,false,2,713
+415838,Scott Persch,2025-11-04,408599,OH Wayne Township Trustee Board At-large (Adams County),Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+412609,Dennis Gherman,2025-11-04,407158,OH Wilmington City Council At-large,Republican,705,Y,General Election,false,3,2753
+143600,Jane Mealy,2025-03-04,110720,FL Flagler Beach City Commissioner Board,Nonpartisan,415,N,General Election,false,2,1750
+273285,Marry Sanchez,2025-05-03,224136,TX Kenedy City Council 3,Nonpartisan,21,N,General Election,false,1,74
+403891,David Ammann,2025-11-04,411344,NC Sugar Mountain Village Council,Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+425042,Marie Rainge,2025-11-04,411604,GA Mayor of Blackshear,Nonpartisan,117,N,General Election,false,1,1008
+260103,Richard Moran,2025-04-01,215373,IL Rockville Township Supervisor (Kankakee County),Independent,uncontested,Y,General Election,true,1,uncontested
+380145,Mark Robinson,2025-11-04,367486,MI Bad Axe City Council At-large,Nonpartisan,211,Y,General Election,false,3,1286
+259955,Samuel McKenzie,2025-04-01,215292,IL Olive Township Trustee Board At-large (Madison County),Independent,uncontested,Y,General Election,true,4,uncontested
+250595,Billie Roth,2025-04-01,209881,IL Streamwood Village President,Independent,1805,Y,General Election,false,1,2424
+244499,James Beck,2025-04-01,206411,"IL Triopia Community Unit School District 27, At-large",Nonpartisan,uncontested,Y,General Election,true,3,uncontested
+423370,Walter Vinson,2025-11-04,411167,NC Peletier Town Council,Nonpartisan,53,Y,General Election,false,3,248
+249191,Michael Sarallo,2025-04-01,209084,IL Oakbrook Terrace City Council Ward 2,Independent,uncontested,Y,General Election,true,1,uncontested
+112880,Susan Young,2025-11-04,404941,"OH Amanda-Clearcreek Local School District, At-large",Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+422698,Amanda Underwood,2025-11-04,410743,NC Clayton Town Council,Nonpartisan,1220,Y,General Election,false,3,5778
+429452,Isaac Holtrop,2025-11-04,413997,IA Maurice City Council At-large,Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+284779,Leo Cummings III,2025-05-13,239120,"AR Conway School District, At-large",Nonpartisan,3213,Y,General Election,false,1,5322
+409226,Darryl Walton,2025-11-04,405550,OH Addyston Village Council At-large,Nonpartisan,54,Y,General Election,false,4,267
+415224,James Fogle,2025-11-04,408324,OH Enoch Township Trustee Board At-large (Noble County),Nonpartisan,82,Y,General Election,false,2,255
+248003,Shaun Behlke,2025-04-01,208391,IL Lebanon City Council Ward 3,Independent,uncontested,Y,General Election,true,1,uncontested
+272467,Kindra Lucia,2025-05-03,223700,TX Weatherford Independent School District Place 6,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+429834,LaVonne Ellison,2025-11-04,414217,IA Owasa City Council At-large,Nonpartisan,uncontested,Y,General Election,true,3,uncontested
+242378,Peter Dluhy,2025-04-01,205814,"IL Skokie School District 73.5, At-large",Nonpartisan,557,N,General Election,false,4,5469
+219139,Jeff Ulrich,2025-04-01,189325,WI Hill Town Board Supervisor (Price County),Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+427428,Allison Kirby,2025-11-04,412933,"IA Whiting Community School District, At-large",Nonpartisan,uncontested,Y,General Election,true,3,uncontested
+429548,David Altick,2025-11-04,414054,IA Mitchell City Council At-large,Nonpartisan,uncontested,Y,General Election,true,3,uncontested
+102597,Austin Brown,2025-11-04,407730,OH Madison Township Trustee Board At-large (Pickaway County),Nonpartisan,159,Y,General Election,false,2,552
+425734,Andre Sims,2025-11-04,412007,GA Marietta City Council Ward 6,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+246915,Laura Miller,2025-04-01,207785,IL Gibson City City Council Ward 4,Independent,uncontested,Y,General Election,true,1,uncontested
+246867,Richard Marks,2025-04-01,207759,IL Geneva City Council Ward 2,Independent,uncontested,Y,General Election,true,1,uncontested
+410787,Scott Norris,2025-11-04,406282,OH Lebanon City Council At-large,Nonpartisan,2181,Y,General Election,false,4,9500
+380002,Kris Van Gasken,2025-11-04,366826,WA King County Water  Commissioner Board Position 2 54,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+242321,Joseph Balogh,2025-04-01,205798,"IL Rosemont Elementary School District 78, At-large",Nonpartisan,uncontested,Y,General Election,true,3,uncontested
+426273,Babette Lewis,2025-12-02,420159,GA Vienna City Council At-large Walter Brown's seat,Nonpartisan,173,Y,Runoff,false,1,286
+272550,Kathleen Holton,2025-05-03,223742,TX Alvin City Council At-large Position 2,Nonpartisan,219,N,General Election,false,1,1076
+429549,Pat Huebsch,2025-11-04,414054,IA Mitchell City Council At-large,Nonpartisan,uncontested,Y,General Election,true,3,uncontested
+221392,Kim Cheney,2025-04-01,191283,WI Koshkonong Town Board Chairperson (Jefferson County),Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+262396,Katherine Smith,2025-04-01,216540,IL Mahomet Public Library District Trustee Board At-large,Nonpartisan,uncontested,Y,General Election,true,4,uncontested
+380163,Peter Tacconelli,2025-11-04,367495,MI Bessemer City Council At-large,Nonpartisan,uncontested,Y,General Election,true,5,uncontested
+412821,Caroline Schmidt,2025-11-04,407235,OH Darke County Educational Service Center Governing Board,Nonpartisan,uncontested,Y,General Election,true,3,uncontested
+388230,Roger Swartz,2025-11-04,385220,MT Broadview Town Commission At-large,Nonpartisan,24,Y,General Election,false,3,75
+378404,Neet Grewal,2025-11-04,365261,WA Kent City Council Position 2,Nonpartisan,7666,N,General Election,false,1,20578
+377782,Gwendy Gabelein,2025-11-04,364690,WA South Whidbey School District school board Position 5 At-large,Nonpartisan,2903,N,General Election,false,1,8220
+245672,Jim Malone,2025-04-01,207069,IL Carpentersville Village Trustee Board At-large,Independent,1525,Y,General Election,false,3,5284
+63093,Sarah Falvey,2025-04-01,188128,WI Neshkoro Village Trustee,Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+236762,James Stump,2025-11-04,363533,VA Pembroke Mayor,Independent,184,N,General Election,false,1,404
+428480,Brett Morris,2025-11-04,413497,IA Farley City Council At-large,Nonpartisan,180,Y,General Election,false,2,559
+414067,Freddie Dean,2025-11-04,407816,OH Greenville Township Trustee Board At-large (Darke County),Nonpartisan,614,N,General Election,false,2,3896
+379838,Les Riel,2025-11-04,366668,WA Yakima County Fire  Commissioner Board Position 2 4,Nonpartisan,2112,Y,General Election,false,1,3696
+393730,Angela Frederick,2025-11-04,387960,NY Town of Minden Supervisor,Independent,350,Y,General Election,false,1,617
+142836,Kylie Duensing,2025-02-18,110214,"WI Monona Grove School District, At-large",Nonpartisan,560,N,Primary,false,4,4652
+291771,Kelley Anderson,2025-08-12,243797,UT Tooele City Council,Nonpartisan,956,N,Primary,false,4,7806
+241380,Effie Petropulos,2025-04-01,205535,"IL Chicago Ridge School District 127-5, At-large",Nonpartisan,uncontested,Y,General Election,true,4,uncontested
+410961,Jack Collins Jr.,2025-11-04,406367,OH Manchester Village Council At-large,Nonpartisan,105,N,General Election,false,4,874
+273545,Zachary Davies,2025-05-03,224272,TX Onalaska City Council At-large,Nonpartisan,175,Y,General Election,false,3,596
+430735,Cam Granger,2025-11-04,414703,IA Mayor of West Union,Nonpartisan,169,N,General Election,false,1,381
+284780,Tami Marsh,2025-05-13,239120,"AR Conway School District, At-large",Nonpartisan,1858,N,General Election,false,1,5322
+412067,Steve Saunders,2025-11-04,406877,OH South Charleston Village Commission At-large,Nonpartisan,156,Y,General Election,false,2,499
+341338,Daniel Carlino,2025-11-04,385450,MT Missoula City Council Ward 3,Nonpartisan,2056,N,General Election,false,1,4285
+243098,Mandy Powers,2025-04-01,206001,"IL Amboy Community Unit School District 272, At-large",Nonpartisan,369,Y,General Election,false,4,1970
+259986,Kaleigh Rider,2025-04-01,215306,IL Wood River Township Trustee Board At-large (Madison County),Nonpartisan,1349,Y,General Election,false,4,8278
+221960,Michelle Jung,2025-04-01,191769,WI Madge Town Clerk (Washburn County),Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+249880,Kipton Reiss,2025-04-01,209483,IL Rochester Village Trustee Board At-large,Nonpartisan,688,Y,General Election,false,3,2335
+436421,Lynn Harrington,2025-11-04,417106,CT Kent Selectman,Republican,208,N,General Election,false,1,981
+380601,Brian Turnbull,2025-11-04,367703,MI Mayor of Northville,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+290685,Karen Hiller,2025-08-05,243438,KS Topeka City Council 1,Nonpartisan,358,Y,Primary,false,2,803
+249591,Zoila Gomez,2025-04-01,209314,IL Plano City Treasurer,Independent,uncontested,Y,General Election,true,1,uncontested
+429654,Robb Lockey,2025-11-04,414110,IA Neola City Council At-large,Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+423858,Lee Warner,2025-11-04,411458,NC Youngsville Town Council,Nonpartisan,46,N,General Election,false,3,641
+273646,Chad Shimaitis,2025-05-03,224320,TX Port Aransas City Council Place 1,Nonpartisan,383,Y,General Election,false,1,625
+250827,Eric Patton,2025-04-01,210010,IL Troy City Council Ward 2,Independent,62,N,General Election,false,1,145
+245531,Russell Smith,2025-04-01,206977,IL Burr Ridge Village Trustee Board At-large,Independent,uncontested,Y,General Election,true,3,uncontested
+244232,John Fatheree,2025-04-01,206332,"IL Pope County Community Unit School District 1, At-large",Nonpartisan,uncontested,Y,General Election,true,3,uncontested
+216804,Katie Wilson,2025-11-04,385189,WA Seattle Mayor,Nonpartisan,138931,Y,General Election,false,1,276762
+219969,Linda Susa,2025-04-01,190046,WI Eaton Town Treasurer (Clark County),Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+401740,Peggy Hall,2025-11-04,414107,IA Nashua City Council At-large,Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+286605,Tom Gilson,2025-05-20,239792,OR Southwestern Polk RFPD Position 3,Nonpartisan,657,Y,General Election,false,1,1278
+100136,Charles Lewis,2025-04-01,214388,IL Hire Township Trustee Board At-large (McDonough County),Independent,uncontested,Y,General Election,true,4,uncontested
+215548,Frank Alvarez,2025-04-01,193084,WI Erin School Board,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+426036,Mitchell Marchus,2025-11-04,412160,GA Ringgold City Council At-large,Nonpartisan,153,N,General Election,false,2,1026
+430156,Robert Murley,2025-11-04,414393,IA Sac City City Council At-large,Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+425161,Nancy Fricks,2025-11-04,411676,GA Cave Spring City Council Post 3,Nonpartisan,110,N,General Election,false,1,256
+286422,Ryan Beyer,2025-05-20,240543,OR Woodburn School District 103 – Position 5,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+272792,Alejandra Arriaga,2025-05-03,223868,TX Cockrell Hill City Council Place 3,Nonpartisan,66,Y,General Election,false,1,91
+143969,Paul Condon,2025-03-18,110976,CA Fresno City Council 5,Nonpartisan,106,N,Special Election General,false,1,4619
+395134,Keith Branch,2025-11-04,410743,NC Clayton Town Council,Nonpartisan,641,N,General Election,false,3,5778
+273656,Sandra Holland,2025-05-03,224325,TX Port Isabel City Commission Place 1,Nonpartisan,245,Y,General Election,false,1,439
+70624,Ron Miller,2025-11-04,407612,OH Holmes Township Trustee Board At-large (Crawford County),Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+109785,Karen Nelson,2025-04-01,186868,"WI Baraboo School District, At-large",Nonpartisan,3925,Y,General Election,false,2,12572
+429219,H. Trent Wentzien,2025-11-04,413875,IA Mayor of Lincoln,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+390083,Frederick Goodwin,2025-11-04,386325,SC Santee Town Council At-large,Nonpartisan,40,N,General Election,false,2,218
+219066,Mathew Murray,2025-04-01,189253,WI Alma Town Board Supervisor 2 (Jackson County),Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+261937,Idus Cleveland,2025-04-01,216355,IL Daugherty Public Library District Trustee Board At-large,Nonpartisan,uncontested,Y,General Election,true,3,uncontested
+385952,Charles Todd,2025-11-04,369606,UT Rocky Ridge Town Council,Nonpartisan,108,Y,General Election,false,2,440
+429312,Joel Buttikofer,2025-11-04,413924,IA Mayor of Luzerne,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+245876,Chad Ulitzsch,2025-04-01,207191,IL Clifton Village Trustee Board At-large,Independent,uncontested,Y,General Election,true,3,uncontested
+412822,Chad Booher,2025-11-04,407235,OH Darke County Educational Service Center Governing Board,Nonpartisan,uncontested,Y,General Election,true,3,uncontested
+391537,Dannon Hill,2025-11-04,386865,NJ Jersey City Council Ward B,Nonpartisan,349,N,General Election,false,1,8256
+102638,Ryan Smith,2025-11-04,407730,OH Madison Township Trustee Board At-large (Pickaway County),Nonpartisan,134,Y,General Election,false,2,552
+378405,Satwinder Kaur,2025-11-04,365261,WA Kent City Council Position 2,Nonpartisan,12912,Y,General Election,false,1,20578
+274524,Harold Harris,2025-05-06,224769,OH Toledo Mayor,Nonpartisan,2842,N,Primary,false,2,13021
+259953,Craig McCalla,2025-04-01,215292,IL Olive Township Trustee Board At-large (Madison County),Independent,uncontested,Y,General Election,true,4,uncontested
+415009,Braxton Cannon,2025-11-04,408229,OH Clayton Township Trustee Board At-large (Perry County),Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+221233,Carri Hoagland,2025-04-01,191139,WI Port Wing Town Board Supervisor (Bayfield County),Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+242997,Kimberly Zavada,2025-04-01,205977,"IL Streator Township High School District 40, At-large",Nonpartisan,1002,Y,General Election,false,3,4309
+250741,Debra Marner,2025-04-01,209958,IL Timberlane Village Clerk,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+98725,David Holmes,2025-04-01,210339,IL Woodhull Village President,Independent,uncontested,Y,General Election,true,1,uncontested
+414654,Gary Cooper,2025-11-04,408077,OH Lebanon Township Trustee Board At-large (Meigs County),Nonpartisan,84,Y,General Election,false,2,242
+261440,Eric Whitehouse,2025-04-01,216109,IL Manito Township Trustee Board At-large (Mason County),Independent,uncontested,Y,General Election,true,4,uncontested
+17092,Wade Kapszukiewicz,2025-05-06,224769,OH Toledo Mayor,Nonpartisan,6975,Y,Primary,false,2,13021
+243517,Frank Buerster Jr.,2025-04-01,206125,"IL Edwards County Community Unit School District 1, At-large",Nonpartisan,uncontested,Y,General Election,true,3,uncontested
+240711,Thomas Whitt,2025-04-01,205168,IL Heartland Community College District 540 Trustee Board At-large,Nonpartisan,14768,Y,General Election,false,3,67343
+283417,Louis Booth,2025-05-03,238330,TX Electra Independent School District school board Place 1,Nonpartisan,76,N,General Election,false,1,161
+133806,John Palmer,2025-11-04,412427,IA Allamakee Community School District school board 1,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+411352,Lora Mooney,2025-11-04,406537,OH New Miami Village Council At-large,Nonpartisan,111,Y,General Election,false,4,437
+243100,Rory White,2025-04-01,206001,"IL Amboy Community Unit School District 272, At-large",Nonpartisan,289,N,General Election,false,4,1970
+382797,Lonnie Teel,2025-11-04,368338,KS Harper City Council,Nonpartisan,52,N,General Election,false,3,691
+288415,Don Hollingsworth,2025-06-03,241658,MS Byhalia Mayor,Nonpartisan,116,Y,General Election,false,1,193
+390807,Nathan Raabe,2025-11-04,386687,ID City of Homedale Councilman,Nonpartisan,18,N,General Election,false,2,251
+377938,John Shaw,2025-11-04,364847,WA Aberdeen City Council Ward 6 Position 11,Nonpartisan,167,Y,General Election,false,1,333
+398485,Jane Wilson,2025-11-04,406367,OH Manchester Village Council At-large,Nonpartisan,177,Y,General Election,false,4,874
+325355,Charles Ebert III,2025-08-26,274137,AL Foley City Council 5,Nonpartisan,234,Y,General Election,false,1,309
+422909,Kaye Barker,2025-11-04,410881,NC Gatesville Town Council,Nonpartisan,uncontested,Y,General Election,true,3,uncontested
+70097,Kathleen Murphy,2025-04-01,216580,IL Mississippi Valley Library District Trustee Board At-large Special,Nonpartisan,2262,Y,Special Election General,false,1,3758
+428872,D. Brent Dochterman,2025-11-04,413712,IA Houghton City Council At-large,Nonpartisan,uncontested,Y,General Election,true,5,uncontested
+410783,Brad Lamoreaux,2025-11-04,406282,OH Lebanon City Council At-large,Nonpartisan,1902,Y,General Election,false,4,9500
+436422,Edward Matson III,2025-11-04,417106,CT Kent Selectman,Independent,116,N,General Election,false,1,981
+423856,B.J. Ayscue,2025-11-04,411458,NC Youngsville Town Council,Nonpartisan,142,Y,General Election,false,3,641
+273904,Nasir Hussain,2025-06-07,241718,TX Sugar Land City Council 2,Nonpartisan,777,N,Runoff,false,1,3123
+246110,Gary Orlandi,2025-04-01,207325,IL Dalzell Village Mayor,Independent,uncontested,Y,General Election,true,1,uncontested
+425160,Kristi Reed,2025-11-04,411676,GA Cave Spring City Council Post 3,Nonpartisan,146,Y,General Election,false,1,256
+243099,Nicholas Brokaw,2025-04-01,206001,"IL Amboy Community Unit School District 272, At-large",Nonpartisan,167,N,General Election,false,4,1970
+751112,Christina Gardner,2025-11-04,564926,KS The Highlands City Council,Nonpartisan,uncontested,Y,General Election,true,5,uncontested
+217432,Larry Van Lankvelt,2025-04-01,187958,WI Little Chute Village Trustee,Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+221905,Dave Pavlik,2025-04-01,193911,WI Winchester Town Board Supervisor 2,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+142839,Susan Manning,2025-02-18,110214,"WI Monona Grove School District, At-large",Nonpartisan,1168,Y,Primary,false,4,4652
+422702,Porter Casey Jr.,2025-11-04,410743,NC Clayton Town Council,Nonpartisan,1252,Y,General Election,false,3,5778
+283829,Collette Stec,2025-05-03,238525,TX Big Sandy City Council At-large,Nonpartisan,23,N,General Election,false,2,181
+250453,Bryan Wirball,2025-04-01,209796,IL St. Charles City Council Ward 4,Independent,uncontested,Y,General Election,true,1,uncontested
+217661,Thomas Krueger,2025-04-01,188128,WI Neshkoro Village Trustee,Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+423264,James Carlton,2025-11-04,411114,NC Mount Olive Town Council 1,Nonpartisan,39,N,General Election,false,1,127
+260514,James Shearl,2025-04-01,215605,IL Loda Township Assessor (Iroquois County),Independent,uncontested,Y,General Election,true,1,uncontested
+423415,Karol Freeman,2025-11-04,411189,NC Plymouth Town Council Ward 2,Nonpartisan,76,N,General Election,false,2,409
+249299,William Hollingsworth,2025-04-01,209145,IL Onarga Village Trustee Board At-large,Independent,uncontested,Y,General Election,true,3,uncontested
+390798,Robert Bergh,2025-11-04,386682,ID Glenns Ferry School District #192 Trustee 1,Nonpartisan,35,Y,General Election,false,1,81
+422910,Wade Hobbs,2025-11-04,410881,NC Gatesville Town Council,Nonpartisan,uncontested,Y,General Election,true,3,uncontested
+415278,Scott Spidell,2025-11-04,408346,OH Paint Township Trustee Board At-large (Wayne County),Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+241556,Lionel Gentle,2025-04-01,205583,"IL Evanston Community Consolidated School District 65, At-large",Nonpartisan,1959,N,General Election,false,4,64390
+217052,John Heller,2025-04-01,187702,WI Egg Harbor Village President,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+285767,James Rinehart,2025-05-20,240024,OR Reith Sanitary District Position 1,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+263041,Rogert Miller,2025-04-01,216818,IL White Oak Library District Trustee Board At-large,Nonpartisan,0,N,General Election,false,2,11025
+381864,Lauren Ninetails,2025-11-04,367952,"NM Dulce Independent Schools, At-large",Nonpartisan,59,N,General Election,false,3,952
+341305,Marc Crosby,2025-09-09,300687,OH Cleveland City Council Ward 1,Nonpartisan,48,N,Primary,false,2,1771
+273284,Jeffrey Martinez,2025-05-03,224136,TX Kenedy City Council 3,Nonpartisan,53,Y,General Election,false,1,74
+414528,Judy Christian,2025-11-04,408024,OH York Township Trustee Board At-large (Union County),Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+241554,Heather Vezner,2025-04-01,205583,"IL Evanston Community Consolidated School District 65, At-large",Nonpartisan,2545,N,General Election,false,4,64390
+219287,Dennis Heifner,2025-04-01,189458,WI Sherman Town Board Supervisor 2 (Dunn County),Nonpartisan,238,Y,General Election,false,1,330
+382735,Jason Gordon,2025-11-04,413350,IA Mayor of Davenport,Nonpartisan,6525,Y,General Election,false,1,12297
+261441,Joy Garlisch,2025-04-01,216109,IL Manito Township Trustee Board At-large (Mason County),Republican,uncontested,Y,General Election,true,4,uncontested
+286553,TJ Hecox,2025-05-20,240630,"OR Jewell School District – Director, Position 4",Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+244791,Stephanie Elliott,2025-04-01,206537,IL Alton City Council Ward 6,Independent,369,Y,General Election,false,1,675
+428481,Corey Birkel,2025-11-04,413497,IA Farley City Council At-large,Nonpartisan,229,Y,General Election,false,2,559
+259217,Keith Becherer,2025-04-01,214875,IL St. Clair Township Trustee Board At-large (St. Clair County),Other,uncontested,Y,General Election,true,4,uncontested
+379146,Becky Shannon,2025-11-04,365978,WA Spokane County Cemetery  (Elk) Commissioner Board Position 1 4,Nonpartisan,523,Y,General Election,false,1,684
+241381,Laura Schroeder,2025-04-01,205535,"IL Chicago Ridge School District 127-5, At-large",Nonpartisan,uncontested,Y,General Election,true,4,uncontested
+414463,Brandon Hinkle,2025-11-04,407991,OH Bridgewater Township Trustee Board At-large (Williams County),Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+388629,Leo Tarplee,2025-11-04,385447,MT Mayor of Winnett,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+273959,Patrick Day,2025-05-03,224480,TX Universal City City Council At-large,Nonpartisan,339,N,General Election,false,3,1916
+272551,Scott Salter,2025-05-03,223742,TX Alvin City Council At-large Position 2,Nonpartisan,813,Y,General Election,false,1,1076
+270991,Corinth Ford,2025-04-08,223027,DE City of Newark City Council 2,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+218855,Stephen Klump,2025-04-01,189061,WI Oxford Town Board Supervisor 2 (Marquette County),Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+221160,Doug Yelk,2025-04-01,191074,WI Sun Prairie Town Board Supervisor (Dane County),Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+143970,Elizabeth Jonasson-Rosas,2025-03-18,110976,CA Fresno City Council 5,Nonpartisan,1621,N,Special Election General,false,1,4619
+425041,Keith Brooks,2025-11-04,411604,GA Mayor of Blackshear,Nonpartisan,651,Y,General Election,false,1,1008
+271707,Jeremiah Stoker,2025-05-03,223346,TX Aledo Independent School District Place 4,Nonpartisan,1016,N,General Election,false,1,2914
+378711,Kevin Sheen,2025-11-04,365548,WA Poulsbo City Council Position 5,Nonpartisan,1703,N,General Election,false,1,4063
+143983,Lisa Cove,2025-03-18,110980,NY Pittsford Mayor,Village Vision,257,N,General Election,false,1,515
+246305,Kathleen Tubbs,2025-04-01,207435,IL Du Bois Village Trustee Board At-large,Independent,uncontested,Y,General Election,true,3,uncontested
+221174,Dana Marion,2025-04-01,191087,WI Sigel Town Treasurer (Chippewa County),Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+410963,Troy Jolly,2025-11-04,406367,OH Manchester Village Council At-large,Nonpartisan,79,N,General Election,false,4,874
+391535,Joel Brooks,2025-11-04,386865,NJ Jersey City Council Ward B,Nonpartisan,2030,Y,General Election,false,1,8256
+324751,Frank Nette Jr.,2025-08-26,273834,AL Oneonta City Council Place 1,Nonpartisan,62,N,General Election,false,1,431
+290126,Amanda Tanner,2025-08-05,243234,WA Pullman School District school board 5,Nonpartisan,829,N,Primary,false,2,3990
+217875,Keith Gering,2025-04-01,188280,WI Pulaski Village Trustee,Nonpartisan,498,Y,General Election,false,3,2242
+428362,Scott DeSousa,2025-11-04,413429,IA Dyersville City Council Ward 1,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+286418,Russ Nichols,2025-05-20,239860,OR Morrow County Health District Board – Position 2,Nonpartisan,1460,Y,General Election,false,1,2577
+241105,David Lively,2025-04-01,205438,IL Herrin Park District Commissioner Board At-large,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+377963,Tim Ottmar,2025-11-04,364870,WA Asotin City Council Position 5,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+224045,Michael Idleman,2025-04-01,194297,OK Town of Oakland Board of Trustees,Nonpartisan,26,Y,General Election,false,3,129
+388618,Linda Jung,2025-11-04,385438,MT Mayor of Whitehall,Nonpartisan,161,Y,General Election,false,1,194
+426656,Sofia Seliger,2025-11-04,412501,"IA Cherokee Community School District, At-large",Nonpartisan,313,N,General Election,false,2,1017
+290687,Tyler Jaggers,2025-08-05,243438,KS Topeka City Council 1,Nonpartisan,50,N,Primary,false,2,803
+416087,Kenny Harless,2025-11-04,408708,OH New Market Township Trustee Board At-large (Highland County),Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+426805,Cody Hennigar,2025-11-04,412582,"IA Forest City Community School District, Director 1",Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+215684,Eleanor Vita,2025-04-01,186868,"WI Baraboo School District, At-large",Nonpartisan,2591,N,General Election,false,2,12572
+255368,John Seibert,2025-04-01,212609,IL Florence Township Clerk (Will County),Independent,uncontested,Y,General Election,true,1,uncontested
+220228,Curtis Gagas,2025-04-01,193729,WI Sharon Town Board Supervisor,Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+291707,Michael Broadbent,2025-11-04,369446,UT Spring City Council,Nonpartisan,248,Y,General Election,false,2,776
+69158,Kevin Ware,2025-11-04,367459,WA Port of Skagit District Commissioner Board Position 1,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+221982,Dawn Konop,2025-04-01,193916,WI Eaton Town Clerk,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+241068,David Palya,2025-04-01,205422,IL Lockport Township Fire Protection District Trustee Board At-large,Nonpartisan,3228,N,General Election,false,2,11714
+289819,Rose Powell,2025-08-05,243159,MI Cedar Springs City Council At-large,Nonpartisan,103,Y,Primary,false,4,381
+261181,John Kruthoff,2025-04-01,215960,IL Fenton Township Trustee Board At-large (Whiteside County),Independent,uncontested,Y,General Election,true,4,uncontested
+378205,Amy McHenry,2025-11-04,367135,WA Mayor of Duvall,Nonpartisan,1924,Y,General Election,false,1,2978
+394372,Tristan Grunder,2025-11-04,388286,FL High Springs City Commissioner Board Seat 3,Nonpartisan,587,Y,General Election,false,1,866
+223232,Terri LaFlamme,2025-04-01,192885,WI Summit Town Treasurer (Douglas County),Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+273543,Shirley Gilmore,2025-05-03,224272,TX Onalaska City Council At-large,Nonpartisan,159,Y,General Election,false,3,596
+381861,David Montoya,2025-11-04,367952,"NM Dulce Independent Schools, At-large",Nonpartisan,79,N,General Election,false,3,952
+250725,Nikki Kitakis,2025-04-01,209951,IL Thornton Village Clerk,Independent,uncontested,Y,General Election,true,1,uncontested
+413342,David Rauber,2025-11-04,407481,OH Washington Township Trustee Board At-large (Hocking County),Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+377252,Darin Veach,2025-11-04,364205,WA Central Kitsap School District school board 5,Nonpartisan,7403,N,General Election,false,1,16488
+217545,Tim Hale,2025-04-01,193323,WI Menasha Common Council 3,Nonpartisan,342,Y,General Election,false,1,613
+143901,Lisa Robinson,2025-03-11,110940,FL St. Pete Beach City Commissioner Board 2,Nonpartisan,425,Y,General Election,false,1,666
+413926,Beth Pirtle-Frazer,2025-11-04,407755,OH Monroe Township Fiscal Officer (Adams County) Special,Nonpartisan,43,N,Special Election General,false,1,133
+274272,Chakina Watkins,2025-05-03,224621,TX Crowley Independent School District Place 5,Nonpartisan,2405,Y,General Election,false,1,4614
+290750,Mackenzi Truelove,2025-11-04,368610,KS USD 259 Wichita Board of Education 1,Nonpartisan,2028,N,General Election,false,1,4718
+381865,Pamela Montoya,2025-11-04,367952,"NM Dulce Independent Schools, At-large",Nonpartisan,69,N,General Election,false,3,952
+429328,Melia Clark,2025-11-04,413930,IA Mayor of Macedonia,Nonpartisan,44,N,General Election,false,1,91
+171146,Lisa Martin,2025-04-01,205363,IL Danville Area Community College District 507 Trustee Board At-large,Nonpartisan,2118,Y,General Election,false,2,8617
+290129,Teena Edwards,2025-08-05,243234,WA Pullman School District school board 5,Nonpartisan,68,N,Primary,false,2,3990
+427429,Caitlin Bliek,2025-11-04,412933,"IA Whiting Community School District, At-large",Nonpartisan,uncontested,Y,General Election,true,3,uncontested
+143972,G. Brandon Vang,2025-03-18,110976,CA Fresno City Council 5,Nonpartisan,2324,Y,Special Election General,false,1,4619
+384768,Alaina Commarato,2025-11-04,368991,NJ Washington Township Board of Education,Nonpartisan,2772,N,General Election,false,3,17189
+217938,Mary Shemon,2025-04-01,188327,WI Roberts Village Trustee,Nonpartisan,349,Y,General Election,false,3,1373
+383019,Michael Courtney,2025-11-04,368410,KS Lawrence City Commissioner,Nonpartisan,8211,Y,General Election,false,2,27507
+381870,Vickie Thomas,2025-11-04,367952,"NM Dulce Independent Schools, At-large",Nonpartisan,53,N,General Election,false,3,952
+247696,Larry Hunt,2025-04-01,208210,IL Joy Village President Special,People's Party,uncontested,Y,Special Election General,true,1,uncontested
+143939,Diana Brown,2025-11-04,406367,OH Manchester Village Council At-large,Nonpartisan,148,Y,General Election,false,4,874
+142838,Stephanie Lehmann,2025-02-18,110214,"WI Monona Grove School District, At-large",Nonpartisan,1115,Y,Primary,false,4,4652
+411351,Donna Henley,2025-11-04,406537,OH New Miami Village Council At-large,Nonpartisan,14,N,General Election,false,4,437
+245673,Josephine Maniscalco,2025-04-01,207069,IL Carpentersville Village Trustee Board At-large,Independent,1171,Y,General Election,false,3,5284
+414069,Justin Hines,2025-11-04,407816,OH Greenville Township Trustee Board At-large (Darke County),Nonpartisan,1619,Y,General Election,false,2,3896
+283650,Rusty Glover,2025-05-03,238436,"TX San Saba Independent School District, At-large",Nonpartisan,410,Y,General Election,false,2,1119
+217336,Allen Schellinger,2025-04-01,187897,WI Kekoskee Village Trustee,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+244111,Brock Campbell,2025-04-01,206299,"IL Northwestern Community Unit School District 2, At-large",Nonpartisan,uncontested,Y,General Election,true,3,uncontested
+285239,Amanda Ferrat,2025-05-20,239514,OR Tillamook School District #9 – Position 1 Director (2-yr),Nonpartisan,1251,N,General Election,false,1,4071
+241557,Maria Opdycke,2025-04-01,205583,"IL Evanston Community Consolidated School District 65, At-large",Nonpartisan,7603,Y,General Election,false,4,64390
+286033,Kristie Miller,2025-05-20,240259,OR Sisters-Camp Sherman RFPD Position 1 Director,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+243492,Angela Ryan,2025-04-01,206455,"IL Wethersfield Community Unit School District 230 school board, At-large",Nonpartisan,410,Y,General Election,false,4,2044
+380146,Mickayla Kerr,2025-11-04,367486,MI Bad Axe City Council At-large,Nonpartisan,336,Y,General Election,false,3,1286
+385609,Kirk McQuivey,2025-11-04,369340,UT Orangeville City Council 4-Year Term,Nonpartisan,247,Y,General Election,false,2,557
+215720,Michael Paul,2025-04-01,186884,"WI Birchwood School District, At-large",Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+250264,Lona Jakaitis,2025-04-01,209694,IL Shorewood Village Clerk,Independent,uncontested,Y,General Election,true,1,uncontested
+341340,Jennifer Savage,2025-11-04,385450,MT Missoula City Council Ward 3,Nonpartisan,2229,Y,General Election,false,1,4285
+378647,Bryan Stucky,2025-11-04,365477,WA Oak Harbor City Council Position 7,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+242375,Elana Jacobs,2025-04-01,205814,"IL Skokie School District 73.5, At-large",Nonpartisan,1148,Y,General Election,false,4,5469
+224043,Addison Johnson,2025-04-01,194297,OK Town of Oakland Board of Trustees,Nonpartisan,25,Y,General Election,false,3,129
+248831,Randy Hagenbuch,2025-04-01,208875,IL Mount Pulaski City Council Ward 1,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+245615,Crystal Wilkinson,2025-04-01,207035,IL Canton City Treasurer,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+244113,Lisa Meisenheimer,2025-04-01,206299,"IL Northwestern Community Unit School District 2, At-large",Nonpartisan,uncontested,Y,General Election,true,3,uncontested
+221396,Ed Klingaman,2025-04-01,191288,WI Sumner Town Board Supervisor 2 (Jefferson County),Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+274285,Trent Hill,2025-05-03,224630,TX Eagle Mountain-Saginaw Independent School District Place 3,Nonpartisan,1125,N,General Election,false,1,3314
+414386,Blake Sinn,2025-11-04,407954,OH Latty Township Trustee Board At-large (Paulding County),Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+290690,William Naeger,2025-08-05,243438,KS Topeka City Council 1,Nonpartisan,195,Y,Primary,false,2,803
+220461,James Broihahn,2025-04-01,190477,WI Ellenboro Town Board Chairperson (Grant County),Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+430332,Brian Fitch,2025-11-04,414491,IA Mayor of St. Charles,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+424518,John Chapa,2025-11-04,410395,TX Edcouch City Council Place 3,Nonpartisan,500,Y,General Election,false,1,681
+215685,Ken Ziegler,2025-04-01,186868,"WI Baraboo School District, At-large",Nonpartisan,3526,Y,General Election,false,2,12572
+430157,Tom Lownik,2025-11-04,414393,IA Sac City City Council At-large,Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+376339,J. Miller Adams,2025-11-04,363418,VA Charlotte Board of Supervisors Wylliesburg-Red Oak District,Independent,421,Y,General Election,false,1,686
+426771,Dana Carter,2025-11-04,412564,IA East Mills Community School District school board At-large,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+414276,Faye Hicks,2025-11-04,407906,OH Circleville Township Fiscal Officer (Pickaway County) Special,Nonpartisan,uncontested,Y,Special Election General,true,1,uncontested
+426655,Ray Mullins II,2025-11-04,412501,"IA Cherokee Community School District, At-large",Nonpartisan,354,Y,General Election,false,2,1017
+258400,Sonya Hamilton,2025-04-01,214388,IL Hire Township Trustee Board At-large (McDonough County),Republican,uncontested,Y,General Election,true,4,uncontested
+217874,Howard Zernicke,2025-04-01,188280,WI Pulaski Village Trustee,Nonpartisan,580,Y,General Election,false,3,2242
+255969,Theodore Johnson,2025-04-01,212972,IL Ganeer Township Clerk (Kankakee County),Independent,uncontested,Y,General Election,true,1,uncontested
+249840,Michelle Landess,2025-04-01,209461,IL Riverton Village Trustee Board At-large,Independent,222,Y,General Election,false,3,764
+429745,Rick Roeder,2025-11-04,414167,IA Mayor of Odebolt,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+390163,Jerome Williams,2025-11-04,386364,SC Mayor of Swansea,Nonpartisan,75,N,General Election,false,1,166
+289818,Lisa Atchison,2025-08-05,243159,MI Cedar Springs City Council At-large,Nonpartisan,106,Y,Primary,false,4,381
+271737,Jose Vargas,2025-05-03,223360,TX Anna Independent School District Place 3,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+384764,Jessica DeCicco,2025-11-04,368991,NJ Washington Township Board of Education,Nonpartisan,4241,Y,General Election,false,3,17189
+390084,Sheryl Patrick,2025-11-04,386325,SC Santee Town Council At-large,Nonpartisan,92,Y,General Election,false,2,218
+417372,Robert Smith,2025-11-04,409204,PA Clarion Limestone School Director Region II,Constitution,430,Y,General Election,false,2,1172
+240979,Amanda Krabbe,2025-04-01,205363,IL Danville Area Community College District 507 Trustee Board At-large,Nonpartisan,1101,N,General Election,false,2,8617
+383016,Bart Littlejohn,2025-11-04,368410,KS Lawrence City Commissioner,Nonpartisan,5015,N,General Election,false,2,27507
+414071,Ty House,2025-11-04,407818,OH Neave Township Trustee Board At-large (Darke County),Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+410964,Zollie Gardner,2025-11-04,406367,OH Manchester Village Council At-large,Nonpartisan,122,Y,General Election,false,4,874
+242999,Megan Black,2025-04-01,205977,"IL Streator Township High School District 40, At-large",Nonpartisan,888,Y,General Election,false,3,4309
+137345,William Brown,2025-05-03,224515,TX Mayor of Willis,Nonpartisan,115,Y,General Election,false,1,249
+382793,David Earls,2025-11-04,368338,KS Harper City Council,Nonpartisan,117,Y,General Election,false,3,691
+221794,Ace Carlson,2025-04-01,191615,WI Lincoln Town Board Supervisor (Polk County),Nonpartisan,386,Y,General Election,false,2,1545
+412612,Kelly Tolliver,2025-11-04,407158,OH Wilmington City Council At-large,Republican,770,Y,General Election,false,3,2753
+324889,Cameron Rowe,2025-08-26,273905,AL Hanceville City Council Place 4,Nonpartisan,255,Y,General Election,false,1,415
+244233,Kathy Simmons,2025-04-01,206332,"IL Pope County Community Unit School District 1, At-large",Nonpartisan,uncontested,Y,General Election,true,3,uncontested
+427018,Bill Denny,2025-11-04,412698,"IA Martensdale-St Marys Community School District, 1",Nonpartisan,119,Y,General Election,false,1,223
+138534,Bill Scott,2025-11-04,407612,OH Holmes Township Trustee Board At-large (Crawford County),Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+51587,Shaughn Daily,2025-11-04,405947,OH Deer Park City Council At-large,Nonpartisan,564,N,General Election,false,3,3133
+223198,Brooke Fischer,2025-04-01,192855,WI Cumberland Town Treasurer (Barron County),Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+219067,Don Forsting,2025-04-01,189254,WI Alma Town Clerk (Jackson County),Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+385608,Kari Alton,2025-11-04,369340,UT Orangeville City Council 4-Year Term,Nonpartisan,233,Y,General Election,false,2,557
+115081,Joe Jordan,2025-11-04,410642,NC Mayor of Belmont,Nonpartisan,2284,Y,General Election,false,1,3572
+143599,James Sherman,2025-03-04,110720,FL Flagler Beach City Commissioner Board,Nonpartisan,625,Y,General Election,false,2,1750
+432857,Lindsey Williams,2025-11-04,415645,NH Dover City Council At-Large,Nonpartisan,3781,Y,General Election,false,2,9384
+424529,Kim Cochran,2025-11-04,410400,TX Mayor of Enchanted Oaks,Nonpartisan,77,N,General Election,false,1,187
+215860,Christine Giles,2025-04-01,186957,"WI Elcho School District, At-large",Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+341303,Juanita Brent,2025-09-09,300687,OH Cleveland City Council Ward 1,Nonpartisan,537,Y,Primary,false,2,1771
+286577,Tim Haarsma,2025-05-20,240642,"OR Amity School District – Director, Position 2",Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+407825,Wes Ditto,2025-11-04,405076,"OH Delphos City School District, At-large",Nonpartisan,uncontested,Y,General Election,true,3,uncontested
+324750,Jessie Devaney,2025-08-26,273834,AL Oneonta City Council Place 1,Nonpartisan,369,Y,General Election,false,1,431
+413743,Terry Criss,2025-11-04,407674,OH Smith Township Trustee Board At-large (Mahoning County),Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+291064,Jasmin Rivas,2025-06-10,243562,MA Southbridge Town Council,Nonpartisan,416,N,General Election,false,1,2096
+409228,Pam Jackson,2025-11-04,405550,OH Addyston Village Council At-large,Nonpartisan,54,Y,General Election,false,4,267
+290590,Jeff Sinker,2025-08-05,243381,WA North County Regional Fire Authority Commissioner Board 1,Nonpartisan,216,N,Primary,false,2,1417
+283416,Kortney Thaggard,2025-05-03,238330,TX Electra Independent School District school board Place 1,Nonpartisan,85,Y,General Election,false,1,161
+223326,Doug Lawrence,2025-04-01,192969,WI Albany Town Board Supervisor 1 (Green County),Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+415033,Kenny James,2025-11-04,408238,OH Monday Creek Township Trustee Board At-large (Perry County),Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+389595,Alice Rose,2025-11-04,386109,SC Cayce City Council 3,Nonpartisan,184,Y,General Election,false,1,338
+422498,Joey Dean,2025-11-04,564926,KS The Highlands City Council,Nonpartisan,uncontested,Y,General Election,true,5,uncontested
+286522,Steve Muller,2025-05-20,240611,OR InterMountain Education Service District Zone 4,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+390806,Julia Moore,2025-11-04,386687,ID City of Homedale Councilman,Nonpartisan,89,Y,General Election,false,2,251
+379537,Matthew Nienhuis,2025-11-04,366353,WA Island County Fire  (North Whidbey Fire and Rescue) Commissioner Board Position 1 Special 2,Nonpartisan,1427,N,Special Election General,false,1,3911
+139609,Howard Smith,2025-05-03,224272,TX Onalaska City Council At-large,Nonpartisan,131,Y,General Election,false,3,596
+262693,Jonathan Klepzig,2025-04-01,216675,IL Prairie Skies Public Library District Trustee Board At-large,Nonpartisan,uncontested,Y,General Election,true,4,uncontested
+139896,Tim Fletcher,2025-11-04,367158,WA Mayor of Forks,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+379527,Stephen Wightman,2025-11-04,366342,WA Grays Harbor County Fire  Commissioner Board Position 2 17,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+361903,Frederick Diaz,2025-11-04,418542,MA Lawrence Councilor At Large,Nonpartisan,2805,N,General Election,false,3,22654
+412053,Gregory Greenspan,2025-11-04,406870,OH Solon City Council Ward 4,Nonpartisan,208,N,General Election,false,1,1176
+291710,Randy Strate,2025-11-04,369446,UT Spring City Council,Nonpartisan,229,N,General Election,false,2,776
+415225,Nick Schell,2025-11-04,408324,OH Enoch Township Trustee Board At-large (Noble County),Nonpartisan,61,N,General Election,false,2,255
+127717,Mary Brown,2025-11-04,386113,SC Central Pacolet Town Council At-large,Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+428065,Mike Alowitz,2025-11-04,413268,IA Clive City Council At-large,Nonpartisan,1477,N,General Election,false,2,5841
+416088,Kevin Fawley,2025-11-04,408708,OH New Market Township Trustee Board At-large (Highland County),Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+243097,Katie Pratt,2025-04-01,206001,"IL Amboy Community Unit School District 272, At-large",Nonpartisan,424,Y,General Election,false,4,1970
+439956,Shawn O'Regan,2025-11-04,418493,MA Chelsea School Committee 1,Nonpartisan,189,Y,General Election,false,1,360
+385953,Clint Bronson,2025-11-04,369606,UT Rocky Ridge Town Council,Nonpartisan,103,N,General Election,false,2,440
+431975,Savannah Dodd,2025-11-04,415368,ID Rexburg City Council,Nonpartisan,678,N,General Election,false,3,6287
+430465,Dale Thummel,2025-11-04,414559,IA Mayor of Thurman,Nonpartisan,5,N,General Election,false,1,38
+751110,Jacqulyn Sue Aschcraft,2025-11-04,564926,KS The Highlands City Council,Nonpartisan,uncontested,Y,General Election,true,5,uncontested
+431977,Vince Haley,2025-11-04,415368,ID Rexburg City Council,Nonpartisan,1008,N,General Election,false,3,6287
+414068,Jeremy Edger,2025-11-04,407816,OH Greenville Township Trustee Board At-large (Darke County),Nonpartisan,1634,Y,General Election,false,2,3896
+274352,Norma Cavazos,2025-05-03,224670,TX Harlandale Independent School District 4,Nonpartisan,266,Y,General Election,false,1,467
+379494,W. Paul Malone,2025-11-04,366304,WA Douglas County Fire  Commissioner Board Position 3 8,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+218944,Karen Schulner,2025-04-01,189146,WI Ludington Town Treasurer (Eau Claire County),Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+388229,Kirsten Hopkins,2025-11-04,385220,MT Broadview Town Commission At-large,Nonpartisan,22,Y,General Election,false,3,75
+263040,June Rokita-kennedy,2025-04-01,216818,IL White Oak Library District Trustee Board At-large,Nonpartisan,4119,Y,General Election,false,2,11025
+385038,Alexandra Dickey,2025-11-04,369114,NJ Hampton Borough Council,Independent,151,N,General Election,false,2,918
+379037,Signe Shaw,2025-11-04,365857,WA Winthrop Town Council Position 5 Special,Nonpartisan,uncontested,Y,Special Election General,true,1,uncontested
+250482,John Stanhouse,2025-04-01,209817,IL St. Johns Village President,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+271492,Ben Carpenter,2025-08-05,243272,"WA Chewelah City Council, Special 6",Nonpartisan,44,N,Special Election Primary,false,2,656
+77489,Lee Hansen,2025-11-04,369114,NJ Hampton Borough Council,Republican,392,Y,General Election,false,2,918
+241559,Patricia Anderson,2025-04-01,205583,"IL Evanston Community Consolidated School District 65, At-large",Nonpartisan,10373,Y,General Election,false,4,64390
+240809,Christina Wells,2025-04-01,205251,IL Morgan County Road District 9 Clerk,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+429835,Paul Hazelwood,2025-11-04,414217,IA Owasa City Council At-large,Nonpartisan,uncontested,Y,General Election,true,3,uncontested
+250930,James Faught,2025-04-01,210081,IL Vernon Village Trustee Board At-large Special,Independent,uncontested,Y,Special Election General,true,2,uncontested
+381860,Consuelo Gomez,2025-11-04,367952,"NM Dulce Independent Schools, At-large",Nonpartisan,101,Y,General Election,false,3,952
+273721,Michael Durham,2025-05-03,224365,TX Mayor of Richwood,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+246249,Cynthia Mossuto,2025-04-01,207408,IL Dixmoor Village President,Other,134,N,General Election,false,1,527
+426196,Markeita Hunt,2025-11-04,412243,GA Thomson City Council  Seat A 1,Nonpartisan,184,N,General Election,false,1,523
+382737,Judith Lee,2025-11-04,413350,IA Mayor of Davenport,Nonpartisan,5772,N,General Election,false,1,12297
+249297,Holly Zirkle,2025-04-01,209145,IL Onarga Village Trustee Board At-large,Independent,uncontested,Y,General Election,true,3,uncontested
+424509,Anna Marquez,2025-11-04,410389,TX Creedmoor City Council Place 4,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+224047,Stephanie Doyal,2025-04-01,194297,OK Town of Oakland Board of Trustees,Nonpartisan,21,N,General Election,false,3,129
+400511,Andy Reavis,2025-11-04,410776,NC Cooleemee Town Council,Nonpartisan,31,Y,General Election,false,2,74
+431980,Bill Riggins,2025-11-04,415368,ID Rexburg City Council,Nonpartisan,1075,Y,General Election,false,3,6287
+245877,Paul Hess,2025-04-01,207191,IL Clifton Village Trustee Board At-large,Independent,uncontested,Y,General Election,true,3,uncontested
+217902,Tim Hagar,2025-04-01,188300,WI Redgranite Village Trustee,Nonpartisan,uncontested,Y,General Election,true,3,uncontested
+430736,Kent Halverson,2025-11-04,414703,IA Mayor of West Union,Nonpartisan,212,Y,General Election,false,1,381
+380144,Kevin Richardson,2025-11-04,367486,MI Bad Axe City Council At-large,Nonpartisan,181,N,General Election,false,3,1286
+428873,Jay Henrich,2025-11-04,413712,IA Houghton City Council At-large,Nonpartisan,uncontested,Y,General Election,true,5,uncontested
+379691,Joe Koehler,2025-11-04,366508,WA Pierce County Fire  Commissioner Board Position 2 23,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+240981,Laura Williams,2025-04-01,205363,IL Danville Area Community College District 507 Trustee Board At-large,Nonpartisan,2030,N,General Election,false,2,8617
+378733,Tom Arnbrister,2025-11-04,365571,WA Rainier City Council Position 3,Nonpartisan,213,Y,General Election,false,1,345
+242482,Matthew Bartell,2025-04-01,205840,"IL Thomasboro Community Consolidated School District 130, At-large",Nonpartisan,uncontested,Y,General Election,true,4,uncontested
+383118,Lori Gerber,2025-11-04,368449,KS Conway Springs Mayor,Nonpartisan,115,Y,General Election,false,1,132
+244632,Stephen Newman,2025-04-01,206455,"IL Wethersfield Community Unit School District 230 school board, At-large",Nonpartisan,435,Y,General Election,false,4,2044
+143601,John Cunningham,2025-03-04,110720,FL Flagler Beach City Commissioner Board,Nonpartisan,710,Y,General Election,false,2,1750
+403852,Cat Redd,2025-11-04,411458,NC Youngsville Town Council,Nonpartisan,166,Y,General Election,false,3,641
+415034,Mike Kessler,2025-11-04,408238,OH Monday Creek Township Trustee Board At-large (Perry County),Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+411632,John Soeder,2025-11-04,406679,OH Parma City Council Ward 3,Democratic,818,Y,General Election,false,1,1226
+382794,Rose Ann Green,2025-11-04,368338,KS Harper City Council,Nonpartisan,104,N,General Election,false,3,691
+409229,William Glick,2025-11-04,405550,OH Addyston Village Council At-large,Nonpartisan,58,Y,General Election,false,4,267
+218477,Lew Lake,2025-04-01,188725,WI Quincy Town Board Supervisor 1 (Adams County),Nonpartisan,352,Y,General Election,false,1,565
+384767,Kelli Muttart,2025-11-04,368991,NJ Washington Township Board of Education,Nonpartisan,3464,Y,General Election,false,3,17189
+414462,Austin Rummel,2025-11-04,407991,OH Bridgewater Township Trustee Board At-large (Williams County),Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+241560,Peter Bogira,2025-04-01,205583,"IL Evanston Community Consolidated School District 65, At-large",Nonpartisan,6090,N,General Election,false,4,64390
+217060,Rob Wyman,2025-04-01,187708,WI Elderon Village Clerk,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+429733,Connie Susin,2025-11-04,414160,IA Numa City Council At-large Special,Nonpartisan,uncontested,Y,Special Election General,true,1,uncontested
+290246,Lonnie Hoxie,2025-08-05,243272,"WA Chewelah City Council, Special 6",Nonpartisan,483,Y,Special Election Primary,false,2,656
+251361,Claudine Johnson,2025-04-01,210313,IL Windsor Village Clerk,People's Party,uncontested,Y,General Election,true,1,uncontested
+244611,Stephanie Bergmann,2025-04-01,206450,IL West Washington County Community Unit School District 10 school board At-large Remaining Congressional Townships,Nonpartisan,uncontested,Y,General Election,true,4,uncontested
+259985,Christopher Herzog,2025-04-01,215306,IL Wood River Township Trustee Board At-large (Madison County),Nonpartisan,1493,Y,General Election,false,4,8278
+361904,John Rigal,2025-11-04,418542,MA Lawrence Councilor At Large,Nonpartisan,2402,N,General Election,false,3,22654
+244631,Paula Baker,2025-04-01,206455,"IL Wethersfield Community Unit School District 230 school board, At-large",Nonpartisan,415,Y,General Election,false,4,2044
+428482,Matthew Lammers,2025-11-04,413497,IA Farley City Council At-large,Nonpartisan,150,N,General Election,false,2,559
+385730,Martin Munoz,2025-11-04,369422,UT Taylorsville City Council 4,Nonpartisan,895,N,General Election,false,1,2035
+221795,Mandy Goldsmith,2025-04-01,191615,WI Lincoln Town Board Supervisor (Polk County),Nonpartisan,218,N,General Election,false,2,1545
+400930,Danny Wobbleton,2025-11-04,411189,NC Plymouth Town Council Ward 2,Nonpartisan,115,Y,General Election,false,2,409
+412610,Jamie Knowles,2025-11-04,407158,OH Wilmington City Council At-large,Republican,772,Y,General Election,false,3,2753
+245530,Guy Franzese Jr.,2025-04-01,206977,IL Burr Ridge Village Trustee Board At-large,Independent,uncontested,Y,General Election,true,3,uncontested
+291773,Jon Gossett,2025-08-12,243797,UT Tooele City Council,Nonpartisan,2105,Y,Primary,false,4,7806
+216523,Sheri Degner,2025-04-01,187319,"WI Wonewoc-Union Center School District, At-large",Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+422745,Steve Corriher,2025-11-04,410776,NC Cooleemee Town Council,Nonpartisan,37,Y,General Election,false,2,74
+426804,Andrew Fedders,2025-11-04,412582,"IA Forest City Community School District, Director 1",Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+248713,Tanya Fordahl,2025-04-01,208792,IL Momence City Council Ward 3,Independent,uncontested,Y,General Election,true,1,uncontested
+426077,Frank Roberts,2025-12-02,427038,GA Sandy Springs City Council 4,Nonpartisan,1063,Y,Runoff,false,1,1893
+429947,Kristi Seiler,2025-11-04,414272,IA Mayor of Pocahontas,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+286672,Woodrow McLin,2025-05-20,240712,"OR Bonanza Big Springs Park & Recreation District – Director, Position 3",Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+253191,Cheryl Lemus,2025-04-01,211362,IL Rutland Township Clerk (Kane County),Independent,uncontested,Y,General Election,true,1,uncontested
+533991,Mark Rayburn,2025-12-13,470195,TX Joshua City Council Place 1,Nonpartisan,12,N,Special Election General,false,1,92
+142720,Andre Coleman,2025-02-11,110100,OK Millwood Public Schools Board of Education Office 5,Nonpartisan,155,N,Primary,false,1,536
+385037,Carroll Swenson,2025-11-04,369114,NJ Hampton Borough Council,Republican,375,Y,General Election,false,2,918
+533989,Dustin Dees,2025-12-13,470195,TX Joshua City Council Place 1,Nonpartisan,53,Y,Special Election General,false,1,92
+385954,Timothy Allred,2025-11-04,369606,UT Rocky Ridge Town Council,Nonpartisan,68,N,General Election,false,2,440
+411829,Kim Thomas,2025-11-04,406762,OH Mayor of Richmond Heights,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+410785,Matt Sellers,2025-11-04,406282,OH Lebanon City Council At-large,Nonpartisan,1984,Y,General Election,false,4,9500
+414379,Jacob Gaerke,2025-11-04,407951,OH Washington Township Trustee Board At-large (Mercer County),Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+423460,Curt Strickland,2025-11-04,411227,NC Roanoke Rapids City Council 1,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+248946,Robert Oster,2025-04-01,208943,IL New Baden Village President,Independent,415,Y,General Election,false,1,702
+274286,Misty Kieschnick,2025-05-03,224630,TX Eagle Mountain-Saginaw Independent School District Place 3,Nonpartisan,862,N,General Election,false,1,3314
+242996,Gary Wargo,2025-04-01,205977,"IL Streator Township High School District 40, At-large",Nonpartisan,933,Y,General Election,false,3,4309
+391454,Bob Sullentrop,2025-11-04,386832,MN Minneapolis City Council Ward 8,Nonpartisan,416,N,General Election,false,1,11873
+259218,Michael Greenfield,2025-04-01,214875,IL St. Clair Township Trustee Board At-large (St. Clair County),Other,uncontested,Y,General Election,true,4,uncontested
+242377,Matthew Gliebe,2025-04-01,205814,"IL Skokie School District 73.5, At-large",Nonpartisan,839,Y,General Election,false,4,5469
+384765,Lyndsay Suchy,2025-11-04,368991,NJ Washington Township Board of Education,Nonpartisan,2963,N,General Election,false,3,17189
+432855,Bret Carmichael,2025-11-04,415645,NH Dover City Council At-Large,Nonpartisan,3501,Y,General Election,false,2,9384
+242380,Victoria Wolfinger,2025-04-01,205814,"IL Skokie School District 73.5, At-large",Nonpartisan,1023,Y,General Election,false,4,5469
+415223,Donald Saling,2025-11-04,408324,OH Enoch Township Trustee Board At-large (Noble County),Nonpartisan,112,Y,General Election,false,2,255
+221796,Richard Waterman,2025-04-01,191615,WI Lincoln Town Board Supervisor (Polk County),Nonpartisan,603,Y,General Election,false,2,1545
+379224,Derek Wyszynski,2025-11-04,366045,WA East County Park and Recreation District Commissioner Board At-large Position 1,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+411353,Robin Matthews,2025-11-04,406537,OH New Miami Village Council At-large,Nonpartisan,65,Y,General Election,false,4,437
+240709,Janet Hood,2025-04-01,205168,IL Heartland Community College District 540 Trustee Board At-large,Nonpartisan,19216,Y,General Election,false,3,67343
+410786,Michael Cope,2025-11-04,406282,OH Lebanon City Council At-large,Nonpartisan,1910,Y,General Election,false,4,9500
+290689,Jolie Lippitt,2025-08-05,243438,KS Topeka City Council 1,Nonpartisan,116,N,Primary,false,2,803
+259983,Bruce Flack,2025-04-01,215306,IL Wood River Township Trustee Board At-large (Madison County),Nonpartisan,1103,N,General Election,false,4,8278
+259935,Larry Griffith,2025-04-01,215281,IL New Douglas Township Highway Commissioner (Madison County),Independent,uncontested,Y,General Election,true,1,uncontested
+415277,Bradley Herman,2025-11-04,408346,OH Paint Township Trustee Board At-large (Wayne County),Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+258190,Lyman Walter,2025-04-01,214261,IL Haw Creek Township Supervisor (Knox County),Independent,uncontested,Y,General Election,true,1,uncontested
+430772,Terri Kratz,2025-11-04,414722,IA Whiting City Council At-large Special,Nonpartisan,uncontested,Y,Special Election General,true,1,uncontested
+143667,Linda Oliver,2025-03-04,110774,CO Dillon Town Council Replacement,Nonpartisan,196,Y,Special Election General,false,3,681
+416188,Jonathan Montag,2025-11-04,408751,OH Berea City Council Ward 1,Nonpartisan,209,N,General Election,false,1,535
+423368,Donna Bierly,2025-11-04,411167,NC Peletier Town Council,Nonpartisan,90,Y,General Election,false,3,248
+224202,Neal Riley,2025-04-01,194355,OK City of Watonga Councilmember At Large Special,Nonpartisan,183,Y,Special Election General,false,1,376
+285513,Daniel Bunnell,2025-05-20,239792,OR Southwestern Polk RFPD Position 3,Nonpartisan,621,N,General Election,false,1,1278
+410784,F. James Norris II,2025-11-04,406282,OH Lebanon City Council At-large,Nonpartisan,1523,N,General Election,false,4,9500
+390805,James Salisbury,2025-11-04,386687,ID City of Homedale Councilman,Nonpartisan,60,N,General Election,false,2,251
+379916,Allan Tone,2025-11-04,366745,WA Port of Orcas District Commissioner Board Position 1,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+240978,Aaron Biggs,2025-04-01,205363,IL Danville Area Community College District 507 Trustee Board At-large,Nonpartisan,1230,N,General Election,false,2,8617
+390106,Derek Rush,2025-11-18,419883,SC Smoaks Town Council At-large,Nonpartisan,22,Y,Runoff,false,1,35
+428876,Trevor Bentler,2025-11-04,413712,IA Houghton City Council At-large,Nonpartisan,uncontested,Y,General Election,true,5,uncontested
+222144,David Stange,2025-04-01,191934,WI Calamus Town Board Supervisor 1 (Dodge County),Nonpartisan,242,Y,General Election,false,1,372
+49495,David Adams,2025-06-10,243562,MA Southbridge Town Council,Nonpartisan,651,Y,General Election,false,1,2096
+381591,Ginger Miller,2025-11-04,367819,NM Eastern New Mexico University-Roswell Community College District Board Special 1,Nonpartisan,uncontested,Y,Special Election General,true,1,uncontested
+414333,Brad Core,2025-11-04,407931,OH Amanda Township Trustee Board At-large (Allen County) Special,Nonpartisan,uncontested,Y,Special Election General,true,1,uncontested
+215686,Kevin Vodak,2025-04-01,186868,"WI Baraboo School District, At-large",Nonpartisan,2530,N,General Election,false,2,12572
+240710,Laurie Bergner,2025-04-01,205168,IL Heartland Community College District 540 Trustee Board At-large,Nonpartisan,18836,Y,General Election,false,3,67343
+222429,Traci Beiersdorff,2025-04-01,192176,WI Gingles Town Treasurer (Ashland County),Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+220117,Kevin Viney,2025-04-01,190171,WI Burke Town Board Chairperson (Dane County),Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+271706,Forrest Collins,2025-05-03,223346,TX Aledo Independent School District Place 4,Nonpartisan,1898,Y,General Election,false,1,2914
+410038,Joe Blomquist,2025-11-04,405947,OH Deer Park City Council At-large,Nonpartisan,602,N,General Election,false,3,3133
+422744,Don Cover,2025-11-04,410776,NC Cooleemee Town Council,Nonpartisan,6,N,General Election,false,2,74
+104559,Tonya Williams,2025-04-01,216338,IL Clover Public Library District Trustee Board At-large,Nonpartisan,234,Y,General Election,false,2,713
+247561,Heather Lamb,2025-04-01,208137,IL Indianola Village Clerk,Other,uncontested,Y,General Election,true,1,uncontested
+217373,Jennifer Trost,2025-04-01,187920,WI La Crosse Common Council 10,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+378204,Alana McCoy,2025-11-04,367135,WA Mayor of Duvall,Nonpartisan,1054,N,General Election,false,1,2978
+428874,Kyle Holtkamp,2025-11-04,413712,IA Houghton City Council At-large,Nonpartisan,uncontested,Y,General Election,true,5,uncontested
+416189,Vance Redding,2025-11-04,408751,OH Berea City Council Ward 1,Nonpartisan,326,Y,General Election,false,1,535
+273655,James Galloway,2025-05-03,224325,TX Port Isabel City Commission Place 1,Nonpartisan,194,N,General Election,false,1,439
+414387,Gabe Sinn,2025-11-04,407954,OH Latty Township Trustee Board At-large (Paulding County),Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+245051,Kate Garrett,2025-04-01,206690,IL Batavia City Clerk,Independent,uncontested,Y,General Election,true,1,uncontested
+361229,Bruce Davis,2025-11-04,408024,OH York Township Trustee Board At-large (Union County),Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+390728,Earl Henderson,2025-11-04,412160,GA Ringgold City Council At-large,Nonpartisan,417,Y,General Election,false,2,1026
+244112,Kara Cox,2025-04-01,206299,"IL Northwestern Community Unit School District 2, At-large",Nonpartisan,uncontested,Y,General Election,true,3,uncontested
+388617,Kathleen Fike,2025-11-04,385438,MT Mayor of Whitehall,Nonpartisan,33,N,General Election,false,1,194
+407408,John Klaehn,2025-11-04,404930,OH Ottawa County Municipal Court Term starts 1/1/2026,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+273313,Kristen Kromer,2025-05-03,224151,TX Krugerville City Council Place 5,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+248945,Randy Linthicum,2025-04-01,208943,IL New Baden Village President,Independent,287,N,General Election,false,1,702
+393729,Cheryl Reese,2025-11-04,387960,NY Town of Minden Supervisor,Conservative,267,N,General Election,false,1,617
+414072,Walter Wiant,2025-11-04,407818,OH Neave Township Trustee Board At-large (Darke County),Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+142837,Peter Sobol,2025-02-18,110214,"WI Monona Grove School District, At-large",Nonpartisan,998,Y,Primary,false,4,4652
+143900,Grant Izzi,2025-03-11,110940,FL St. Pete Beach City Commissioner Board 2,Nonpartisan,241,N,General Election,false,1,666
+219272,David Korth,2025-04-01,189444,WI Washington Town Board Chairperson (Shawano County),Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+223089,Barbara Barker,2025-04-01,192756,WI Armstrong Creek Town Board Chairperson (Forest County),Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+411305,Bette Westling,2025-11-04,406520,OH New Alexandria Village Council At-large,Nonpartisan,uncontested,Y,General Election,true,4,uncontested
+108802,Andrew Bell,2025-11-04,386687,ID City of Homedale Councilman,Nonpartisan,84,Y,General Election,false,2,251
+379566,Dominik Faunce,2025-11-04,366380,WA King County Fire  (Woodinville Fire and Rescue) Commissioner Board Position 4 36,Nonpartisan,7555,Y,General Election,false,1,11283
+142721,Danta Robinson,2025-02-11,110100,OK Millwood Public Schools Board of Education Office 5,Nonpartisan,126,N,Primary,false,1,536
+426195,Charlie Bowles,2025-11-04,412243,GA Thomson City Council  Seat A 1,Nonpartisan,302,Y,General Election,false,1,523
+291272,Paige Albrecht,2025-11-04,369552,UT Lehi Mayor,Nonpartisan,6873,N,General Election,false,1,14782
+398155,Nicky Krajacic,2025-11-04,411167,NC Peletier Town Council,Nonpartisan,59,Y,General Election,false,3,248
+143668,Claudia Pillow,2025-03-04,110774,CO Dillon Town Council Replacement,Nonpartisan,114,N,Special Election General,false,3,681
+425690,Charles Holloway,2025-11-04,411976,GA Louisville City Council At-large Michelle Reaves' seat Special,Nonpartisan,482,Y,Special Election General,false,1,734
+377253,Eric Greene,2025-11-04,364205,WA Central Kitsap School District school board 5,Nonpartisan,9085,Y,General Election,false,1,16488
+273544,Traci Dennison,2025-05-03,224272,TX Onalaska City Council At-large,Nonpartisan,81,N,General Election,false,3,596
+253309,Russell Boyer,2025-04-01,211429,IL Ridott Township Highway Commissioner (Stephenson County),Independent,uncontested,Y,General Election,true,1,uncontested
+283649,Michael Brand,2025-05-03,238436,"TX San Saba Independent School District, At-large",Nonpartisan,292,N,General Election,false,2,1119
+67731,Karen Morgan,2025-04-01,205840,"IL Thomasboro Community Consolidated School District 130, At-large",Nonpartisan,uncontested,Y,General Election,true,4,uncontested
+290474,Kent Mocabee,2025-08-05,243344,WA Sedro-Woolley City Council Ward 6,Nonpartisan,34,N,Primary,false,2,274
+217544,Eli Wickman,2025-04-01,193323,WI Menasha Common Council 3,Nonpartisan,271,N,General Election,false,1,613
+391538,Lorena Loayza,2025-11-04,386865,NJ Jersey City Council Ward B,Nonpartisan,1476,N,General Election,false,1,8256
+244697,Deanne Anglese,2025-04-01,206484,IL Albany Village Clerk,Independent,uncontested,Y,General Election,true,1,uncontested
+290069,Pam Orebaugh,2025-08-05,243215,WA Central Valley School District school board 5,Nonpartisan,6841,Y,Primary,false,2,18493
+361902,Jeovanny Rodriguez,2025-11-04,418542,MA Lawrence Councilor At Large,Nonpartisan,5179,Y,General Election,false,3,22654
+291770,Emily Chandler,2025-08-12,243797,UT Tooele City Council,Nonpartisan,1380,Y,Primary,false,4,7806
+378366,Annie Vela,2025-11-04,365226,WA Ilwaco City Council Position 2,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+423369,Ralph Weese,2025-11-04,411167,NC Peletier Town Council,Nonpartisan,46,N,General Election,false,3,248
+723299,Zeke Cortez,2025-11-04,553597,CO Loveland City Council Ward 4,Nonpartisan,3950,Y,General Election,false,1,7092
+273956,Ashton Bulman,2025-05-03,224480,TX Universal City City Council At-large,Nonpartisan,427,Y,General Election,false,3,1916
+142858,Cory Miller,2025-11-04,410642,NC Mayor of Belmont,Nonpartisan,1288,N,General Election,false,1,3572
+325356,Derrick Perdue,2025-08-26,274137,AL Foley City Council 5,Nonpartisan,75,N,General Election,false,1,309
+424528,Judy King,2025-11-04,410400,TX Mayor of Enchanted Oaks,Nonpartisan,110,Y,General Election,false,1,187
+379782,Fortitude Israel,2025-11-04,366606,WA Stevens County Fire  Commissioner Board Position 2 Special 8,Nonpartisan,uncontested,Y,Special Election General,true,1,uncontested
+245674,Sameer Gupta,2025-04-01,207069,IL Carpentersville Village Trustee Board At-large,Independent,1056,Y,General Election,false,3,5284
+388227,Gaylen Monsen,2025-11-04,385220,MT Broadview Town Commission At-large,Nonpartisan,4,N,General Election,false,3,75
+324890,Oscar Santiago,2025-08-26,273905,AL Hanceville City Council Place 4,Nonpartisan,160,N,General Election,false,1,415
+378712,Michael Fitzpatrick,2025-11-04,365548,WA Poulsbo City Council Position 5,Nonpartisan,2360,Y,General Election,false,1,4063
+249841,Regina Rusciolelli,2025-04-01,209461,IL Riverton Village Trustee Board At-large,Independent,190,Y,General Election,false,3,764
+426179,Deborah Rhodes,2025-11-04,412235,GA Tennille City Council Post 3,Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+388228,Joy Swartz,2025-11-04,385220,MT Broadview Town Commission At-large,Nonpartisan,25,Y,General Election,false,3,75
+242481,Amber Seder,2025-04-01,205840,"IL Thomasboro Community Consolidated School District 130, At-large",Nonpartisan,uncontested,Y,General Election,true,4,uncontested
+259984,Casey Logan,2025-04-01,215306,IL Wood River Township Trustee Board At-large (Madison County),Nonpartisan,1314,N,General Election,false,4,8278
+283832,Vanessa Ervin,2025-05-03,238525,TX Big Sandy City Council At-large,Nonpartisan,51,N,General Election,false,2,181
+427408,Jared Vander Sanden,2025-11-04,412920,"IA West Lyon Community School District, 1",Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+429115,Troy Mayland,2025-11-04,413823,IA Mayor of Lakeside,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+60138,Robert Anderson,2025-11-04,386325,SC Santee Town Council At-large,Nonpartisan,86,Y,General Election,false,2,218
+215551,Andrew Carlson,2025-04-01,193085,WI Fox Point-Bayside School Board,Nonpartisan,1111,N,General Election,false,2,4851
+274028,Leonard Reed,2025-05-03,224515,TX Mayor of Willis,Nonpartisan,108,N,General Election,false,1,249
+215553,Rebecca Wahlberg,2025-04-01,193085,WI Fox Point-Bayside School Board,Nonpartisan,2059,Y,General Election,false,2,4851
+378987,David Fritz,2025-11-04,365810,WA Washougal City Council Position 3,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+255946,Joshua Mammen,2025-04-01,212958,IL Waltham Township Trustee Board At-large (LaSalle County),Independent,69,N,General Election,false,4,517
+426054,Kurt Wilson,2025-12-02,470134,GA Mayor of Roswell,Nonpartisan,8593,N,Runoff,false,1,18352
+291774,Spencer Peck,2025-08-12,243797,UT Tooele City Council,Nonpartisan,1481,Y,Primary,false,4,7806
+409414,Lydia DeGeorge,2025-11-04,405644,OH Bay Village Village Council Ward 2,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+413871,Paul Loar II,2025-11-04,407730,OH Madison Township Trustee Board At-large (Pickaway County),Nonpartisan,130,N,General Election,false,2,552
+245210,Brant McFarland,2025-04-01,206785,IL Benld City Council Ward 3,Independent,uncontested,Y,General Election,true,1,uncontested
+290452,Carmen Rivera,2025-11-04,367269,WA Renton City Council Position 2,Nonpartisan,10687,Y,General Election,false,1,18660
+249230,Aimee Voss,2025-04-01,209106,IL Odell Village Trustee Board At-large,Independent,uncontested,Y,General Election,true,3,uncontested
+215719,Jason Musil,2025-04-01,186884,"WI Birchwood School District, At-large",Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+423265,Robert King,2025-11-04,411114,NC Mount Olive Town Council 1,Nonpartisan,25,N,General Election,false,1,127
+247315,Franklin Boggio,2025-04-01,208000,IL Hennepin Village Trustee Board At-large Special,Independent,uncontested,Y,Special Election General,true,2,uncontested
+242998,Matthew Blakemore,2025-04-01,205977,"IL Streator Township High School District 40, At-large",Nonpartisan,880,N,General Election,false,3,4309
+218646,Carleen Benninger,2025-04-01,188877,WI Portland Town Treasurer (Dodge County),Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+250828,Samuel Italiano,2025-04-01,210010,IL Troy City Council Ward 2,Independent,83,Y,General Election,false,1,145
+379807,Shannon Whitford-Ahlers,2025-11-04,366633,WA Whatcom County Fire  Commissioner Board Position 3 1,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+384732,Colin Gaul,2025-11-04,368982,NJ Morris Township Board of Education Morris School District,Nonpartisan,3944,N,General Election,false,2,15038
+415542,Nicholas Dailey,2025-11-04,408468,OH Franklin Township Trustee Board At-large (Brown County),Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+381858,Annette Tecube,2025-11-04,367952,"NM Dulce Independent Schools, At-large",Nonpartisan,84,N,General Election,false,3,952
+220740,Kristy Ament,2025-04-01,190703,WI Harding Town Clerk (Lincoln County),Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+221126,Steve Styczynski,2025-04-01,191047,WI Rusk Town Board Supervisor 1 (Rusk County),Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+325065,Reginald Wilson,2025-08-26,273982,AL Midfield City Council Place 1,Nonpartisan,491,Y,General Election,false,1,684
+765920,Emily Francis,2025-11-04,571453,CO Fort Collins Mayor (RCV Final Round),Nonpartisan,26310,Y,General Election,false,1,46770
+412066,Mackenzee Litteral,2025-11-04,406877,OH South Charleston Village Commission At-large,Nonpartisan,120,Y,General Election,false,2,499
+252728,William Wade,2025-04-01,211090,IL Wheatfield Township Supervisor (Clinton County),Independent,uncontested,Y,General Election,true,1,uncontested
+533990,George Grall,2025-12-13,470195,TX Joshua City Council Place 1,Nonpartisan,18,N,Special Election General,false,1,92
+341306,Lesa Dollar,2025-09-09,300687,OH Cleveland City Council Ward 1,Nonpartisan,69,N,Primary,false,2,1771
+379628,Devin Peterson,2025-11-04,366437,WA Lewis County Fire  (Pe Ell) Commissioner Board Position 1 Special 11,Nonpartisan,uncontested,Y,Special Election General,true,1,uncontested
+383117,Bryce Clark,2025-11-04,368449,KS Conway Springs Mayor,Nonpartisan,17,N,General Election,false,1,132
+427054,M. Guinn,2025-11-04,412714,"IA Moulton-Udell Community School District, At-large",Nonpartisan,115,Y,General Election,false,2,410
+379855,Matthew Elder,2025-11-04,366686,WA Grant County Port  Commissioner Board Position 2 5,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+290072,Elena Olmstead,2025-11-04,367023,WA Grandview School District school board 5,Nonpartisan,900,Y,General Election,false,1,1303
+290247,Tim Dollar,2025-08-05,243272,"WA Chewelah City Council, Special 6",Nonpartisan,129,Y,Special Election Primary,false,2,656
+285853,Jesenia Robles,2025-05-20,240103,"OR Hood River County School District School Board Member, Position 4",Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+288585,Catherine DiPietro,2025-06-10,241821,ME Bridgton Water District Board At-large,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+247314,Chelsi Straughn-niewinski,2025-04-01,208000,IL Hennepin Village Trustee Board At-large Special,Independent,uncontested,Y,Special Election General,true,2,uncontested
+426276,Walter Brown,2025-12-02,420159,GA Vienna City Council At-large Walter Brown's seat,Nonpartisan,113,N,Runoff,false,1,286
+428875,Marty Bentler,2025-11-04,413712,IA Houghton City Council At-large,Nonpartisan,uncontested,Y,General Election,true,5,uncontested
+247573,John Tatooles,2025-04-01,208145,IL Inverness Village President,Independent,982,Y,General Election,false,1,1514
+390845,Kody Daffer,2025-11-04,386702,ID Nampa City Council 1,Nonpartisan,660,N,General Election,false,1,1615
+427053,Jesse Replogle,2025-11-04,412714,"IA Moulton-Udell Community School District, At-large",Nonpartisan,149,Y,General Election,false,2,410
+249301,Dan Lawson,2025-04-01,209140,IL Oneida City Council Ward 2 Special,Independent,uncontested,Y,Special Election General,true,2,uncontested
+411631,Dale Dotson,2025-11-04,406679,OH Parma City Council Ward 3,Independent,408,N,General Election,false,1,1226
+232019,Dana Munsey,2025-11-04,363533,VA Pembroke Mayor,Independent,220,Y,General Election,false,1,404
+381867,Selenarose Hammond,2025-11-04,367952,"NM Dulce Independent Schools, At-large",Nonpartisan,84,N,General Election,false,3,952
+381812,Rebecca Montoya,2025-11-04,367935,"NM Central Consolidated Schools, 1",Nonpartisan,418,Y,General Election,false,1,740
+425322,Warren Simmons,2025-11-04,411772,GA Doraville City Council  Post 3 1,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+261183,Rob Wiebenga,2025-04-01,215960,IL Fenton Township Trustee Board At-large (Whiteside County),Independent,uncontested,Y,General Election,true,4,uncontested
+290473,Karl de Jong,2025-08-05,243344,WA Sedro-Woolley City Council Ward 6,Nonpartisan,94,Y,Primary,false,2,274
+245671,Dennis Ernest,2025-04-01,207069,IL Carpentersville Village Trustee Board At-large,Independent,918,N,General Election,false,3,5284
+430826,Clint Deardorff,2025-11-04,414757,IA Yale City Council At-large,Nonpartisan,uncontested,Y,General Election,true,3,uncontested
+431978,Lee Price,2025-11-04,415368,ID Rexburg City Council,Nonpartisan,317,N,General Election,false,3,6287
+412611,Jason Stoops,2025-11-04,407158,OH Wilmington City Council At-large,Independent,506,N,General Election,false,3,2753
+285707,Glenn Raschke,2025-05-20,239963,"OR Clatskanie Park & Recreation Dist. Parks & Recreation Board Director, Position 5",Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+423857,Corey Pursche,2025-11-04,411458,NC Youngsville Town Council,Nonpartisan,121,N,General Election,false,3,641
+261891,Riva Walsh,2025-04-01,216338,IL Clover Public Library District Trustee Board At-large,Nonpartisan,225,N,General Election,false,2,713
+426037,William Bomar,2025-11-04,412160,GA Ringgold City Council At-large,Nonpartisan,456,Y,General Election,false,2,1026
+382798,Douglas Murphy,2025-11-04,368338,KS Harper City Council,Nonpartisan,115,N,General Election,false,3,691
+285268,Ann Gaffney,2025-05-20,239544,"OR Ashland School District 5 Director, Position 1",Nonpartisan,2397,N,General Election,false,1,6773
+258299,Dennis Luckey,2025-04-01,214330,IL Caledonia Township Trustee Board At-large (Boone County),Independent,uncontested,Y,General Election,true,4,uncontested
+249839,James Mileham,2025-04-01,209461,IL Riverton Village Trustee Board At-large,Independent,192,Y,General Election,false,3,764
+429550,Russ Weavering,2025-11-04,414054,IA Mitchell City Council At-large,Nonpartisan,uncontested,Y,General Election,true,3,uncontested
+259610,John Signer,2025-04-01,215103,IL Berreman Township Trustee Board At-large (Jo Daviess County),Independent,uncontested,Y,General Election,true,4,uncontested
+427051,Calvin Welch,2025-11-04,412714,"IA Moulton-Udell Community School District, At-large",Nonpartisan,79,N,General Election,false,2,410
+240238,Bryce Buckles,2025-04-01,204871,IL Edwards County Road District 6 Commissioner,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+245529,Anita Mital,2025-04-01,206977,IL Burr Ridge Village Trustee Board At-large,Independent,uncontested,Y,General Election,true,3,uncontested
+127260,Matthew Mann,2025-11-04,412707,"IA Montezuma Community School District, At-large",Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+140250,Eusebio Trujillo III,2025-11-04,410453,TX Lowry Crossing City Council Ward 3,Nonpartisan,uncontested,Y,General Election,true,2,uncontested
+430355,Paul Halbach,2025-11-04,414502,IA Mayor of Stacyville,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+425040,Gena Harris,2025-11-04,411604,GA Mayor of Blackshear,Nonpartisan,240,N,General Election,false,1,1008
+291708,Laurel Workman,2025-11-04,369446,UT Spring City Council,Nonpartisan,299,Y,General Election,false,2,776
+409957,Terry Moisio Jr.,2025-11-04,405898,OH Conneaut City Council President,Nonpartisan,uncontested,Y,General Election,true,1,uncontested
+17020,Bruce Harrell,2025-11-04,385189,WA Seattle Mayor,Nonpartisan,136920,N,General Election,false,1,276762

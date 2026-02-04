@@ -1,0 +1,1001 @@
+hubspot_id,state,office_level,office_type,candidate_office,election_date,is_uncontested,viability_score,general_election_result,general_votes_received,total_general_votes_cast
+28522596762,Oklahoma,LOCAL,School Board,Lane Elementary School Board,2025-04-01,UnContested,4.9800000000,Won General,null,null
+29498365592,Illinois,LOCAL,School Board,Schaumburg Community Consolidated 54 School Board,2025-04-01,Contested,4.3200000000,Won General,7327.0000000000,33987.0000000000
+34741755170,Texas,LOCAL,School Board,Red Lick Independent School Board,2025-11-04,UnContested,3.6500000000,Lost General,109.0000000000,263.0000000000
+29560926293,Wisconsin,LOCAL,Clerk/Treasurer,Oconto County: Underhill Town Clerk,2025-04-01,UnContested,4.9900000000,Won General,null,null
+29645657518,Illinois,CITY,Mayor,Dawson Village President,2025-04-01,UnContested,4.9900000000,Won General,null,null
+29354286247,Missouri,CITY,City Council,Ballwin City Council - Ward 2,2025-04-08,Contested,1.7200000000,Lost General,459.0000000000,1049.0000000000
+29201084550,Wisconsin,LOCAL,School Board,La Crosse School Board,2025-04-01,Contested,1.2000000000,Lost General,6131.0000000000,52870.0000000000
+35424553378,Washington,CITY,City Council,Snohomish City Council - Position 6,2025-11-04,Contested,0.9900000000,Won General,1309.0000000000,2380.0000000000
+27991886657,Illinois,LOCAL,School Board,Worth 127 School Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+28670619976,Illinois,LOCAL,School Board,Palos Community Consolidated 118 School Board,2025-04-01,Contested,2.6900000000,Won General,2496.0000000000,11910.0000000000
+28960766050,Illinois,CITY,Town Council,McLean County: Saybrook Village Board ,2025-04-01,Contested,1.3700000000,Lost General,40.0000000000,339.0000000000
+34694088728,Ohio,TOWNSHIP,Town Council,Delaware County: Delaware Township Trustee,2025-11-04,UnContested,3.0700000000,Won General,null,null
+30316118105,Illinois,LOCAL,Town Council,Kendall County: Little Rock Township Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+31019707790,Illinois,LOCAL,Town Council,Whiteside County: Prophetstown Township Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+31473025311,Wisconsin,LOCAL,City Council,Chippewa County: Lafayette Town Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+30303024712,Illinois,CITY,City Council,Troy City Council - Ward 1,2025-04-01,UnContested,4.9900000000,Won General,null,null
+28713476710,Wisconsin,LOCAL,School Board,Wisconsin Rapids School Board,2025-04-01,Contested,3.8100000000,Won General,6482.0000000000,19223.0000000000
+30082300456,Illinois,CITY,City Council,Highland Park City Council,2025-04-01,Contested,3.0500000000,Lost General,2377.0000000000,5404.0000000000
+29634245999,Illinois,LOCAL,Town Council,Kane County: Big Rock Township Supervisor,2025-04-01,UnContested,4.9900000000,Won General,null,null
+30784799264,Illinois,LOCAL,Other,Oglesby Public Library District Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+29811773357,Wisconsin,CITY,City Council,Edgerton City Council - District 1,2025-04-01,UnContested,4.9900000000,Won General,null,null
+30927753998,Wisconsin,CITY,Town Council,Oconomowoc Lake Village Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+28306816889,Illinois,CITY,Mayor,Wilsonville President,2025-04-09,Contested,0.7500000000,Lost General,null,null
+30770106128,Illinois,CITY,Mayor,Lebanon City Mayor,2025-04-01,Contested,1.3800000000,Lost General,64.0000000000,754.0000000000
+35135016794,Ohio,REGIONAL,School Board,Miami County Educational Service Center Board,2025-11-04,UnContested,2.8800000000,Not on Ballot,null,null
+31017509474,Illinois,LOCAL,School Board,Johnsburg 12 School Board,2025-04-01,Contested,2.6900000000,Lost General,983.0000000000,6078.0000000000
+27985139507,Oklahoma,LOCAL,School Board,Oklahoma City School Board - Chair,2025-04-01,Contested,1.5800000000,Lost General,221.0000000000,486.0000000000
+32534323588,Washington,CITY,City Council,Moses Lake City Council - Position 4,2025-11-04,Contested,1.6200000000,Lost General,null,null
+29720314188,Illinois,LOCAL,Town Council,Madison County: Nameoki Township Supervisor,2025-04-01,Contested,3.8800000000,Won General,530.0000000000,845.0000000000
+35133003648,Ohio,LOCAL,School Board,Berne Union Local School Board,2025-11-04,UnContested,2.8800000000,Not on Ballot,null,null
+30795320142,Illinois,Local,School Board,School Board,2025-04-01,UnContested,4.9900000000,Won General,null,null
+19532405282,WI,County,Other,Supervisor,null,UnContested,3.5600000000,Lost General,null,null
+29329896993,Illinois,LOCAL,School Board,Pekin 108 School Board,2025-04-01,Contested,3.8700000000,Lost General,1627.0000000000,9524.0000000000
+29213116245,Illinois,LOCAL,School Board,Illini Central 189 School Board,2025-04-01,Contested,0.9500000000,Lost General,124.0000000000,2718.0000000000
+31516047763,Wisconsin,LOCAL,Clerk/Treasurer,Fond du Lac County: Forest Town Clerk,2025-04-01,UnContested,5.0000000000,Won General,null,null
+27885458613,Illinois,LOCAL,School Board,Riley School District 18,2025-04-01,UnContested,5.0000000000,Won General,null,null
+31471626267,Wisconsin,CITY,Town Council,Baldwin Village Board,2025-04-01,Contested,4.3400000000,Won General,790.0000000000,2662.0000000000
+30937254068,Wisconsin,CITY,City Council,De Pere City Council - District 1,2025-04-01,UnContested,5.0000000000,Won General,null,null
+28919751227,Illinois,Local,Utilities Commissioner,Itasca Library Board Trustee,2025-04-01,UnContested,5.0000000000,Won General,null,null
+29258069256,Illinois,LOCAL,Utilities Commissioner,East Dundee & Countryside Fire District Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+34812107270,Ohio,CITY,Town Council,Middleport Village Council,2025-11-04,UnContested,3.0700000000,Not on Ballot,null,null
+31202222451,Illinois,LOCAL,Other,Chatham Area Library District Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+30444873136,Wisconsin,LOCAL,School Board,Stevens Point Area School Board,2025-04-01,Contested,1.4500000000,Won General,9077.0000000000,53898.0000000000
+35449105992,Georgia,LOCAL,School Board,Calhoun City School Board - Post 1,2025-11-04,UnContested,3.4900000000,Won General,null,null
+31993985707,Texas,LOCAL,School Board,Vega Independent School Board,2025-05-03,UnContested,4.0000000000,Not on Ballot,null,null
+30370089268,Illinois,LOCAL,Town Council,Sangamon County: Illiopolis Township Clerk,2025-04-01,Contested,2.0300000000,Lost General,34.0000000000,269.0000000000
+30466654332,Illinois,LOCAL,School Board,Illini Bluffs 327 School Board,2025-04-01,Contested,4.3200000000,Won General,380.0000000000,1352.0000000000
+31398940519,Illinois,LOCAL,School Board,Murphysboro 186 School Board - Remaining Congressional Townships,2025-04-01,Contested,1.2000000000,Lost General,185.0000000000,832.0000000000
+28176594740,Illinois,LOCAL,School Board,Thornton 154 School Board,2025-04-01,Contested,1.5200000000,Lost General,1708.0000000000,35867.0000000000
+28005523254,Oklahoma,CITY,City Council,Bethany City Council - Ward 3,2025-04-01,Contested,3.4800000000,Lost General,297.0000000000,624.0000000000
+31385458272,Illinois,LOCAL,Other,Cass County: Hagener Township Highway Commission,2025-04-01,Contested,1.9100000000,Lost General,82.0000000000,166.0000000000
+35674087224,Ohio,CITY,City Council,Marysville City Council - At Large,2025-11-04,UnContested,2.6000000000,Not on Ballot,null,null
+31028257064,Illinois,LOCAL,Clerk/Treasurer,Cook County: Palos Township Clerk,2025-04-01,UnContested,5.0000000000,Won General,null,null
+29820636269,Wisconsin,LOCAL,Clerk/Treasurer,Brown County: Holland Town Chair,2025-04-01,Contested,3.6000000000,Won General,468.0000000000,731.0000000000
+33803544435,Ohio,LOCAL,Town Council,Fayette County: Union Township Trustee,2025-11-04,UnContested,3.0600000000,Won General,null,null
+28935178037,Illinois,LOCAL,Town Council,St. Clair County: Sugar Loaf Township Board,2025-04-01,Contested,3.6600000000,Won General,338.0000000000,1869.0000000000
+28597136726,Florida,CITY,City Council,Palm Beach Gardens City Council - Group 4,2025-03-11,Contested,2.2300000000,Won General,2711.0000000000,4900.0000000000
+29131328830,Illinois,LOCAL,School Board,Community Consolidated 15 School Board,2025-04-01,Contested,3.5200000000,Lost General,5626.0000000000,33386.0000000000
+30684369577,Illinois,LOCAL,Utilities Commissioner,Fremont Public Library District Board,2025-04-01,Contested,3.5800000000,Lost General,1706.0000000000,11251.0000000000
+34636612444,Ohio,CITY,Town Council,Glenwillow Village Council - Ward 2,2025-11-04,UnContested,2.5900000000,Won General,10.0000000000,30.0000000000
+29163172008,Illinois,Local,School Board,Sunnybrook School District 171,2025-04-01,Contested,1.2600000000,Lost General,226.0000000000,3429.0000000000
+35155508779,Ohio,TOWNSHIP,Town Council,Coshocton County: White Eyes Township Trustee,2025-11-04,UnContested,3.0700000000,Won General,null,null
+28870978632,Oklahoma,LOCAL,School Board,Fargo-Gage School Board - Office 1,2025-04-01,Contested,5.0000000000,Won General,null,null
+34120588399,Washington,CITY,Mayor,Milton City Council - Position 2,2025-11-04,Contested,1.0300000000,Won General,null,null
+34730291849,Washington,CITY,City Council,Pateros City Council - Position 2,2025-11-04,UnContested,4.9900000000,Won General,null,null
+30745638967,Wisconsin,CITY,City Council,Evansville City Council - District 4,2025-04-01,UnContested,3.6100000000,Won General,null,null
+30111369805,Illinois,LOCAL,School Board,Kirby 140 School Board,2025-04-01,Contested,2.8700000000,Won General,3170.0000000000,19360.0000000000
+29721195562,Wisconsin,CITY,City Council,Racine City Council - District 7,2025-04-01,UnContested,5.0000000000,Won General,null,null
+34695167839,Washington,LOCAL,Other,King County Public Hospital District 2 Board - Position 5,2025-11-04,Contested,2.7900000000,Won General,null,null
+30770102630,Oklahoma,LOCAL,School Board,Frontier School Board,2025-04-01,Contested,1.5800000000,Lost General,22.0000000000,212.0000000000
+28768333648,Illinois,LOCAL,School Board,Morris School Board 101,2025-04-01,Contested,1.2600000000,Lost General,825.0000000000,8745.0000000000
+31164963399,Illinois,CITY,Clerk/Treasurer,Hometown City Clerk,2025-04-01,Contested,2.6300000000,Lost General,208.0000000000,706.0000000000
+30785026891,Illinois,Local,School Board,school board,2025-04-01,Contested,2.4200000000,Won General,305.0000000000,1792.0000000000
+35424553378,Washington,CITY,City Council,Snohomish City Council - Position 6,2025-11-04,Contested,0.9900000000,Won General,1309.0000000000,2380.0000000000
+28103439382,Illinois,LOCAL,School Board,Edwardsville 7 School Board,2025-04-01,Contested,3.0000000000,Lost General,1927.0000000000,17227.0000000000
+29992742204,Wisconsin,LOCAL,School Board,Wauwatosa School Board - Seat 7,2025-04-01,Contested,3.7400000000,Won General,10724.0000000000,19871.0000000000
+29578599515,Florida,CITY,City Council,Fort Walton Beach City Council,2025-03-11,Contested,0.8800000000,Lost General,null,null
+31386255435,Illinois,LOCAL,Town Council,Carroll County: Elkhorn Grove Township Supervisor,2025-04-01,UnContested,5.0000000000,Won General,null,null
+31085411094,Illinois,LOCAL,School Board,North Boone 200 School Board,2025-04-01,Contested,4.3200000000,Lost General,464.0000000000,4005.0000000000
+33266162957,New York,LOCAL,School Board,Rush-Henrietta School Board,2025-05-20,UnContested,5.0000000000,Won General,1989.0000000000,3696.0000000000
+28187800464,Oklahoma,CITY,City Council,Bethany City Council - Ward 2,2025-04-01,UnContested,2.3000000000,Won General,null,null
+35160243265,Michigan,CITY,Clerk/Treasurer,Detroit City Clerk,2025-11-04,UnContested,2.1200000000,Not on Ballot,null,null
+30830060054,Illinois,LOCAL,School Board,Central 301 School Board,2025-04-01,Contested,1.0800000000,Won General,1197.0000000000,9163.0000000000
+28596352163,Illinois,CITY,Town Council,East Dundee Village President,2025-04-01,UnContested,4.9900000000,Won General,445.0000000000,1378.0000000000
+29394505043,Wisconsin,CITY,Town Council,Town Board,2025-04-01,Contested,3.9000000000,Won General,1139.0000000000,3667.0000000000
+33753651846,Ohio,CITY,Town Council,Marblehead Village Council,2025-11-04,UnContested,3.0700000000,Won General,null,null
+29641580312,Florida,CITY,Mayor,Belleair Bluffs City Mayor,2025-03-11,UnContested,4.9900000000,Won General,null,null
+31415212040,Illinois,LOCAL,Other,Waynesville Library District Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+30959770019,Illinois,CITY,Town Council,Flossmoor Village Council,2025-04-01,Contested,1.3700000000,Lost General,556.0000000000,8189.0000000000
+28594378548,Oklahoma,LOCAL,School Board,Coyle School Board,2025-04-01,Contested,3.5800000000,Lost General,80.0000000000,204.0000000000
+31125342253,Illinois,LOCAL,Town Council,Grundy County: Highland Township Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+28315993136,Oklahoma,LOCAL,School Board,Mounds School Board,2025-04-01,UnContested,3.5800000000,Won General,null,null
+29977398582,Wisconsin,CITY,City Council,Delafield City Council - District 1,2025-04-01,UnContested,5.0000000000,Won General,null,null
+29550792289,Illinois,LOCAL,Town Council,Lake County: Warren Township Council,2025-04-01,UnContested,5.0000000000,Won General,null,null
+31411389246,Wisconsin,CITY,Town Council,Elderon Village Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+29350269736,Wisconsin,CITY,Mayor,Lena Village President,2025-04-01,UnContested,5.0000000000,Won General,null,null
+31959096678,Texas,CITY,City Council,Kermit City Council - District 1,2025-05-03,UnContested,5.0000000000,Won General,null,null
+31402658390,Illinois,CITY,Mayor,Maywood Village President,2025-04-01,Contested,2.9000000000,Won General,1270.0000000000,2019.0000000000
+31263086517,Illinois,LOCAL,Other,Carroll County: Wysox Township Highway Commissioner,2025-04-01,UnContested,5.0000000000,Won General,null,null
+34285382928,Washington,CITY,City Council,Lynnwood City Council - Position 3,2025-11-04,Contested,1.0300000000,Won General,4266.0000000000,8147.0000000000
+29292943409,Illinois,LOCAL,Clerk/Treasurer,Lake County: Zion Township Assessor,2025-04-01,UnContested,5.0000000000,Won General,null,null
+27987662696,Illinois,LOCAL,School Board,Argo 217 School Board,2025-04-01,Contested,3.8700000000,Lost General,789.0000000000,4410.0000000000
+33787187510,Ohio,LOCAL,Town Council,Morgan County: Center Township Trustee,2025-11-04,UnContested,3.0600000000,Won General,80.0000000000,226.0000000000
+31275662152,Illinois,LOCAL,School Board,Grant Park 6 School Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+38286002027,Washington,LOCAL,School Board,Central Kitsap District 401 School Board - District 1,2025-11-04,Contested,2.8600000000,Won General,10348.0000000000,16504.0000000000
+30312236086,Wisconsin,LOCAL,School Board,Fort Atkinson School Board,2025-04-01,Contested,5.0000000000,Won General,3667.0000000000,8783.0000000000
+29669517471,Illinois,LOCAL,School Board,Avoca 37 School Board,2025-04-01,Contested,3.8700000000,Won General,675.0000000000,2782.0000000000
+33753970768,Iowa,LOCAL,School Board,Mason City Community School Board,2025-11-04,UnContested,4.1800000000,Won General,null,null
+31033781035,Illinois,CITY,Town Council,Kildeer Village Council,2025-04-01,UnContested,5.0000000000,Won General,null,null
+29691986475,Illinois,LOCAL,Clerk/Treasurer,Madison County: Nameoki Township Clerk,2025-04-01,Contested,1.6800000000,Lost General,339.0000000000,827.0000000000
+31205413489,Illinois,CITY,Mayor,Olympia Fields Village President,2025-04-01,Contested,2.5200000000,Lost General,575.0000000000,1327.0000000000
+30726836868,Illinois,CITY,Town Council,Hampshire Village Council,2025-04-01,Contested,2.8300000000,Won General,678.0000000000,2716.0000000000
+28361626215,Illinois,LOCAL,School Board,Plainfield 202 School Board,2025-04-01,Contested,2.4200000000,Won General,null,null
+33887884580,Ohio,LOCAL,School Board,Jackson City School Board,2025-11-04,UnContested,2.8800000000,Won General,null,null
+28244770820,Illinois,LOCAL,School Board,Darien 61 School Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+30729137557,Washington,CITY,Mayor,Sumas City Mayor,2025-11-04,UnContested,2.1200000000,Won General,null,null
+34630388870,Kansas,LOCAL,School Board,"Buhler USD 313 School Board - District 2, Position 5",2025-11-04,UnContested,4.9900000000,Won General,null,null
+33696853578,Ohio,LOCAL,Town Council,Meigs County: Chester Township Trustee,2025-11-04,UnContested,3.0600000000,Not on Ballot,null,null
+30429619367,Illinois,Local,Utilities Commissioner,Park Board,2025-04-01,Contested,3.9200000000,Won General,12639.0000000000,71137.0000000000
+33759370616,Ohio,LOCAL,Town Council,Defiance County: Delaware Township Trustee,2025-11-04,UnContested,3.0600000000,Won General,null,null
+34369779119,Idaho,LOCAL,School Board,Genesee School Board - Zone 5,2025-11-04,UnContested,2.6400000000,Won General,null,null
+33383140966,Kansas,LOCAL,School Board,Russell County USD 407 School Board - Position 4,2025-11-04,UnContested,3.1100000000,Won General,886.0000000000,3354.0000000000
+28745012879,Illinois,LOCAL,School Board,Prairieview-Ogden Consolidated 197 School Board,2025-04-01,UnContested,3.5800000000,Won General,null,null
+29345221643,Missouri,CITY,Town Council,Grantwood Village Trustee,2025-04-08,Contested,4.2900000000,Lost General,null,null
+28522918296,Illinois,LOCAL,School Board,Calumet City 155 School Board,2025-04-01,Contested,1.2600000000,Won General,2629.0000000000,8987.0000000000
+28683897740,Wisconsin,CITY,City Council,West Bend City Council - District 2,2025-04-01,Contested,1.8300000000,Lost General,626.0000000000,1283.0000000000
+28686575985,Illinois,CITY,City Council,Wood Dale City Council - Ward 2,2025-04-01,UnContested,5.0000000000,Won General,null,null
+28105993352,Illinois,LOCAL,School Board,Lake Park Community High School Board 108,2025-04-01,Contested,1.2600000000,Lost General,825.0000000000,17265.0000000000
+30224274049,Wisconsin,CITY,City Council,Stevens Point City Council - District 9,2025-04-01,UnContested,5.0000000000,Won General,null,null
+33754672720,Kansas,LOCAL,School Board,"Labette County USD 506 School Board - District 2, Seat 5",2025-11-04,UnContested,2.6300000000,Not on Ballot,null,null
+31290444300,Texas,CITY,City Council,Fate City Council - Place 4,2025-05-03,Contested,1.0600000000,Lost General,5915.0000000000,24961.0000000000
+29692188711,Illinois,CITY,Clerk/Treasurer,Thayer Village Clerk,2025-04-01,UnContested,4.9900000000,Won General,null,null
+28508467876,Illinois,LOCAL,School Board,Oak Park 97 School Board,2025-04-01,Contested,1.5200000000,Lost General,1577.0000000000,24335.0000000000
+31922794645,Texas,LOCAL,School Board,Llano Independent School Board - Place 2,2025-05-03,Contested,3.6000000000,Lost General,689.0000000000,1770.0000000000
+30770105951,Oklahoma,LOCAL,School Board,Hodgen Elementary School Board,2025-04-01,UnContested,5.0000000000,Not on Ballot,null,null
+28716209954,Oklahoma,CITY,City Council,Blackwell City Council - At Large,2025-04-01,Contested,5.0000000000,Not on Ballot,null,null
+31372887305,Illinois,LOCAL,Town Council,Kankakee County: Otto Township Council,2025-04-01,UnContested,5.0000000000,Won General,null,null
+28746653291,Illinois,LOCAL,School Board,Central 301 School Board,2025-04-01,Contested,3.0000000000,Lost General,874.0000000000,9163.0000000000
+29523689395,Illinois,CITY,Mayor,Belleville City Mayor,2025-04-01,Contested,2.9000000000,Won General,3546.0000000000,5651.0000000000
+30692295465,Illinois,LOCAL,School Board,Beecher 200U School Board,2025-04-01,UnContested,4.9900000000,Won General,392.0000000000,1255.0000000000
+33843339686,Ohio,CITY,Town Council,New Washington Village Council,2025-11-04,UnContested,3.0700000000,Lost General,null,null
+31518492759,Wisconsin,CITY,City Council,New London City Council - District 4,2025-04-01,Contested,3.6500000000,Won General,295.0000000000,425.0000000000
+32265343142,Texas,LOCAL,School Board,Ranger Independent School Board - Place 5,2025-05-03,UnContested,5.0000000000,Won General,null,null
+28746666853,Illinois,LOCAL,School Board,River Grove 85 1/2 School Board,2025-04-01,Contested,5.0000000000,Won General,299.0000000000,1414.0000000000
+29977706605,Illinois,CITY,Clerk/Treasurer,Belleville City Treasurer,2025-04-01,UnContested,5.0000000000,Won General,null,null
+31045356610,Illinois,Local,Town Council,Trustee,2025-04-01,UnContested,5.0000000000,Won General,null,null
+28355666498,Oklahoma,LOCAL,School Board,Cement School Board,2025-04-01,Contested,2.5000000000,Won General,44.0000000000,63.0000000000
+31416396204,Wisconsin,CITY,Mayor,Spring Valley Village President,2025-04-01,UnContested,4.9900000000,Won General,null,null
+32316724816,Texas,CITY,Town Council,Anderson Town Council,2025-05-03,UnContested,5.0000000000,Won General,null,null
+30201365618,Wisconsin,CITY,City Council,Waukesha City Council - District 1,2025-04-01,Contested,3.6500000000,Lost General,412.0000000000,1064.0000000000
+33660915128,Washington,CITY,City Council,Marysville City Council - Position 3,2025-11-04,Contested,0.6100000000,Won General,7562.0000000000,12726.0000000000
+29988000902,Wisconsin,LOCAL,Town Council,Racine County: Waterford Town Board,2025-04-01,Contested,3.2500000000,Lost General,1068.0000000000,4413.0000000000
+31112437588,Wisconsin,LOCAL,Town Council,Portage County: Amherst Town Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+31009701132,Illinois,CITY,Mayor,Oak Forest City Mayor,2025-04-01,Contested,1.7700000000,Lost General,612.0000000000,3110.0000000000
+34891297565,Pennsylvania,CITY,Other,Duncansville Borough Tax Collector,2025-11-04,UnContested,1.1600000000,Won General,null,null
+31404066457,Wisconsin,Local,Town Council,Township Supervisor ,2025-04-01,UnContested,5.0000000000,Won General,null,null
+30770102436,Wisconsin,CITY,City Council,Racine City Council - District 1,2025-04-01,Contested,1.6600000000,Won General,452.0000000000,737.0000000000
+31295302009,Illinois,LOCAL,Town Council,Adams County: Beverly Township Council,2025-04-01,Contested,3.1100000000,Lost General,9384.0000000000,137861.0000000000
+31269858898,Wisconsin,LOCAL,Town Council,Waupaca County: Lebanon Town Board - Ward 1,2025-04-01,UnContested,4.9900000000,Won General,null,null
+28159551032,Illinois,LOCAL,School Board,East Peoria 86 School Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+28313833081,Oklahoma,LOCAL,School Board,Earlsboro School Board,2025-04-01,Contested,3.5800000000,Lost General,9.0000000000,91.0000000000
+32739021831,Texas,CITY,City Council,Bellville City Council - Place 2,2025-05-03,UnContested,3.4200000000,Not on Ballot,null,null
+28153509464,Illinois,LOCAL,School Board,Aurora West 129 School Board,2025-04-01,Contested,1.5200000000,Lost General,3173.0000000000,20167.0000000000
+31456650582,Wisconsin,LOCAL,Town Council,Waupaca County: Wyoming Town Board - Ward 1,2025-04-01,UnContested,5.0000000000,Won General,null,null
+32781805635,New York,LOCAL,School Board,Bolton School Board,2025-05-20,UnContested,5.0000000000,Won General,null,null
+31023092375,Illinois,LOCAL,Town Council,Madison County: New Douglas Township Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+28536914062,Illinois,LOCAL,School Board,Richmond-Burton 157 School Board,2025-04-01,Contested,1.9300000000,Lost General,475.0000000000,3334.0000000000
+28522916170,Oklahoma,LOCAL,School Board,Blanchard School Board,2025-04-01,Contested,2.5000000000,Lost General,403.0000000000,1208.0000000000
+33792551212,Washington,LOCAL,School Board,Creston District 73 School Board - Position 5 (At Large),2025-11-04,UnContested,4.9900000000,Won General,null,null
+30751940446,Illinois,LOCAL,School Board,Vermilion County: Love Township Council,2025-04-01,UnContested,2.8700000000,Won General,1101.0000000000,8617.0000000000
+31390443604,Wisconsin,LOCAL,Town Council,Marathon County: Cassel Town Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+30790577457,Illinois,LOCAL,Other,Madison County: Hamel Township Highway Commissioner,2025-04-01,UnContested,4.9900000000,Won General,null,null
+34130153771,Ohio,CITY,City Council,Maple Heights City Council - District 7,2025-11-04,UnContested,2.5300000000,Won General,null,null
+28158781804,Illinois,LOCAL,School Board,Franklin Park 84 School Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+31061960580,Illinois,LOCAL,School Board,Schaumburg Community Consolidated 54 School Board,2025-04-01,Contested,4.3200000000,Won General,8306.0000000000,33987.0000000000
+34784184445,Minnesota,LOCAL,School Board,Bloomington School Board,2025-11-04,UnContested,4.2300000000,Won General,10544.0000000000,46478.0000000000
+30756692249,Illinois,LOCAL,School Board,school board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+33765134719,Ohio,LOCAL,Town Council,Trumbull County: Mecca Township Trustee,2025-11-04,UnContested,2.5800000000,Not on Ballot,null,null
+30789134855,Illinois,LOCAL,Clerk/Treasurer,McHenry County: Greenwood Township Clerk,2025-04-01,UnContested,5.0000000000,Won General,null,null
+28964601233,Tennessee,CITY,City Council,Chattanooga City Council - District 5,2025-03-04,Contested,2.0500000000,Lost General,871.0000000000,2741.0000000000
+31078139136,Wisconsin,City,City Council,City council,2025-04-01,UnContested,5.0000000000,Won General,null,null
+29758775065,Oklahoma,LOCAL,School Board,Yukon School Board,2025-04-01,Contested,1.5800000000,Won General,1223.0000000000,1881.0000000000
+29671397491,Illinois,LOCAL,Town Council,LaSalle County: Deer Park Township Clerk,2025-04-01,UnContested,5.0000000000,Won General,null,null
+29642849835,Oklahoma,CITY,City Council,Konawa City Council - At Large,2025-02-11,Contested,3.4800000000,Won General,39.0000000000,null
+29670905415,Illinois,LOCAL,Town Council,Champaign County: Cunningham Township Supervisor,2025-04-01,UnContested,5.0000000000,Won General,null,null
+31275142277,Wisconsin,LOCAL,Town Council,Washington County: Germantown Town Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+29724932747,Wisconsin,CITY,Mayor,Merton Village President,2025-04-01,UnContested,5.0000000000,Won General,null,null
+30428224428,Illinois,LOCAL,Utilities Commissioner,Bartlett Library District Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+28919635726,Illinois,LOCAL,School Board,Orland 135 School Board,2025-04-01,Contested,0.9500000000,Lost General,3782.0000000000,43314.0000000000
+30779865890,Wisconsin,Local,Town Council,Town Board,2025-04-01,Contested,3.8200000000,Won General,415.0000000000,826.0000000000
+31846930850,Texas,LOCAL,School Board,Sundown Independent School Board,2025-05-03,UnContested,4.0000000000,Won General,null,null
+30249887045,Illinois,LOCAL,School Board,Smithton 130 School Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+28594790285,Illinois,LOCAL,Town Council,Lake County: Lake Villa Township Council,2025-04-01,Contested,1.3400000000,Lost General,1285.0000000000,12699.0000000000
+29857159286,Illinois,LOCAL,Clerk/Treasurer,St. Clair County: O'Fallon Township Clerk,2025-04-01,Contested,1.8400000000,Lost General,529.0000000000,2508.0000000000
+39002564753,Michigan,CITY,City Council,Romulus City Council,2025-11-04,Contested,3.8800000000,Lost General,null,null
+31196339762,Illinois,LOCAL,School Board,Central 301 School Board,2025-04-01,Contested,1.8500000000,Won General,2215.0000000000,3140.0000000000
+28851914103,Illinois,LOCAL,Clerk/Treasurer,Kane County: Burlington Township Assessor,2025-04-01,UnContested,5.0000000000,Won General,null,null
+31176648482,Illinois,CITY,Town Council,Shorewood Village Board,2025-04-01,UnContested,4.9900000000,Won General,null,null
+29348006469,Wisconsin,LOCAL,Clerk/Treasurer,Sawyer County: Round Lake Town Chair,2025-04-01,UnContested,4.9900000000,Won General,null,null
+29674544146,Illinois,LOCAL,Utilities Commissioner,Arlington Heights Village Library Board,2025-04-01,Contested,2.4900000000,Lost General,3577.0000000000,20251.0000000000
+34689571196,Ohio,CITY,City Council,New Vienna City Council,2025-11-04,UnContested,1.1300000000,Won General,null,null
+28643601846,South Carolina,CITY,City Council,Camden City Council At-large,2025-02-18,UnContested,5.0000000000,Won General,null,null
+30278142998,Arkansas,LOCAL,School Board,Conway School Board - Zone 3,2026-05-26,UnContested,2.0500000000,Lost General,251.0000000000,5322.0000000000
+30304611089,Illinois,CITY,Clerk/Treasurer,Rockton Village Clerk,2025-04-01,UnContested,5.0000000000,Won General,null,null
+30957024876,Illinois,Local,Other,Fire Board,2025-04-01,UnContested,4.9900000000,Won General,null,null
+34353028895,Ohio,CITY,City Council,Beach City Village Council,2025-11-04,UnContested,5.0000000000,Won General,133.0000000000,662.0000000000
+29656293995,Illinois,LOCAL,School Board,Woodridge School Board 68,2025-04-01,UnContested,4.9900000000,Won General,null,null
+31516073849,Wisconsin,LOCAL,School Board,Middleton-Cross Plains Area School Board - Area 3,2025-04-01,UnContested,5.0000000000,Won General,null,null
+28008844400,Illinois,CITY,Town Council,Lincolnshire Village Council,2025-04-01,Contested,3.3000000000,Lost General,546.0000000000,2508.0000000000
+29720412487,Illinois,LOCAL,Town Council,Madison County: New Douglas Township Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+31360528734,Wisconsin,CITY,Mayor,Birnamwood Village President,2025-04-01,UnContested,5.0000000000,Won General,null,null
+37315267871,New York,TOWNSHIP,School Board,Palatine Town Highway Superintendent,2025-11-04,Contested,3.3700000000,Lost General,8635.0000000000,47773.0000000000
+33155028819,Washington,LOCAL,School Board,Enumclaw District 216 School Board - District 2,2025-11-04,Contested,1.2500000000,Lost General,null,null
+31433707265,Illinois,CITY,Town Council,St. Joseph Village Board,2025-04-01,Contested,2.3700000000,Lost General,176.0000000000,1285.0000000000
+30445524547,Illinois,LOCAL,School Board,Minooka School Board 111,2025-04-01,Contested,2.4200000000,Lost General,797.0000000000,5937.0000000000
+30770105918,Washington,CITY,City Council,Woodland City Council - Position 1,2025-11-04,Contested,2.3900000000,Won General,null,null
+28920706105,Illinois,LOCAL,School Board,Huntley Community Consolidated 158 School Board,2025-04-01,Contested,1.2600000000,Lost General,2217.0000000000,16815.0000000000
+29342877866,Illinois,LOCAL,School Board,Crete-Monee 201U School Board - District 3,2025-04-01,UnContested,2.7900000000,Lost General,122.0000000000,298.0000000000
+28323917878,Oklahoma,LOCAL,School Board,Sallisaw School Board,2025-04-01,Contested,3.5800000000,Lost General,27.0000000000,87.0000000000
+28166825089,Illinois,LOCAL,School Board,Harlem School District - 122,2025-04-01,Contested,0.8500000000,Won General,1589.0000000000,14841.0000000000
+31024199174,Oklahoma,LOCAL,School Board,Eufaula School Board - District 5,2025-04-01,Contested,3.6100000000,Not on Ballot,null,null
+30265884054,Wisconsin,STATE,Judge,Wisconsin Supreme Court Justice - Seat 2,2025-04-01,Contested,2.6700000000,Lost General,1063244.0000000000,2364372.0000000000
+30910645347,Illinois,Local,Town Council,Village Board,2025-04-01,Contested,2.0300000000,Lost General,125.0000000000,858.0000000000
+30679162550,Illinois,LOCAL,School Board,Bloomingdale 13 School Board,2025-04-01,Contested,4.3200000000,Won General,1277.0000000000,3904.0000000000
+31272509514,Illinois,LOCAL,Town Council,DeKalb County: Paw Paw Township Council,2025-04-01,Contested,2.0300000000,Lost General,64.0000000000,552.0000000000
+34363490730,Kansas,LOCAL,School Board,Hoisington USD 431 School Board,2025-11-04,UnContested,3.1100000000,Won General,null,null
+30780196940,Wisconsin,LOCAL,School Board,Evansville Community School Board,2025-04-01,Contested,4.2800000000,Won General,2324.0000000000,8408.0000000000
+33511564148,Pennsylvania,LOCAL,Town Council,Lebanon County: Swatara Township Supervisor,2025-11-04,Contested,1.8500000000,Not on Ballot,null,null
+30308058134,Wisconsin,CITY,City Council,La Crosse City Council - District 7,2025-04-01,Contested,1.6600000000,Won General,750.0000000000,1451.0000000000
+29969975329,Wisconsin,CITY,Town Council,Bloomington Village Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+29205870881,Illinois,LOCAL,School Board,Gurnee 56 School Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+32399063617,Oregon,LOCAL,Other,Northern Wasco County Parks and Recreation District Board - Position 1,2025-05-20,UnContested,5.0000000000,Won General,null,null
+36814288177,Michigan,CITY,County Supervisor,Lexington-Fayette Urban County Council - At Large,2025-11-04,UnContested,2.1200000000,Not on Ballot,null,17091.0000000000
+34362527660,Kansas,LOCAL,School Board,Deerfield USD 216 School Board,2025-11-04,UnContested,3.1100000000,Won General,null,null
+31910096438,New York,LOCAL,School Board,Baldwin Union Free School Board,2025-05-20,UnContested,5.0000000000,Won General,752.0000000000,1500.0000000000
+28359824561,Illinois,LOCAL,Utilities Commissioner,Foss Park District Board,2025-04-01,Contested,5.0000000000,Won General,490.0000000000,1391.0000000000
+35495593253,Ohio,CITY,Town Council,Green Camp Village Council,2025-11-04,UnContested,3.0700000000,Won General,null,null
+28320338499,Oklahoma,COUNTY,County Supervisor,Okmulgee County Commission - District 1,2025-02-11,UnContested,1.5100000000,Not on Ballot,null,null
+31294553188,Wisconsin,LOCAL,Town Council,Manitowoc County: Liberty Town Board - Seat 1,2025-04-01,UnContested,5.0000000000,Won General,null,null
+29159950771,Illinois,LOCAL,Utilities Commissioner,Wilmette Public Library District Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+27987908866,Illinois,LOCAL,School Board,Steeleville 138 School Board,2025-04-01,Contested,2.6900000000,Won General,165.0000000000,537.0000000000
+32136179070,Oregon,LOCAL,Other,Elgin Health District Board - Position 1,2025-05-20,UnContested,4.9900000000,Won General,null,null
+30298620160,Wisconsin,CITY,Mayor,Footville Village President,2025-04-01,Contested,1.5300000000,Won General,185.0000000000,360.0000000000
+31353639242,Wisconsin,LOCAL,Town Council,Waupaca County: Dayton Town Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+30451470164,Illinois,LOCAL,School Board,Northbrook/Glenview 30 School Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+31084419484,Wisconsin,Local,Other,Trustee,2025-04-01,UnContested,5.0000000000,Won General,null,null
+28811117894,Illinois,CITY,Mayor,Island Lake Village Mayor,2025-04-01,Contested,1.0100000000,Lost General,247.0000000000,1387.0000000000
+28671150402,Illinois,CITY,Mayor,Sawyerville Village President,2025-04-01,Contested,4.9700000000,Lost General,92.0000000000,138.0000000000
+31265902918,Illinois,LOCAL,Other,Ogle County: Maryland Township Highway Commissioner,2025-04-01,UnContested,5.0000000000,Won General,null,null
+30908165665,Wisconsin,Local,City Council,City council,2025-04-01,UnContested,4.9900000000,Won General,null,null
+35148003083,Colorado,LOCAL,School Board,St. Vrain Valley School Board - District D,2025-11-04,UnContested,2.9700000000,Not on Ballot,null,null
+28153291021,Oklahoma,LOCAL,School Board,Noble School Board - Office 5,2025-04-01,UnContested,5.0000000000,Won General,null,null
+23297242427,Minnesota,CITY,Mayor,Lonsdale City Mayor,2026-11-03,Contested,0.9000000000,Lost General,951.0000000000,2497.0000000000
+31443457385,Illinois,LOCAL,Other,Helen M. Plum Memorial Public Library District Board,2025-04-01,Contested,1.1300000000,Lost General,1536.0000000000,27173.0000000000
+30205714022,Illinois,CITY,Town Council,Hartford Village Council,2025-04-01,Contested,3.0100000000,Won General,189.0000000000,766.0000000000
+23760784502,Wisconsin,CITY,Mayor,Beaver Dam City Mayor,2025-04-01,UnContested,4.9800000000,Won General,3447.0000000000,7606.0000000000
+23595112040,Missouri,LOCAL,City Council,Cape Girardeau 63 School Board,2026-04-07,UnContested,4.9900000000,Lost General,3839.0000000000,22655.0000000000
+30425485860,Illinois,LOCAL,Town Council,Will County: Peotone Township Council,2025-04-01,UnContested,5.0000000000,Won General,null,null
+30152340110,Illinois,CITY,City Council,McHenry City Council - Ward 1,2025-04-01,Contested,2.6700000000,Lost General,250.0000000000,520.0000000000
+34510645104,Washington,LOCAL,School Board,Zillah District 205 School Board - District 1,2025-11-04,Contested,2.8600000000,Won General,null,null
+31248842134,Illinois,LOCAL,Town Council,Will County: Wilton Township Council,2025-04-01,Contested,1.6000000000,Won General,98.0000000000,454.0000000000
+29560189277,Illinois,Local,Town Council,Rockford Trustee,2025-04-01,Contested,3.6600000000,Lost General,1115.0000000000,9052.0000000000
+31011041444,Wisconsin,CITY,City Council,Oconomowoc City Council - District 2,2025-04-01,Contested,1.6600000000,Won General,902.0000000000,1777.0000000000
+30316437270,Wisconsin,LOCAL,School Board,Milwaukee Public School Board - District 7,2025-04-01,Contested,2.7100000000,Won General,12966.0000000000,20292.0000000000
+28586685755,Illinois,LOCAL,School Board,Community Unit School District 300 School Board,2025-04-01,Contested,1.5200000000,Lost General,3686.0000000000,29480.0000000000
+28004701015,Illinois,LOCAL,School Board,Edwardsville 7 School Board,2025-04-01,Contested,1.0800000000,Won General,3844.0000000000,17227.0000000000
+31367820217,Oklahoma,CITY,City Council,Harrah City Council - Ward 1,2025-04-01,Contested,1.4800000000,Lost General,12.0000000000,44.0000000000
+27936449078,California,CITY,City Council,Redondo Beach City Council - District 1,2025-03-04,Contested,2.4000000000,Won General,1313.0000000000,2517.0000000000
+29558471003,Oklahoma,LOCAL,School Board,Bridge Creek School Board,2025-04-01,UnContested,3.6100000000,Won General,null,null
+30745642146,Florida,LOCAL,Utilities Commissioner,Liberty Fire District Board - Seat 2,2025-04-01,Contested,4.9900000000,Won General,1480.0000000000,2325.0000000000
+31518517261,Wisconsin,LOCAL,Town Council,St. Croix County: Baldwin Town Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+31025131647,Illinois,CITY,Mayor,Exeter Village Mayor,2025-04-01,UnContested,5.0000000000,Won General,null,null
+28927701094,Illinois,LOCAL,Town Council,Champaign County: Ayers Township Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+30752604491,Wisconsin,COUNTY,Other,Winnebago County Executive,2025-04-01,Contested,3.7500000000,Lost General,27374.0000000000,58206.0000000000
+28302644570,Illinois,LOCAL,Clerk/Treasurer,Lake County: Cuba Township Assessor,2025-04-01,UnContested,5.0000000000,Won General,null,null
+28858882638,Illinois,Local,Town Council,Bunker Hill Library District Trustee,2025-04-02,Contested,4.9900000000,Won General,null,null
+30435778588,Wisconsin,LOCAL,School Board,Fort Atkinson School Board,2025-04-01,Contested,2.6100000000,Lost General,2484.0000000000,8783.0000000000
+31291222789,Wisconsin,CITY,Town Council,Bristol Village Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+29319411616,Illinois,CITY,City Council,Peoria City Council - District 1,2025-04-01,Contested,1.7400000000,Lost General,550.0000000000,2266.0000000000
+29371440299,Wisconsin,LOCAL,Town Council,Rock County: Center Town Board - Seat 1,2025-04-01,UnContested,5.0000000000,Won General,null,null
+38057337955,Kansas,LOCAL,School Board,Chanute USD 413 School Board,2025-11-04,Contested,1.5300000000,Won General,null,null
+31476730163,Illinois,CITY,Mayor,Milan Village President,2025-04-01,Contested,0.7500000000,Lost General,133.0000000000,948.0000000000
+29805903895,Illinois,LOCAL,School Board,Tri-City 1 School Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+28648495724,Wisconsin,CITY,Mayor,Germantown Village President,2025-04-01,Contested,1.5300000000,Won General,5678.0000000000,9111.0000000000
+28372442736,Oklahoma,LOCAL,School Board,Wilson School Board (Carter County),2025-04-01,Contested,3.5800000000,Lost General,39.0000000000,221.0000000000
+28277766577,Florida,CITY,City Council,Gulfport City Council - Ward 2,2025-03-11,Contested,0.8300000000,Won General,1545.0000000000,2582.0000000000
+29754651399,Wisconsin,LOCAL,Clerk/Treasurer,Waukesha County: Ottawa Town Supervisor,2025-04-01,Contested,3.6600000000,Lost General,479.0000000000,2604.0000000000
+21295762094,Massachusetts,CITY,Town Council,Swansea Town Select Board,2025-04-14,UnContested,2.4400000000,Won General,425.0000000000,1061.0000000000
+30149711668,Illinois,LOCAL,Other,Rock Valley 511 Community College Board,2025-04-01,Contested,1.9300000000,Lost General,7567.0000000000,47773.0000000000
+29810237214,Wisconsin,CITY,City Council,Waukesha City Council - District 1,2025-04-01,UnContested,5.0000000000,Won General,null,null
+29910200153,Illinois,LOCAL,School Board,Saratoga School Board 60C,2025-04-01,Contested,2.8700000000,Won General,565.0000000000,2945.0000000000
+29506830976,Illinois,LOCAL,School Board,Washington High School 308,2025-04-01,UnContested,4.9900000000,Won General,null,null
+30199338509,Wisconsin,CITY,City Council,Eau Claire City Council - At Large,2025-04-01,Contested,3.7100000000,Won General,13283.0000000000,74425.0000000000
+31023881912,Wisconsin,LOCAL,Clerk/Treasurer,Manitowoc County: Liberty Town Board Treasurer,2025-04-01,UnContested,5.0000000000,Won General,null,null
+28682142843,Oklahoma,LOCAL,School Board,Cement School Board,2025-04-01,Contested,2.5000000000,Lost General,19.0000000000,63.0000000000
+27990900257,Illinois,LOCAL,School Board,Lockport Township 205 School Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+30775020714,Colorado,CITY,City Council,Colorado Springs City Council - District 3,2025-04-01,Contested,0.7200000000,Lost General,1975.0000000000,17219.0000000000
+30138073898,Illinois,LOCAL,Utilities Commissioner,Williamsville 15 School Board,2025-04-01,UnContested,3.6300000000,Won General,null,null
+30899645770,Illinois,CITY,Town Council,Beecher Village Council,2025-04-01,Contested,2.8300000000,Won General,305.0000000000,1237.0000000000
+30745642242,Wisconsin,CITY,City Council,Superior City Council - District 6,2025-04-01,Contested,3.6500000000,Won General,347.0000000000,481.0000000000
+31353674821,Wisconsin,LOCAL,Clerk/Treasurer,Waupaca County: Dupont Town Treasurer,2025-04-01,Contested,2.5200000000,Lost General,75.0000000000,284.0000000000
+31269433481,Wisconsin,LOCAL,Clerk/Treasurer,Grant County: Wingville Town Treasurer,2025-04-01,UnContested,5.0000000000,Won General,null,null
+29505901123,Illinois,LOCAL,School Board,Franklin Park 84 School Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+34931434821,Washington,CITY,City Council,Everett City Council - Position 4,2025-11-04,Contested,1.0300000000,Lost General,497.0000000000,1503.0000000000
+31453494814,Wisconsin,CITY,City Council,Hudson City Council - District 6,2025-04-01,UnContested,5.0000000000,Won General,null,null
+21873015430,Arizona,CITY,City Council,Tombstone City Council - Ward 4,2026-11-03,Contested,1.5900000000,Won General,124.0000000000,232.0000000000
+29562766923,Illinois,LOCAL,School Board,Kendall County: Na-Au-Say Township Supervisor,2025-04-01,Contested,3.0000000000,Won General,476.0000000000,810.0000000000
+34891555404,Georgia,LOCAL,School Board,Commerce City School Board - District 1,2025-11-04,UnContested,3.4900000000,Not on Ballot,null,null
+30679522394,Illinois,LOCAL,School Board,East Coloma-Nelson 20 School Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+30762965545,Illinois,CITY,City Council,Elmhurst City Council - Ward 5,2025-04-01,Contested,1.7400000000,Lost General,596.0000000000,1446.0000000000
+31429974651,Wisconsin,LOCAL,School Board,Baldwin-Woodville School Board,2025-04-01,Contested,2.6100000000,Won General,1725.0000000000,5121.0000000000
+28240672671,Illinois,LOCAL,School Board,Keeneyville Elementary School Board 20,2025-04-01,Contested,4.3200000000,Won General,713.0000000000,2605.0000000000
+30795450382,Colorado,Local,City Council,City council,2025-04-01,Contested,1.8800000000,Won General,2575.0000000000,11323.0000000000
+28033273680,Illinois,CITY,Town Council,Minooka Village Council,2025-04-01,Contested,3.1300000000,Won General,542.0000000000,2323.0000000000
+28717013281,Illinois,LOCAL,School Board,Frankfort 157-C School Board,2025-04-01,Contested,1.9300000000,Won General,1806.0000000000,11148.0000000000
+31043430284,Illinois,CITY,Town Council,Algonquin Village Board,2025-04-01,Contested,5.0000000000,Won General,652.0000000000,2004.0000000000
+30476759412,Illinois,CITY,Town Council,Royal Village Council,2025-04-01,UnContested,4.9800000000,Won General,null,null
+31927626923,New York,LOCAL,School Board,Depew School Board,2025-05-20,UnContested,5.0000000000,Won General,239.0000000000,710.0000000000
+35413804874,Pennsylvania,CITY,City Council,Coaldale Borough Council,2025-11-04,UnContested,1.6000000000,Not on Ballot,null,null
+30697711015,Illinois,LOCAL,Other,Steger-South Chicago Heights Public Library District Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+29094466846,Illinois,LOCAL,School Board,Sunnybrook 171 School Board,2025-04-01,Contested,1.2600000000,Won General,539.0000000000,3429.0000000000
+28745487451,Illinois,LOCAL,School Board,Huntley Community Consolidated 158 School Board,2025-04-01,Contested,1.8500000000,Won General,2510.0000000000,4736.0000000000
+30301174823,Wisconsin,CITY,City Council,Madison City Council - District 16,2025-04-01,Contested,1.0500000000,Won General,4077.0000000000,5501.0000000000
+31403899672,Wisconsin,LOCAL,Clerk/Treasurer,Waupaca County: Wyoming Town Clerk,2025-04-01,UnContested,5.0000000000,Won General,null,null
+31126200117,Wisconsin,LOCAL,School Board,Portage Community School Board - Portage City,2025-04-01,UnContested,5.0000000000,Won General,null,null
+29813316204,Wisconsin,CITY,City Council,Oconomowoc City Council - District 1,2025-04-01,UnContested,5.0000000000,Won General,null,null
+28274754415,Illinois,CITY,City Council,Geneva City Council - Ward 5,2025-04-01,Contested,1.9100000000,Lost General,158.0000000000,1372.0000000000
+32143139852,Texas,CITY,City Council,Killeen City Council - District 4,2025-05-03,Contested,2.4000000000,Won General,330.0000000000,590.0000000000
+29509636143,Illinois,CITY,City Council,LaSalle City Council - Ward 4,2025-04-01,Contested,1.7400000000,Lost General,211.0000000000,526.0000000000
+31018236732,Illinois,LOCAL,Town Council,Kendall County: Fox Township Board,2025-04-01,Contested,2.5300000000,Lost General,278.0000000000,3106.0000000000
+30303095049,Wisconsin,Local,School Board,school board,2025-04-01,Contested,5.0000000000,Lost General,1461.0000000000,9182.0000000000
+31403899765,Wisconsin,CITY,Judge,Pleasant Prairie Village Municipal Judge,2025-04-01,UnContested,5.0000000000,Won General,null,null
+28591446686,Illinois,CITY,Town Council,Elk Grove Village Board,2025-04-01,UnContested,4.9900000000,Won General,null,null
+29747373327,Wisconsin,LOCAL,School Board,Muskego-Norway School Board,2025-04-01,Contested,2.6100000000,Won General,7413.0000000000,19767.0000000000
+36051713414,Washington,CITY,City Council,Granger City Council - Position 1,2025-11-04,Contested,2.3900000000,Won General,null,null
+28964749387,Illinois,CITY,City Council,Naperville City Council,2025-04-01,Contested,1.1700000000,Lost General,8424.0000000000,85405.0000000000
+29754655260,Wisconsin,CITY,Town Council,Howard Village Board - Wards 15/16,2025-04-01,UnContested,5.0000000000,Won General,null,null
+29951189591,Wisconsin,LOCAL,School Board,Stone Bank School Board,2025-04-01,Contested,4.2800000000,Won General,654.0000000000,2112.0000000000
+31372279950,Illinois,CITY,Town Council,Mokena Village Board,2025-04-01,Contested,3.9600000000,Won General,1625.0000000000,6656.0000000000
+31516045971,Wisconsin,CITY,City Council,Stoughton City Council - District 1,2025-04-01,UnContested,5.0000000000,Won General,null,null
+28864079016,South Carolina,CITY,Town Council,Town Council,2025-03-11,UnContested,4.9900000000,Won General,null,null
+31005591614,Illinois,CITY,City Council,Granite City Council - Ward 1,2025-04-01,Contested,1.1100000000,Lost General,138.0000000000,304.0000000000
+28676039508,Illinois,CITY,Mayor,Sandwich City Mayor,2025-04-01,Contested,1.0100000000,Lost General,391.0000000000,1299.0000000000
+31374998394,Wisconsin,LOCAL,School Board,Sheboygan Area School Board - Inside City,2025-04-01,Contested,3.7400000000,Lost General,7794.0000000000,19364.0000000000
+30725476215,Illinois,CITY,Clerk/Treasurer,Machesney Park Village Clerk,2025-04-01,UnContested,4.9900000000,Won General,null,null
+28320922699,Illinois,LOCAL,School Board,Sycamore 427 School Board,2025-04-01,Contested,1.9300000000,Won General,1446.0000000000,6713.0000000000
+31457135020,Oklahoma,CITY,Town Council,Slaughterville Town Board,2025-04-01,Contested,1.7000000000,Won General,215.0000000000,307.0000000000
+29200074081,Illinois,LOCAL,School Board,Harvey 152 School Board,2025-04-01,Contested,1.5200000000,Lost General,244.0000000000,2671.0000000000
+30644241753,Illinois,CITY,Utilities Commissioner,Braidwood City Commission - Public Health and Safety,2025-04-01,Contested,3.2500000000,Lost General,289.0000000000,1253.0000000000
+31172563003,Illinois,LOCAL,Town Council,Kankakee County: Yellowhead Township Council,2025-04-01,UnContested,5.0000000000,Won General,null,null
+30745642246,Illinois,LOCAL,School Board,Community Consolidated 168 School Board,2025-04-01,Contested,3.5800000000,Lost General,317.0000000000,2188.0000000000
+28670470476,Illinois,LOCAL,Utilities Commissioner,Zion-Benton Public Library District Board,2025-04-01,Contested,5.0000000000,Won General,null,null
+31082886146,Wisconsin,LOCAL,Clerk/Treasurer,Dodge County: Portland Town Treasurer,2025-04-01,UnContested,5.0000000000,Won General,null,null
+31132344234,Colorado,CITY,City Council,Durango City Council,2025-04-01,Contested,3.0500000000,Lost General,1218.0000000000,11323.0000000000
+31508046459,Illinois,LOCAL,Other,Dunlap Public Library District Board,2025-04-01,Contested,1.5800000000,Lost General,342.0000000000,2408.0000000000
+31209325195,Wisconsin,LOCAL,School Board,Lodi School Board,2025-04-01,Contested,2.6100000000,Lost General,1559.0000000000,24742.0000000000
+34726974356,Ohio,LOCAL,Town Council,Allen County: Amanda Township Trustee,2025-11-04,UnContested,3.0600000000,Won General,null,null
+33773563983,Ohio,LOCAL,Town Council,Hardin County: Dudley Township Trustee,2025-11-04,UnContested,3.0600000000,Not on Ballot,null,null
+31042596769,Florida,CITY,City Council,Winter Haven City Commissioner,2025-11-04,Contested,4.9700000000,Runoff,1731.0000000000,4258.0000000000
+33784301419,Washington,CITY,City Council,Oroville City Council - Position 2,2025-11-04,UnContested,4.9900000000,Won General,null,null
+30207743523,Wisconsin,CITY,Mayor,Waukesha Village President,2025-04-01,UnContested,5.0000000000,Won General,null,null
+30930075470,Illinois,CITY,Town Council,Glendale Heights Village Board - District 6,2025-04-01,Contested,1.2500000000,Lost General,106.0000000000,784.0000000000
+31036486241,Illinois,LOCAL,Town Council,LaSalle County: Dimmick Township Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+27989824684,Illinois,LOCAL,School Board,Rantoul City Schools District 137 School Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+21966974778,Michigan,CITY,City Council,Flint City Council - Ward 3,2025-11-04,Contested,0.4900000000,Lost General,null,null
+29704966562,Illinois,CITY,Town Council,"Village of Barrington, Trustee",2025-04-01,Contested,2.8300000000,Lost General,1113.0000000000,5416.0000000000
+34105997745,Washington,CITY,City Council,Arlington City Council - Position 1,2025-11-04,Contested,2.7400000000,Won General,null,null
+29358335357,Wisconsin,LOCAL,Clerk/Treasurer,Rock County: Newark Town Chair,2025-04-01,UnContested,5.0000000000,Won General,null,null
+31167461675,Illinois,LOCAL,Town Council,Peoria County: Brimfield Township Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+35424553378,Washington,CITY,City Council,Snohomish City Council - Position 6,2025-11-04,Contested,0.9900000000,Won General,1309.0000000000,2380.0000000000
+31202937442,Illinois,LOCAL,Other,Lee County: South Dixon Township Highway Commission,2025-04-01,UnContested,5.0000000000,Won General,null,null
+28110953645,Illinois,CITY,Mayor,Waukegan City Mayor,2025-04-01,Contested,1.0100000000,Lost General,871.0000000000,6784.0000000000
+31268971784,Illinois,CITY,Clerk/Treasurer,Elmwood City Clerk,2025-04-01,UnContested,5.0000000000,Won General,null,null
+35056232194,Washington,LOCAL,Other,Port Angeles Port District Board - Position 1,2025-11-04,Contested,2.5300000000,Won General,null,null
+28971517477,Illinois,CITY,City Council,LaSalle City Council - Ward 1,2025-04-01,Contested,3.7200000000,Won General,168.0000000000,249.0000000000
+28168053170,Illinois,LOCAL,School Board,Donovan 3 School Board,2025-04-01,UnContested,4.9900000000,Won General,null,null
+33897889619,Kansas,LOCAL,School Board,"Canton-Galva USD 419 School Board - District 1, Position 4",2025-11-04,UnContested,2.6300000000,Won General,null,null
+31272524702,Illinois,LOCAL,Town Council,Macoupin County: Dorchester Township Supervisor,2025-04-01,UnContested,5.0000000000,Won General,null,null
+28105301024,Illinois,LOCAL,Utilities Commissioner,Wilmette Public Library District Board,2025-04-01,UnContested,1.5800000000,Won General,null,null
+28842657173,Illinois,LOCAL,School Board,Lake Zurich 95 School Board,2025-04-01,Contested,1.5200000000,Lost General,1855.0000000000,14680.0000000000
+31208059542,Wisconsin,LOCAL,Town Council,Portage County: Eau Pleine Town Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+29665786442,Illinois,Local,School Board,Spring Grove Area School Board,2025-04-01,Contested,2.6900000000,Lost General,1887.0000000000,10482.0000000000
+28129280418,Oklahoma,CITY,City Council,Del City Council - Ward 2,2025-04-01,UnContested,5.0000000000,Won General,null,null
+31863638885,Oregon,LOCAL,Mayor,Winchester Bay Rural Fire Protection District Board - Position 5,2025-05-20,UnContested,5.0000000000,Won General,26.0000000000,28.0000000000
+29172652439,Illinois,LOCAL,School Board,St. Joseph Community Consolidated School District 169 School Board,2025-04-01,Contested,2.6900000000,Won General,472.0000000000,2460.0000000000
+31179066482,Illinois,CITY,Mayor,DeKalb City Mayor,2025-04-01,Contested,2.0000000000,Won General,2415.0000000000,4581.0000000000
+31176005283,Illinois,CITY,Town Council,Shabbona Village Council,2025-04-01,Contested,1.9800000000,Won General,179.0000000000,307.0000000000
+31256598685,Illinois,CITY,Mayor,Homer Village President,2025-04-01,UnContested,4.9900000000,Won General,null,null
+28313507888,Illinois,LOCAL,School Board,Morris School Board 54,2025-04-01,UnContested,5.0000000000,Won General,null,null
+32561265007,Texas,LOCAL,School Board,Iredell Independent School Board - Place 1,2025-05-03,UnContested,5.0000000000,Won General,null,null
+33753121135,Ohio,LOCAL,Town Council,Logan County: Rushcreek Township Trustee,2025-11-04,UnContested,2.5800000000,Not on Ballot,null,null
+28645050229,Wisconsin,LOCAL,School Board,Green Bay Area Public School Board,2025-04-01,Contested,1.2000000000,Lost General,15653.0000000000,92341.0000000000
+28496954403,Oklahoma,LOCAL,School Board,Lone Wolf School Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+31206658399,Illinois,CITY,Town Council,Steward Village Council,2025-04-01,UnContested,5.0000000000,Won General,null,null
+25035586666,California,CITY,City Council,Huntington Beach City Council,2026-11-03,Contested,1.7300000000,Lost General,3213.0000000000,211025.0000000000
+29637134931,Illinois,CITY,Town Council,Round Lake Beach Village Board,2025-04-01,Contested,3.9600000000,Lost General,419.0000000000,2903.0000000000
+29514725271,Illinois,CITY,City Council,Pekin City Council,2025-04-01,Contested,1.4200000000,Won General,1639.0000000000,8512.0000000000
+28282400881,Florida,CITY,Town Council,Loxahatchee Groves Town Council - Seat 2,2025-03-25,UnContested,5.0000000000,Won General,null,null
+21800180021,Tennessee,Local,School Board,"Hardeman County School Board District 1, Position 1",2025-11-05,Contested,3.6800000000,Not on Ballot,null,null
+33693542424,Ohio,LOCAL,Town Council,Ottawa County: Allen Township Trustee,2025-11-04,UnContested,3.0600000000,Lost General,385.0000000000,1621.0000000000
+28994727431,Illinois,LOCAL,Utilities Commissioner,Winnetka-Northfield Public Library District Board,2025-04-01,UnContested,4.9900000000,Won General,null,null
+42421244745,North Carolina,CITY,Town Council,Marvin Village Council,2025-11-04,Contested,2.7100000000,Won General,979.0000000000,4395.0000000000
+32359290719,Texas,CITY,City Council,Ingram City Council - At Large,2025-05-03,UnContested,2.5600000000,Won General,null,null
+30483433804,Illinois,Local,School Board,school board,2025-04-01,UnContested,4.9900000000,Won General,null,null
+29776055136,Wisconsin,LOCAL,Clerk/Treasurer,Waukesha County: Genesee Town Supervisor/Chair,2025-04-01,Contested,2.5200000000,Won General,1741.0000000000,3246.0000000000
+31020010016,Illinois,CITY,Town Council,South Roxana Village Council,2025-04-01,Contested,3.9100000000,Won General,206.0000000000,206.0000000000
+31287891867,Illinois,CITY,Clerk/Treasurer,Northlake City Clerk,2025-04-01,UnContested,5.0000000000,Won General,null,null
+34733379203,Ohio,LOCAL,Town Council,Erie County: Oxford Township Trustee,2025-11-04,UnContested,3.0600000000,Won General,null,null
+31416762296,Wisconsin,CITY,Town Council,Slinger Village Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+31300180800,Wisconsin,LOCAL,City Council,Marathon County: Harrison Town Chair,2025-04-01,Contested,3.6000000000,Won General,97.0000000000,172.0000000000
+30689500056,Illinois,LOCAL,School Board,Will County 92 School Board,2025-04-01,Contested,1.2600000000,Won General,610.0000000000,4761.0000000000
+31018152121,Illinois,CITY,City Council,Galva City Council - Ward 3,2025-04-01,Contested,0.8300000000,Lost General,98.0000000000,246.0000000000
+28108460957,Illinois,LOCAL,School Board,Channahon 17 School Board,2025-04-01,Contested,2.1000000000,Lost General,366.0000000000,3712.0000000000
+28168042412,Illinois,CITY,Town Council,Elgin City Council,2025-04-01,Contested,3.3600000000,Lost General,2737.0000000000,33040.0000000000
+30681432411,Illinois,LOCAL,School Board,Will County 92 School Board,2025-04-01,Contested,3.0000000000,Lost General,521.0000000000,4761.0000000000
+29441083300,Wisconsin,CITY,City Council,Kaukauna City Council - District 2,2025-04-01,UnContested,5.0000000000,Won General,null,null
+30895577414,Wisconsin,LOCAL,Clerk/Treasurer,Dane County: Perry Town Board - Seat 1,2025-04-01,UnContested,5.0000000000,Won General,null,null
+35412069703,Washington,Local,School Board,School Board,2025-11-01,UnContested,1.7300000000,Won General,null,null
+29746550825,Wisconsin,CITY,Mayor,Edgerton City Mayor,2025-04-01,UnContested,5.0000000000,Won General,null,null
+30763119438,Illinois,CITY,Town Council,Adeline Village Council,2025-04-01,UnContested,5.0000000000,Won General,null,null
+30755762020,Illinois,LOCAL,School Board,Joliet Township 204 School Board,2025-04-01,Contested,2.6900000000,Lost General,4014.0000000000,16746.0000000000
+18754411400,North Carolina,CITY,City Council,,2024-11-05,Contested,0.9500000000,Lost General,48489.0000000000,342628.0000000000
+28634623259,Illinois,LOCAL,School Board,Meridian 223 School Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+34365977670,Washington,CITY,Town Council,Concrete Town Council - Position 5,2025-11-04,Contested,3.0000000000,Lost General,null,null
+31036937361,Illinois,LOCAL,School Board,Flossmoor 161 School Board,2025-04-01,Contested,3.5200000000,Won General,2517.0000000000,15281.0000000000
+29391364277,Illinois,CITY,City Council,Rockford City Council - Ward 10,2025-04-01,UnContested,5.0000000000,Won General,null,null
+29359170095,Illinois,CITY,City Council,Auburn City Council - Ward 2,2025-04-01,UnContested,2.6700000000,Won General,null,null
+30770105969,Illinois,CITY,Mayor,North Chicago City Mayor,2025-04-01,Contested,4.9900000000,Lost General,204.0000000000,985.0000000000
+34895878918,Ohio,CITY,Town Council,New Knoxville Village Council,2025-11-04,UnContested,3.0700000000,Won General,null,null
+28745667955,Illinois,LOCAL,School Board,Evanston/Skokie 65 School Board,2025-04-01,Contested,1.5300000000,Lost General,1959.0000000000,64390.0000000000
+31441033863,Wisconsin,CITY,City Council,Waupaca City Council - District 1,2025-04-01,UnContested,5.0000000000,Won General,null,null
+31009993488,Illinois,LOCAL,Town Council,McLean County: Yates Township Board,2025-04-01,UnContested,4.9900000000,Won General,null,null
+28116201645,Illinois,LOCAL,School Board,Park Ridge-Niles 64 School Board,2025-04-01,Contested,3.8700000000,Lost General,3938.0000000000,25758.0000000000
+29360729652,Wisconsin,LOCAL,Clerk/Treasurer,Oconto County: Breed Town Clerk,2025-04-01,UnContested,4.9900000000,Won General,null,null
+37449348444,North Carolina,CITY,School Board,Rocky Mount City Council - Ward 3,2025-11-04,Contested,1.8100000000,Lost General,null,null
+28378249815,Illinois,LOCAL,School Board,Community 128 School Board,2025-04-01,Contested,4.6600000000,Won General,5662.0000000000,26185.0000000000
+29969633897,Wisconsin,LOCAL,Clerk/Treasurer,Dodge County: Elba Town Clerk,2025-04-01,UnContested,5.0000000000,Won General,null,null
+29521678098,Illinois,LOCAL,School Board,Sandridge 172 School Board,2025-04-01,Contested,3.8700000000,Lost General,null,null
+28952253101,Illinois,LOCAL,Town Council,St. Clair County: Shiloh Valley Township Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+30950095425,Illinois,CITY,Mayor,Burnham Village President,2025-04-01,Contested,1.6100000000,Lost General,377.0000000000,794.0000000000
+34364265529,South Carolina,CITY,City Council,Myrtle Beach City Council,2025-11-04,UnContested,3.7500000000,Not on Ballot,null,null
+29722261279,Wisconsin,LOCAL,School Board,Lake Country School Board,2025-04-01,Contested,1.8500000000,Lost General,624.0000000000,2784.0000000000
+33803232337,Ohio,LOCAL,Town Council,Van Wert County: Hoaglin Township Trustee,2025-11-04,UnContested,3.0600000000,Won General,null,null
+31342359658,Illinois,LOCAL,Other,Dixon Park District Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+28767731897,Illinois,LOCAL,Utilities Commissioner,LaSalle County: Freedom Township Highway Commissioner,2025-04-01,Contested,3.2200000000,Lost General,61.0000000000,175.0000000000
+31374026034,Illinois,CITY,Town Council,Cordova Village Council,2025-04-01,Contested,2.5500000000,Lost General,53.0000000000,354.0000000000
+28932060460,Illinois,LOCAL,School Board,Lockport Township 205 School Board,2025-04-01,UnContested,1.5200000000,Won General,null,null
+28320625666,Illinois,LOCAL,Utilities Commissioner,Kane County: Hampshire Township Highway Commission,2025-04-01,UnContested,5.0000000000,Won General,null,null
+29725755780,Wisconsin,LOCAL,School Board,Germantown School Board - Seat 4,2025-04-01,Contested,2.7100000000,Won General,6624.0000000000,11890.0000000000
+31042609790,Illinois,LOCAL,School Board,board of education,2025-04-01,UnContested,4.3200000000,Won General,null,null
+33221537919,Oregon,LOCAL,Other,Elgin Cemetery Maintenance District Board,2025-05-20,UnContested,4.9900000000,Won General,null,null
+35135477868,Ohio,TOWNSHIP,Town Council,Athens County: Lodi Township Trustee,2025-11-04,UnContested,3.0700000000,Won General,null,null
+28576201892,Illinois,LOCAL,Utilities Commissioner,LaSalle County: Adams Township Highway Commissioner,2025-04-01,UnContested,4.9900000000,Won General,108.0000000000,108.0000000000
+28744994977,Illinois,CITY,Town Council,Round Lake Village Board,2025-04-01,Contested,3.9600000000,Won General,672.0000000000,2903.0000000000
+28135673260,Illinois,LOCAL,School Board,Tonica 79 School Board,2025-04-01,UnContested,5.0000000000,Won General,331.0000000000,1344.0000000000
+29357585511,Illinois,CITY,Town Council,Chatham Village Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+28705633659,Oklahoma,LOCAL,School Board,Allen School Board,2025-04-01,Contested,3.5800000000,Lost General,84.0000000000,170.0000000000
+31518512560,Wisconsin,CITY,City Council,Manitowoc City Council - District 10,2025-04-01,UnContested,5.0000000000,Won General,null,null
+28850477151,Illinois,CITY,Mayor,Ransom Village President,2025-04-01,Contested,2.9000000000,Lost General,23.0000000000,95.0000000000
+32115564947,Texas,CITY,City Council,"Rockdale City Council - East Ward, Place 2",2025-05-03,UnContested,5.0000000000,Won General,null,null
+31402374180,Wisconsin,LOCAL,School Board,New London School Board,2025-04-01,Contested,2.6100000000,Won General,2755.0000000000,7671.0000000000
+29481641634,Wisconsin,LOCAL,School Board,Platteville School Board,2025-04-01,Contested,3.1600000000,Won General,2088.0000000000,11958.0000000000
+31042609819,Illinois,LOCAL,Utilities Commissioner,North Aurora Village Library Board,2025-04-01,Contested,1.5800000000,Lost General,4569.0000000000,25488.0000000000
+23252825402,Minnesota,LOCAL,School Board,Barnesville School Board,2024-11-05,Contested,2.6800000000,Won General,null,null
+34131294768,Ohio,LOCAL,School Board,Plain Local School Board,2025-11-04,UnContested,3.4600000000,Won General,null,null
+29297393985,Illinois,CITY,Clerk/Treasurer,Kane County: Batavia Township Assessor,2025-04-01,UnContested,4.9900000000,Won General,null,null
+29368953953,Wisconsin,LOCAL,Town Council,Rock County: La Prairie Town Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+29859144867,Wisconsin,LOCAL,School Board,West Allis-West Milwaukee School Board,2025-04-01,UnContested,4.2800000000,Won General,null,null
+30774977822,Illinois,LOCAL,School Board,Evanston/Skokie 65 School Board,2025-04-01,Contested,1.5300000000,Lost General,6090.0000000000,64390.0000000000
+30729000837,Illinois,LOCAL,Other,West Chicago Public Library District Board,2025-04-01,Contested,3.6300000000,Lost General,980.0000000000,6817.0000000000
+30823848631,Illinois,Local,City Council,City council,2025-04-01,Contested,3.6900000000,Won General,385.0000000000,524.0000000000
+36942834834,North Carolina,CITY,Town Council,Waxhaw Town Council,2025-11-04,Contested,2.7100000000,Lost General,null,null
+28765117353,Illinois,LOCAL,School Board,Coal City School Board 1,2025-04-01,Contested,1.9300000000,Lost General,375.0000000000,2975.0000000000
+30548738367,Illinois,LOCAL,Town Council,Bond County: Burgess Township Council,2025-04-01,UnContested,4.9900000000,Won General,null,null
+32359282082,Texas,CITY,City Council,Stanton City Council - At Large,2025-05-03,UnContested,5.0000000000,Won General,null,null
+31284007826,Wisconsin,LOCAL,Town Council,La Crosse County: Onalaska Town Board - Seat 1,2025-04-01,UnContested,5.0000000000,Won General,null,null
+22644199479,Texas,CITY,City Council,City Council,2024-11-05,Contested,0.9000000000,Lost General,1568.0000000000,17866.0000000000
+28249533512,Illinois,CITY,Town Council,Mundelein Village Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+35199178907,Alabama,CITY,Mayor,Cherokee City Mayor,2025-08-26,UnContested,2.1600000000,Lost General,32.0000000000,194.0000000000
+31508582800,Wisconsin,LOCAL,City Council,Wood County: Remington Town Chair,2025-04-01,UnContested,5.0000000000,Won General,null,null
+35300846449,Michigan,CITY,Mayor,Kalamazoo City Mayor,2025-11-04,UnContested,1.9500000000,Not on Ballot,null,null
+29672843063,Illinois,LOCAL,Town Council,Madison County: Chouteau Township Supervisor,2025-04-01,UnContested,5.0000000000,Won General,null,null
+31952442398,Texas,LOCAL,School Board,Wharton Independent School Board - Position 3,2025-05-03,UnContested,3.7600000000,Lost General,341.0000000000,833.0000000000
+30685627492,Illinois,CITY,City Council,Rock Falls City Council - Ward 3,2025-04-01,Contested,3.0500000000,Won General,99.0000000000,196.0000000000
+28278444130,Illinois,LOCAL,Town Council,Montgomery County: Raymond Township Supervisor,2025-04-01,UnContested,5.0000000000,Won General,null,null
+27985074486,Tennessee,CITY,City Council,Chattanooga City Council - District 9,2025-03-04,Contested,1.3100000000,Lost General,528.0000000000,2500.0000000000
+30307159601,Wisconsin,CITY,City Council,Watertown City Council - District 3,2025-04-01,UnContested,5.0000000000,Won General,null,null
+33754586254,Ohio,LOCAL,Town Council,Guernsey County: Center Township Trustee,2025-11-04,UnContested,3.0600000000,Won General,null,null
+29552306764,Illinois,LOCAL,Utilities Commissioner,Glenside Public Library District Board,2025-04-01,Contested,2.4900000000,Lost General,629.0000000000,7003.0000000000
+31173209641,Illinois,LOCAL,Clerk/Treasurer,Macoupin County: Mount Olive Township Clerk,2025-04-01,UnContested,4.9900000000,Won General,null,null
+34378542906,Iowa,LOCAL,School Board,MOC-Floyd Valley Community School Board - District 5,2025-11-04,UnContested,3.8700000000,Won General,null,null
+30092169651,Illinois,LOCAL,Utilities Commissioner,Rockford Park District Board,2025-04-01,Contested,4.3500000000,Won General,2003.0000000000,5361.0000000000
+30686257476,Illinois,LOCAL,School Board,Central A&M 21 School Board,2025-04-01,Contested,4.3200000000,Won General,509.0000000000,2270.0000000000
+28327446072,Oklahoma,LOCAL,School Board,Panama School Board,2025-04-01,Contested,3.5800000000,Lost General,140.0000000000,447.0000000000
+29314201433,Vermont,LOCAL,Other,Huntington Town Library Board,2025-03-04,Contested,3.8900000000,Won General,null,null
+32389169826,Texas,CITY,City Council,Seven Points City Council,2025-05-03,Contested,2.5600000000,Not on Ballot,null,null
+28683366221,South Carolina,LOCAL,School Board,Sumter County School Board - Area 1,2026-11-03,Contested,1.5600000000,Runoff,71.0000000000,366.0000000000
+30079577519,Wisconsin,CITY,Town Council,Oregon Village Board,2025-04-01,UnContested,3.9000000000,Won General,null,null
+31375318662,Wisconsin,LOCAL,Clerk/Treasurer,Columbia County: Dekorra Town Treasurer,2025-04-01,UnContested,5.0000000000,Won General,null,null
+31410024583,Wisconsin,LOCAL,Sheriff,Fond du Lac County: Calumet Town Constable,2025-04-01,UnContested,5.0000000000,Won General,null,null
+30824152173,Illinois,Local,Town Council,Township Board,2025-04-01,Contested,3.6600000000,Won General,2563.0000000000,7390.0000000000
+23450529944,Virginia,LOCAL,School Board,Smyth County School Board - Royal Oak,2025-11-04,Contested,2.1700000000,Not on Ballot,null,null
+29359154853,Wisconsin,LOCAL,Town Council,Brown County: Wrightstown Town Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+31445360653,Wisconsin,LOCAL,Town Council,Fond du Lac County: Oakfield Town Board - Seat 1,2025-04-01,UnContested,5.0000000000,Won General,null,null
+22164562452,Virginia,COUNTY,City Council,Norfolk City Council - Superward 7,2024-11-05,Contested,2.2600000000,Lost General,244.0000000000,374.0000000000
+28378102093,Illinois,LOCAL,School Board,Community 117 School Board,2025-04-01,Contested,3.9900000000,Won General,2695.0000000000,15940.0000000000
+34116432718,Kansas,LOCAL,School Board,Peabody-Burns USD 398 School Board,2025-11-04,UnContested,3.1100000000,Won General,null,null
+29931131695,Illinois,LOCAL,School Board,Alton 11 School Board,2025-04-01,Contested,1.5200000000,Won General,382.0000000000,2536.0000000000
+35414996059,Pennsylvania,CITY,City Council,Railroad Borough Council,2025-11-04,UnContested,1.6000000000,Won General,null,null
+22223248739,Kentucky,CITY,City Council,Jeffersontown City Council,2026-11-03,Contested,3.0000000000,Won General,4353.0000000000,62651.0000000000
+30745638755,Illinois,CITY,Mayor,Mayor,2025-04-01,Contested,3.6000000000,Won General,2838.0000000000,5352.0000000000
+33759682560,Ohio,CITY,Town Council,Paulding Village Council,2025-11-04,UnContested,3.0700000000,Won General,null,null
+28737752393,Illinois,CITY,Clerk/Treasurer,Peru City Clerk,2025-04-01,Contested,2.6300000000,Lost General,1297.0000000000,2845.0000000000
+29672843104,Illinois,CITY,City Council,Collinsville City Council,2025-04-01,Contested,1.8100000000,Lost General,1297.0000000000,5203.0000000000
+27856916591,Illinois,CITY,Mayor,Round Lake Village President,2025-04-01,Contested,1.6100000000,Won General,926.0000000000,1158.0000000000
+36059144010,Iowa,LOCAL,School Board,Bettendorf School Board,2025-11-04,Contested,4.1800000000,Lost General,1607.0000000000,11467.0000000000
+30473641232,Wisconsin,CITY,Town Council,Richfield Village President,2025-04-01,Contested,1.5300000000,Lost General,1802.0000000000,5961.0000000000
+31442329952,Florida,CITY,City Council,Lake Alfred City Commission - Seat 3,2025-04-01,Contested,1.0800000000,Lost General,216.0000000000,1447.0000000000
+29812078344,Wisconsin,LOCAL,Sheriff,Marathon County: McMillan Town Constable,2025-04-01,UnContested,5.0000000000,Won General,null,null
+30082306674,Wisconsin,CITY,City Council,West Bend City Council - District 2,2025-04-01,Contested,2.5800000000,Won General,657.0000000000,1283.0000000000
+29353223287,Wisconsin,CITY,City Council,Beloit City Council,2025-04-01,Contested,3.7100000000,Won General,3534.0000000000,17120.0000000000
+29809146701,Washington,CITY,City Council,Ruston City Council - Position 4,2025-11-04,UnContested,2.3900000000,Won General,null,null
+30281975190,Wisconsin,CITY,Town Council,Bristol Village Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+35490956345,Ohio,TOWNSHIP,Town Council,Morgan County: Windsor Township Trustee,2025-11-04,UnContested,3.0700000000,Won General,254.0000000000,644.0000000000
+30750534977,Wisconsin,LOCAL,School Board,Manitowoc School Board,2025-04-01,Contested,2.7900000000,Lost General,4585.0000000000,35429.0000000000
+31000697964,Wisconsin,CITY,Mayor,McFarland Village President,2025-04-01,Contested,3.5300000000,Lost General,1474.0000000000,4269.0000000000
+29358632765,Illinois,LOCAL,Utilities Commissioner,Zion Park District Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+28707150920,Oklahoma,LOCAL,School Board,Gracemont School Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+31164079961,Illinois,LOCAL,School Board,Homewood-Flossmoor Community 233 School Board,2025-04-01,Contested,2.8700000000,Lost General,2972.0000000000,19914.0000000000
+28222907575,Oklahoma,CITY,City Council,Norman City Council - Ward 7,2025-04-01,Contested,0.9200000000,Runoff,800.0000000000,null
+27989457327,Illinois,LOCAL,School Board,Steeleville 138 School Board,2025-04-01,Contested,4.3200000000,Won General,118.0000000000,537.0000000000
+29722783338,Wisconsin,Local,Town Council,Trustee,2025-04-01,UnContested,5.0000000000,Won General,null,null
+31036644771,Illinois,LOCAL,Other,Whiteside County: Erie Township Highway Commissioner,2025-04-01,UnContested,4.9900000000,Won General,null,null
+28682091375,Illinois,CITY,City Council,Pekin City Council,2025-04-01,Contested,2.3000000000,Lost General,908.0000000000,8512.0000000000
+29799144596,Wisconsin,CITY,Mayor,Harrison Village Board,2025-04-01,Contested,5.0000000000,Lost General,2226.0000000000,5174.0000000000
+30746800943,Illinois,LOCAL,Other,Park Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+31288551976,Illinois,CITY,Town Council,Sublette Village Council,2025-04-01,UnContested,5.0000000000,Won General,null,null
+34201580207,Georgia,CITY,City Council,Statesboro City Council - District 4,2025-11-04,UnContested,3.2500000000,Won General,null,null
+31023866494,Illinois,LOCAL,Town Council,Kane County: Blackberry Township Council,2025-04-01,UnContested,5.0000000000,Won General,null,null
+29511085747,Illinois,LOCAL,Utilities Commissioner,Fountaindale Public Library District Board,2025-04-01,Contested,5.0000000000,Won General,null,null
+35394856871,Virginia,LOCAL,School Board,Charlotte County School Board - Keysville,2025-11-04,UnContested,3.7100000000,Won General,null,null
+29283629139,Illinois,LOCAL,Utilities Commissioner,Glenside Fire Protection District Board,2025-04-01,Contested,2.8600000000,Lost General,822.0000000000,2302.0000000000
+29388372902,Wisconsin,LOCAL,School Board,Monona Grove School Board,2025-04-01,Contested,3.4500000000,Lost General,3047.0000000000,14688.0000000000
+28275546006,Oklahoma,Local,Other,tech center board,2025-04-01,UnContested,4.9900000000,Won General,null,null
+31317008543,Wisconsin,LOCAL,Town Council,Wood County: Remington Town Board,2025-04-01,Contested,3.8800000000,Won General,46.0000000000,167.0000000000
+33160199687,Oregon,LOCAL,School Board,West Linn-Wilsonville 3J School Board - Seat 5,2025-05-20,UnContested,5.0000000000,Won General,null,null
+31018282005,Illinois,Local,Other,Trustee,2025-04-01,UnContested,5.0000000000,Won General,null,null
+28404811355,Illinois,CITY,Town Council,Gurnee Village Board,2025-04-01,Contested,4.3800000000,Won General,2444.0000000000,8732.0000000000
+27994892304,Oklahoma,LOCAL,School Board,Okmulgee School Board,2025-04-01,Contested,1.5800000000,Lost General,353.0000000000,904.0000000000
+28247380616,Illinois,LOCAL,School Board,Township 211 School Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+31257369956,Illinois,LOCAL,Town Council,Champaign County: Champaign Township Board,2025-04-01,Contested,2.9000000000,Lost General,1253.0000000000,11817.0000000000
+35121874212,Ohio,LOCAL,School Board,Akron City School Board,2025-11-04,Contested,2.8800000000,Lost General,5859.0000000000,66403.0000000000
+35055218336,Pennsylvania,LOCAL,School Board,Austin Area School Board - Region 3 (Portage and Wharton Townships),2025-11-04,UnContested,1.4200000000,Won General,null,null
+30308842777,Wisconsin,CITY,Clerk/Treasurer,Town Chair,2025-04-01,UnContested,5.0000000000,Won General,null,null
+30886187821,Wisconsin,CITY,Town Council,Oregon Village Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+29909295707,Wisconsin,CITY,City Council,La Crosse City Council - District 10,2025-04-01,Contested,1.6600000000,Won General,785.0000000000,1435.0000000000
+28236947519,Illinois,LOCAL,School Board,Lake Bluff 65 School Board,2025-04-01,Contested,3.5800000000,Won General,537.0000000000,2962.0000000000
+28371469583,Illinois,LOCAL,School Board,Cary 26 School Board,2025-04-01,Contested,1.9300000000,Won General,1581.0000000000,9140.0000000000
+31370981930,Wisconsin,LOCAL,City Council,Washington County: Farmington Town Chair,2025-04-01,Contested,3.6000000000,Won General,1198.0000000000,1684.0000000000
+30817709342,Illinois,CITY,City Council,Braidwood City Commission - Accounts and Finances,2025-04-01,Contested,1.7400000000,Won General,900.0000000000,1246.0000000000
+31026922931,Illinois,LOCAL,Town Council,Madison County: Nameoki Township Board,2025-04-01,Contested,2.2100000000,Lost General,241.0000000000,2953.0000000000
+28129277235,Oklahoma,LOCAL,School Board,Oklahoma City School Board - District 2,2025-04-01,Contested,1.0000000000,Lost General,1933.0000000000,11531.0000000000
+29307377410,Illinois,Local,Utilities Commissioner,Helen M. Plum Memorial Public Library District,2025-04-01,Contested,2.1700000000,Lost General,1755.0000000000,27173.0000000000
+31381441721,Wisconsin,LOCAL,Town Council,Dane County: York Town Board - Seat 2,2025-04-01,UnContested,5.0000000000,Won General,null,null
+29371418995,Wisconsin,CITY,Mayor,Cochrane Village President,2025-04-01,Contested,3.3800000000,Won General,3871.0000000000,6884.0000000000
+30370097757,Illinois,LOCAL,School Board,Dunlap 323 School Board,2025-04-01,Contested,3.8700000000,Won General,2864.0000000000,10777.0000000000
+29762450088,Illinois,CITY,City Council,St. Charles City Council - Ward 3,2025-04-01,Contested,1.1100000000,Won General,539.0000000000,1405.0000000000
+29289668921,Illinois,LOCAL,School Board,Heartland 540 Community College Board,2025-04-01,Contested,2.6900000000,Won General,18836.0000000000,67343.0000000000
+28843703657,South Carolina,CITY,City Council,Clinton City Council - Ward 1,2025-11-04,Contested,2.7300000000,Lost General,null,null
+28153651068,Florida,CITY,Town Council,Jupiter Town Council - District 2,2025-03-11,Contested,0.9900000000,Lost General,1453.0000000000,7288.0000000000
+29308984929,Illinois,CITY,Town Council,Woodstock Village Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+29142075139,Illinois,LOCAL,School Board,Kenilworth 38 School Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+29350304099,South Carolina,CITY,City Council,Laurens City Council - District 4,2025-03-04,Contested,1.4500000000,Won General,58.0000000000,73.0000000000
+28005070103,Illinois,CITY,Town Council,Bolingbrook Village Council,2025-04-01,UnContested,5.0000000000,Won General,null,null
+31974863234,Virginia,COUNTY,County Supervisor,Rockbridge County Board - Kerr's Creek,2025-11-04,Contested,1.2200000000,Lost General,625.0000000000,1787.0000000000
+34359770952,Ohio,LOCAL,Town Council,Logan County: Jefferson Township Trustee,2025-11-04,UnContested,3.0600000000,Won General,null,null
+28147040012,Illinois,CITY,City Council,Bloomington City Council - Ward 1,2025-04-01,Contested,2.6700000000,Won General,1393.0000000000,2402.0000000000
+32051876699,New York,LOCAL,School Board,Auburn School Board,2025-05-20,UnContested,2.9500000000,Won General,901.0000000000,6529.0000000000
+31079311106,Wisconsin,CITY,Mayor,Greenfield City Mayor,2025-04-01,Contested,3.5300000000,Won General,9071.0000000000,11893.0000000000
+31432266149,Illinois,LOCAL,Other,Elmwood Park Village Library Board,2025-04-01,Contested,1.5800000000,Lost General,860.0000000000,6955.0000000000
+29357514261,Wisconsin,STATE,Judge,"Wisconsin Appeals Court Judge - District 3, Seat 1",2025-04-01,UnContested,5.0000000000,Won General,null,null
+29088612356,Illinois,CITY,Town Council,Waltham Township Board,2025-04-01,Contested,3.6900000000,Lost General,69.0000000000,517.0000000000
+35146804250,Washington,CITY,Mayor,Friday Harbor Town Mayor,2025-11-04,Contested,0.9300000000,Won General,null,null
+30318867587,Wisconsin,Local,School Board,school board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+29643597389,Oklahoma,LOCAL,School Board,Chickasha School Board,2025-04-01,UnContested,3.5800000000,Won General,null,null
+30770105915,Wisconsin,LOCAL,School Board,Milwaukee Public School Board - District 4,2025-02-18,UnContested,5.0000000000,Won General,19941.0000000000,20279.0000000000
+30662924976,Illinois,LOCAL,Other,Cerro Gordo Fire Protection District Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+28961565486,Illinois,LOCAL,Town Council,Champaign County: Tolono Township Supervisor,2025-04-01,UnContested,5.0000000000,Won General,null,null
+31368288347,Illinois,CITY,Town Council,Wadsworth Village Council,2025-04-01,Contested,3.6900000000,Won General,390.0000000000,1647.0000000000
+33788759877,Texas,CITY,Mayor,Double Horn City Mayor,2025-11-04,UnContested,3.1700000000,Won General,null,null
+29631383554,Illinois,LOCAL,School Board,North Shore 112 School Board,2025-04-01,Contested,1.2600000000,Lost General,1227.0000000000,18831.0000000000
+41026655288,Washington,LOCAL,Other,Peninsula Port District Board - District 1,2025-11-04,Contested,2.5300000000,Lost General,375.0000000000,1305.0000000000
+31252678503,Illinois,CITY,City Council,Galesburg City Council - Ward 4,2025-04-01,Contested,3.7200000000,Won General,165.0000000000,271.0000000000
+28804430486,Oklahoma,LOCAL,School Board,Ponca City School Board - Office 5,2025-04-01,Contested,2.5000000000,Won General,470.0000000000,901.0000000000
+30353266986,Wisconsin,CITY,Town Council,Bellevue Village Board,2025-04-01,UnContested,2.7400000000,Won General,null,null
+29707978323,Wisconsin,CITY,Mayor,Nashotah Village President,2025-04-01,Contested,3.5300000000,Lost General,260.0000000000,630.0000000000
+28842355893,Illinois,LOCAL,Utilities Commissioner,Robert W. Rowe Public Library District Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+29561220263,Illinois,LOCAL,Utilities Commissioner,LaSalle County: Richland Township Highway Commissioner,2025-04-01,UnContested,5.0000000000,Won General,null,null
+28169435926,Illinois,LOCAL,School Board,Harvey 152 School Board,2025-04-01,Contested,3.5200000000,Won General,423.0000000000,2671.0000000000
+28316618541,Oklahoma,CITY,City Council,Altus City Council - Ward 4,2025-04-01,UnContested,4.9900000000,Won General,null,null
+31262321059,Illinois,LOCAL,School Board,Belleville 118 School Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+28746631316,Illinois,CITY,Mayor,Grayslake Village Mayor,2025-04-01,Contested,1.6100000000,Lost General,274.0000000000,2966.0000000000
+34365436193,Ohio,CITY,Town Council,Kalida Village Council,2025-11-04,UnContested,3.0700000000,Won General,null,null
+28297681837,Illinois,LOCAL,Clerk/Treasurer,LaSalle County: Earl Township Assessor,2025-04-01,UnContested,5.0000000000,Won General,null,null
+30667526459,Illinois,LOCAL,School Board,LaGrange Highlands 106 School Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+31271985706,Oklahoma,CITY,City Council,Spencer City Council - At Large,2025-04-01,Contested,1.6300000000,Lost General,4.0000000000,16.0000000000
+31314021942,Wisconsin,CITY,Town Council,Plover Village Board - Ward 3,2025-04-01,UnContested,5.0000000000,Won General,null,null
+30344767337,Illinois,LOCAL,School Board,Mount Prospect 57 School Board,2025-04-01,Contested,1.9300000000,Lost General,1203.0000000000,11582.0000000000
+31472677447,Illinois,CITY,Town Council,Flossmoor Village Council,2025-04-01,Contested,1.3700000000,Won General,1383.0000000000,8189.0000000000
+29394664822,Wisconsin,CITY,City Council,Milton City Council,2025-04-01,Contested,0.9500000000,Won General,1211.0000000000,4373.0000000000
+29805906977,Illinois,LOCAL,School Board,Aptakisic-Tripp 102 School Board,2025-04-01,Contested,4.3200000000,Won General,872.0000000000,4160.0000000000
+34102492254,Ohio,LOCAL,Town Council,Richland County: Weller Township Trustee,2025-11-04,UnContested,3.0600000000,Won General,252.0000000000,911.0000000000
+34110562154,Kansas,LOCAL,School Board,"Mission Valley USD 330 School Board - District 1, Position 4",2025-11-04,UnContested,2.6300000000,Won General,null,null
+28247998211,Illinois,CITY,City Council,Geneva City Council - Ward 4,2025-04-01,UnContested,5.0000000000,Won General,null,null
+33657842057,Ohio,LOCAL,Town Council,Williams County: Jefferson Township Trustee,2025-11-04,UnContested,3.0600000000,Won General,null,null
+31290444373,Missouri,LOCAL,School Board,Kansas City School Board - At Large,2025-04-08,Contested,1.6700000000,Lost General,2819.0000000000,20048.0000000000
+22451311964,Kentucky,LOCAL,School Board,Anderson County Soil and Water Conservation District Board,2026-11-03,Contested,2.8300000000,Lost General,826.0000000000,2098.0000000000
+31961483952,Texas,LOCAL,School Board,Bonham Independent School Board - Place 3,2025-05-03,UnContested,5.0000000000,Won General,null,null
+28717520284,Illinois,LOCAL,School Board,Hillside 93 School Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+29303148802,Illinois,CITY,Mayor,Island Lake Village Mayor,2025-04-01,Contested,2.9000000000,Lost General,292.0000000000,1387.0000000000
+28847484178,Illinois,CITY,City Council,Peru City Council - Ward 4,2025-04-01,UnContested,5.0000000000,Won General,null,null
+27986682248,Illinois,CITY,Mayor,Barrington Village President,2025-04-01,UnContested,5.0000000000,Won General,null,null
+23399967779,Minnesota,CITY,City Council,West Concord City Council,2026-11-03,Contested,2.4100000000,Won General,217.0000000000,603.0000000000
+29670336655,Illinois,CITY,Town Council,Glendale Heights Village Board - District 2,2025-04-01,Contested,0.9800000000,Lost General,184.0000000000,638.0000000000
+29292410734,Oklahoma,LOCAL,School Board,Stillwater School Board - Ward 5,2025-04-01,Contested,3.5800000000,Won General,4238.0000000000,5658.0000000000
+33695397248,Washington,LOCAL,School Board,Colville District 115 School Board - District 5,2025-11-04,UnContested,2.6700000000,Won General,null,null
+31378095754,Wisconsin,LOCAL,Town Council,Portage County: Hull Town Board,2025-04-01,Contested,4.3300000000,Won General,1268.0000000000,3156.0000000000
+23017354836,New Jersey,LOCAL,Mayor,Camden County: Gloucester Township Mayor,2025-11-04,Contested,1.3700000000,Not on Ballot,null,null
+29262834856,Oklahoma,LOCAL,School Board,Hominy School Board,2025-04-01,Contested,2.5000000000,Won General,31.0000000000,51.0000000000
+28955461049,Oklahoma,LOCAL,School Board,Copan School Board,2025-04-01,Contested,3.5800000000,Won General,50.0000000000,90.0000000000
+32377992737,Texas,CITY,Town Council,Poth Town Council,2025-05-03,UnContested,5.0000000000,Won General,null,null
+31195332481,Illinois,LOCAL,Other,Carroll Township Fire Protection District Board,2025-04-01,UnContested,4.9900000000,Won General,null,null
+35483128234,Texas,LOCAL,School Board,Alief Independent School Board - Position 4,2025-11-04,UnContested,3.6500000000,Won General,null,null
+23652309274,New Jersey,LOCAL,School Board,West Windsor-Plainsboro Regional School Board - Plainsboro District,2025-11-04,Contested,2.5800000000,Lost General,1626.0000000000,4880.0000000000
+28281011262,Oklahoma,LOCAL,School Board,Tulsa School Board - District 3,2025-04-01,Contested,2.5000000000,Lost General,201.0000000000,643.0000000000
+31405095864,Illinois,CITY,Clerk/Treasurer,Nelson Village Clerk,2025-04-01,UnContested,4.9900000000,Won General,null,null
+31278802737,Illinois,CITY,City Council,Geneva City Council - Ward 3,2025-04-01,UnContested,4.9900000000,Won General,null,null
+28767456770,Illinois,LOCAL,Utilities Commissioner,Barrington Public Library District Board,2025-04-01,Contested,3.9200000000,Lost General,2426.0000000000,17701.0000000000
+29996704422,Wisconsin,CITY,City Council,Stevens Point City Council - District 7,2025-04-01,Contested,1.6600000000,Lost General,233.0000000000,725.0000000000
+29817334946,Illinois,LOCAL,Utilities Commissioner,Darien-Woodridge Fire Protection District Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+29139443805,Illinois,LOCAL,School Board,Indian Springs 109 School Board,2025-04-01,Contested,2.6900000000,Lost General,222.0000000000,3724.0000000000
+30280908311,Illinois,CITY,Mayor,Marine Village President,2025-04-01,Contested,2.5200000000,Lost General,141.0000000000,308.0000000000
+30536171620,Illinois,LOCAL,School Board,Naperville Community Unit School Board 203,2025-04-01,Contested,4.3200000000,Won General,9227.0000000000,45126.0000000000
+37746369719,Illinois,CITY,Mayor,Maywood Village President,2025-04-01,Contested,1.0100000000,Lost General,199.0000000000,2019.0000000000
+22824612369,New Jersey,LOCAL,State House,Jersey City School Board,2025-11-04,Contested,0.9400000000,Lost General,9805.0000000000,103675.0000000000
+31411692098,Wisconsin,CITY,Town Council,St. Nazianz Village Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+30938971963,Illinois,CITY,Clerk/Treasurer,Fulton City Clerk,2025-04-01,UnContested,4.9800000000,Won General,null,null
+29646247038,Wisconsin,LOCAL,School Board,Raymond School Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+31301001810,Illinois,LOCAL,School Board,Gardner-South Wilmington Township School Board,2025-04-01,Contested,3.2400000000,Lost General,195.0000000000,1843.0000000000
+30795007293,Illinois,CITY,Town Council,Village board,2025-04-01,UnContested,4.9900000000,Won General,null,null
+29916697708,Illinois,LOCAL,Town Council,Franklin County: Benton Township Supervisor,2025-04-01,Contested,1.9500000000,Lost General,1103.0000000000,2565.0000000000
+28320025916,Oklahoma,LOCAL,School Board,Atoka School Board,2025-04-01,UnContested,4.9900000000,Won General,null,null
+28672547956,Illinois,LOCAL,School Board,Maywood-Melrose Park-Broadview 89 School Board,2025-04-01,Contested,2.6900000000,Won General,427.0000000000,2000.0000000000
+29846594089,Colorado,CITY,City Council,Colorado Springs City Council - District 2,2025-04-01,Contested,1.1900000000,Lost General,4128.0000000000,11195.0000000000
+28306814540,Illinois,LOCAL,School Board,Oak Park 97 School Board,2025-04-01,Contested,3.5200000000,Won General,5447.0000000000,24335.0000000000
+28594805255,Illinois,LOCAL,Utilities Commissioner,Indian Trails Library District Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+30792026494,Wisconsin,Local,City Council,City council,2025-04-01,UnContested,4.9900000000,Won General,null,null
+32433736875,Texas,CITY,City Council,Mount Vernon City Council - Place 1,2025-05-03,UnContested,5.0000000000,Won General,null,null
+31060792095,Illinois,LOCAL,School Board,Heritage Community Unit School District 8 School Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+30682410815,Wisconsin,LOCAL,Town Council,Rock County: Johnstown Town Board - Seat 1,2025-04-01,Contested,3.8200000000,Won General,209.0000000000,313.0000000000
+28249532757,Illinois,CITY,Mayor,Fox Lake Village President,2025-04-01,Contested,3.6000000000,Won General,1160.0000000000,1589.0000000000
+30445671575,Illinois,Local,Utilities Commissioner,Library Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+33678540834,Michigan,CITY,City Council,St. Ignace City Council,2025-11-04,UnContested,3.8800000000,Won General,null,null
+30317329025,Wisconsin,Local,School Board,school board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+29886947001,Oklahoma,CITY,City Council,Bethany City Council - Ward 4,2025-04-01,Contested,1.6300000000,Won General,55.0000000000,82.0000000000
+29671442070,Illinois,LOCAL,School Board,Huntley Community Consolidated 158 School Board,2025-04-01,Contested,1.2600000000,Lost General,1282.0000000000,16815.0000000000
+33796356224,North Dakota,LOCAL,School Board,Dunseith 1 School Board,2025-06-10,Contested,2.5900000000,Won General,168.0000000000,288.0000000000
+31518302860,Wisconsin,LOCAL,City Council,Chippewa County: Auburn Town Chair,2025-04-01,UnContested,5.0000000000,Won General,null,null
+30782684454,Illinois,Local,Other,Library Board,2025-04-01,Contested,2.4900000000,Won General,7965.0000000000,20251.0000000000
+28361987425,Illinois,LOCAL,School Board,Gardner School Board 72C,2025-04-01,Contested,2.6900000000,Won General,161.0000000000,630.0000000000
+28672721697,Illinois,LOCAL,Town Council,Champaign County: Rantoul Township Board,2025-04-01,UnContested,4.9900000000,Won General,null,null
+30784067855,Alaska,County,City Council,Anchorage Assembly District 1 Seat L,2025-04-01,Contested,2.7700000000,Lost General,472.0000000000,5626.0000000000
+30447030909,Illinois,LOCAL,School Board,Durand 322 School Board,2025-04-01,Contested,2.6900000000,Won General,204.0000000000,730.0000000000
+34285382928,Washington,CITY,City Council,Lynnwood City Council - Position 3,2025-11-04,Contested,1.0300000000,Won General,4266.0000000000,8147.0000000000
+34869164592,Washington,LOCAL,School Board,South Whidbey District 206 School Board - Position 2,2025-11-04,UnContested,2.6700000000,Won General,null,null
+28624883752,Illinois,CITY,Town Council,Minooka Village Council,2025-04-01,Contested,1.2600000000,Won General,587.0000000000,2323.0000000000
+28365899163,Illinois,LOCAL,School Board,St. Charles 303 School Board,2025-04-01,Contested,2.1000000000,Won General,7686.0000000000,46094.0000000000
+27994740914,Illinois,LOCAL,Utilities Commissioner,Graves-Hume Library District Board,2025-04-01,UnContested,2.7600000000,Won General,null,null
+34811643017,North Carolina,CITY,Town Council,Washington Park Town Council,2025-11-04,UnContested,3.9600000000,Won General,null,null
+28906234714,Oklahoma,LOCAL,School Board,Drumright School Board,2025-04-01,Contested,4.9800000000,Won General,139.0000000000,158.0000000000
+28649952599,Oklahoma,LOCAL,School Board,Lane Elementary School Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+29704649789,Illinois,CITY,Town Council,"Village of Wauconda, Trustee",2025-04-01,Contested,1.6400000000,Lost General,412.0000000000,4720.0000000000
+29523377441,Illinois,LOCAL,School Board,Yorkville 115 School Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+28964519604,Illinois,LOCAL,School Board,Benjamin 25 School Board,2025-04-01,Contested,2.6900000000,Won General,785.0000000000,3248.0000000000
+30200741020,Wisconsin,CITY,Mayor,Vernon Village President,2025-04-01,Contested,3.5300000000,Won General,2350.0000000000,3510.0000000000
+33754048676,Kansas,LOCAL,School Board,"Oxford USD 358 School Board - District 2, Position 5",2025-11-04,UnContested,2.6300000000,Won General,null,null
+31167308840,Wisconsin,LOCAL,School Board,Middleton-Cross Plains Area School Board - Area 3,2025-04-01,UnContested,4.9900000000,Won General,null,null
+29392318798,Wisconsin,LOCAL,School Board,Swallow School Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+31293519620,Oklahoma,CITY,Town Council,Waukomis Town Board - Seat 2,2025-04-01,Contested,2.6300000000,Lost General,64.0000000000,138.0000000000
+29347914043,Wisconsin,LOCAL,School Board,Clintonville Public School Board,2025-04-01,Contested,2.9200000000,Lost General,1316.0000000000,5872.0000000000
+34746455086,Ohio,LOCAL,Town Council,Belmont County: Kirkwood Township Trustee,2025-11-04,UnContested,3.0600000000,Won General,null,null
+29359266736,Wisconsin,LOCAL,Clerk/Treasurer,Rock County: Harmony Town Chair,2025-04-01,UnContested,5.0000000000,Won General,null,null
+28315991865,Oklahoma,LOCAL,School Board,Coyle School Board,2025-04-01,Contested,1.5800000000,Won General,124.0000000000,204.0000000000
+30692916336,Illinois,LOCAL,School Board,Belvidere Community Unit School District 100 School Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+30672580674,Wisconsin,CITY,City Council,Whitewater City Council - District 3,2025-04-01,UnContested,4.9900000000,Won General,null,null
+30899646135,Wisconsin,LOCAL,School Board,Janesville School Board,2025-04-01,Contested,1.4500000000,Won General,6418.0000000000,41329.0000000000
+28784697515,Illinois,CITY,Town Council,Big Rock Village Council,2025-04-01,UnContested,4.9900000000,Won General,null,null
+31170359861,Illinois,CITY,Town Council,Dunlap Village Council,2025-04-01,Contested,2.8300000000,Won General,133.0000000000,384.0000000000
+28492142955,Illinois,CITY,Mayor,Sleepy Hollow Village President,2025-04-01,Contested,1.6100000000,Won General,613.0000000000,963.0000000000
+31526566947,Wisconsin,LOCAL,City Council,Wood County: Sherry Town Chair,2025-04-01,UnContested,5.0000000000,Won General,null,null
+29783247761,Illinois,LOCAL,School Board,Zion-Benton Township 126 School Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+19605680820,Wisconsin,COUNTY,County Supervisor,Milwaukee County Board of Supervisors - District 18,2026-04-07,UnContested,1.9900000000,Lost General,4331.0000000000,22856.0000000000
+28368667039,Illinois,LOCAL,School Board,Northbrook/Glenview 30 School Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+35299112360,Washington,CITY,City Council,Shelton City Council - Position 6,2025-11-04,Contested,1.0800000000,Lost General,null,null
+34737978268,Ohio,LOCAL,Town Council,Ashtabula County: Williamsfield Township Trustee,2025-11-04,UnContested,3.0600000000,Won General,null,null
+32865113016,Oregon,LOCAL,Other,Agness Community Library District Board - Position 1,2025-05-20,UnContested,5.0000000000,Won General,41.0000000000,41.0000000000
+31177276599,Illinois,CITY,Mayor,Crainville Village President,2025-04-01,UnContested,5.0000000000,Won General,null,null
+35127070247,Ohio,LOCAL,School Board,Columbiana Exempted Village School Board,2025-11-04,UnContested,2.8800000000,Lost General,null,null
+31381754264,Wisconsin,LOCAL,Town Council,Waupaca County: Dupont Town Board - Ward 1,2025-04-01,Contested,3.8200000000,Won General,180.0000000000,283.0000000000
+34370832515,Colorado,CITY,City Council,Brighton City Council - Ward 4,2025-11-04,UnContested,4.9900000000,Won General,null,null
+28952273800,Wisconsin,CITY,Town Council,Jackson Village Board,2025-04-01,Contested,3.2800000000,Won General,1431.0000000000,6754.0000000000
+30628522916,Illinois,Local,Other,Fox Valley Park District Commissioner At-Large,2025-04-01,Contested,2.7900000000,Lost General,8005.0000000000,16313.0000000000
+28107091012,Illinois,LOCAL,School Board,Bremen Community 228 School Board,2025-04-01,UnContested,3.5800000000,Won General,null,null
+31213824525,Illinois,LOCAL,Town Council,Carroll County: Salem Township Supervisor,2025-04-01,UnContested,5.0000000000,Won General,null,null
+34359342682,Ohio,CITY,Town Council,Enon Village Council,2025-11-04,UnContested,3.0700000000,Won General,null,null
+31030367105,Illinois,LOCAL,School Board,Flossmoor 161 School Board,2025-04-01,Contested,1.5200000000,Lost General,1895.0000000000,15281.0000000000
+28153517673,Illinois,LOCAL,School Board,River Forest 90 School Board,2025-04-01,Contested,1.9300000000,Withdrew,null,null
+38087416136,Kansas,CITY,School Board,Oskaloosa City Council,2025-11-04,UnContested,1.3400000000,Won General,52.0000000000,200.0000000000
+28559111235,Oklahoma,COUNTY,County Supervisor,Oklahoma County Commission - District 1,2025-04-01,Contested,0.8600000000,Lost General,915.0000000000,6572.0000000000
+31205827441,Illinois,LOCAL,Town Council,Lee County: Franklin Grove Township Council,2025-04-01,UnContested,4.9900000000,Won General,null,null
+29809773927,Wisconsin,LOCAL,Town Council,Jefferson County: Concord Town Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+34452680300,Ohio,CITY,Town Council,Brice Village Council,2025-11-04,UnContested,3.0700000000,Won General,null,null
+30376467790,Washington,CITY,City Council,Yelm City Council - Position 5,2025-11-04,Contested,2.3900000000,Won General,464.0000000000,780.0000000000
+29370527832,Oklahoma,CITY,City Council,Okemah City Council - At Large,2025-02-11,Contested,1.7900000000,Not on Ballot,null,null
+31398989111,Wisconsin,LOCAL,School Board,Verona Area School Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+31413904751,Illinois,CITY,City Council,Canton City Council - Ward 4,2025-04-01,UnContested,5.0000000000,Won General,null,null
+23294855458,Minnesota,CITY,Mayor,Bock City Mayor,2024-11-05,Contested,3.2600000000,Won General,26.0000000000,28.0000000000
+34205495627,Washington,CITY,City Council,College Place City Council - Position 3,2025-11-04,Contested,1.6200000000,Lost General,813.0000000000,1720.0000000000
+30685947203,Illinois,LOCAL,School Board,Prophetstown-Lyndon-Tampico 3 School Board,2025-04-01,Contested,2.6900000000,Lost General,487.0000000000,2867.0000000000
+30080030550,Wisconsin,LOCAL,Clerk/Treasurer,Grant County: Platteville Town Clerk,2025-04-01,UnContested,5.0000000000,Won General,null,null
+27999606631,Florida,CITY,City Council,Tarpon Springs City Commission - Seat 1,2025-03-11,UnContested,4.9900000000,Won General,null,null
+28715899826,Illinois,CITY,City Council,West Chicago City Council - Ward 7 ,2025-04-01,Contested,2.6000000000,Lost General,141.0000000000,465.0000000000
+33529722438,Washington,LOCAL,School Board,Steptoe District 304 School Board - Position 3 (At Large),2025-11-04,UnContested,4.9800000000,Won General,null,null
+35468094742,Ohio,LOCAL,School Board,Tri-Valley Local School Board,2025-11-04,UnContested,2.8800000000,Won General,null,null
+35413812750,Michigan,CITY,City Council,Ironwood City Council,2025-11-04,UnContested,3.8800000000,Won General,null,null
+31377054279,Wisconsin,LOCAL,City Council,St. Croix County: Glenwood Town Chair,2025-04-01,UnContested,5.0000000000,Won General,null,null
+28362341934,Illinois,LOCAL,School Board,Marengo-Union 165 School Board,2025-04-01,Contested,3.5800000000,Won General,543.0000000000,2122.0000000000
+30939731719,Illinois,LOCAL,School Board,Butler 53 School Board,2025-04-01,Contested,1.5200000000,Lost General,599.0000000000,4920.0000000000
+30753282370,Illinois,Local,School Board,school board,2025-04-01,Contested,4.3200000000,Won General,1469.0000000000,3350.0000000000
+30681677857,Wisconsin,CITY,City Council,Watertown City Council - District 5,2025-04-01,Contested,1.6600000000,Lost General,400.0000000000,870.0000000000
+28973653392,Illinois,CITY,City Council,Evanston City Council - Ward 2,2025-04-01,Contested,3.0500000000,Won General,838.0000000000,1698.0000000000
+28948094125,Illinois,LOCAL,School Board,Ball-Chatham 5 School Board,2025-04-01,Contested,1.2600000000,Won General,1825.0000000000,12117.0000000000
+29637717171,Missouri,CITY,City Council,Charlack City Council - Ward 2,2025-04-08,Contested,2.4700000000,Lost General,31.0000000000,79.0000000000
+37492337247,Massachusetts,CITY,City Council,Brockton City Council - At Large,2025-11-04,Contested,2.0200000000,Lost General,3521.0000000000,33560.0000000000
+33813669128,Washington,Local,Town Council,Town Council,2025-11-04,Contested,1.8300000000,Won General,null,null
+34742231450,Georgia,CITY,Mayor,Turin Town Mayor,2025-11-04,UnContested,2.9900000000,Lost General,null,null
+31217305222,Illinois,LOCAL,Other,Decatur Park District Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+31467583626,Illinois,CITY,City Council,Palos Hills City Council - Ward 1,2025-04-01,Contested,3.7200000000,Won General,365.0000000000,512.0000000000
+30350420088,Illinois,LOCAL,Utilities Commissioner,Cook Memorial Public Library District Board,2025-04-01,Contested,2.8600000000,Won General,3241.0000000000,5848.0000000000
+33470734953,Oregon,Local,Other,Fire and Rescue District Board - Position 2,2025-05-20,UnContested,5.0000000000,Won General,null,null
+31129874006,Illinois,LOCAL,Other,South Suburban 510 Community College Board,2025-04-01,Contested,2.4200000000,Lost General,6604.0000000000,39906.0000000000
+34825319857,Georgia,CITY,City Council,Vidalia City Council - Ward 2,2025-11-04,UnContested,3.2500000000,Won General,null,null
+33935526541,Washington,LOCAL,School Board,Dayton District 2 School School Board - Position 5 (At Large),2025-11-04,UnContested,4.9800000000,Won General,null,null
+34746104589,Ohio,LOCAL,Town Council,Athens County: Dover Township Trustee,2025-11-04,UnContested,3.0600000000,Won General,null,null
+29670341452,Illinois,CITY,Town Council,Towanda Village Board,2025-04-01,UnContested,3.8800000000,Won General,null,null
+31276799350,Wisconsin,LOCAL,School Board,Weyauwega-Fremont School Board - Wolf River and Bloomfield Towns,2025-04-01,UnContested,5.0000000000,Won General,null,null
+30301418092,Illinois,LOCAL,Town Council,Madison County: Edwardsville Township Supervisor,2025-04-01,UnContested,4.9900000000,Won General,null,null
+30449449252,Illinois,Local,School Board,board of education,2025-04-01,UnContested,4.9900000000,Won General,null,null
+29372725056,Florida,CITY,City Council,Indian Rocks Beach City Commission,2025-03-11,Contested,1.4200000000,Lost General,250.0000000000,1125.0000000000
+28277160285,Illinois,LOCAL,School Board,Crystal Lake 47 School Board,2025-04-01,Contested,1.2600000000,Won General,2391.0000000000,18914.0000000000
+34990519913,Ohio,CITY,Town Council,Lower Salem Village Council,2025-11-04,UnContested,3.0700000000,Won General,null,null
+29685738542,Illinois,CITY,Town Council,Dupo Village Council,2025-04-01,Contested,1.6400000000,Lost General,70.0000000000,1039.0000000000
+28284577641,Illinois,CITY,Clerk/Treasurer,Highwood City Clerk,2025-04-01,UnContested,4.9900000000,Won General,null,null
+31250841374,Wisconsin,LOCAL,School Board,Phillips School Board - Area 2,2025-04-01,UnContested,1.7700000000,Lost General,807.0000000000,2478.0000000000
+31509935505,Pennsylvania,STATE,Judge,Pennsylvania Court of Common Pleas Judge - District 38 (Montgomery County),2025-11-04,UnContested,0.5400000000,Won General,null,null
+34931434821,Washington,CITY,City Council,Everett City Council - Position 4,2025-11-04,Contested,1.0300000000,Lost General,497.0000000000,1503.0000000000
+31516135598,Wisconsin,LOCAL,Town Council,Marathon County: Hewitt Town Board,2025-04-01,Contested,2.7100000000,Won General,136.0000000000,421.0000000000
+28877156273,Illinois,LOCAL,School Board,Oswego Community 308 School Board,2025-04-01,Contested,2.1000000000,Lost General,2641.0000000000,29800.0000000000
+31304051488,Illinois,CITY,City Council,Winchester City Council - Ward 1,2025-04-01,UnContested,4.9900000000,Won General,null,null
+28282342410,Illinois,LOCAL,School Board,College of Lake County 532 Trustee,2025-04-01,Contested,1.0800000000,Lost General,6726.0000000000,98367.0000000000
+23023901484,North Carolina,CITY,Town Council,Carrboro Town Council,2025-11-04,Contested,3.9600000000,Not on Ballot,null,null
+23349987953,Illinois,CITY,Mayor,Mayor,2025-04-01,Contested,3.6000000000,Won General,5671.0000000000,8764.0000000000
+28743135012,Illinois,CITY,Clerk/Treasurer,Lake Bluff Village Clerk,2025-04-01,UnContested,4.9900000000,Won General,null,null
+28921960455,Illinois,Local,School Board,La Grange School Board ,2025-04-01,Contested,4.9900000000,Won General,6516.0000000000,30973.0000000000
+28535056388,Illinois,LOCAL,School Board,Richland 88A School Board,2025-04-01,UnContested,4.3200000000,Won General,null,null
+28170359334,Illinois,LOCAL,School Board,Salt Creek School Board 48,2025-04-01,UnContested,5.0000000000,Won General,null,null
+38804788637,Minnesota,CITY,City Council,Golden Valley City Council,2025-11-04,Contested,2.4100000000,Won General,null,null
+29720474113,Wisconsin,LOCAL,School Board,Green Bay Area Public School Board,2025-04-01,Contested,3.1600000000,Won General,17402.0000000000,92341.0000000000
+30305869732,Washington,CITY,City Council,West Richland City Council - Position 1,2025-11-04,Contested,2.3900000000,Won General,null,null
+31261667447,Illinois,CITY,Town Council,Argenta Village Council,2025-04-01,UnContested,4.9900000000,Won General,null,null
+27999225106,Oklahoma,LOCAL,Other,Choctaw/Nicoma Park School Board,2025-04-01,UnContested,1.5200000000,Won General,null,null
+31041988613,Illinois,LOCAL,Other,Brookeridge Park District Board,2025-04-01,UnContested,4.9900000000,Won General,null,null
+28131127613,Illinois,LOCAL,Utilities Commissioner,Somonauk Public Library District Board,2025-04-01,Contested,1.5800000000,Lost General,305.0000000000,2948.0000000000
+33754824235,Ohio,LOCAL,Town Council,Morrow County: Harmony Township Trustee,2025-11-04,UnContested,3.0600000000,Won General,321.0000000000,463.0000000000
+34937629625,Ohio,LOCAL,School Board,Three Rivers Local School Board,2025-11-04,UnContested,2.8800000000,Won General,null,null
+21694478108,Arizona,CITY,Mayor,Florence Town Mayor,2024-11-05,Contested,2.3500000000,Won General,null,null
+34695323683,Washington,CITY,City Council,Chehalis City Council - Position 2,2025-11-04,Contested,4.9900000000,Won General,184.0000000000,185.0000000000
+31169604456,WIsconsin,CITY,City Council,Oconomowoc City Council - District 2,2025-04-01,Contested,3.6500000000,Lost General,875.0000000000,1777.0000000000
+29304775526,Illinois,LOCAL,School Board,West Harvey-Dixmoor 147 School Board,2025-04-01,Contested,2.6300000000,Won General,465.0000000000,2278.0000000000
+29178592344,Illinois,LOCAL,Town Council,McLean County: Towanda Township Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+30930852882,Wisconsin,LOCAL,Clerk/Treasurer,Rock County: Spring Valley Town Clerk,2025-04-01,UnContested,5.0000000000,Won General,null,null
+30304291933,Wisconsin,LOCAL,School Board,La Crosse School Board,2025-04-01,Contested,1.4500000000,Lost General,4909.0000000000,52870.0000000000
+28322158249,Illinois,LOCAL,School Board,Ottawa 141 School Board,2025-04-01,UnContested,2.6900000000,Won General,null,null
+31292226446,Illinois,CITY,City Council,O'Fallon City Council - Ward 3,2025-04-01,Contested,3.7200000000,Won General,276.0000000000,407.0000000000
+28965318976,Illinois,LOCAL,Town Council,McLean County: Funks Grove Township Supervisor,2025-04-01,UnContested,4.9900000000,Won General,null,null
+28149896108,Illinois,LOCAL,School Board,Park Ridge-Niles 64 School Board,2025-04-01,Contested,3.8700000000,Lost General,2363.0000000000,25758.0000000000
+29647513362,Oklahoma,LOCAL,School Board,Morrison School Board,2025-04-01,UnContested,2.5000000000,Won General,null,null
+30745642850,Illinois,CITY,School Board,Peoria City Council - District 4,2025-04-01,Contested,3.8300000000,Won General,2043.0000000000,4007.0000000000
+27993561501,Illinois,LOCAL,School Board,Bensenville 2 School Board,2025-04-01,Contested,2.6900000000,Lost General,971.0000000000,4605.0000000000
+33606375259,Pennsylvania,CITY,Mayor,Scottdale Borough Mayor,2025-11-04,UnContested,0.2100000000,Won General,null,null
+31129868391,Illinois,CITY,Town Council,Cerro Gordo Village Council,2025-04-01,UnContested,5.0000000000,Won General,null,null
+28278222444,Florida,CITY,City Council,Palm Beach Gardens City Council - Group 2,2025-03-11,Contested,3.3500000000,Won General,4202.0000000000,4933.0000000000
+30055837305,Illinois,LOCAL,Other,Warren-Newport Public Library District Board,2025-04-01,Contested,2.1700000000,Won General,2230.0000000000,14185.0000000000
+30352459685,Wisconsin,LOCAL,County Supervisor,Winnebago County: Black Wolf Town Chair,2025-04-01,UnContested,5.0000000000,Won General,null,null
+33740589178,South Carolina,CITY,City Council,Conway City Council,2025-11-04,Contested,3.3500000000,Won General,1273.0000000000,5009.0000000000
+28177228972,Illinois,LOCAL,School Board,Bremen Community 228 School Board,2025-04-01,Contested,1.9300000000,Not on Ballot,null,null
+35661371141,Ohio,TOWNSHIP,Town Council,Perry County: Monday Creek Township Trustee,2025-11-04,UnContested,1.4900000000,Not on Ballot,null,null
+28651278410,Illinois,LOCAL,School Board,Fox River Grove 3 School Board,2025-04-01,Contested,2.6900000000,Won General,303.0000000000,1347.0000000000
+28954213204,Illinois,LOCAL,School Board,El Paso-Gridley 11 School Board,2025-04-01,Contested,2.6900000000,Won General,891.0000000000,2899.0000000000
+33651729226,Oregon,LOCAL,Other,Northern Wasco County Parks and Recreation District Board - Position 1,2025-05-20,UnContested,5.0000000000,Won General,null,null
+31205271378,Illinois,CITY,Town Council,Compton Village Council,2025-04-01,UnContested,5.0000000000,Won General,null,null
+31186627128,Illinois,CITY,Mayor,Lebanon City Mayor,2025-04-01,Contested,1.3800000000,Lost General,69.0000000000,754.0000000000
+29691939147,Illinois,LOCAL,School Board,Athens 213 School Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+30308775753,Wisconsin,LOCAL,School Board,La Crosse School Board,2025-04-01,Contested,1.2000000000,Won General,13815.0000000000,52870.0000000000
+30212594075,Texas,CITY,City Council,Fort Worth City Council - District 11,2025-05-03,Contested,0.9400000000,Lost General,435.0000000000,2235.0000000000
+28175825416,Illinois,LOCAL,School Board,Shirland 134 School Board,2025-04-01,UnContested,4.9900000000,Won General,null,null
+29664663620,Illinois,LOCAL,Utilities Commissioner,Long Grove Park District Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+31969485866,Texas,CITY,Mayor,Vidor City Mayor,2025-05-03,Contested,0.5000000000,Lost General,19.0000000000,719.0000000000
+29371563083,Illinois,CITY,Town Council,Divernon Village Council,2025-04-01,Contested,4.3800000000,Won General,147.0000000000,605.0000000000
+31381139117,Wisconsin,LOCAL,School Board,Wauwatosa School Board - Seat 3,2025-04-01,Contested,2.7100000000,Lost General,7326.0000000000,20292.0000000000
+30306309490,Wisconsin,LOCAL,School Board,Mukwonago Area School Board - At Large,2025-04-01,Contested,3.7400000000,Won General,7480.0000000000,11986.0000000000
+31275584654,Illinois,CITY,Clerk/Treasurer,Johnston City Treasurer,2025-04-01,UnContested,5.0000000000,Won General,null,null
+31294646281,Oklahoma,CITY,Town Council,Asher Town Board,2025-04-01,Contested,2.5300000000,Won General,42.0000000000,106.0000000000
+35491270676,Washington,CITY,City Council,"Pullman City Council - Ward 1, Position 7",2025-11-04,UnContested,1.0800000000,Won General,null,null
+28935360953,Illinois,LOCAL,Utilities Commissioner,LaSalle County: Farm Ridge Township Highway Commissioner,2025-04-01,UnContested,5.0000000000,Won General,null,null
+28166573399,Illinois,LOCAL,Town Council,Skokie 68 School Board,2025-04-01,Contested,0.5000000000,Lost General,1087.0000000000,2195.0000000000
+31290239912,Illinois,CITY,Mayor,Dixmoor Village President,2025-04-01,Contested,1.6100000000,Lost General,134.0000000000,527.0000000000
+35414876230,Pennsylvania,LOCAL,School Board,Weatherly Area School Board,2025-11-04,UnContested,1.8500000000,Not on Ballot,null,null
+28306033437,Illinois,CITY,City Council,Mendota City Clerk,2025-04-01,Contested,3.7200000000,Won General,181.0000000000,285.0000000000
+29353207456,Wisconsin,LOCAL,Other,Polk County: Lincoln Town Chair,2025-04-01,UnContested,3.6000000000,Won General,574.0000000000,880.0000000000
+35457753760,South Carolina,CITY,Mayor,Tega Cay City Mayor,2025-11-04,Contested,0.8200000000,Lost General,571.0000000000,2951.0000000000
+35051872428,Ohio,CITY,City Council,Grandview Heights City Council,2025-11-04,UnContested,2.6000000000,Won General,null,null
+40650599960,Ohio,TOWNSHIP,Town Council,Ashtabula County: Dorset Township Trustee,2025-11-04,UnContested,3.0700000000,Won General,null,null
+28749621637,Illinois,CITY,City Council,Warrenville City Council - Ward 4,2025-04-01,UnContested,5.0000000000,Won General,null,null
+28360991383,Oklahoma,LOCAL,School Board,Antlers School Board,2025-04-01,Contested,2.8800000000,Lost General,83.0000000000,351.0000000000
+35132962471,Washington,COUNTY,County Supervisor,Whitman County Commission - District 3,2026-11-03,UnContested,0.6100000000,Lost General,null,null
+31126871114,Illinois,LOCAL,Other,Oakton 535 Community College Board,2025-04-01,Contested,1.5200000000,Lost General,21661.0000000000,140275.0000000000
+35019027584,Ohio,TOWNSHIP,Town Council,Columbiana County: Elkrun Township Trustee,2025-11-04,UnContested,3.0700000000,Won General,null,null
+29720287611,Illinois,CITY,City Council,Troy City Council - Ward 1,2025-04-01,Contested,1.7400000000,Lost General,212.0000000000,435.0000000000
+28315833937,Illinois,LOCAL,Town Council,Champaign County: Ogden Township Board,2025-04-01,UnContested,4.9900000000,Won General,null,null
+33784284329,Ohio,LOCAL,Town Council,Holmes County: Washington Township Trustee,2025-11-04,UnContested,3.0600000000,Won General,null,null
+38677307963,Washington,CITY,Mayor,Poulsbo City Mayor,2025-11-04,Contested,1.5000000000,Won General,null,null
+35050271039,North Carolina,CITY,Mayor,Hamlet City Mayor,2025-11-04,UnContested,2.9400000000,Won General,null,null
+28156745864,Illinois,LOCAL,School Board,Kirby 140 School Board,2025-04-01,Contested,1.9300000000,Lost General,2956.0000000000,19360.0000000000
+28958524247,Illinois,CITY,Mayor,Savoy Village President,2025-04-01,Contested,3.2000000000,Lost General,489.0000000000,1571.0000000000
+34358417472,Idaho,LOCAL,School Board,Mountain Home School Board - Zone 1,2025-11-04,UnContested,2.6400000000,Not on Ballot,null,null
+28005826187,Oklahoma,LOCAL,School Board,Freedom School Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+29978357912,Wisconsin,CITY,Mayor,Weston Village President,2025-04-01,Contested,0.9600000000,Lost General,2216.0000000000,4902.0000000000
+30684743729,Illinois,LOCAL,School Board,Rock Falls Township 301 School Board,2025-04-01,UnContested,4.3200000000,Won General,null,null
+31724482143,New York,LOCAL,Town Council,Evans Town Council,2025-11-04,Contested,2.3000000000,Lost General,null,null
+28248153770,Illinois,LOCAL,Other,Fox Waterway Agency Board - Lake County,2025-04-01,Contested,5.0000000000,Won General,null,null
+28601579853,Oklahoma,LOCAL,School Board,Grove School District,2025-04-01,Contested,2.0600000000,Lost General,147.0000000000,425.0000000000
+28357310381,Illinois,CITY,City Council,DeKalb City Council - Ward 2,2025-04-01,UnContested,5.0000000000,Won General,null,null
+30770105901,Florida,CITY,School Board,"Fort Pierce City Commission - District 2, Seat 1",2024-11-05,Contested,5.0000000000,Won General,7418.0000000000,33386.0000000000
+29278656791,Illinois,LOCAL,School Board,Pekin 108 School Board,2025-04-01,Contested,1.9300000000,Won General,2089.0000000000,9524.0000000000
+31025733042,Illinois,LOCAL,Town Council,Madison County: Nameoki Township Board,2025-04-01,Contested,1.3400000000,Lost General,262.0000000000,2953.0000000000
+28366043258,Illinois,LOCAL,School Board,Kirby 140 School Board,2025-04-01,Contested,4.4000000000,Won General,3778.0000000000,19360.0000000000
+30896335497,Illinois,CITY,Town Council,Lake Zurich Village Board,2025-04-01,UnContested,4.9900000000,Won General,null,null
+29355717662,Wisconsin,CITY,Town Council,Union Grove Village Board - District 5,2025-04-01,Contested,2.8400000000,Won General,1096.0000000000,1481.0000000000
+29499139896,Illinois,LOCAL,School Board,Wauconda 118 School Board,2025-04-01,Contested,3.2400000000,Won General,1316.0000000000,9983.0000000000
+22734951333,Washington,LOCAL,Other,Lakehaven Water and Sewer District Board - Position 2,2025-11-04,Contested,1.0600000000,Won General,12151.0000000000,21893.0000000000
+31651390339,Ohio,CITY,City Council,Harrison City Council,2025-11-04,UnContested,0.8500000000,Not on Ballot,null,null
+28285804141,Illinois,CITY,Utilities Commissioner,Oak Park Village President,2025-04-01,Contested,4.9900000000,Won General,null,null
+30316347282,Wisconsin,CITY,City Council,city council,2025-04-01,Contested,5.0000000000,Won General,470.0000000000,870.0000000000
+34747238800,North Carolina,CITY,Mayor,Hoffman Town Mayor,2025-11-04,UnContested,2.9400000000,Won General,null,null
+30715591245,Wisconsin,Local,City Council,Neenah City council,2025-04-01,Contested,2.5500000000,Lost General,1185.0000000000,2382.0000000000
+29344083346,Illinois,LOCAL,Town Council,LaSalle County: Wallace Township Board,2025-04-01,Contested,4.3700000000,Won General,99.0000000000,375.0000000000
+31414058106,Wisconsin,CITY,Town Council,Belleville Village Board,2025-04-01,Contested,3.9000000000,Won General,549.0000000000,2999.0000000000
+34380254753,Ohio,CITY,Town Council,Custar Village Council,2025-11-04,UnContested,3.0700000000,Won General,null,null
+28930649156,Illinois,LOCAL,School Board,Deer Creek-Mackinaw 701 School Board,2025-04-01,Contested,1.9300000000,Lost General,264.0000000000,1930.0000000000
+31037089458,Illinois,Local,School Board,School Board,2025-04-01,UnContested,4.9900000000,Won General,null,null
+29201083402,Illinois,CITY,City Council,Lake Forest City Council - Ward 4,2025-04-01,UnContested,5.0000000000,Won General,null,null
+35170202927,Georgia,CITY,City Council,Powder Springs City Council - Ward 2,2025-11-04,UnContested,3.2500000000,Won General,null,null
+31096277417,Wisconsin,LOCAL,School Board,Hustisford School Board - At Large,2025-04-01,UnContested,5.0000000000,Won General,null,null
+34892665222,Washington,LOCAL,School Board,Snoqualmie Valley District 410 School Board - District 4,2025-11-04,UnContested,2.6700000000,Won General,null,null
+31380948825,Wisconsin,CITY,Mayor,Iola Village President,2025-04-01,Contested,3.5300000000,Won General,279.0000000000,486.0000000000
+29541505136,Illinois,LOCAL,Utilities Commissioner,Buffalo Grove Park District Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+33456859247,Oregon,LOCAL,Other,Crook County Fire and Rescue District Board - Position 4,2025-05-20,UnContested,5.0000000000,Won General,null,null
+35594674498,Iowa,CITY,City Council,Burlington City Council,2025-11-04,UnContested,4.0200000000,Won General,1502.0000000000,5995.0000000000
+30142780533,Illinois,CITY,City Council,Highland City Council,2025-04-01,Contested,4.2600000000,Won General,625.0000000000,1557.0000000000
+31079931671,Illinois,LOCAL,Other,College Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+29296245360,Illinois,CITY,City Council,Mendota City Council - Ward 1,2025-04-01,UnContested,5.0000000000,Won General,null,null
+30467584161,Wisconsin,LOCAL,School Board,Albany School Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+32127411069,Oregon,LOCAL,Other,Sunset Empire Parks and Recreation District Board - Position 1,2025-05-20,UnContested,5.0000000000,Won General,1131.0000000000,1139.0000000000
+34263395735,Virginia,LOCAL,School Board,Rockbridge County School Board - South River,2025-11-04,UnContested,5.0000000000,Won General,null,null
+29478324557,Illinois,CITY,Town Council,Town Council,2025-04-01,Contested,4.3800000000,Won General,99.0000000000,374.0000000000
+28850211616,Illinois,LOCAL,School Board,Cary 26 School Board,2025-04-01,Contested,3.8700000000,Won General,1599.0000000000,9140.0000000000
+29873940520,Colorado,CITY,City Council,Colorado Springs City Council - District 3,2025-04-01,Contested,0.8900000000,Won General,2225.0000000000,5732.0000000000
+28767517607,Oklahoma,LOCAL,School Board,Talihina School Board,2025-04-01,UnContested,1.5800000000,Won General,null,null
+29573586343,Missouri,CITY,City Council,Ellisville City Council - District 3,2025-04-08,Contested,2.8600000000,Won General,null,null
+28960608399,Wisconsin,CITY,Mayor,La Crosse City Mayor,2025-04-01,Contested,1.3100000000,Won General,9012.0000000000,17573.0000000000
+30770105876,Illinois,LOCAL,School Board,Shirland 134 School Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+28640194088,Illinois,LOCAL,Utilities Commissioner,Antioch Public Library District Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+29440450356,Wisconsin,CITY,Other,Menomonie City Council - Ward 7,2025-04-01,UnContested,5.0000000000,Won General,null,null
+30485254793,Illinois,CITY,Mayor,Wilmington City Mayor,2025-04-01,Contested,2.9000000000,Won General,591.0000000000,1080.0000000000
+28767692715,Oklahoma,LOCAL,School Board,Blair School Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+28168054379,Illinois,CITY,City Council,St. Charles City Council - Ward 3,2025-04-01,Contested,3.0500000000,Lost General,483.0000000000,1405.0000000000
+31898114964,Texas,CITY,City Council,Lefors Town Council,2025-05-03,UnContested,5.0000000000,Won General,null,null
+30207903403,Wisconsin,LOCAL,Clerk/Treasurer,Rock County: Porter Town Chair,2025-04-01,UnContested,4.9900000000,Won General,null,null
+31372280611,Wisconsin,CITY,Clerk/Treasurer,Vesper Village Clerk,2025-04-01,UnContested,5.0000000000,Won General,null,null
+34353035032,Iowa,LOCAL,School Board,North Fayette Valley School Board - District 1,2025-11-04,UnContested,2.4000000000,Won General,null,null
+29935799184,Wisconsin,Local,School Board,Elmbrook School Board,2025-04-01,Contested,2.7400000000,Lost General,10908.0000000000,22310.0000000000
+30684254478,South Carolina,LOCAL,School Board,Sumter School Board,2025-02-11,Contested,1.3300000000,Runoff,160.0000000000,366.0000000000
+30745598282,Illinois,LOCAL,School Board,Millburn 24 School Board,2025-04-01,Contested,2.6900000000,Won General,690.0000000000,2923.0000000000
+34295619353,Ohio,LOCAL,School Board,Vanlue Local School Board,2025-11-04,UnContested,2.8800000000,Won General,115.0000000000,450.0000000000
+28184152168,Illinois,LOCAL,School Board,Plainfield 202 School Board,2025-04-01,UnContested,4.3200000000,Won General,null,null
+27998156568,Illinois,LOCAL,School Board,Wilmette 39 School Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+34630396694,Pennsylvania,LOCAL,Town Council,Centre County: Taylor Township Supervisor,2025-11-04,UnContested,0.5500000000,Won General,null,null
+28993682851,Illinois,CITY,City Council,St. Charles City Council - Ward 3,2025-04-01,Contested,1.1100000000,Lost General,383.0000000000,1405.0000000000
+30681677876,Illinois,LOCAL,School Board,Aurora East 131 School Board,2025-04-01,Contested,0.9500000000,Lost General,724.0000000000,9715.0000000000
+33938315433,Washington,CITY,City Council,Port Townsend City Council - Position 5,2025-11-04,UnContested,1.9800000000,Won General,null,null
+30298778211,Illinois,CITY,Mayor,Jerome Village President,2025-04-01,Contested,3.6000000000,Won General,207.0000000000,274.0000000000
+30381616652,Illinois,LOCAL,School Board,Steger 194 School Board,2025-04-01,Contested,2.6900000000,Lost General,603.0000000000,4799.0000000000
+31208335738,Illinois,CITY,Town Council,Waterman Village Council,2025-04-01,Contested,2.8300000000,Lost General,165.0000000000,834.0000000000
+30249889837,Wisconsin,LOCAL,Town Council,Jefferson County: Lake Mills Town Board - Seat 1,2025-04-01,UnContested,4.9900000000,Won General,null,null
+29910677282,Wisconsin,LOCAL,School Board,Kaukauna Area School Board,2025-04-01,Contested,4.2800000000,Won General,6205.0000000000,22719.0000000000
+29091560053,Illinois,CITY,Clerk/Treasurer,Girard City Clerk,2025-04-01,UnContested,5.0000000000,Won General,null,null
+28923137101,Illinois,LOCAL,School Board,Mazon-Verona-Kinsman School Board 2C,2025-04-01,UnContested,4.9900000000,Won General,null,null
+28359062569,Illinois,LOCAL,School Board,Glencoe 35 School Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+30304036465,Illinois,Local,School Board,School Board,2025-04-01,Contested,1.5200000000,Lost General,737.0000000000,5645.0000000000
+30357064972,Illinois,CITY,Town Council,Fox Lake Village Board,2025-04-01,UnContested,3.2500000000,Won General,null,null
+29644188052,Wisconsin,CITY,City Council,Janesville City Council,2025-04-01,Contested,3.7100000000,Lost General,9127.0000000000,54235.0000000000
+31043679797,Illinois,Local,School Board,School board,2025-04-01,Contested,1.0800000000,Won General,2444.0000000000,13279.0000000000
+31131017327,Oklahoma,CITY,City Council,Oklahoma City Council - Ward 7,2025-04-01,Contested,2.3700000000,Runoff,1400.0000000000,3949.0000000000
+35438099255,Washington,LOCAL,School Board,Loon Lake District 183 School Board - Position 3,2025-11-04,UnContested,2.6700000000,Won General,null,null
+31290531417,Wisconsin,LOCAL,Clerk/Treasurer,Chippewa County: Birch Creek Town Clerk,2025-04-01,UnContested,5.0000000000,Won General,null,null
+31334864241,Illinois,CITY,Town Council,Chicago Ridge Village Council,2025-04-01,Contested,3.9600000000,Won General,469.0000000000,2050.0000000000
+33894480712,Ohio,LOCAL,School Board,Meigs Local School Board,2025-11-04,UnContested,2.8800000000,Won General,null,null
+33239187309,Washington,CITY,Other,Tacoma City Civil Service Board - Position 2,2025-11-04,UnContested,1.6900000000,Won General,11738.0000000000,23013.0000000000
+29828863780,Wisconsin,Local,Town Council,Trustee,2025-04-01,UnContested,5.0000000000,Won General,null,null
+31165611536,Illinois,LOCAL,Other,Will County: Wesley Township Highway Commission,2025-04-01,UnContested,5.0000000000,Won General,null,null
+29359189599,Wisconsin,CITY,Town Council,Greenville Village Board,2025-04-01,Contested,2.7400000000,Lost General,2304.0000000000,7804.0000000000
+36778215281,North Carolina,CITY,Town Council,Kenly Town Council,2025-11-04,UnContested,2.7100000000,Won General,null,null
+34498625365,Ohio,CITY,Judge,Hamilton City Municipal Court Judge,2025-11-04,UnContested,2.0600000000,Won General,null,null
+30284048288,Washington,CITY,City Council,Connell City Council - Position 1,2025-11-04,Contested,2.3900000000,Lost General,null,null
+33769805101,Washington,CITY,Town Council,Reardan Town Council - Position 5,2025-11-04,UnContested,2.8700000000,Won General,null,null
+30374058789,Illinois,CITY,Town Council,University Park Village Council,2025-04-01,Contested,3.2300000000,Won General,291.0000000000,1559.0000000000
+29828470390,Wisconsin,LOCAL,Clerk/Treasurer,Rock County: Bradford Town Clerk,2025-04-01,UnContested,5.0000000000,Won General,null,null
+34927344052,Georgia,CITY,City Council,Carrollton City Council - Ward 1,2025-11-04,UnContested,3.2500000000,Lost General,null,null
+29836099896,Wisconsin,LOCAL,Town Council,Marathon County: Cleveland Town Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+30777812633,Wisconsin,CITY,City Council,Watertown City Council - District 3,2025-04-01,Contested,1.8300000000,Lost General,426.0000000000,918.0000000000
+35134338684,Pennsylvania,TOWNSHIP,Other,Washington County: East Finley Township Tax Collector,2025-11-04,UnContested,1.1500000000,Won General,null,null
+29351578143,Illinois,CITY,Town Council,Winfield Village Council,2025-04-01,Contested,1.6400000000,Won General,980.0000000000,5813.0000000000
+33239187309,Washington,CITY,Other,Tacoma City Civil Service Board - Position 2,2025-11-04,UnContested,1.6900000000,Won General,11738.0000000000,23013.0000000000
+29352791052,Illinois,LOCAL,School Board,Harlem 122 School Board,2025-04-01,Contested,2.6300000000,Won General,1607.0000000000,14841.0000000000
+29643886466,Illinois,CITY,Clerk/Treasurer,Belleville City Clerk,2025-04-01,Contested,2.6300000000,Lost General,1692.0000000000,5484.0000000000
+28920708881,Illinois,LOCAL,School Board,Tremont Community 702 School Board,2025-04-01,Contested,1.9300000000,Lost General,333.0000000000,2742.0000000000
+35166185109,Iowa,LOCAL,School Board,Ankeny School Board,2025-11-04,UnContested,4.1800000000,Not on Ballot,null,null
+30641033504,Wisconsin,LOCAL,Clerk/Treasurer,La Crosse County: Burns Town Chair,2025-04-01,UnContested,5.0000000000,Won General,null,null
+33802001991,Ohio,CITY,Town Council,Shawnee Village Council,2025-11-04,UnContested,3.0700000000,Won General,null,null
+23657591427,Virginia,LOCAL,School Board,Grayson County School Board - Wilson,2025-11-04,UnContested,3.7100000000,Won General,1339.0000000000,1375.0000000000
+28317384481,Oklahoma,LOCAL,School Board,Wainwright Elementary School Board,2025-04-01,UnContested,4.9900000000,Won General,null,null
+31252234093,Illinois,LOCAL,Town Council,LaSalle County: Freedom Township Supervisor,2025-04-01,UnContested,5.0000000000,Won General,null,null
+34108594310,Kansas,LOCAL,School Board,Holcomb USD 363 School Board - Position 5,2025-11-04,UnContested,2.8300000000,Lost General,160.0000000000,462.0000000000
+31853611926,Pennsylvania,LOCAL,School Board,Ambridge Area School Board,2025-11-04,Contested,0.1700000000,Won General,4372.0000000000,17629.0000000000
+28302178822,Oklahoma,LOCAL,School Board,Keota School Board,2025-04-01,UnContested,5.0000000000,Cannot Determine,null,null
+29289695553,Illinois,LOCAL,Utilities Commissioner,York Center Park District Board,2025-04-01,Contested,2.7600000000,Won General,374.0000000000,882.0000000000
+34814539343,Alabama,CITY,City Council,New Hope City Council - District 2,2025-08-26,UnContested,1.9300000000,Won General,null,null
+28106002854,Illinois,LOCAL,School Board,LaGrange 102 School Board,2025-04-01,Contested,2.8700000000,Won General,2138.0000000000,11026.0000000000
+35694482723,Ohio,CITY,City Council,Westerville City Council,2025-11-04,UnContested,2.6000000000,Won General,null,null
+29479719550,Illinois,LOCAL,School Board,Park Ridge-Niles 64 School Board,2025-04-01,Contested,2.6900000000,Won General,9931.0000000000,46408.0000000000
+30745643042,Texas,CITY,City Council,Alvin City Council - District D,2025-05-03,UnContested,2.4000000000,Won General,263.0000000000,387.0000000000
+38286124681,Massachusetts,CITY,City Council,Quincy City Council - Ward 6,2027-11-02,UnContested,0.8100000000,Won General,1748.0000000000,2954.0000000000
+31475014834,Wisconsin,LOCAL,City Council,Town Chair,2025-04-01,UnContested,5.0000000000,Won General,null,null
+29644902705,Wisconsin,CITY,City Council,Madison City Council - District 11,2025-04-01,UnContested,4.9900000000,Won General,null,null
+30250544027,Illinois,LOCAL,School Board,Sandridge 172 School Board,2025-04-01,UnContested,3.8700000000,Won General,null,null
+29722446454,Wisconsin,CITY,Mayor,Potosi Village President,2025-04-01,Contested,3.5300000000,Won General,146.0000000000,287.0000000000
+34128866179,Georgia,CITY,Mayor,Jefferson City Mayor,2025-11-04,UnContested,2.9900000000,Won General,null,null
+28010277256,Illinois,LOCAL,School Board,Avoca 37 School Board,2025-04-01,UnContested,1.5200000000,Won General,null,null
+35497205297,Washington,CITY,City Council,"Puyallup City Council - District 3, Position 2",2025-11-04,Contested,1.0800000000,Won General,null,null
+29709068051,Illinois,CITY,City Council,Collinsville City Council,2025-04-01,Contested,1.8100000000,Lost General,693.0000000000,5203.0000000000
+31342386546,Wisconsin,CITY,Mayor,Eden Village President,2025-04-01,UnContested,5.0000000000,Won General,null,null
+31037376912,Illinois,LOCAL,School Board,Homewood-Flossmoor Community 233 School Board,2025-04-01,Contested,2.8700000000,Won General,4200.0000000000,19914.0000000000
+34931434821,Washington,CITY,City Council,Everett City Council - Position 4,2025-11-04,Contested,1.0300000000,Lost General,497.0000000000,1503.0000000000
+28110248743,Illinois,LOCAL,School Board,Glen Ellyn School Board 41,2025-04-01,Contested,2.6900000000,Won General,2112.0000000000,9913.0000000000
+28790109052,Illinois,LOCAL,Utilities Commissioner,Vernon Area Public Library District Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+30770106529,Illinois,LOCAL,School Board,Center Cass 66 School Board,2025-04-01,Contested,2.6900000000,Won General,1182.0000000000,5622.0000000000
+29521213881,Illinois,LOCAL,Utilities Commissioner,Normal Public Library Board,2025-04-01,UnContested,4.3500000000,Won General,null,null
+30758871109,Illinois,CITY,City Council,Lockport City Council - Ward 3,2025-04-01,Contested,1.9100000000,Lost General,365.0000000000,876.0000000000
+28151197449,Illinois,LOCAL,School Board,Winfield School Board 34,2025-04-01,Contested,4.3200000000,Won General,null,null
+29857948473,Illinois,LOCAL,School Board,PORTA 202 School Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+29351755626,Wisconsin,LOCAL,Clerk/Treasurer,Oconto County: Gillett Town Clerk,2025-04-01,UnContested,4.9900000000,Won General,null,null
+28133899945,Oklahoma,CITY,City Council,Enid City Council - Ward 4,2025-04-01,UnContested,2.7600000000,Won General,null,null
+28240209589,Illinois,CITY,City Council,Batavia City Council - Ward 5,2025-04-01,UnContested,5.0000000000,Won General,null,null
+29261386608,South Carolina,LOCAL,School Board,Sumter School Board,2025-04-01,Contested,1.3300000000,Lost General,null,null
+30459413143,Wisconsin,LOCAL,School Board,Menasha School Board,2025-04-01,Contested,4.2800000000,Lost General,2904.0000000000,10472.0000000000
+31203864407,Illinois,CITY,Mayor,Lyons Village President,2025-04-01,UnContested,5.0000000000,Won General,null,null
+31032600337,Wisconsin,LOCAL,Clerk/Treasurer,Rock County: Newark Town Clerk,2025-04-01,UnContested,5.0000000000,Won General,null,null
+32710604099,Texas,LOCAL,School Board,Royse City Independent School Board - Place 6,2025-05-03,UnContested,3.6500000000,Not on Ballot,null,null
+30624449564,Illinois,LOCAL,School Board,Butler 53 School Board,2025-04-01,Contested,1.5200000000,Won General,784.0000000000,4920.0000000000
+31043431792,Wisconsin,CITY,City Council,Eau Claire City Council - At Large,2025-04-01,Contested,1.7300000000,Won General,11704.0000000000,74425.0000000000
+22166407176,Alaska,STATE,Town Council,Alaska State Senate - District R,2024-11-05,Contested,1.7900000000,Lost General,964.0000000000,15084.0000000000
+34285956366,Ohio,CITY,Town Council,Albany Village Council,2025-11-04,UnContested,3.0700000000,Won General,null,null
+27990298419,Oklahoma,CITY,City Council,Warr Acres City Council - Ward 1,2025-04-01,Contested,3.4800000000,Lost General,99.0000000000,266.0000000000
+23509596953,Minnesota,CITY,City Council,Wadena City Council,2026-11-03,Contested,4.5700000000,Won General,1057.0000000000,3027.0000000000
+34508983400,Michigan,CITY,City Council,Fraser City Council,2025-11-04,UnContested,3.8800000000,Won General,null,null
+28757212286,Illinois,LOCAL,School Board,Harvard 50 School Board,2025-04-01,Contested,2.6900000000,Won General,780.0000000000,4522.0000000000
+28942273361,Illinois,CITY,Town Council,Bloomingdale Village Board,2025-04-01,UnContested,5.0000000000,Won General,null,null
+22743562407,Washington,CITY,City Council,Quincy City Council - Position 4,2025-11-04,Contested,0.9900000000,Lost General,null,null
+31169435286,Illinois,LOCAL,Other,Westchester Village Library Board,2025-04-01,Contested,4.3500000000,Won General,1676.0000000000,6655.0000000000
