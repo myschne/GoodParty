@@ -142,3 +142,31 @@ print("Std AUC  :", float(np.std(fold_aucs)))
 print("\nPooled ROC-AUC:", roc_auc_score(y_all, proba_all))
 print("Pooled confusion matrix:\n", confusion_matrix(y_all, pred_all))
 print(classification_report(y_all, pred_all))    
+
+# ======================== Feature Importance ===========================
+
+# fitted pipeline: clf
+pre = clf.named_steps["preprocess"]
+model = clf.named_steps["model"]
+
+# numeric feature names
+num_names = list(pre.transformers_[0][2])  # ("num", ..., num_cols)
+
+# categorical feature names after one-hot
+ohe = pre.named_transformers_["cat"].named_steps["onehot"]
+cat_cols = pre.transformers_[1][2]         # ("cat", ..., cat_cols)
+cat_names = ohe.get_feature_names_out(cat_cols)
+
+# all feature names in order the model sees them
+feature_names = np.r_[num_names, cat_names]
+
+coefs = model.coef_.ravel()
+df_imp = pd.DataFrame({"feature": feature_names, "coef": coefs})
+df_imp["abs_coef"] = df_imp["coef"].abs()
+
+# top positive (push toward Win=1) and top negative (push toward Win=0)
+top_pos = df_imp.sort_values("coef", ascending=False).head(25)
+top_neg = df_imp.sort_values("coef", ascending=True).head(25)
+
+print("Top features pushing toward Win=1:\n", top_pos[["feature","coef"]].to_string(index=False))
+print("\nTop features pushing toward Win=0:\n", top_neg[["feature","coef"]].to_string(index=False))
