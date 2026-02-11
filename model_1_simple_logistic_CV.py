@@ -13,11 +13,11 @@ from sklearn.metrics import precision_score, recall_score, f1_score
 THRESHOLD = 0.475
 
 FOLD_PATHS = [
-    "Queries/Candidate_Contested_1.csv",
-    "Queries/Candidate_Contested_2.csv",
-    "Queries/Candidate_Contested_3.csv",
-    "Queries/Candidate_Contested_4.csv",
-    "Queries/Candidate_Contested_5.csv",
+    "Queries/Individual_Candidate_Query_1.csv",
+    "Queries/Individual_Candidate_Query_2.csv",
+    "Queries/Individual_Candidate_Query_3.csv",
+    "Queries/Individual_Candidate_Query_4.csv",
+    "Queries/Individual_Candidate_Query_5.csv",
 ]
 
 DROP_COLS = [
@@ -26,12 +26,19 @@ DROP_COLS = [
     "general_votes_received",
     "total_general_votes_cast",
     "viability_score",
+    "election_date"
 ]
 
 def prep(df: pd.DataFrame):
     # target
     df = df.copy()
-    df["Win"] = (df["general_election_result"] == "Won General").astype(int)
+    #df["Win"] = (df["general_election_result"] == "Won General").astype(int)
+    df["election_date"] = pd.to_datetime(df["election_date"], errors="coerce")
+
+    # simple components
+    df["election_year"]  = df["election_date"].dt.year
+    df["election_month"] = df["election_date"].dt.month
+    df["election_doy"]   = df["election_date"].dt.dayofyear
 
     y = df["Win"].astype(int)
     X = df.drop(columns=DROP_COLS, errors="ignore")
