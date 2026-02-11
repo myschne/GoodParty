@@ -1,0 +1,1001 @@
+hubspot_id,state,office_level,office_type,candidate_office,election_date,viability_score,general_election_result,general_votes_received,total_general_votes_cast
+31186464819,Colorado,CITY,City Council,Aurora City Council - Ward 1,2025-11-04,0.6000000000,Not on Ballot,null,null
+39001626484,Minnesota,LOCAL,School Board,St. Anthony-New Brighton School Board,2025-11-04,3.7200000000,Lost General,915.0000000000,2067.0000000000
+30929814967,Pennsylvania,LOCAL,School Board,Carbondale Area School Board - Region 1,2025-11-04,0.8800000000,Not on Ballot,null,null
+33016419105,Massachusetts,CITY,Town Council,Falmouth Town Meeting Board - Precinct 6,2025-05-20,1.6100000000,Lost General,175.0000000000,4300.0000000000
+41389496176,Minnesota,CITY,Other,Minneapolis City Park and Recreation Board - District 4,2025-11-04,2.3200000000,Lost General,1650.0000000000,19607.0000000000
+29910475282,Massachusetts,CITY,City Council,Southbridge Town City Council,2025-06-10,2.1100000000,Won General,539.0000000000,2096.0000000000
+23771154343,California,LOCAL,School Board,Kings River Union Elementary School Board - Area 5,2024-11-05,5.0000000000,Won General,null,null
+40061555285,Idaho,Local,Other, Fire Commissioner ,2025-11-04,1.2500000000,Won General,null,null
+31845859445,Texas,CITY,City Council,Waller City Council,2025-05-03,4.1200000000,Won General,96.0000000000,392.0000000000
+33791726384,Michigan,CITY,Mayor,Grosse Pointe Farms City Council,2025-11-04,2.4900000000,Lost General,1080.0000000000,3568.0000000000
+19663081628,Illinois,LOCAL,Clerk/Treasurer,Cook County: Elk Grove Township Assessor,2025-02-25,1.8200000000,Not on Ballot,null,null
+43456906256,Mississippi,COUNTY,null,Hinds County Coroner,2025-11-04,null,Runoff,null,null
+22332476842,Indiana,LOCAL,School Board,Lebanon School Board - At Large,2024-11-05,3.6000000000,Won General,8581.0000000000,8581.0000000000
+21619691907,Minnesota,CITY,City Council,Belle Plaine City Council,2024-11-05,2.5700000000,Won General,2316.0000000000,6303.0000000000
+40939047206,Iowa,LOCAL,School Board,Murray Community School Board,2025-11-04,3.8700000000,Won General,null,null
+36564127838,Ohio,TOWNSHIP,null,Medina County: Litchfield Township Trustee,2025-11-04,1.5500000000,Won General,null,null
+21578919026,Indiana,Local,School Board,Salem School Board ,2024-11-05,null,Won General,3063.0000000000,14309.0000000000
+36953082473,Alabama,CITY,Mayor,Bridgeport City Mayor,2025-08-26,1.4800000000,Lost General,null,null
+39485075576,Massachusetts,LOCAL,School Board,Haverhill School Committee - At Large,2025-11-04,null,Lost General,null,null
+40248744282,South Carolina,CITY,Town Council,Fairfax Town Council,2025-11-04,2.2100000000,Won General,178.0000000000,636.0000000000
+21833957269,Maryland,LOCAL,School Board,Frederick County Public School Board,2024-11-05,1.0500000000,Lost General,11502.0000000000,119194.0000000000
+38128367394,Virginia,LOCAL,School Board,Patrick County School Board - Smith River,2025-11-04,3.7100000000,Won General,null,null
+41663116826,Ohio,CITY,City Council,Aurora City Council - At Large,2025-11-04,null,Won General,null,null
+32804166530,Wisconsin,LOCAL,School Board,Manitowoc School District Board of Education At-large,2025-05-20,1.5000000000,Won General,613.0000000000,625.0000000000
+36067171439,Alabama,CITY,City Council,Dodge City Council - Place 2,2025-08-26,1.9300000000,Won General,null,null
+34977954652,Georgia,CITY,City Council,"Peachtree Corners City Council - Post 4, At Large",2025-11-04,3.2500000000,Won General,null,null
+30309562129,Wisconsin,CITY,City Council,Beloit City Council,2025-04-01,3.7100000000,Won General,3659.0000000000,17120.0000000000
+23522314669,Minnesota,CITY,City Council,Badger City Council,2024-11-05,2.4100000000,Won General,145.0000000000,352.0000000000
+38593361005,Ohio,TOWNSHIP,Town Council,Muskingum County: Jackson Township Trustee,2025-11-04,3.0700000000,Won General,null,null
+40057841766,Utah,LOCAL,Other,Cottonwood Heights Parks and Recreation Board - District 2,2025-11-04,1.3100000000,Won General,null,null
+40092780377,Massachusetts,CITY,City Council,Westfield City Council - At Large,2025-11-04,3.5800000000,Won General,null,null
+31764303524,null,Local,City Council,City Council,2025-04-08,null,Won General,null,null
+22780134516,California,LOCAL,School Board,Saugus Union School Board - Area 3,2024-11-05,2.5200000000,Lost General,4451.0000000000,10604.0000000000
+39100887663,Massachusetts,CITY,City Council,Lynn City Council - At Large,2025-11-04,null,Won General,null,null
+20177900310,Texas,CITY,City Council,Milford City Council,2024-05-04,3.1900000000,Won General,72.0000000000,398.0000000000
+22164653831,California,COUNTY,null,Paul Davis,2025-07-20,null,Cannot Determine,null,null
+39829317497,Georgia,CITY,Mayor,Nelson City Mayor,2025-11-04,2.9900000000,Won General,null,null
+32571376157,Oregon,LOCAL,School Board,Springfield 19 School Board - Position 2,2025-05-20,3.5600000000,Won General,null,null
+23747606589,Wyoming,LOCAL,School Board,Fremont County 1 School Board,2024-11-05,1.3700000000,Lost General,76.0000000000,1148.0000000000
+36660120323,New York,CITY,null,Bronx Borough President,2025-11-04,0.9800000000,Not on Ballot,null,null
+22394328979,Pennsylvania,LOCAL,School Board,Bethlehem Area School Board - At Large,2025-11-04,0.6500000000,Not on Ballot,null,null
+22824686716,Oregon,CITY,Mayor,Central Point City Mayor,2024-11-05,3.3200000000,Lost General,2003.0000000000,8035.0000000000
+23093459240,South Carolina,LOCAL,School Board,Anderson 1 County School Board - District 3,2024-11-05,2.2600000000,Won General,9211.0000000000,17923.0000000000
+27995352335,Illinois,CITY,Town Council,Woodridge Village Board,2025-04-01,2.8300000000,Won General,475.0000000000,5360.0000000000
+42072308573,Iowa,CITY,City Council,Lake City Council,2025-11-04,2.6100000000,Lost General,null,null
+23303704697,Oregon,CITY,City Council,Dallas City Council,2024-11-05,2.4300000000,Won General,4014.0000000000,26443.0000000000
+19556732592,Ohio,COUNTY,Sheriff,Pike County Sheriff,2024-11-05,0.4900000000,Lost General,4910.0000000000,11209.0000000000
+33793767476,New Jersey,LOCAL,School Board,Ocean City School Board,2025-11-04,2.7800000000,Not on Ballot,null,null
+22741406484,California,CITY,City Council,Bakersfield City Council - Ward 5,2024-11-05,1.6600000000,Won General,6197.0000000000,14561.0000000000
+31851752084,Texas,City,City Council,Dallas City Council,2025-05-03,0.9400000000,Lost General,749.0000000000,2923.0000000000
+30303495450,Wisconsin,LOCAL,School Board,Mukwonago Area School Board - At Large,2025-04-01,1.8500000000,Lost General,4258.0000000000,20701.0000000000
+43613523007,Massachusetts,CITY,null,Attleboro City Council - Ward 3,2025-11-04,null,Not on Ballot,null,null
+23778986378,Minnesota,CITY,City Council,Ironton City Council,2024-11-05,5.0000000000,Won General,170.0000000000,354.0000000000
+22750749078,New Jersey,LOCAL,School Board,Eagleswood Township School Board,2024-11-05,4.1200000000,Won General,409.0000000000,632.0000000000
+39275145380,Minnesota,LOCAL,School Board,St. Louis Park School Board,2025-11-04,2.6800000000,Won General,null,null
+31509330063,Wisconsin,LOCAL,Town Council,Winnebago County: Utica Town Board - Seat 1,2025-04-01,3.8200000000,Lost General,null,null
+37051635507,Georgia,CITY,null,"East Point City Council - Ward B, At Large",2025-11-04,1.8700000000,Not on Ballot,null,null
+21600227924,California,LOCAL,Mayor,Mayor,2024-11-05,null,Lost General,null,20582.0000000000
+31837245792,Texas,CITY,Mayor,Mathis City Mayor,2025-05-03,1.3800000000,Lost General,null,null
+32722665577,Idaho,LOCAL,Other,Hayden Lake Sewer Director,2025-05-20,3.5600000000,Won General,null,null
+30456681888,Illinois,CITY,Clerk/Treasurer,Steger Village Clerk,2025-04-01,2.5600000000,Won General,541.0000000000,1267.0000000000
+31390587298,Wisconsin,CITY,Mayor,Williams Bay Village President,2025-04-01,2.4400000000,Won General,783.0000000000,1527.0000000000
+42613495669,Florida,CITY,City Council,Homestead City Council - Seat 1,2025-11-04,3.2100000000,Won General,1828.0000000000,3171.0000000000
+30249878019,Mississippi,CITY,City Council,Pass Christian City Council - Ward 1,2025-06-03,2.9600000000,Lost General,20.0000000000,220.0000000000
+37677816869,North Carolina,CITY,Town Council,Plymouth Town Council - Ward 1,2025-11-04,2.5300000000,Won General,null,null
+36250391694,Kansas,CITY,City Council,Mulberry City Council,2025-11-04,1.3000000000,Won General,null,null
+23648420986,Iowa,LOCAL,Utilities Commissioner,Monroe County Soil and Water Conservation District Commission,2024-11-05,5.0000000000,Won General,2326.0000000000,6374.0000000000
+31605385019,Wisconsin,LOCAL,School Board,Black River Falls School Board,2025-04-01,2.6100000000,Lost General,1283.0000000000,5159.0000000000
+23075349137,Michigan,LOCAL,School Board,Waterford School Board,2024-11-05,1.9300000000,Lost General,4700.0000000000,48457.0000000000
+34668476936,Oregon,LOCAL,School Board,Rainier 13 School Board - Zone 1,2025-05-20,2.0200000000,Won General,null,null
+36867779757,North Carolina,CITY,Town Council,Edenton Town Council - Ward 3,2025-11-04,3.6100000000,Won General,69.0000000000,123.0000000000
+41062173086,South Carolina,CITY,null,Lamar Town Council,2025-11-04,null,Not on Ballot,null,null
+36263346227,Kansas,LOCAL,School Board,Ingalls USD 477 School Board,2025-11-04,1.5300000000,Lost General,null,null
+42613918553,Ohio,CITY,City Council,East Cleveland City Council - At Large,2025-11-04,null,Lost General,null,null
+36133051941,Kansas,Local,City Council, City Council-3 Positions,2025-08-05,1.3000000000,Won General,254.0000000000,1459.0000000000
+39613594743,Alabama,Local,Mayor,Perdido Beach City Mayor,2025-09-23,1.4800000000,Won General,null,null
+23159930194,Michigan,CITY,Mayor,Frankenmuth City Mayor,2024-11-05,1.6000000000,Lost General,152.0000000000,3053.0000000000
+23542468668,Michigan,LOCAL,School Board,Almont Community School Board,2024-11-05,2.5100000000,Won General,1624.0000000000,2947.0000000000
+36796122686,Virginia,CITY,Town Council,Vienna Town Council,2025-11-04,4.1600000000,Won General,4044.0000000000,29298.0000000000
+36254845796,Utah,CITY,City Council,Lehi City Council,2025-11-04,1.4400000000,Not on Ballot,null,null
+31709314442,Arizona,FEDERAL,null,U.S. House of Representatives - Arizona 7th Congressional District,2025-09-23,null,Not on Ballot,null,null
+31290239912,Illinois,CITY,Mayor,Dixmoor Village President,2025-04-01,1.6100000000,Lost General,134.0000000000,527.0000000000
+39131714646,Ohio,CITY,City Council,Eaton City Council,2025-11-04,1.1300000000,Lost General,null,null
+31862472342,null,LOCAL,City Council,La Porte City Council - District 5,2025-05-03,1.7700000000,Lost General,674.0000000000,8995.0000000000
+36550292003,Kansas,CITY,City Council,Leawood City Council - Ward 3,2025-11-04,2.3500000000,Won General,null,null
+23726424907,Tennessee,CITY,City Council,Elizabethton City Council,2024-11-05,2.3500000000,Lost General,2128.0000000000,10368.0000000000
+30310586020,null,CITY,Other,Town Board,2025-03-04,5.0000000000,Lost General,172.0000000000,6892.0000000000
+22011594056,California,CITY,null,Benicia City Council,2024-11-05,2.5600000000,Not on Ballot,null,null
+21835729212,Virginia,LOCAL,School Board,Norfolk School Board - Ward 5,2024-11-05,4.9800000000,Not on Ballot,null,null
+37984843644,North Carolina,CITY,Town Council,Apex Town Council,2025-11-04,2.5300000000,Lost General,null,null
+23670854013,California,LOCAL,Utilities Commissioner,Imperial Irrigation Board - Division 2,2024-11-05,3.6600000000,Won General,1524.0000000000,2993.0000000000
+37267795879,Alabama,LOCAL,School Board,Birmingham City School Board - District 9,2025-08-26,1.9700000000,Lost General,null,null
+39275313335,Connecticut,CITY,Mayor,Windham Town Mayor,2025-11-04,null,Won General,null,null
+36734333720,Kansas,CITY,City Council,Fort Scott City Commission,2025-11-04,2.8400000000,Won General,null,null
+31386656429,Wisconsin,LOCAL,School Board,"Prentice School Board - Lynne Town, Somo Town",2025-04-01,5.0000000000,Won General,null,null
+39369146547,Colorado,CITY,City Council,Fort Collins City Council - District 5,2025-11-04,1.2000000000,Lost General,null,null
+39498350603,Ohio,TOWNSHIP,Town Council,Portage County: Rootstown Township Trustee,2025-11-04,3.0700000000,Won General,null,null
+31524088639,Wisconsin,Local,Town Council,Town Chair,2025-04-01,5.0000000000,Won General,null,null
+40106718780,Massachusetts,CITY,City Council,Marlborough City Council - At Large,2025-11-04,1.5700000000,Won General,null,null
+21944135350,Florida,CITY,City Council,Port St. Lucie City Council - District 2,2024-11-05,4.9900000000,Won General,null,null
+19208090924,Nevada,STATE,State House,Nevada State Assembly - District 3,2024-11-05,0.1900000000,Not on Ballot,null,26371.0000000000
+22462295858,California,LOCAL,School Board,Laguna Beach Unified School Board,2024-11-05,1.3000000000,Won General,5243.0000000000,22406.0000000000
+29131328830,Illinois,LOCAL,School Board,Community Consolidated 15 School Board,2025-04-01,3.5200000000,Lost General,5626.0000000000,33386.0000000000
+31375605870,Illinois,LOCAL,Other,Orland Fire Protection District Board,2025-04-01,3.3000000000,Won General,5049.0000000000,27108.0000000000
+30759396699,Mississippi,CITY,Mayor,Canton City Mayor,2025-06-03,0.5400000000,Lost General,224.0000000000,1944.0000000000
+35454278215,Washington,LOCAL,Other,Alpine Water District Board - Position 3,2025-11-04,1.2700000000,Won General,null,null
+25032151648,Minnesota,CITY,City Council,Lonsdale City Council,2024-11-05,2.1100000000,Won General,1280.0000000000,4022.0000000000
+30784052817,Georgia,CITY,Mayor,Tallapoosa City Mayor,2025-11-04,1.2700000000,Lost General,183.0000000000,345.0000000000
+23060377122,Minnesota,CITY,Mayor,Andover City Mayor,2024-11-05,1.6800000000,Won General,10058.0000000000,17560.0000000000
+20893879079,South Dakota,COUNTY,Attorney,Deuel County State's Attorney,2024-11-05,4.9900000000,Won General,null,null
+36260007732,Kansas,CITY,City Council,Williamsburg City Council,2025-11-04,1.3000000000,Lost General,22.0000000000,126.0000000000
+25331178574,Kansas,LOCAL,Town Council,Pottawatomie County: Emmett Township Trustee,2024-11-05,4.9900000000,Won General,184.0000000000,184.0000000000
+22676430433,Michigan,Local,Town Council,Merrill Village Council	,2024-11-04,null,Lost General,null,null
+22489684246,Virginia,CITY,Town Council,Clinchco Town Council,2024-11-05,2.8000000000,Won General,67.0000000000,368.0000000000
+36769782428,North Carolina,CITY,null,Oriental Town Council,2025-11-04,2.5300000000,Won General,null,null
+31252550480,Illinois,Local,Other,Trustee,2025-04-01,2.8000000000,Won General,77.0000000000,234.0000000000
+38813323778,Georgia,CITY,City Council,"Metter City Council - District 1, Seat 2",2025-11-04,1.8700000000,Lost General,null,null
+23361392817,Oregon,CITY,Mayor,Medford City Mayor,2024-11-05,1.5200000000,Lost General,2686.0000000000,33280.0000000000
+39092959399,Ohio,LOCAL,School Board,Cuyahoga Heights Local School District Board,2025-11-04,1.3300000000,Won General,null,null
+42713874223,North Carolina,CITY,Mayor,Mount Olive Town Mayor,2025-11-04,null,Won General,null,null
+22142019614,Minnesota,CITY,Mayor,Eveleth City Mayor,2024-11-05,2.3400000000,Lost General,343.0000000000,1683.0000000000
+31030073101,Ohio,LOCAL,School Board,Talawanda City School Board,2025-11-04,2.8800000000,Won General,null,null
+22072004752,Arizona,LOCAL,School Board,Flagstaff USD 1 School Board,2024-11-05,1.9400000000,Lost General,13610.0000000000,89623.0000000000
+36377549671,Alabama,CITY,City Council,Rainbow City Council - Place 1,2025-08-26,3.3100000000,Won General,null,null
+36682472269,New York,TOWNSHIP,null,Elbridge Town Council,2025-11-04,1.9100000000,Won General,null,null
+37352081671,North Carolina,CITY,Town Council,Tabor City Town Council,2025-11-04,3.9600000000,Won General,null,null
+36049982622,Washington,LOCAL,School Board,Mt Baker District 507 School Board - District 4,2025-11-04,2.6700000000,Won General,null,null
+30377630617,Mississippi,CITY,Mayor,Gautier City Mayor,2025-06-03,2.8100000000,Won General,1757.0000000000,2543.0000000000
+32803685459,Massachusetts,CITY,Town Council,Brookline Town Meeting Member - Precinct 2,2025-05-06,1.3900000000,Won General,221.0000000000,314.0000000000
+36784975371,North Carolina,CITY,City Council,Kinston City Council,2025-11-04,2.2900000000,Lost General,null,null
+41608509805,New Jersey,TOWNSHIP,Town Council,Essex County: Bloomfield Township Council - At Large,2025-11-04,null,Lost General,null,null
+32652364291,Oregon,LOCAL,Other,South Lane County Fire and Rescue District Board - Position 5,2025-05-20,5.0000000000,Won General,null,null
+22488336701,New Jersey,FEDERAL,Congressional,U.S. House of Representatives - New Jersey 9th Congressional District,2024-11-05,0.1400000000,Lost General,4660.0000000000,246041.0000000000
+23765972646,West Virginia,CITY,Town Council,Buffalo Town Council,2024-11-05,4.1800000000,Won General,297.0000000000,1569.0000000000
+37259443022,Ohio,CITY,City Council,Cleveland City Council - Ward 8,2025-11-04,0.8200000000,Lost General,null,null
+41745003614,Iowa,LOCAL,School Board,Logan-Magnolia Community School Board,2025-11-04,2.8800000000,Lost General,null,null
+37736432920,Ohio,LOCAL,School Board,Liberty Center Local School Board,2025-11-04,1.4100000000,Lost General,null,null
+31445381415,Wisconsin,LOCAL,City Council,Marinette County: Dunbar Town Chair,2025-04-01,1.6000000000,Lost General,59.0000000000,308.0000000000
+35878034281,Washington,County,Other,  W Commissioner District 3,2025-08-05,1.0800000000,Won General,null,null
+38109243568,Ohio,LOCAL,School Board,Symmes Valley Local School Board,2025-11-04,1.4100000000,Lost General,null,null
+41932301934,Iowa,CITY,City Council,Spencer City Council - At Large,2025-11-04,2.1200000000,Lost General,135.0000000000,1906.0000000000
+39219516065,New York,Local,Town Council,Warren Town Council,2025-11-04,2.3000000000,Won General,null,null
+39587978792,South Carolina,CITY,City Council,Myrtle Beach City Council,2025-11-04,1.7600000000,Lost General,1809.0000000000,21174.0000000000
+36683420520,Alabama,CITY,City Council,Fultondale City Council - Place 1,2025-08-26,3.3100000000,Won General,null,null
+22092087106,Minnesota,CITY,City Council,South St. Paul City Council,2024-11-05,4.3300000000,Lost General,4098.0000000000,4449.0000000000
+23210261774,Minnesota,CITY,Mayor,Nielsville City Mayor,2024-11-05,5.0000000000,Won General,20.0000000000,24.0000000000
+38665584907,Ohio,CITY,Town Council,Belmore Village Council,2025-11-04,1.4900000000,Lost General,null,null
+33364422444,Utah,CITY,City Council,Harrisville City Council,2025-11-04,0.5600000000,Lost General,423.0000000000,2212.0000000000
+23338293672,New Jersey,LOCAL,School Board,Tewksbury Township School Board,2024-11-05,2.7600000000,Won General,1461.0000000000,7297.0000000000
+25341020585,Kentucky,CITY,City Council,Jeffersontown City Council,2024-11-05,2.3400000000,Lost General,1893.0000000000,62347.0000000000
+28376187546,Texas,LOCAL,null,"College of the Mainland Board - At Large, Position 6",2025-05-03,1.5400000000,Not on Ballot,null,null
+20367350885,Colorado,COUNTY,County Supervisor,Delta County Commission - District 3,2024-11-05,0.9700000000,Lost General,6234.0000000000,17907.0000000000
+38552023601,Massachusetts,LOCAL,School Board,North Adams School Committee,2025-11-04,3.4100000000,Won General,1829.0000000000,5922.0000000000
+22737571633,Florida,CITY,Mayor,Bonita Springs Mayor ,2024-11-05,1.0500000000,Lost General,8903.0000000000,26694.0000000000
+31417369913,Oregon,null,School Board,Tillamook 9 School Board-Position 1,2025-05-20,1.7200000000,Lost General,1251.0000000000,4071.0000000000
+40191478324,Massachusetts,LOCAL,null,Haverhill School Committee - Ward 1,2025-11-04,null,Won General,null,null
+21823687561,Minnesota,CITY,City Council,Rochester City Council - At Large,2024-11-05,4.2100000000,Lost General,24937.0000000000,51916.0000000000
+30628522916,Illinois,Local,Other,Fox Valley Park District Commissioner At-Large,2025-04-01,2.7900000000,Lost General,8005.0000000000,16313.0000000000
+34087397437,Ohio,LOCAL,Town Council,Trumbull County: Braceville Township Trustee,2025-11-04,3.0600000000,Won General,291.0000000000,897.0000000000
+32859061524,Texas,CITY,City Council,Ferris City Council - Place 2,2025-05-03,2.4000000000,Won General,null,null
+33025163147,Oregon,LOCAL,School Board,Bandon 54 School Board - Seat 3,2025-05-20,5.0000000000,Lost General,876.0000000000,2099.0000000000
+35878033768,Washington,LOCAL,School Board,Concrete District 11 School Board - District 3,2025-11-04,1.1700000000,Won General,null,null
+30770105918,Washington,CITY,City Council,Woodland City Council - Position 1,2025-11-04,2.3900000000,Won General,null,null
+36429793871,Utah,CITY,City Council,Brigham City Council,2025-11-04,2.8500000000,Won General,null,null
+36062719007,Washington,CITY,City Council,Tumwater City Council - Position 5,2025-11-04,0.4400000000,Lost General,947.0000000000,3040.0000000000
+32359279139,Massachusetts,CITY,Clerk/Treasurer,Westwood Town Assessors Board,2025-04-29,4.9900000000,Won General,null,null
+40776771477,Iowa,LOCAL,School Board,MOC-Floyd Valley Community School Board - District 3,2025-11-04,2.4000000000,Won General,null,null
+22548781313,Minnesota,LOCAL,Clerk/Treasurer,Lyon County: Fairview Township Clerk/ Treasurer,2024-11-05,5.0000000000,Won General,176.0000000000,179.0000000000
+32626066213,Massachusetts,LOCAL,Town Council,Falmouth Town Meeting Board - Precinct 8,2025-05-20,5.0000000000,Won General,336.0000000000,4779.0000000000
+32569610367,Texas,CITY,City Council,Andrews City Council,2025-05-03,2.3100000000,Won General,521.0000000000,2278.0000000000
+38670387107,Idaho,CITY,City Council,St. Anthony City Council,2025-11-04,1.4400000000,Lost General,277.0000000000,1753.0000000000
+37020662543,Virginia,COUNTY,County Supervisor,Spotsylvania County Board - Berkeley,2025-11-04,1.3700000000,Lost General,2451.0000000000,8752.0000000000
+36378774855,Kansas,CITY,City Council,Abilene City Commission,2025-11-04,1.3000000000,Not on Ballot,null,null
+31844922535,New York,LOCAL,null,Pelham School Board,2025-05-20,2.2900000000,Cannot Determine,null,null
+23828593763,Kentucky,CITY,City Council,Williamsburg City Council,2024-11-05,4.0700000000,Won General,875.0000000000,4582.0000000000
+38431487056,Ohio,LOCAL,School Board,Canton City School Board - At Large,2025-11-04,0.9900000000,Lost General,1792.0000000000,5144.0000000000
+32614845793,Pennsylvania,LOCAL,null,Pottsgrove School Board,2025-11-04,0.6500000000,Won General,null,null
+41544670361,Iowa,CITY,City Council,Woodward City Council,2025-11-04,2.6100000000,Won General,152.0000000000,676.0000000000
+30479230806,Oregon,LOCAL,School Board,Marcola 79J School Board - Position 3,2025-05-20,5.0000000000,Won General,null,null
+38734692936,Washington,County,City Council,City Council Position #5,2025-11-04,null,Not on Ballot,null,null
+30745642528,Texas,CITY,City Council,Dilley City Council - Place 1,2025-05-03,1.6700000000,Won General,160.0000000000,351.0000000000
+40692100972,Iowa,LOCAL,School Board,Clayton Ridge School Board,2025-11-04,null,Lost General,null,null
+19587265855,Missouri,Local,Utilities Commissioner,Quad County Fire Board,2024-04-02,null,Lost General,3.0000000000,7.0000000000
+38967021441,Maryland,null,null,Council Member - Ward 1,2025-11-04,null,Lost General,null,null
+40329954485,South Carolina,CITY,Town Council,Kershaw Town Council - At Large,2025-11-04,2.2100000000,Lost General,65.0000000000,404.0000000000
+41301158448,Idaho,CITY,Mayor,Coeur d'Alene City Mayor,2025-11-04,0.8100000000,Lost General,null,null
+41228222346,North Carolina,CITY,City Council,Greenville City Council - District 2,2025-11-04,null,Lost General,418.0000000000,1917.0000000000
+30318702337,New Hampshire,LOCAL,School Board,Deerfield School Moderator,2025-03-11,4.9900000000,Won General,null,null
+39266035834,Ohio,CITY,Town Council,Leesville Village Council,2025-11-04,1.4900000000,Won General,null,null
+35675794216,Washington,LOCAL,School Board,Everett District 2 School Board - Position 3 (At Large),2025-08-05,1.1700000000,Lost General,9086.0000000000,29606.0000000000
+35575204363,Alabama,null,Mayor,Mayor,2025-08-26,null,Lost General,null,null
+38700075093,Washington,CITY,City Council,Richland City Council - Position 4,2025-11-04,0.9900000000,Won General,null,null
+30680223383,Minnesota,LOCAL,Town Council,Otter Tail County: Nidaros Township Supervisor,2025-03-11,3.8700000000,Cannot Determine,null,null
+22210872477,District Of Columbia,CITY,City Council,Advisory Neighborhood Commission - District 7D01,2025-02-11,2.2300000000,Won General,null,null
+37893536930,Michigan,CITY,City Council,Lake City Council,2025-11-04,2.4100000000,Lost General,131.0000000000,736.0000000000
+31021673603,Missouri,CITY,City Council,New Haven City Council - Ward 2,2025-04-08,2.4700000000,Lost General,73.0000000000,213.0000000000
+37896476484,North Carolina,CITY,Mayor,Pantego Town Mayor,2025-11-04,2.9400000000,Won General,null,null
+30882366643,Ohio,CITY,City Council,Eastlake City Council - At Large,2025-11-04,2.6000000000,Lost General,null,null
+38423115389,North Carolina,CITY,Town Council,Sylva Town Council,2025-11-04,2.4700000000,Won General,270.0000000000,431.0000000000
+23332249750,California,LOCAL,Other,Biola Community Services District Board,2024-11-05,3.2100000000,Lost General,null,null
+30966940504,Pennsylvania,null,null,Philly,2025-03-12,null,Cannot Determine,null,null
+23848072628,California,CITY,City Council,Santa Rosa Valley Municipal Advisory Council,2024-11-05,2.4800000000,Won General,1042.0000000000,2733.0000000000
+22809290851,Minnesota,LOCAL,School Board,Centennial School Board,2024-11-05,3.4200000000,Won General,9361.0000000000,34897.0000000000
+35417229380,Washington,CITY,City Council,Dayton City Council - District 1,2025-11-04,0.9900000000,Won General,null,null
+22431906063,Minnesota,CITY,City Council,Delano City Council,2024-11-05,3.8800000000,Lost General,1062.0000000000,6367.0000000000
+40333083156,Texas,CITY,null,Quanah City Mayor,2025-11-04,null,Not on Ballot,null,null
+39344294191,New Jersey,Local,School Board,Hainesport Township School Board,2025-11-04,4.1200000000,Won General,null,null
+23342360422,Minnesota,LOCAL,School Board,Litchfield School Board,2024-11-05,2.6800000000,Won General,2786.0000000000,13389.0000000000
+33604555428,Oregon,LOCAL,Other,Dayton Fire Protection District Board - Position 2,2025-05-20,1.7800000000,Lost General,479.0000000000,994.0000000000
+42902910498,Ohio,CITY,null,Kettering City Mayor,2025-11-04,null,Won General,7214.0000000000,11244.0000000000
+22489085243,Kentucky,LOCAL,Utilities Commissioner,Mason County Soil and Water Conservation District Board,2024-11-05,4.3700000000,Won General,2710.0000000000,14390.0000000000
+36620655660,Washington,CITY,City Council,DuPont City Council - Position 1,2025-11-04,0.9900000000,Lost General,null,null
+35162267057,Virginia,LOCAL,School Board,Spotsylvania County School Board - Battlefield,2025-11-04,1.8300000000,Won General,1602.0000000000,4672.0000000000
+42304084261,North Carolina,CITY,Town Council,Hope Mills Town Council,2025-11-04,null,Lost General,null,null
+36895483549,Washington,CITY,City Council,Medical Lake City Council - Position 3,2025-11-04,0.9900000000,Won General,null,null
+23958300687,Minnesota,LOCAL,School Board,Wabasha-Kellogg School Board,2024-11-05,4.3200000000,Lost General,1086.0000000000,7343.0000000000
+23735788181,Texas,LOCAL,School Board,Poolville Independent School Board - Place 7,2024-11-05,2.0900000000,Lost General,331.0000000000,1870.0000000000
+20683699531,Virginia,COUNTY,City Council,Chesapeake City Council,2024-11-05,1.4400000000,Lost General,12483.0000000000,302459.0000000000
+36939533453,Michigan,CITY,City Council,Parchment City Commission,2025-11-04,2.6800000000,Lost General,null,null
+38118311816,North Carolina,CITY,Town Council,Mcadenville Town Council,2025-11-04,2.5300000000,Lost General,null,null
+42705295128,Florida,CITY,City Council,"Lakeland City Council - District B, Northeast",2025-11-04,1.8200000000,Won General,null,null
+32385643137,Texas,CITY,City Council,Pilot Point City Council - Place 4,2025-05-03,2.4000000000,Lost General,455.0000000000,1053.0000000000
+40392680823,Iowa,CITY,City Council,Belle Plaine City Council - Ward 3,2025-11-04,null,Won General,null,null
+38877655121,Washington,LOCAL,null,Coal Creek Utility District Board - Position 1,2025-11-04,null,Not on Ballot,null,null
+23373702163,Minnesota,LOCAL,Town Council,Polk County: Badger Township Supervisor - Seat 1,2024-11-05,4.9900000000,Won General,40.0000000000,41.0000000000
+22909214806,California,LOCAL,Utilities Commissioner,West Kern Water District Board,2024-11-05,5.0000000000,Won General,null,null
+23129118852,Minnesota,LOCAL,Town Council,Scott County: Helena Township Supervisor - Seat 3,2024-11-05,1.7700000000,Won General,639.0000000000,1061.0000000000
+40060395925,South Carolina,CITY,Town Council,Calhoun Falls Town Council,2025-11-04,2.2100000000,Won General,225.0000000000,640.0000000000
+25003907875,Minnesota,CITY,City Council,Burtrum City Council,2024-11-05,4.1600000000,Won General,51.0000000000,121.0000000000
+34201799437,Virginia,COUNTY,null,Virginia Beach City Commonwealth's Attorney,2025-11-04,1.8800000000,Lost General,null,null
+39280442373,Georgia,CITY,City Council,"Bainbridge City Council - Post 2, District A",2025-11-04,1.6600000000,Runoff,null,null
+35492467583,Washington,LOCAL,School Board,Bremerton District 100-C School Board - District 4,2025-11-04,1.1700000000,Lost General,null,null
+40844614517,New Jersey,LOCAL,School Board,Clinton Township School Board,2025-11-04,4.1200000000,Won General,null,null
+32299570524,Massachusetts,CITY,null,Hopkinton Town Constable,2025-05-19,4.9800000000,Won General,938.0000000000,1288.0000000000
+32421293839,Texas,LOCAL,School Board,Denton Independent School Board - Place 5,2025-05-03,3.6000000000,Won General,5536.0000000000,9701.0000000000
+34661366392,South Carolina,CITY,null,Seneca City Council,2025-11-04,2.4800000000,Not on Ballot,null,null
+31515933451,Illinois,CITY,Mayor,Ohio Village President,2025-04-01,4.9900000000,Won General,null,null
+31127854520,Illinois,LOCAL,Other,Ford County: Lyman Township Highway Commission,2025-04-01,5.0000000000,Won General,null,null
+32808806185,Oregon,LOCAL,Other,Bay Area Health District Board - Position 4,2025-05-20,3.4900000000,Lost General,3880.0000000000,8478.0000000000
+33407993528,South Dakota,CITY,City Council,Rapid City Council - Ward 2,2025-06-03,1.4300000000,Won General,608.0000000000,1114.0000000000
+35737588602,Washington,LOCAL,School Board,Battle Ground District 119 School Board - District 1,2025-11-04,1.7300000000,Won General,6935.0000000000,13137.0000000000
+38550470403,Ohio,CITY,City Council,Centerville City Council,2025-11-04,2.6000000000,Won General,null,null
+38997236506,Georgia,CITY,Mayor,Sandy Springs City Mayor,2025-11-04,0.5600000000,Lost General,3613.0000000000,22263.0000000000
+38752278276,Michigan,CITY,City Council,Lansing City Council - At Large,2025-11-04,2.6800000000,Not on Ballot,null,null
+35499162168,Alabama,CITY,null,Margaret City Mayor,2025-08-26,1.7100000000,Lost General,null,null
+36772134545,Utah,CITY,Mayor,Lindon City Mayor,2025-11-04,2.0900000000,Won General,null,null
+22976670287,Michigan,CITY,City Council,DeWitt City Council,2024-11-05,3.8800000000,Won General,1378.0000000000,4312.0000000000
+22118905659,Oregon,STATE,State House,Oregon House of Representatives - District 46,2024-11-05,0.1800000000,Lost General,617.0000000000,21507.0000000000
+34993721457,Georgia,CITY,City Council,Auburn City Council,2025-11-04,2.3600000000,Not on Ballot,null,null
+23610195731,Texas,LOCAL,School Board,Princeton Independent School Board,2024-11-05,3.2900000000,Won General,3931.0000000000,20413.0000000000
+35454875916,Washington,LOCAL,Other,King County Fire Protection District 10 Board - Position 1,2025-11-04,2.7900000000,Won General,null,null
+37719856436,Washington,CITY,City Council,Yakima City Council - District 2,2025-11-04,1.0800000000,Won General,null,null
+23854305918,Minnesota,CITY,City Council,Cass Lake City Council,2024-11-05,4.1600000000,Won General,160.0000000000,410.0000000000
+39552787373,Massachusetts,LOCAL,School Board,Everett School Committee - Ward 6,2025-11-04,1.8200000000,Lost General,null,null
+40055516316,Idaho,LOCAL,School Board,Parma School Board - Zone 1,2025-11-04,1.1600000000,Lost General,null,null
+23510076025,Michigan,CITY,City Council,Woodhaven City Council,2024-11-05,3.8800000000,Won General,2577.0000000000,8254.0000000000
+43379746356,Georgia,CITY,null,Ringgold City Council,2025-11-04,3.6600000000,Won General,456.0000000000,1026.0000000000
+23735625529,Oregon,CITY,Mayor,Creswell City Mayor,2024-11-05,1.9300000000,Won General,1326.0000000000,2434.0000000000
+23946579792,Wyoming,LOCAL,Other,Hot Springs County Conservation District Board - At Large,2024-11-05,0.6800000000,Lost General,null,null
+23934727992,Oregon,CITY,City Council,Cascade Locks City Council,2024-11-05,2.3600000000,Won General,287.0000000000,1758.0000000000
+34498313333,Alabama,CITY,City Council,Birmingham City Council - District 9,2025-08-26,0.8800000000,Not on Ballot,4631.0000000000,0E-10
+40333821970,Georgia,Local,City Council,"Doraville City Council Member District 1, Post 3",2025-11-03,3.2400000000,Won General,null,null
+23417402181,California,LOCAL,School Board,Norwalk La Mirada Unified School Board,2024-11-05,5.0000000000,Won General,2246.0000000000,3356.0000000000
+35484258186,Alabama,CITY,null,Sheffield City Council - District 5,2025-08-26,1.9300000000,Won General,null,null
+22606100843,Illinois,Local,School Board,Chicago School Board,2024-11-05,null,Lost General,11956.0000000000,75406.0000000000
+22011256208,Michigan,CITY,Mayor,Hastings City Mayor,2024-11-05,4.1400000000,Won General,2207.0000000000,3285.0000000000
+37100502618,Texas,CITY,null,Burkburnett City Commission - Place 5,2026-05-02,2.0600000000,Won General,null,null
+23721584279,Minnesota,CITY,City Council,Forada City Council,2024-11-05,2.4100000000,Lost General,52.0000000000,177.0000000000
+40723904646,Ohio,TOWNSHIP,Town Council,Union County: Jackson Township Trustee,2025-11-04,null,Won General,null,null
+39437728886,South Carolina,CITY,Mayor,Yemassee Town Mayor,2025-11-04,null,Lost General,null,null
+32654736289,null,LOCAL,Other,Cemetery Maintenance Board,2025-05-20,3.4900000000,Won General,null,null
+39426336942,Georgia,Local,City Council,Porterdale City Council - Post 3,2025-11-03,3.2400000000,Won General,null,null
+23396835152,Minnesota,LOCAL,Clerk/Treasurer,Roseau County: Deer Township Clerk,2024-11-05,1.8600000000,Won General,52.0000000000,53.0000000000
+36719560549,Alabama,CITY,City Council,Kimberly City Council - Place 4,2025-08-26,1.7200000000,Won General,null,null
+22376454799,Minnesota,CITY,Mayor,Albertville City Mayor,2024-11-05,2.3400000000,Lost General,1282.0000000000,3709.0000000000
+36953673529,Michigan,CITY,City Council,East Grand Rapids City Council - Ward 2,2025-11-04,3.5100000000,Won General,null,null
+35847451407,Washington,CITY,City Council,Newport City Council - Position 3,2025-11-04,2.3900000000,Won General,null,null
+32844686727,Minnesota,CITY,Mayor,Minneapolis City Mayor,2025-11-04,1.6800000000,Not on Ballot,null,null
+23413446570,California,LOCAL,Other,Rainbow Community Planning Area Board,2024-11-05,4.9900000000,Not on Ballot,null,null
+23520115619,Florida,COUNTY,Sheriff,Jackson County Sheriff,2024-11-05,1.5700000000,Lost General,9014.0000000000,19082.0000000000
+19308980266,Missouri,CITY,City Council,Jennings City Council - Ward 1,2024-04-02,2.1600000000,Lost General,78.0000000000,185.0000000000
+25186593955,Tennessee,CITY,City Council,Columbia City Council - Ward 1,2024-11-05,4.9800000000,Won General,2337.0000000000,2337.0000000000
+32318065217,Texas,CITY,City Council,Dimmitt City Council,2025-05-03,2.3100000000,Lost General,43.0000000000,222.0000000000
+32614857144,Texas,CITY,null,San Antonio City Mayor,2025-05-03,1.8400000000,Not on Ballot,null,null
+36293725979,Kansas,LOCAL,School Board,Newton USD 373 School Board,2025-11-04,1.5300000000,Lost General,900.0000000000,7993.0000000000
+20858817583,Rhode Island,LOCAL,School Board,Johnston School Board - District 3,2024-11-05,4.9900000000,Not on Ballot,null,null
+37037460814,Kansas,LOCAL,null,Liberal USD 480 School Board,2025-11-04,1.6300000000,Won General,null,null
+28153516471,Illinois,LOCAL,School Board,Dolton 149 School Board,2025-04-01,1.2600000000,Lost General,458.0000000000,8987.0000000000
+40257658648,Iowa,CITY,Mayor,Ankeny City Mayor,2025-11-04,null,Won General,null,null
+35093677431,Oklahoma,null,Other,Vinnie Terrell,2025-07-11,null,Lost General,null,null
+23328470648,California,LOCAL,Utilities Commissioner,Vista Irrigation District Board - Division 2,2024-11-05,2.5900000000,Lost General,1144.0000000000,4331.0000000000
+33233572978,Mississippi,CITY,Town Council,Blue Mountain Town Council,2025-06-03,0.9100000000,Lost General,30.0000000000,635.0000000000
+31793749888,Missouri,LOCAL,School Board,Lexington R-5 School Board,2025-04-08,3.4100000000,Lost General,null,null
+23721243779,Oregon,COUNTY,County Supervisor,Union County Commission - Position 3,2024-11-05,1.2600000000,Won General,1438.0000000000,7640.0000000000
+36896210802,Georgia,CITY,City Council,Atlanta City Council - District 2,2025-11-04,1.8700000000,Not on Ballot,null,null
+38149963894,North Carolina,CITY,Town Council,Canton Town Council,2025-11-04,2.5300000000,Lost General,null,null
+37003376026,Michigan,CITY,City Council,Rochester Hills City Council - At Large,2025-11-04,2.1800000000,Won General,null,null
+39849485192,Ohio,CITY,Town Council,Bethesda Village Council,2025-11-04,1.4900000000,Won General,null,null
+35595434923,Washington,LOCAL,Other,Quilcene Fire District 2 Board - Position 1,2025-11-04,1.2700000000,Lost General,null,null
+40611486494,Pennsylvania,null,null,Labor Union President,2025-10-23,null,Cannot Determine,null,null
+37120011848,Connecticut,CITY,null,Woodbridge Town Selectman,2025-11-04,0.7300000000,Lost General,null,null
+29133960886,Illinois,Local,Town Council,Trustee,2025-04-01,2.1300000000,Won General,690.0000000000,1593.0000000000
+39353013039,New Mexico,LOCAL,School Board,West Las Vegas Municipal School District No 1 School Board Member At Large,2025-11-04,2.2900000000,Won General,null,null
+41011392793,Georgia,CITY,City Council,Woodstock City Council - Ward 1,2025-11-04,null,Won General,null,null
+35845563654,Alabama,CITY,City Council,Rainbow City Council - Place 2,2025-08-26,1.9300000000,Lost General,null,null
+19164601395,Texas,CITY,Mayor,Waco City Mayor,2024-05-04,1.5300000000,Lost General,502.0000000000,3517.0000000000
+39266949991,South Carolina,CITY,City Council,Charleston City Council - District 12,2025-11-04,null,Lost General,null,null
+41732727379,Iowa,CITY,Mayor,Newhall City Mayor,2025-11-04,null,Lost General,null,null
+24991784615,New Jersey,LOCAL,School Board,Princeton Public School Board,2024-11-05,1.4200000000,Won General,4217.0000000000,24509.0000000000
+36388494949,Ohio,CITY,Mayor,Woodmere Village Mayor,2025-11-04,0.8100000000,Lost General,41.0000000000,196.0000000000
+25234089271,Connecticut,CITY,Town Council,Darien Town Meeting Representative - District 5,2024-11-05,4.9700000000,Won General,null,null
+21855424336,New York,STATE,State House,New York State Assembly - District 144,2024-11-05,0.6500000000,Lost General,26724.0000000000,70198.0000000000
+18388444277,Illinois,Federal,Congressional,US House of Representatives,2024-11-05,null,Not on Ballot,null,null
+23300847392,Minnesota,LOCAL,Clerk/Treasurer,Morrison County: Scandia Valley Township Clerk,2024-11-05,1.8600000000,Lost General,296.0000000000,765.0000000000
+30930075470,Illinois,CITY,Town Council,Glendale Heights Village Board - District 6,2025-04-01,1.2500000000,Lost General,106.0000000000,784.0000000000
+29667528069,New Jersey,LOCAL,School Board,Burlington Township School Board,2024-11-05,1.7600000000,Won General,3933.0000000000,21909.0000000000
+23486080654,Florida,LOCAL,Other,Highland Meadows Community Development District Board - Seat 3,2024-11-05,1.7400000000,Lost General,925.0000000000,2051.0000000000
+25097561748,New Jersey,LOCAL,School Board,Paterson City School Board,2024-11-05,1.8200000000,Won General,5817.0000000000,27139.0000000000
+29721066903,Missouri,LOCAL,School Board,Hannibal City Mayor,2025-04-08,1.3600000000,Lost General,472.0000000000,4665.0000000000
+38577379083,Ohio,CITY,Town Council,Lisbon Village Council,2025-11-04,1.1200000000,Lost General,null,null
+41301931159,Iowa,CITY,City Council,Riverside City Council,2025-11-04,2.6100000000,Lost General,null,null
+39615455792,New Mexico,Local,City Council,Lovington City Council - District 2,2025-11-04,1.5600000000,Lost General,null,null
+37656991038,Georgia,CITY,City Council,Marietta City Council - Ward 2,2025-11-04,1.8700000000,Lost General,null,null
+37767170418,Virginia,Local,School Board,School Board  ,2025-11-04,3.7100000000,Won General,null,null
+23936736599,Indiana,LOCAL,School Board,Goshen School Board - At Large,2024-11-05,4.9900000000,Won General,4641.0000000000,4641.0000000000
+38336395872,Ohio,Local,Town Council,Martinsburg Village Council (Unexpired Term),2025-11-04,1.1100000000,Won General,null,null
+22448959009,Virginia,CITY,Town Council,Cleveland Town Council,2024-11-05,2.6200000000,Lost General,43.0000000000,256.0000000000
+23115193655,Minnesota,CITY,City Council,Forest Lake City Council,2024-11-05,2.5700000000,Lost General,2561.0000000000,15277.0000000000
+31381754264,Wisconsin,LOCAL,Town Council,Waupaca County: Dupont Town Board - Ward 1,2025-04-01,3.8200000000,Won General,180.0000000000,283.0000000000
+37453587220,North Carolina,CITY,City Council,Hamlet City Council,2025-11-04,3.6200000000,Won General,null,null
+22429037438,Virginia,COUNTY,Mayor,Poquoson City Mayor,2024-11-05,2.3600000000,Lost General,null,null
+35484404629,Washington,LOCAL,School Board,Quilcene District 48 School Board - District 2,2025-11-04,1.1700000000,Won General,null,null
+36500299320,Georgia,CITY,City Council,South Fulton City Council - District 4,2025-11-04,1.3700000000,Runoff,1689.0000000000,4194.0000000000
+41082602004,Iowa,CITY,City Council,West Branch City Council,2025-11-04,2.6100000000,Won General,null,null
+22579539516,Pennsylvania,STATE,null,Pennsylvania Attorney General,2024-11-05,0.0800000000,Not on Ballot,null,null
+32795396432,Oregon,LOCAL,School Board,"Hermiston School District Board of Directors, Position 6",2025-05-20,1.5600000000,Won General,940.0000000000,1783.0000000000
+38442939151,Ohio,LOCAL,School Board,Edgerton Local School Board,2025-11-04,1.4100000000,Won General,null,null
+23215379027,Minnesota,LOCAL,School Board,Mahnomen School Board,2024-11-05,2.8200000000,Lost General,431.0000000000,3447.0000000000
+29674949744,Massachusetts,CITY,City Council,Boston City Council - District 9,2025-11-04,1.3200000000,Lost General,2472.0000000000,7933.0000000000
+40728396037,Georgia,LOCAL,School Board,"Dublin City School Board - Super District 2, Ward 3/4",2025-11-04,3.4900000000,Won General,null,null
+23102019427,California,LOCAL,Utilities Commissioner,Tri-City Healthcare District Board - Division 1,2024-11-05,2.5900000000,Lost General,8138.0000000000,20959.0000000000
+30900220493,Illinois,CITY,null,Cahokia Heights City Mayor,2025-04-01,1.6700000000,Not on Ballot,null,null
+29509636143,Illinois,CITY,City Council,LaSalle City Council - Ward 4,2025-04-01,1.7400000000,Lost General,211.0000000000,526.0000000000
+35226316812,Ohio,CITY,null,Cleveland City Council - Ward 1,2025-11-04,0.8900000000,Not on Ballot,null,null
+31031666589,Illinois,Local,School Board,School Board,2025-04-01,2.6900000000,Won General,508.0000000000,2270.0000000000
+31297967377,Illinois,LOCAL,Other,Shelby County: Clarksburg Township Highway Commissioner,2025-04-01,2.0900000000,Lost General,31.0000000000,128.0000000000
+38765736454,Alaska,CITY,Mayor,Kodiak City Mayor,2025-10-07,1.5100000000,Lost General,null,null
+38874821553,Ohio,TOWNSHIP,Town Council,Cuyahoga County: Olmsted Township Trustee,2025-11-04,1.4900000000,Lost General,null,null
+31507836853,Illinois,LOCAL,Utilities Commissioner,Elmwood Park Village Library Board,2025-04-01,1.5800000000,Lost General,1020.0000000000,6955.0000000000
+31126421016,Illinois,LOCAL,Other,Jo Daviess County: Guilford Township Highway Commissioner,2025-04-01,2.0900000000,Lost General,24.0000000000,434.0000000000
+35706863501,Washington,County,Other,  Charter Review Commissioner ,2025-08-05,1.4500000000,Won General,12343.0000000000,90455.0000000000
+31453505673,Wisconsin,LOCAL,City Council,Sawyer County: Sand Lake Town Chair,2025-04-01,5.0000000000,Won General,null,null
+23659448688,Virginia,CITY,Town Council,Richlands Town Council,2024-11-05,2.6200000000,Lost General,424.0000000000,1796.0000000000
+39615449191,Ohio,LOCAL,School Board,Minford Local School Board,2025-11-04,1.3300000000,Won General,null,null
+31659120176,Georgia,CITY,City Council,Sandy Springs City Council - District 6,2025-11-04,1.6600000000,Not on Ballot,null,null
+33761914889,Iowa,LOCAL,School Board,Stratford School Board,2025-11-04,4.1800000000,Won General,113.0000000000,432.0000000000
+21823604575,Utah,LOCAL,School Board,Jordan School Board - District 1,2024-11-05,4.9900000000,Won General,7320.0000000000,7320.0000000000
+38962303919,Virginia,LOCAL,School Board,Williamsburg-James City County School Board - Jamestown District,2025-11-04,null,Won General,null,null
+39714458025,Idaho,CITY,City Council,Island Park City Council - Seat 1,2025-11-04,2.3700000000,Won General,null,null
+19739101534,Texas,COUNTY,County Supervisor,Harris County Commission - Precinct 3,2024-11-05,1.0500000000,Not on Ballot,null,null
+23087345197,Minnesota,CITY,City Council,Myrtle City Council,2024-11-05,4.9900000000,Won General,17.0000000000,43.0000000000
+22774560626,Oregon,CITY,City Council,Warrenton City Commission - Position 3,2024-11-05,4.1400000000,Lost General,985.0000000000,2586.0000000000
+28942809102,Georgia,CITY,City Council,Forest Park City Council - Ward 1,2025-11-04,1.6600000000,Lost General,106.0000000000,261.0000000000
+23720059187,California,LOCAL,School Board,Woodside School Board,2024-11-05,2.4200000000,Lost General,517.0000000000,1812.0000000000
+23049169520,South Carolina,LOCAL,School Board,Lexington 2 School Board,2024-11-05,2.6800000000,Won General,6572.0000000000,48804.0000000000
+30792861503,Illinois,LOCAL,School Board,Morris School Board 101,2025-04-01,1.2600000000,Lost General,947.0000000000,8745.0000000000
+38671627646,Ohio,CITY,Town Council,Sardinia Village Council,2025-11-04,1.4900000000,Lost General,null,null
+42613495669,Florida,CITY,City Council,Homestead City Council - Seat 1,2025-11-04,3.2100000000,Won General,1828.0000000000,3171.0000000000
+35255823203,Washington,CITY,City Council,Kalama City Council - Position 1,2025-11-04,0.9900000000,Won General,null,null
+40805873683,Washington,CITY,City Council,Lacey City Council - Position 6,2025-11-04,0.9900000000,Lost General,2428.0000000000,7669.0000000000
+35850945051,Washington,LOCAL,School Board,Orting District 344 School Board - District 1,2025-11-04,2.6700000000,Won General,null,null
+23741475652,California,LOCAL,School Board,El Dorado Union High School Board,2024-11-05,2.1500000000,Lost General,1756.0000000000,34611.0000000000
+31293519620,Oklahoma,CITY,Town Council,Waukomis Town Board - Seat 2,2025-04-01,2.6300000000,Lost General,64.0000000000,138.0000000000
+39510277211,Texas,CITY,City Council,Cibolo City Council - District 7,2025-11-04,1.8300000000,Lost General,null,null
+37057669135,Alabama,CITY,City Council,Pleasant Grove City Council - Place 1,2025-08-26,2.1800000000,Lost General,1138.0000000000,12977.0000000000
+36549667865,Utah,CITY,City Council,Highland City Council,2025-11-04,1.4400000000,Lost General,null,null
+28671150402,Illinois,CITY,Mayor,Sawyerville Village President,2025-04-01,4.9700000000,Lost General,92.0000000000,138.0000000000
+28423883604,Missouri,LOCAL,null,Waynesville R-6 School Board,2025-04-08,2.9000000000,Not on Ballot,null,null
+38286124186,Iowa,CITY,City Council,Clinton City Mayor,2027-11-02,1.8600000000,Lost General,null,null
+28235188630,Illinois,LOCAL,School Board,Camp Point Central School Unit School District 3 School Board,2025-04-01,5.0000000000,Won General,null,null
+39618583427,North Carolina,LOCAL,School Board,Thomasville City School Board,2025-11-04,null,Lost General,null,null
+38997236506,Georgia,CITY,Mayor,Sandy Springs City Mayor,2025-11-04,0.5600000000,Lost General,3613.0000000000,22263.0000000000
+31205720168,Massachusetts,LOCAL,School Board,Springfield School Committee - District 3,2025-11-04,1.9900000000,Not on Ballot,null,null
+38749952121,Ohio,Local,Town Council,Ashland County Township Trustee Vermillion,2025-11-04,3.0600000000,Won General,null,null
+42886373701,New Jersey,LOCAL,null,Ridgefield Borough School Board,2025-11-04,null,Won General,null,null
+25082279342,Michigan,LOCAL,School Board,Dowagiac Union School Board,2024-11-05,5.0000000000,Won General,16.0000000000,62.0000000000
+31412355926,Illinois,CITY,City Council,Galesburg City Council - Ward 6,2025-04-01,1.9100000000,Lost General,88.0000000000,934.0000000000
+23235539114,Minnesota,LOCAL,School Board,Austin School Board,2024-11-05,2.6900000000,Lost General,3513.0000000000,23623.0000000000
+22164742428,California,CITY,City Council,Santa Clarita City Council,2024-11-05,2.3000000000,Lost General,2869.0000000000,9270.0000000000
+40665039896,Ohio,LOCAL,School Board,Buckeye Valley Local School Board,2025-11-04,1.3300000000,Won General,2260.0000000000,12208.0000000000
+31380785069,Florida,CITY,null,Malabar Town Council - District 4,2025-11-04,null,Cannot Determine,null,null
+35255823124,Washington,LOCAL,Other,Kennewick Public Hospital District Board - Position 6,2025-11-04,2.7900000000,Won General,null,null
+23468759169,Florida,LOCAL,Utilities Commissioner,Broward County Soil and Water Conservation District Board - Seat 3,2024-11-05,1.9900000000,Won General,null,null
+31414058106,Wisconsin,CITY,Town Council,Belleville Village Board,2025-04-01,3.9000000000,Won General,549.0000000000,2999.0000000000
+38501655931,Ohio,TOWNSHIP,Town Council,Delaware County: Kingston Township Trustee,2025-11-04,3.0700000000,Won General,null,null
+21998098342,Indiana,COUNTY,County Supervisor,Randolph County Commission - District Middle,2024-11-05,1.7700000000,Lost General,1358.0000000000,9469.0000000000
+34542410845,Maine,CITY,City Council,Portland City Council - At Large,2025-11-04,1.5500000000,Lost General,7878.0000000000,25813.0000000000
+23936699823,California,LOCAL,Utilities Commissioner,Soledad Community Healthcare District Board,2024-11-05,4.0700000000,Lost General,749.0000000000,5626.0000000000
+19372179597,Wisconsin,CITY,City Council,Edgerton City Council - District 1B,2025-02-18,5.0000000000,Won General,null,null
+25278463647,Illinois,CITY,Clerk/Treasurer,Lawrenceville City Clerk,2025-04-01,1.8300000000,Not on Ballot,null,null
+22327274371,Virginia,CITY,Town Council,Fincastle Town Council,2024-11-05,3.4600000000,Won General,192.0000000000,759.0000000000
+32038880611,Oregon,LOCAL,Other,Applegate Valley Rural Fire Protection District Board - Position 4,2025-05-20,4.9900000000,Won General,null,null
+35594427436,Ohio,LOCAL,School Board,Fort Frye Local School Board,2025-11-04,2.8800000000,Won General,756.0000000000,3316.0000000000
+36614189173,Ohio,LOCAL,School Board,Shaker Heights City School District Board,2025-11-04,0.6700000000,Lost General,null,null
+32798643053,null,LOCAL,Other,Memorial Fund Board,2025-05-08,5.0000000000,Won General,1193.0000000000,1689.0000000000
+36406981749,Utah,CITY,Mayor,Cottonwood Heights City Mayor,2025-11-04,0.8100000000,Won General,null,null
+21648138408,Maryland,LOCAL,School Board,St. Mary's County Public School Board - At Large,2024-11-05,2.3100000000,Won General,24198.0000000000,46455.0000000000
+40793576592,Iowa,CITY,Mayor,Monticello City Mayor,2025-11-04,1.8600000000,Won General,null,null
+41228222346,North Carolina,CITY,City Council,Greenville City Council - District 2,2025-11-04,null,Lost General,418.0000000000,1917.0000000000
+23062071576,Minnesota,CITY,City Council,Magnolia City Council,2024-11-05,2.4100000000,Lost General,27.0000000000,119.0000000000
+31414531623,Illinois,LOCAL,Town Council,McLean County: Towanda Township Board,2025-04-01,5.0000000000,Won General,null,null
+37323681717,Alabama,CITY,City Council,Northport City Council - District 2,2025-08-26,1.9300000000,Not on Ballot,null,743.0000000000
+23088529183,Minnesota,CITY,City Council,Heidelberg City Council,2024-11-05,3.8800000000,Lost General,17.0000000000,155.0000000000
+40817953411,North Carolina,CITY,Town Council,Spruce Pine Town Council,2025-11-04,null,Won General,null,null
+39627931743,Ohio,CITY,City Council,Madeira City Council,2025-11-04,2.6000000000,Won General,null,null
+43256379249,Washington,CITY,null,"Spokane City Council - District 3, Position 2",2025-11-04,null,Not on Ballot,null,null
+36729004086,Alabama,CITY,City Council,Decatur City Council - District 1,2025-08-26,3.5500000000,Lost General,902.0000000000,3195.0000000000
+35902399415,New Jersey,LOCAL,School Board,Roxbury Township School Board,2025-11-04,3.0100000000,Not on Ballot,null,null
+22012438016,Minnesota,COUNTY,County Supervisor,Clearwater County Commission - District 2,2024-11-05,5.0000000000,Won General,3591.0000000000,3628.0000000000
+32911222134,Pennsylvania,CITY,null,Gilberton Borough Mayor,2025-11-04,0.3200000000,Not on Ballot,null,null
+37968402451,Ohio,CITY,Town Council,Covington Village Council,2025-11-04,1.4900000000,Won General,null,null
+39516386688,New Mexico,CITY,City Council,Santa Fe City Council - District 2,2025-11-04,0.5400000000,Lost General,1505.0000000000,7379.0000000000
+38963687183,North Carolina,CITY,Mayor,Weaverville Town Mayor,2025-11-04,null,Won General,null,null
+35590818434,Maine,CITY,null,Lisbon Town Council,2026-11-03,2.5600000000,Won General,null,null
+21277406840,North Dakota,CITY,City Council,Mapleton City Council,2024-11-05,0.8500000000,Lost General,60.0000000000,391.0000000000
+37648961889,Connecticut,LOCAL,School Board,Stamford School Board,2025-11-04,0.6500000000,Lost General,null,null
+31893257777,Texas,CITY,Mayor,Balch Springs City Mayor,2025-05-03,3.3800000000,Lost General,271.0000000000,592.0000000000
+28851891727,Illinois,LOCAL,School Board,Huntley Community Consolidated 158 School Board,2025-04-01,1.2600000000,Lost General,1078.0000000000,16815.0000000000
+22615580738,Maryland,CITY,Mayor,Mayor,2025-11-04,null,Not on Ballot,null,null
+23656117764,Kansas,COUNTY,Attorney,Morris County Attorney,2024-11-05,0.6000000000,Lost General,444.0000000000,2484.0000000000
+23302203504,Minnesota,CITY,Mayor,Perley City Mayor,2024-11-05,5.0000000000,Won General,32.0000000000,47.0000000000
+39879894447,New Mexico,Local,City Council,Dexter City Council,2025-11-04,null,Won General,null,null
+34730023775,Michigan,CITY,Mayor,Dearborn Heights City Mayor,2025-11-04,1.2400000000,Not on Ballot,null,null
+23832364967,Iowa,LOCAL,Town Council,Clinton County: Brookfield Township Trustee,2024-11-05,4.0000000000,Not on Ballot,null,null
+23829603488,Minnesota,Local,Clerk/Treasurer,Treasurer,2024-11-05,4.9900000000,Won General,28.0000000000,28.0000000000
+38991885193,Alaska,LOCAL,Other,Bear Creek Fire Service Area Board - Seat B,2025-10-07,1.8800000000,Won General,null,null
+33607623268,Oregon,LOCAL,School Board,South Wasco County 1 School Board - Zone 4,2025-05-20,4.9800000000,Won General,259.0000000000,493.0000000000
+37251223729,North Carolina,CITY,Town Council,Conetoe Town Council,2025-11-04,2.5300000000,Won General,15.0000000000,53.0000000000
+34815773585,Ohio,LOCAL,School Board,Put-in-Bay Local School Board,2025-11-04,2.8800000000,Won General,null,null
+29644188052,Wisconsin,CITY,City Council,Janesville City Council,2025-04-01,3.7100000000,Lost General,9127.0000000000,54235.0000000000
+31665500568,Wisconsin,LOCAL,School Board,Southwestern Wisconsin School Board - Area 1,2025-04-01,3.7400000000,Won General,629.0000000000,1257.0000000000
+31840160060,Ohio,LOCAL,null,Troy City School Board,2025-11-04,1.4100000000,Not on Ballot,null,null
+33700815250,Ohio,CITY,Town Council,Put-in-Bay Village Council,2025-11-04,3.0700000000,Won General,null,null
+32551006880,Texas,CITY,null,Edcouch City Mayor,2025-11-04,1.8400000000,Cannot Determine,null,null
+40402045062,Pennsylvania,LOCAL,null,East Stroudsburg Area School Board,2025-11-04,null,Not on Ballot,null,null
+18983362318,Texas,STATE,State House,Texas House of Representatives - District 139,2024-11-05,4.9500000000,Not on Ballot,null,null
+37410529937,North Carolina,CITY,Town Council,Aulander Town Council,2025-11-04,2.5300000000,Lost General,null,null
+33253353107,New York,LOCAL,School Board,Akron Central School Board,2025-05-20,3.3700000000,Lost General,221.0000000000,1306.0000000000
+28320190133,Alabama,CITY,City Council,Birmingham City Council - District 8,2025-08-26,1.2100000000,Runoff,165.0000000000,4374.0000000000
+38246427309,Virginia,null,Other,Supervisor ,2025-11-04,null,Lost General,null,null
+23940345437,Connecticut,STATE,State House,Connecticut House of Representatives - District 33,2024-11-05,0.0500000000,Lost General,698.0000000000,8580.0000000000
+30823851083,Texas,null,City Council,Sugar Land City Council District 2,2025-05-03,1.0400000000,Lost General,89.0000000000,4335.0000000000
+23736981808,Oregon,CITY,City Council,Sheridan City Council,2024-11-05,0.9500000000,Lost General,573.0000000000,4119.0000000000
+37892913039,Ohio,TOWNSHIP,Town Council,Richland County: Madison Township Trustee,2025-11-04,3.0700000000,Won General,null,null
+37402326846,North Carolina,CITY,Town Council,Louisburg Town Council,2025-11-04,2.5300000000,Won General,null,null
+35937463367,Alabama,CITY,City Council,Grant City Council - Place 2,2025-08-26,1.7200000000,Lost General,87.0000000000,302.0000000000
+35957569281,Texas,CITY,null,White Settlement City Council - Place 2,2025-11-04,2.0600000000,Not on Ballot,null,null
+23551099176,Minnesota,CITY,Mayor,Watson City Mayor,2024-11-05,3.2600000000,Won General,86.0000000000,88.0000000000
+22979514702,South Carolina,LOCAL,School Board,"Orangeburg Consolidated School Board - District 8, At Large",2024-11-05,1.5600000000,Lost General,null,null
+36989289511,North Carolina,CITY,null,Wilmington City Council,2025-11-04,0.7400000000,Not on Ballot,null,null
+36661351071,Kansas,LOCAL,School Board,Wichita USD 259 School Board - District 1,2025-11-04,1.1500000000,Lost General,null,null
+36524000884,Iowa,CITY,null,Carlisle City Council,2025-11-04,2.9000000000,Lost General,null,null
+38669455723,Ohio,CITY,null,Richfield Village Council,2025-11-04,1.5600000000,Not on Ballot,null,null
+38286001473,North Carolina,CITY,Town Council,Leland Town Council,2025-11-04,2.5300000000,Won General,null,null
+23330681408,California,LOCAL,School Board,Newark Unified School Board,2024-11-05,1.6800000000,Lost General,1926.0000000000,9403.0000000000
+36050755849,Kansas,CITY,Mayor,Ellis City Mayor,2025-11-04,2.0800000000,Won General,null,null
+28744994977,Illinois,CITY,Town Council,Round Lake Village Board,2025-04-01,3.9600000000,Won General,672.0000000000,2903.0000000000
+32266762665,Ohio,LOCAL,Town Council,Franklin County: Blendon Township Trustee,2025-11-04,1.7100000000,Won General,1809.0000000000,4992.0000000000
+23509872430,Michigan,LOCAL,School Board,Climax-Scotts Community School Board,2024-11-05,4.0600000000,Won General,100.0000000000,452.0000000000
+39168108693,Idaho,CITY,City Council,Athol City Council - Seat 4,2025-11-04,0.9000000000,Lost General,42.0000000000,92.0000000000
+31289880388,Illinois,LOCAL,Town Council,Pike County: Detroit Township Board,2025-04-01,5.0000000000,Won General,null,null
+40375801401,Kansas,CITY,City Council,"Humboldt City Council - Ward 1, Position 3",2025-11-04,null,Won General,null,null
+37451704462,North Carolina,CITY,City Council,Durham City Council - Ward 1,2025-11-04,3.1900000000,Won General,null,null
+39275547250,Minnesota,LOCAL,School Board,Roseville School Board,2025-11-04,4.0600000000,Won General,null,null
+22536803444,Kentucky,CITY,City Council,Muldraugh City Council,2024-11-05,5.0000000000,Won General,110.0000000000,462.0000000000
+30751556117,Illinois,CITY,Mayor,Niantic Village President,2025-04-01,1.7700000000,Lost General,59.0000000000,156.0000000000
+31170215064,Illinois,LOCAL,Other,Maquon Public Library District Board,2025-04-01,5.0000000000,Won General,null,null
+40709434240,Idaho,CITY,City Council,Hayden City Council - Seat 2,2025-11-04,0.9700000000,Won General,null,null
+23754549634,Tennessee,CITY,City Council,Hendersonville City Council - Ward 4,2024-11-05,3.5300000000,Won General,2967.0000000000,5246.0000000000
+39591792933,Ohio,LOCAL,School Board,Medina City School Board,2025-11-04,null,Won General,null,null
+38660633867,Ohio,CITY,Town Council,Archbold Village Council,2025-11-04,1.4900000000,Won General,null,null
+37251180565,Massachusetts,LOCAL,School Board,Somerville School Committee - Ward 3,2025-11-04,1.8200000000,Lost General,null,null
+38953832234,Washington,CITY,City Council,Mountlake Terrace City Council - Position 3,2025-11-04,0.9900000000,Lost General,null,null
+37913871198,North Carolina,CITY,City Council,Hickory City Council - Ward 5,2025-11-04,1.6100000000,Lost General,null,null
+35449105589,Virginia,Local,School Board,Fredericksburg City Public Schools School Board Ward 3,2025-11-04,2.5900000000,Won General,1609.0000000000,2579.0000000000
+31975706379,Texas,LOCAL,School Board,Comal Independent School Board - District 6,2025-05-03,1.6100000000,Lost General,147.0000000000,589.0000000000
+38125729704,Massachusetts,LOCAL,School Board,Newton School Committee - Ward 5,2025-11-04,1.8200000000,Won General,null,null
+37597365144,North Carolina,CITY,Town Council,Angier Town Council - Ward 1,2025-11-04,3.6100000000,Lost General,null,null
+21494995224,Arizona,CITY,Mayor,Williams City Mayor,2024-11-05,1.4600000000,Lost General,168.0000000000,468.0000000000
+25224225543,Mississippi,COUNTY,Other,Tippah County Election Commission - District 1,2024-11-05,5.0000000000,Won General,1639.0000000000,1653.0000000000
+31261382314,Illinois,LOCAL,Other,Lake Villa Public Library District Board,2025-04-01,4.3500000000,Won General,1729.0000000000,7028.0000000000
+37758589057,New Jersey,LOCAL,School Board,Paramus School Board,2025-11-04,3.0100000000,Won General,null,null
+30715591245,Wisconsin,Local,City Council,Neenah City council,2025-04-01,2.5500000000,Lost General,1185.0000000000,2382.0000000000
+30827165568,Florida,CITY,Town Council,Redington Shores Town Commission - District 2,2025-03-11,5.0000000000,Won General,null,null
+31923455262,Texas,CITY,Mayor,Burton City Council - Place 4,2025-05-03,2.3300000000,Lost General,54.0000000000,122.0000000000
+38586890807,Ohio,TOWNSHIP,Town Council,Fairfield County: Clearcreek Township Trustee,2025-11-04,3.0700000000,Won General,370.0000000000,843.0000000000
+38656376187,New Jersey,LOCAL,School Board,Millstone Township School Board,2025-11-04,2.5800000000,Lost General,1483.0000000000,10292.0000000000
+40839927576,Ohio,LOCAL,School Board,Elgin Local School Board,2025-11-04,2.8800000000,Won General,754.0000000000,1701.0000000000
+36659357611,Ohio,CITY,City Council,Sandusky City Commission,2025-11-04,0.8500000000,Not on Ballot,null,null
+32001217935,Mississippi,CITY,Town Council,Coffeeville Town Council - At Large,2025-06-03,1.6800000000,Lost General,null,null
+28942809102,Georgia,CITY,City Council,Forest Park City Council - Ward 1,2025-11-04,1.6600000000,Lost General,106.0000000000,261.0000000000
+38678857077,Michigan,CITY,City Council,Hamtramck City Council,2025-11-04,2.4100000000,Lost General,null,null
+31949528749,Texas,CITY,null,Dallas City Council - District 11,2025-05-03,2.0600000000,Not on Ballot,null,null
+22371398524,Indiana,LOCAL,School Board,North Posey County School Board - District 1,2024-11-05,3.5700000000,Won General,2401.0000000000,4460.0000000000
+21399859897,Arizona,CITY,City Council,Scottsdale City Council,2024-11-05,2.5800000000,Lost General,null,null
+21492029810,North Dakota,COUNTY,County Supervisor,Rolette County Commission,2024-11-05,1.1200000000,Lost General,1008.0000000000,9002.0000000000
+36989138201,Michigan,CITY,City Council,Farmington Hills City Council,2025-11-04,1.6500000000,Lost General,5234.0000000000,48514.0000000000
+34506200882,Washington,LOCAL,School Board,Northshore District 417 School Board - District 5,2025-11-04,1.1100000000,Lost General,3216.0000000000,11544.0000000000
+37434070148,Virginia,CITY,Town Council,Christiansburg Town Council,2025-11-04,3.0600000000,Won General,null,null
+23760461136,California,CITY,City Council,Cathedral City Council - District 2,2024-11-05,0.9400000000,Lost General,1654.0000000000,2508.0000000000
+28517533520,Michigan,CITY,null,Grand Blanc City Council,2025-11-04,2.6800000000,Not on Ballot,null,null
+30795708070,Ohio,LOCAL,City Council,City Council,2025-05-06,0.3200000000,Won General,null,null
+38440145503,Montana,CITY,Judge,Livingston City Judge,2025-11-04,1.3800000000,Won General,null,null
+31664571943,Missouri,LOCAL,School Board,Cape Girardeau 63 School Board,2025-04-08,3.3500000000,Won General,null,null
+30380035469,Tennessee,CITY,City Council,City council,2025-04-01,2.4400000000,Won General,null,null
+32901657161,Massachusetts,null,Other,Carlisle Planning Board,2025-06-03,0.4100000000,Won General,702.0000000000,3186.0000000000
+38792973748,North Carolina,CITY,Town Council,Harrisburg Town Council,2025-11-04,null,Won General,null,null
+38959478184,Utah,CITY,City Council,Woodland Hills City Council,2025-11-04,2.8500000000,Lost General,null,null
+31840908689,Texas,CITY,City Council,Lampasas City Council - Place 1,2025-05-03,3.5000000000,Lost General,128.0000000000,375.0000000000
+36445487258,Utah,Local,Mayor,Mayor,2025-11-04,2.0900000000,Won General,null,null
+25001701299,Minnesota,CITY,Mayor,Elysian City Mayor,2024-11-05,2.0600000000,Lost General,244.0000000000,510.0000000000
+23624091952,Minnesota,LOCAL,Town Council,Blue Earth County: Butternut Valley Township Supervisor - Seat A,2024-11-05,5.0000000000,Won General,326.0000000000,294.0000000000
+23045601827,Minnesota,CITY,City Council,Landfall City Council - At Large,2024-11-05,2.4800000000,Lost General,54.0000000000,200.0000000000
+37003375723,Kansas,CITY,City Council,Blue Mound City Council,2025-11-04,2.8400000000,Won General,null,null
+38909345080,Alabama,null,Other,Council,2025-08-29,null,Won General,null,null
+30305869732,Washington,CITY,City Council,West Richland City Council - Position 1,2025-11-04,2.3900000000,Won General,null,null
+40828114499,Florida,Local,City Council,"Lakeland City Council - District C, Southwest",2025-11-04,null,Lost General,null,null
+23407033115,Minnesota,LOCAL,Town Council,Cass County: Home Brook Township Supervisor - Seat 1,2024-11-05,2.7100000000,Lost General,76.0000000000,189.0000000000
+25134081667,Minnesota,CITY,Mayor,La Prairie City Mayor,2024-11-05,5.0000000000,Won General,578.0000000000,300.0000000000
+40982140453,Maryland,CITY,City Council,College Park City Council - District 3,2025-11-04,null,Won General,null,null
+39582056121,Washington,CITY,City Council,"Chehalis City Council - At Large, Position 3",2025-11-04,0.9900000000,Lost General,null,null
+30958992914,Texas,City,City Council,City Council,2025-04-01,5.0000000000,Won General,null,null
+22128468351,Minnesota,Local,City Council,City Council,2024-11-05,1.5400000000,Lost General,960.0000000000,1959.0000000000
+25089771606,California,CITY,City Council,Hanford City Council - Area B,2024-11-05,2.7800000000,Won General,1400.0000000000,2746.0000000000
+39276315973,Washington,CITY,null,"Bainbridge Island City Council - District 3, South Ward",2025-11-04,null,Not on Ballot,null,null
+22412350527,Arkansas,CITY,City Council,"Wynne City Council - Ward 4, Position 2",2024-11-05,1.4700000000,Won General,299.0000000000,480.0000000000
+22164416333,Minnesota,COUNTY,County Supervisor,Morrison County Commission - District 1,2024-11-05,1.6100000000,Lost General,1147.0000000000,3330.0000000000
+38882701733,Ohio,TOWNSHIP,Town Council,Madison County: Oak Run Township Trustee,2025-11-04,3.0700000000,Won General,null,null
+31499193362,Iowa,CITY,City Council,Pella City Council - Ward 3,2025-11-04,4.9900000000,Not on Ballot,null,null
+30770106524,Illinois,LOCAL,School Board,Orland 135 School Board,2025-04-01,2.6300000000,Won General,10413.0000000000,88082.0000000000
+37675286094,North Carolina,CITY,Town Council,Elizabethtown Town Council,2025-11-04,2.0500000000,Won General,439.0000000000,588.0000000000
+35139771010,Michigan,CITY,City Council,Plymouth City Council,2025-11-04,2.6800000000,Won General,null,null
+31724482143,New York,LOCAL,Town Council,Evans Town Council,2025-11-04,2.3000000000,Lost General,null,null
+38675342708,North Carolina,CITY,null,Huntersville Town Council,2025-11-04,2.7100000000,Not on Ballot,null,null
+22413196678,Rhode Island,CITY,Town Council,Barrington Town Council,2024-11-05,1.3300000000,Lost General,3176.0000000000,25499.0000000000
+40238744130,New Jersey,LOCAL,School Board,Montclair Town School Board,2025-11-04,2.7800000000,Won General,null,null
+36399068562,Kansas,LOCAL,School Board,Clearwater USD 264 School Board,2025-11-04,1.5300000000,Lost General,null,null
+22641538424,New Jersey,LOCAL,School Board,Phillipsburg School District BOE  ,2024-11-05,null,Lost General,584.0000000000,4368.0000000000
+36784012942,Kansas,LOCAL,School Board,Douglass USD 396 School Board,2025-11-04,1.5300000000,Lost General,null,null
+30770105768,Illinois,LOCAL,Utilities Commissioner,Oak Park Village Library Board,2025-04-01,1.9900000000,Lost General,3340.0000000000,33353.0000000000
+23962354543,South Carolina,CITY,City Council,Greenwood City Council - Ward 1,2024-11-05,3.3500000000,Won General,437.0000000000,749.0000000000
+22412779349,Virginia,CITY,Town Council,Louisa Town Council,2024-11-05,2.8600000000,Won General,469.0000000000,1708.0000000000
+41318876974,Colorado,CITY,City Council,Commerce City Council - At Large,2025-11-04,3.1700000000,Lost General,null,null
+29249844244,Illinois,LOCAL,School Board,Roselle School Board 12,2025-04-01,2.6900000000,Won General,612.0000000000,3065.0000000000
+39429591727,New Mexico,CITY,Mayor,Lordsburg City Mayor,2025-11-04,1.3400000000,Lost General,null,null
+38757293373,Alaska,LOCAL,School Board,Ketchikan Gateway Borough School Board,2025-10-07,3.5500000000,Lost General,711.0000000000,1808.0000000000
+36492376748,Utah,Local,Town Council,Town Council,2025-11-04,3.3000000000,Won General,null,null
+22431625312,Kentucky,LOCAL,School Board,Bourbon County School Board - District 2,2024-11-05,2.6300000000,Won General,823.0000000000,823.0000000000
+42432120722,New Jersey,LOCAL,School Board,Orange City Township School Board,2025-11-04,3.0100000000,Lost General,null,null
+42902910498,Ohio,CITY,null,Kettering City Mayor,2025-11-04,null,Won General,7214.0000000000,11244.0000000000
+31976229809,Texas,LOCAL,School Board,Waco Independent School Board - District 4,2025-05-03,2.5300000000,Lost General,446.0000000000,1284.0000000000
+31844623929,Texas,CITY,City Council,San Antonio City Council - Place 1,2025-05-03,0.2600000000,Lost General,314.0000000000,12191.0000000000
+32891854342,Oregon,LOCAL,School Board,Glide 12 School Board - Seat 5,2025-05-20,3.5800000000,Won General,null,null
+42063684509,Massachusetts,CITY,Mayor,Easthampton City Mayor,2025-11-04,null,Won General,null,null
+23753696023,Tennessee,CITY,City Council,Shelbyville City Council - Ward 5,2024-11-05,0.9600000000,Won General,430.0000000000,1005.0000000000
+34899252341,Utah,CITY,City Council,Roy City Council,2025-11-04,1.4400000000,Not on Ballot,null,null
+40240469672,Massachusetts,CITY,City Council,Franklin Town City Council,2025-11-04,null,Won General,null,null
+25074702009,Colorado,STATE,State House,Colorado House of Representatives - District 35,2024-11-05,0.1500000000,Lost General,0E-10,22261.0000000000
+32841544481,Massachusetts,LOCAL,Other,Sharon Planning Board,2025-05-20,2.4100000000,Lost General,776.0000000000,2357.0000000000
+23825480227,Iowa,LOCAL,Town Council,Story County: Palestine Township Trustee,2024-11-05,5.0000000000,Won General,306.0000000000,313.0000000000
+21947941980,Arizona,LOCAL,School Board,Prescott USD 1 School Board,2024-11-05,5.0000000000,Won General,null,null
+33370835230,Maine,LOCAL,School Board,District 60 School Board - Berwick,2025-06-10,1.6600000000,Won General,572.0000000000,876.0000000000
+30900198975,Oregon,local,Other,Williams Rural Fire Protection District Position 5,2025-05-20,5.0000000000,Won General,null,null
+31919564977,Texas,CITY,City Council,Blossom City Council,2025-05-03,3.5700000000,Lost General,20.0000000000,202.0000000000
+42697375808,Iowa,CITY,City Council,Farmington City Council,2025-11-04,2.6100000000,Lost General,null,null
+31777371165,Missouri,LOCAL,School Board,Fair Play R-2 School Board,2026-04-07,1.7400000000,Won General,109.0000000000,463.0000000000
+20936585392,Virginia,STATE,Statewide/Governor,Virginia Governor,2025-11-04,0.4600000000,Not on Ballot,null,null
+19018779756,Ohio,FEDERAL,President,President of the United States,2024-11-05,0.0100000000,Not on Ballot,null,null
+31966863482,Texas,CITY,City Council,Cedar Park City Council - Place 1,2025-05-03,5.0000000000,Won General,null,null
+20606969193,Nevada,STATE,Mayor,Nevada State Assembly - District 26,2025-11-04,4.9600000000,Not on Ballot,null,null
+39714700146,Idaho,CITY,City Council,Kendrick City Council,2025-11-04,2.8500000000,Won General,null,null
+36067479468,Alabama,CITY,City Council,Grant City Council - Place 2,2025-08-26,3.4200000000,Won General,null,null
+37122482805,Maryland,CITY,City Council,Gaithersburg City Council,2025-11-04,2.2600000000,Won General,null,null
+23619371057,Minnesota,CITY,Mayor,Winsted City Mayor,2024-11-05,4.9900000000,Won General,904.0000000000,977.0000000000
+30395770470,Illinois,null,null,Mayor of Evanston,2025-04-01,null,Not on Ballot,null,null
+25188082459,South Carolina,LOCAL,School Board,Lexington 2 School Board,2024-11-05,1.7900000000,Won General,7167.0000000000,109060.0000000000
+37884915053,Ohio,CITY,Town Council,Frankfort Village Council,2025-11-04,1.4900000000,Not on Ballot,null,null
+38673953671,Ohio,CITY,Town Council,Glandorf Village Council,2025-11-04,1.4900000000,Lost General,null,null
+38951508280,Massachusetts,LOCAL,School Board,Peabody School Committee,2025-11-04,null,Lost General,null,null
+23624289293,Florida,LOCAL,Utilities Commissioner,Key West Utility Board - Seat C,2024-11-05,3.5600000000,Won General,null,19406.0000000000
+23785235243,Minnesota,CITY,City Council,Frazee City Council,2024-11-05,3.6400000000,Won General,251.0000000000,998.0000000000
+41395741209,Utah,CITY,Mayor,Castle Dale City Mayor,2025-11-04,null,Lost General,null,null
+32625599608,Texas,CITY,School Board,Shiner Independent School Board - Place 3,2025-05-03,2.5600000000,Won General,120.0000000000,229.0000000000
+31433932955,Missouri,LOCAL,School Board,Bunker R-3 School Board,2025-04-08,1.3600000000,Won General,13.0000000000,77.0000000000
+31712213432,Missouri,LOCAL,School Board,Hazelwood School Board,2025-04-08,1.1200000000,Lost General,null,null
+32736553901,Oregon,LOCAL,School Board,South Wasco County 1 School Board - Zone 4,2025-05-20,3.5600000000,Lost General,234.0000000000,493.0000000000
+32157546572,Texas,CITY,City Council,Denton City Council - Place 1,2025-05-03,5.0000000000,Won General,null,null
+22288640515,Florida,LOCAL,School Board,Glades County School Board - District 2,2024-11-05,3.6200000000,Won General,2846.0000000000,4839.0000000000
+31965130665,New Jersey,LOCAL,Other,Cape May County: Upper Township Committee,2025-11-04,4.2200000000,Won General,null,null
+29910677282,Wisconsin,LOCAL,School Board,Kaukauna Area School Board,2025-04-01,4.2800000000,Won General,6205.0000000000,22719.0000000000
+40887242396,Georgia,LOCAL,School Board,Marietta City School Board - Ward 1,2025-11-04,3.4900000000,Won General,null,null
+42177061260,Iowa,LOCAL,School Board,Belmond-Klemme School Board - At Large,2025-11-04,3.8700000000,Won General,null,null
+23936869806,Louisiana,CITY,Town Council,Cottonport Town Council - At Large,2024-12-07,2.5900000000,Withdrew,null,null
+32633683498,Texas,CITY,Mayor,San Antonio City Mayor,2025-05-03,1.5900000000,Lost General,303.0000000000,101038.0000000000
+31921930675,Texas,LOCAL,School Board,Troy Independent School Board,2025-05-03,4.1900000000,Won General,114.0000000000,301.0000000000
+31515804678,Wisconsin,LOCAL,null,Eau Claire County: Washington Town Chair,2025-04-01,2.5300000000,Not on Ballot,null,null
+23068023904,Minnesota,CITY,City Council,Madison Lake City Council,2024-11-05,4.5700000000,Won General,474.0000000000,1153.0000000000
+41089629304,Iowa,CITY,City Council,Casey City Council,2025-11-04,null,Won General,null,null
+22412221003,North Dakota,STATE,State House,North Dakota House of Representatives - District 24,2024-11-05,0.8800000000,Lost General,2821.0000000000,14400.0000000000
+37914934784,Ohio,CITY,Town Council,Camden Village Council,2025-11-04,1.4900000000,Lost General,null,null
+32850930860,Texas,CITY,City Council,Godley City Council,2025-11-04,2.4000000000,Not on Ballot,null,null
+22205911597,Kentucky,LOCAL,School Board,Owensboro School Board,2024-11-05,3.9000000000,Won General,4532.0000000000,19229.0000000000
+19111130519,California,LOCAL,School Board,Compton Unified School Board - Area D,2024-03-05,1.1600000000,Lost General,281.0000000000,1927.0000000000
+39767362663,Ohio,LOCAL,School Board,Lake Local School Board (Stark County),2025-11-04,2.8800000000,Won General,2052.0000000000,9958.0000000000
+39292361870,Massachusetts,CITY,City Council,Medford City Council,2025-11-04,null,Lost General,null,null
+21505184430,California,CITY,Mayor,City Mayor,2024-11-05,null,Lost General,8038.0000000000,43455.0000000000
+23395408004,California,LOCAL,School Board,Westwood Unified School Board,2024-11-05,5.0000000000,Won General,null,null
+32498178428,Montana,LOCAL,School Board,Helena Public 1 School Board - At Large,2025-05-06,1.8100000000,Won General,6687.0000000000,31793.0000000000
+40666291890,Massachusetts,LOCAL,School Board,Fitchburg School Committee,2025-11-04,2.2900000000,Lost General,null,null
+31928230311,Minnesota,null,null,Treasure,2025-04-12,null,Not on Ballot,null,null
+22394757513,North Carolina,LOCAL,School Board,Whiteville City School Board - District 3,2024-11-05,1.4500000000,Won General,1081.0000000000,1824.0000000000
+40717558569,Ohio,CITY,City Council,St. Clairsville City Council - Ward 3,2025-11-04,null,Won General,null,null
+39580685177,New Jersey,LOCAL,Other,Beverly City Fire District No. 1,2025-11-04,2.9000000000,Won General,null,null
+39520961889,New Jersey,LOCAL,School Board,Avon-by-the-Sea Borough School Board,2025-11-04,4.1200000000,Won General,null,null
+40267097916,Ohio,TOWNSHIP,Town Council,Ashtabula County: Pierpont Township Trustee,2025-11-04,null,Won General,null,null
+28536914062,Illinois,LOCAL,School Board,Richmond-Burton 157 School Board,2025-04-01,1.9300000000,Lost General,475.0000000000,3334.0000000000
+35851218309,Utah,CITY,City Council,Tremonton City Council,2025-11-04,2.8500000000,Won General,null,null
+25077638278,Michigan,LOCAL,Clerk/Treasurer,Montcalm County: Winfield Township Clerk,2024-11-05,4.9900000000,Won General,553.0000000000,553.0000000000
+36550728569,Georgia,CITY,City Council,Cordele City Commission - Ward 3,2025-11-04,1.8700000000,Lost General,null,null
+32796775435,Oregon,LOCAL,School Board,Baker 5J School Board - Seat 4,2025-05-20,5.0000000000,Won General,null,null
+25003920219,Minnesota,CITY,City Council,Rockville City Council,2024-11-05,1.8100000000,Lost General,369.0000000000,2553.0000000000
+23255397437,South Carolina,LOCAL,School Board,Lancaster County School Board - District 2,2024-11-05,3.5800000000,Won General,2150.0000000000,2183.0000000000
+36392726964,Kansas,CITY,City Council,Baldwin City Council,2025-11-04,1.3000000000,Lost General,null,null
+23832791165,California,CITY,City Council,city council,2024-11-05,null,Lost General,757.0000000000,13148.0000000000
+21310759951,North Dakota,COUNTY,County Supervisor,Ramsey County Commission,2024-11-05,5.0000000000,Won General,1650.0000000000,4611.0000000000
+39420995647,Washington,LOCAL,School Board,Ferndale District 502 School Board - District 5,2025-11-04,1.1700000000,Lost General,null,null
+35880114777,Kansas,LOCAL,School Board,Remington USD 206 School Board,2025-11-04,3.1100000000,Won General,273.0000000000,1037.0000000000
+30463269905,Texas,CITY,Mayor,Fort Worth City Mayor,2025-05-03,0.3100000000,Lost General,1059.0000000000,39820.0000000000
+19057132145,California,COUNTY,County Supervisor,San Diego County Board of Supervisors - District 1,2024-11-05,1.7800000000,Not on Ballot,null,null
+36984245648,Michigan,CITY,City Council,Rochester Hills City Council - District 1,2025-11-04,1.9300000000,Lost General,null,null
+40828942661,Iowa,CITY,City Council,Bernard City Council,2025-11-04,4.0200000000,Won General,null,null
+23469266006,California,CITY,City Council,West Covina City Council - District 3,2024-11-05,3.4100000000,Lost General,null,5985.0000000000
+31902671155,Texas,CITY,Mayor,Burkburnett City Mayor,2025-05-03,3.3800000000,Won General,566.0000000000,907.0000000000
+23233102957,South Carolina,LOCAL,School Board,School Board,2024-11-05,null,Lost General,1826.0000000000,13924.0000000000
+39526463883,Montana,CITY,City Council,Fort Benton City Council - Ward 2,2025-11-04,2.9900000000,Won General,null,null
+38689219126,Ohio,Local,Town Council,Ashland County Township Trustee Clear Creek *Unexpired Term*,2025-11-04,2.5800000000,Lost General,null,null
+30681346714,Virginia,null,null, justice ,2025-03-31,null,Cannot Determine,null,null
+22743562407,Washington,CITY,City Council,Quincy City Council - Position 4,2025-11-04,0.9900000000,Lost General,null,null
+34204567354,Ohio,LOCAL,School Board,Fayetteville-Perry Local School Board,2025-11-04,2.8800000000,Lost General,null,null
+21911738202,Florida,CITY,City Council,St. Petersburg City Council - District 3,2024-11-05,0.9400000000,Lost General,1123.0000000000,6899.0000000000
+40784797607,Iowa,Local,School Board,Davenport School Board (To Fill A Vacancy),2025-11-03,3.8700000000,Lost General,null,null
+31084740732,Oregon,LOCAL,School Board,Warrenton-Hammond 30 School Board - Seat 6,2025-05-20,0.7200000000,Lost General,327.0000000000,1547.0000000000
+37459694471,North Carolina,CITY,Town Council,Granite Falls Town Council,2025-11-04,3.9600000000,Won General,null,null
+21678329227,Ohio,LOCAL,null,Mason City School Board,2025-11-04,1.4100000000,Not on Ballot,null,null
+37398735198,North Carolina,CITY,Town Council,Maggie Valley Town Council,2025-11-04,3.9600000000,Won General,null,null
+32221973760,Texas,Local,Mayor,Mayor,2025-05-03,1.4800000000,Won General,82.0000000000,127.0000000000
+34814703116,Texas,null,null,Rosas burgers,2025-06-30,null,Cannot Determine,null,null
+31476737552,Illinois,LOCAL,Other,Pekin Park District Board,2025-04-01,1.9900000000,Lost General,1079.0000000000,7993.0000000000
+23075042383,Minnesota,CITY,City Council,Kenyon City Council,2024-11-05,2.3800000000,Lost General,387.0000000000,1581.0000000000
+23546549942,Kentucky,CITY,City Council,Hopkinsville City Council - Ward 1,2024-11-05,2.6400000000,Lost General,97.0000000000,10746.0000000000
+22660675097,District Of Columbia,CITY,City Council,District of Columbia Advisory Neighborhood Commission - District 5B07,2024-11-05,0.6600000000,Won General,370.0000000000,920.0000000000
+22540071961,Minnesota,LOCAL,Utilities Commissioner,Nicollet County Soil and Water Board - District 3,2024-11-05,5.0000000000,Won General,10268.0000000000,15032.0000000000
+38033678183,North Carolina,Local,Mayor,City Of Statesville Mayor,2025-11-03,null,Lost General,null,null
+42692390061,Connecticut,CITY,City Council,Plainfield Town First Selectman,2025-11-04,0.5500000000,Won General,1359.0000000000,2909.0000000000
+40055753563,Iowa,CITY,City Council,Tiffin City Council,2025-11-04,null,Won General,288.0000000000,1056.0000000000
+39564132749,New Mexico,Local,Mayor,Las Vegas City Mayor ,2025-11-04,0.4500000000,Won General,null,null
+26740978512,North Dakota,CITY,null,City commission,2025-03-11,null,Not on Ballot,null,null
+33266062420,New York,null,null,Vivian ,2025-05-24,null,Cannot Determine,null,null
+40101391469,Georgia,CITY,City Council,Milledgeville City Council - District 3,2025-11-04,3.2500000000,Won General,null,null
+31397385478,Illinois,CITY,Clerk/Treasurer,Washburn Village Clerk,2025-04-01,5.0000000000,Won General,null,null
+38383927931,Ohio,TOWNSHIP,Town Council,Mahoning County: Austintown Township Trustee,2025-11-04,1.4900000000,Lost General,null,null
+23214667867,Minnesota,LOCAL,School Board,Park Rapids Area School Board,2024-11-05,5.0000000000,Won General,5250.0000000000,15297.0000000000
+39657242033,New Jersey,LOCAL,School Board,Paulsboro Borough School Board,2025-11-04,3.8200000000,Won General,null,null
+37884413605,Massachusetts,CITY,City Council,Lowell City Council - District 3,2025-11-04,1.5700000000,Not on Ballot,null,null
+37491703661,Virginia,LOCAL,School Board,Prince George County School Board - District 2,2025-11-04,3.7100000000,Won General,2944.0000000000,5722.0000000000
+38843592464,Michigan,CITY,City Council,Wayland City Council,2025-11-04,2.4100000000,Lost General,null,null
+18477550926,Arizona,FEDERAL,Congressional,U.S. House of Representatives - Arizona 3rd Congressional District,2024-11-05,0.2800000000,Lost General,0E-10,190703.0000000000
+36377911459,North Carolina,CITY,Town Council,Mooresville Town Commission - Ward 3,2025-11-04,2.2100000000,Lost General,null,null
+23733512316,California,LOCAL,School Board,Laguna Beach Unified School Board,2024-11-05,2.5800000000,Lost General,2313.0000000000,20975.0000000000
+39176715074,Ohio,TOWNSHIP,Town Council,Union County: Paris Township Trustee,2025-11-04,3.0700000000,Won General,null,null
+35915736748,Alabama,CITY,City Council,Graysville City Council - District 5,2025-08-26,1.7200000000,Won General,null,null
+31042336065,Illinois,LOCAL,Other,LaSalle County: Rutland Township Highway Commissioner,2025-04-01,5.0000000000,Won General,null,null
+36293278756,Washington,LOCAL,Other,Elk Cemetery District 4 Board - Position 1,2025-11-04,2.5300000000,Won General,null,null
+30426401906,Illinois,LOCAL,School Board,Dunlap 323 School Board,2025-04-01,1.9300000000,Won General,2095.0000000000,10777.0000000000
+22114169619,Kentucky,CITY,City Council,Elizabethtown City Council,2024-11-05,1.2000000000,Lost General,3307.0000000000,42209.0000000000
+34082334080,Ohio,LOCAL,Town Council,Trumbull County: Fowler Township Trustee,2025-11-04,3.0600000000,Won General,264.0000000000,833.0000000000
+38510076594,North Carolina,CITY,Town Council,Rich Square Town Council,2025-11-04,2.5300000000,Won General,null,null
+39596302693,Massachusetts,CITY,City Council,Cambridge City Council,2025-11-04,null,Lost General,null,null
+34368986442,Ohio,LOCAL,Town Council,Henry County: Washington Township Trustee,2025-11-04,3.0600000000,Won General,260.0000000000,642.0000000000
+39278433707,North Carolina,CITY,null,Oxford City Council,2025-11-04,null,Won General,null,null
+22892089764,South Carolina,LOCAL,School Board,Orangeburg Consolidated School Board - District 6,2024-11-05,2.8500000000,Won General,1671.0000000000,3231.0000000000
+39710745944,Idaho,Local,City Council,Payette City Council,2025-11-03,1.3100000000,Lost General,null,null
+19989566278,Nebraska,LOCAL,School Board,Millard School Board,2024-11-05,2.2200000000,Lost General,13035.0000000000,99836.0000000000
+19263382451,Florida,STATE,State Senate,Florida State Senate - District 3,2024-11-05,0.0700000000,Not on Ballot,null,null
+23546845975,Minnesota,CITY,City Council,Moorhead City Council - Ward 1,2024-11-05,2.4800000000,Lost General,1746.0000000000,4557.0000000000
+29299120545,Texas,CITY,City Council,Frisco City Council - Place 4,2025-05-03,1.0600000000,Lost General,990.0000000000,18168.0000000000
+29319411616,Illinois,CITY,City Council,Peoria City Council - District 1,2025-04-01,1.7400000000,Lost General,550.0000000000,2266.0000000000
+40763746960,Ohio,TOWNSHIP,Town Council,Guernsey County: Center Township Trustee,2025-11-04,null,Won General,null,null
+35746563185,Colorado,CITY,Mayor,Rocky Ford City Mayor,2025-11-04,1.1500000000,Lost General,null,null
+22490463893,Virginia,CITY,Town Council,Tangier Town Council,2024-11-05,1.0400000000,Won General,169.0000000000,1319.0000000000
+38119450146,New Jersey,LOCAL,School Board,Haledon Borough School Board,2025-11-04,2.7800000000,Won General,908.0000000000,4068.0000000000
+25294208004,Minnesota,CITY,City Council,Breckenridge City Council,2024-11-05,4.5700000000,Won General,808.0000000000,3327.0000000000
+32382396982,Pennsylvania,LOCAL,null,Gateway School Board,2025-11-04,0.6500000000,Not on Ballot,null,null
+23088705025,Minnesota,CITY,City Council,Marshall City Council - Ward 2,2024-11-05,1.7300000000,Lost General,573.0000000000,2317.0000000000
+22189390150,Wyoming,Local,Town Council,East Thermopolis Town Council,2024-11-05,null,Won General,79.0000000000,164.0000000000
+35917885860,Kansas,CITY,Mayor,Ingalls City Mayor,2025-11-04,1.1000000000,Lost General,47.0000000000,317.0000000000
+37326262697,North Carolina,CITY,Town Council,Spencer Town Council,2025-11-04,3.9600000000,Won General,null,null
+33840113077,Ohio,CITY,Town Council,Chatfield Village Council,2025-11-04,3.0700000000,Not on Ballot,null,null
+23467256923,Florida,CITY,City Council,Sebastian City Council,2024-11-05,4.4800000000,Won General,9273.0000000000,20844.0000000000
+33605946226,Georgia,STATE,null,Georgia State Senate - District 21,2026-11-03,0.0700000000,Lost General,null,null
+23473101195,Oregon,CITY,City Council,Scotts Mills City Council,2024-11-05,2.2300000000,Won General,97.0000000000,268.0000000000
+42886808145,Iowa,CITY,null,Rose Hill City Mayor,2025-11-04,3.4400000000,Won General,null,null
+32392453679,Massachusetts,CITY,Town Council,Brookline Town Meeting Member - Precinct 12,2025-05-06,1.1100000000,Lost General,320.0000000000,2763.0000000000
+25091300924,California,Local,School Board,school board,2024-11-05,null,Lost General,737.0000000000,2250.0000000000
+39434502738,New Mexico,Local,Other,Paradise Hills Special Zoning District Board District Special Zoning Board Member At Large,2025-11-03,2.1500000000,Lost General,null,null
+38955390632,Massachusetts,LOCAL,School Board,Leominster School Board - Ward 2,2025-11-04,2.2900000000,Won General,null,null
+35737588602,Washington,LOCAL,School Board,Battle Ground District 119 School Board - District 1,2025-11-04,1.7300000000,Won General,6935.0000000000,13137.0000000000
+23405357824,Louisiana,CITY,Town Council,Cottonport Town Council - At Large,2024-12-07,2.5900000000,Won General,null,null
+32738248971,Oregon,LOCAL,School Board,Warrenton-Hammond 30 School Board - Seat 6,2025-05-20,1.3300000000,Lost General,470.0000000000,1541.0000000000
+23341724846,Minnesota,LOCAL,School Board,Pequot Lakes School Board,2024-11-05,3.4200000000,Won General,3320.0000000000,16918.0000000000
+42288333733,Michigan,CITY,City Council,East Lansing City Council,2025-11-04,2.6800000000,Lost General,1703.0000000000,11662.0000000000
+23405481995,Virginia,COUNTY,Mayor,Virginia Beach City Mayor,2024-11-05,1.6600000000,Lost General,15937.0000000000,208223.0000000000
+40103569968,Washington,LOCAL,School Board,Bellevue District 405 School Board - District 3,2025-11-04,1.1700000000,Won General,16261.0000000000,27521.0000000000
+30212594075,Texas,CITY,City Council,Fort Worth City Council - District 11,2025-05-03,0.9400000000,Lost General,435.0000000000,2235.0000000000
+36338726538,Utah,CITY,City Council,Moab City Council,2025-11-04,1.3100000000,Won General,null,null
+22611603112,Texas,LOCAL,School Board,La Villa School Board ,2024-11-05,null,Won General,751.0000000000,751.0000000000
+38286124055,Louisiana,COUNTY,City Council,New Orleans City Council - District E,2025-11-15,0.8500000000,Not on Ballot,null,null
+23961455690,Oregon,CITY,City Council,Sweet Home City Council,2024-11-05,0.6200000000,Lost General,473.0000000000,13195.0000000000
+38086858314,North Carolina,CITY,City Council,Vanceboro City Alderman,2024-11-05,0.2200000000,Lost General,160.0000000000,1266.0000000000
+22143789464,Alaska,STATE,State House,Alaska House of Representatives - District 39,2024-11-05,0.8000000000,Lost General,1465.0000000000,3487.0000000000
+31167943251,Wisconsin,Local,Clerk/Treasurer,Clerk,2025-04-01,5.0000000000,Won General,null,null
+32436407618,Oregon,LOCAL,Other,Southwestern Polk Rural Fire Protection District Position 5,2025-05-20,1.6200000000,Won General,727.0000000000,1287.0000000000
+34368722251,Washington,CITY,City Council,Bellevue City Council - Position 2,2025-11-04,0.9900000000,Won General,null,null
+38349154155,Massachusetts,CITY,Mayor,Fitchburg City Mayor,2025-11-04,1.3500000000,Not on Ballot,null,null
+22554686608,Alaska,CITY,City Council,Assembly,2024-10-01,null,Won General,564.0000000000,3296.0000000000
+22550971294,Virginia,CITY,Town Council,Vinton Town Council,2024-11-05,5.0000000000,Won General,480.0000000000,1050.0000000000
+32410178715,Oregon,LOCAL,null,Bly Water and Sewer District Board - Position 1,2025-05-20,3.4700000000,Lost General,null,null
+22412006962,North Carolina,LOCAL,Utilities Commissioner,Mecklenburg Soil and Water Conservation District Board,2024-11-05,1.6600000000,Lost General,150160.0000000000,462328.0000000000
+25073331042,Florida,LOCAL,Utilities Commissioner,Fort Myers Shores Fire Protection and Rescue Service District Board - Seat 2,2024-11-05,0.9400000000,Won General,null,7087.0000000000
+22746939464,Virginia,CITY,Town Council,Amherst Town Council,2024-11-05,4.3700000000,Won General,484.0000000000,2599.0000000000
+23769674923,Illinois,Local,Town Council,Pleasent Plains Village Council,2024-04-01,4.0600000000,Won General,null,null
+19126221657,Utah,STATE,State House,Utah House of Representatives - District 40,2024-11-05,0.1200000000,Lost General,410.0000000000,14153.0000000000
+36425239216,Massachusetts,LOCAL,School Board,Haverhill School Committee,2025-11-05,1.0700000000,Not on Ballot,null,null
+23110227777,California,LOCAL,School Board,Alta-Dutch Flat Union School Board,2024-11-05,4.9900000000,Won General,null,null
+34361232226,Florida,null,Other,Claudiadacook,2025-05-30,null,Cannot Determine,null,null
+32799911735,Oregon,LOCAL,Other,Irrigon Rural Fire District - Position #3,2025-05-20,4.9900000000,Won General,381.0000000000,597.0000000000
+40187718200,New York,TOWNSHIP,null,Mamakating Town Supervisor,2025-11-04,null,Not on Ballot,null,null
+31650388388,Missouri,LOCAL,School Board,Knob Noster R-8 School Board,2025-04-08,0.9500000000,Lost General,null,null
+37658847495,North Carolina,CITY,City Council,Belmont City Council,2025-11-03,null,Lost General,null,null
+39167870270,Ohio,LOCAL,School Board,Upper Sandusky Exempted Village School Board,2025-11-04,0.9900000000,Lost General,1173.0000000000,2649.0000000000
+36027172173,Kansas,CITY,City Council,Arlington City Council,2025-11-04,1.3000000000,Won General,null,null
+35049498430,Pennsylvania,TOWNSHIP,Town Council,Montgomery County: Montgomery Township Supervisor,2025-11-04,1.2100000000,Not on Ballot,null,null
+40973061495,Iowa,CITY,City Council,Newton City Council - Ward 4,2025-11-04,2.1200000000,Won General,null,null
+39674979706,Massachusetts,CITY,City Council,Newton City Council - Ward 5 (At Large),2025-11-04,null,Won General,null,null
+31407320431,Illinois,LOCAL,School Board,Meridian 15 School Board,2025-04-01,2.8700000000,Lost General,280.0000000000,1576.0000000000
+37241990245,Washington,County,Other,Port Commissioner ,2025-08-05,1.0800000000,Won General,2009.0000000000,2822.0000000000
+25006773086,Vermont,Local,Judge,Justice of the Peace,2024-11-05,null,Won General,109.0000000000,479.0000000000
+37813000319,North Carolina,CITY,Town Council,Dallas Town Council,2025-11-04,3.9600000000,Won General,null,null
+35217617212,null,null,null,null,null,null,Won General,null,null
+36631571834,Kansas,LOCAL,School Board,"Perry-Lecompton USD 343 School Board - District 2, Position 5",2025-11-04,1.1500000000,Won General,null,null
+33603495272,Oregon,LOCAL,School Board,Gervais 1 School Board - Position 2,2025-05-20,5.0000000000,Won General,null,null
+22800628296,California,LOCAL,Utilities Commissioner,Altadena Library District Board,2024-11-05,null,Won General,3461.0000000000,4166.0000000000
+39528101532,Alaska,COUNTY,City Council,Matanuska-Susitna Borough Assembly - District 2,2025-11-04,3.3500000000,Won General,null,null
+23101112117,California,County,School Board,"Berkeley County School Board, District 5.",2024-11-05,null,Lost General,5488.0000000000,14777.0000000000
+23831813784,Florida,County,Other,Community Development Board,2024-11-05,null,Won General,null,null
+39286106974,Georgia,CITY,City Council,Stockbridge City Council - District 2,2025-11-04,null,Lost General,null,null
+40258581924,Virginia,COUNTY,County Supervisor,Fairfax County Board of Supervisors,2025-12-09,1.2300000000,Lost General,null,null
+42702849937,Iowa,LOCAL,null,Indian Hills Community College Board - District 1,2025-11-04,3.8700000000,Won General,null,null
+31414164823,Texas,CITY,City Council,Live Oak City Council - Place 3,2025-05-03,1.5000000000,Lost General,105.0000000000,354.0000000000
+23149151880,Minnesota,CITY,Mayor,Elgin City Mayor,2024-11-05,1.0400000000,Lost General,70.0000000000,644.0000000000
+38087415971,Alabama,CITY,City Council,Wetumpka City Council - District 2,2025-08-26,3.3100000000,Won General,null,null
+34826133163,Virginia,STATE,null,Virginia House of Delegates - District 43,2025-11-04,0.3000000000,Lost General,null,null
+21823402672,Nevada,COUNTY,County Supervisor,Carson City Supervisor - Ward 2,2024-11-05,1.9700000000,Lost General,10703.0000000000,25436.0000000000
+38113051509,North Carolina,CITY,Town Council,Wake Forest Town Council,2025-11-03,null,Lost General,null,null
+32554744996,Texas,Local,Town Council,Addison Town Council At-large,2025-05-03,4.2400000000,Lost General,544.0000000000,2333.0000000000
+33083096140,Oregon,LOCAL,Other,McKay Dam Fire Protection District Board - Position 3,2025-05-20,4.9900000000,Won General,null,null
+38129165838,North Carolina,CITY,Mayor,Fayetteville City Mayor,2025-11-04,1.5900000000,Not on Ballot,null,null
+39435267458,Georgia,Local,City Council,Twin City City Commissioner Ward 2,2025-11-03,3.6600000000,Won General,null,null
+32800225699,Massachusetts,LOCAL,School Board,Bourne School Committee,2025-05-20,2.3000000000,Won General,841.0000000000,2204.0000000000
+21617947970,Arizona,CITY,City Council,Avondale City Council,2024-11-05,4.9900000000,Won General,3980.0000000000,16109.0000000000
+22117065592,Arizona,LOCAL,School Board,Laveen ESD 59 School Board,2024-11-05,4.2400000000,Won General,null,null
+32910550054,Texas,LOCAL,School Board,Grapevine-Colleyville Independent School Board - Place 3,2025-05-03,1.6100000000,Won General,6016.0000000000,11717.0000000000
+34499365288,South Carolina,CITY,Mayor,Olar Town Mayor,2025-06-10,4.9900000000,Won General,null,null
+39510798661,Ohio,TOWNSHIP,Other,Union County: Leesburg Township Fiscal Officer,2025-11-04,null,Lost General,null,null
+20101783642,Oregon,CITY,Mayor,Sandy City Mayor,2024-11-05,1.4900000000,Not on Ballot,0E-10,5476.0000000000
+37123919415,Tennessee,null,null,Constable,2025-08-06,null,Cannot Determine,null,null
+39143043968,Ohio,TOWNSHIP,Town Council,Jefferson County: Springfield Township Trustee,2025-11-04,1.4900000000,Won General,null,null
+35157989168,Alabama,null,Mayor,Brundidge Mayor,2025-08-26,0.4500000000,Lost General,72.0000000000,617.0000000000
+36129310739,Kansas,CITY,City Council,Gypsum City Council,2025-11-04,2.4100000000,Lost General,9.0000000000,124.0000000000
+40831951408,Iowa,CITY,Mayor,Bernard City Mayor,2025-11-04,1.8600000000,Lost General,null,null
+35845591634,Washington,CITY,City Council,McCleary City Council - Position 5,2025-11-04,2.3900000000,Won General,null,null
+37332705035,North Carolina,LOCAL,School Board,Charlotte-Mecklenburg School Board - District 5,2025-11-04,3.4400000000,Lost General,null,null
+34889619048,Maine,CITY,City Council,Dayton Town Select Board,2025-06-10,5.0000000000,Won General,null,null
+35936992107,null,LOCAL,School Board,Geary County Usd 475 School Board,2025-11-04,3.1100000000,Lost General,null,null
+30426266030,Vermont,LOCAL,School Board,Taconic and Green Regional School District Board - Manchester 1,2025-03-04,2.5900000000,Won General,413.0000000000,3404.0000000000
+23017281342,Illinois,CITY,Town Council,Skokie Village Trustee,2025-04-01,0.8000000000,Not on Ballot,null,null
+30745643051,Illinois,CITY,Mayor,Steger Village President,2025-04-01,1.7700000000,Lost General,182.0000000000,1289.0000000000
+33029864603,Massachusetts,LOCAL,Other,Medway Town Library Board,2025-05-20,1.5500000000,Lost General,241.0000000000,1682.0000000000
+34506496074,Ohio,REGIONAL,School Board,Stark County Educational Service Center Board,2025-11-04,5.0000000000,Won General,null,null
+29352676528,Illinois,CITY,Town Council,Lombard Village Board - District 3,2027-04-06,3.9100000000,Won General,643.0000000000,1198.0000000000
+33503060538,Mississippi,CITY,null,Florence City Council,2025-06-03,1.0300000000,Lost General,171.0000000000,3133.0000000000
+40183843608,New Jersey,LOCAL,School Board,West Morris Regional High School Board - Washington Township,2025-11-04,null,Won General,null,null
+39594731109,New Mexico,CITY,Town Council,Edgewood Town Commission - District 4,2025-11-04,2.0000000000,Lost General,null,null
+37006322481,Utah,CITY,City Council,Holladay City Council - District 3,2025-11-04,2.3600000000,Won General,null,null
+31311512616,New York,LOCAL,School Board,Iroquois Central School Board,2025-05-20,0.7900000000,Lost General,196.0000000000,1119.0000000000
+25027792985,Virginia,COUNTY,City Council,Williamsburg City Council,2024-11-05,1.2900000000,Lost General,2543.0000000000,14460.0000000000
+41173959726,Massachusetts,CITY,City Council,Lawrence City Council - District E,2025-11-04,1.7700000000,Lost General,null,null
+30203879714,Vermont,LOCAL,School Board,South Burlington School Board (3-year Term),2025-03-04,4.9800000000,Won General,774.0000000000,774.0000000000
+35466331913,Kansas,CITY,Mayor,Topeka City Mayor,2025-11-04,0.4500000000,Won General,12723.0000000000,16834.0000000000
+31472677447,Illinois,CITY,Town Council,Flossmoor Village Council,2025-04-01,1.3700000000,Won General,1383.0000000000,8189.0000000000
+23438216817,Florida,LOCAL,Utilities Commissioner,South Walton Mosquito Control District Board - Seat 1,2024-11-05,5.0000000000,Won General,null,null
+23725391734,California,CITY,City Council,Sutter Creek City Council,2024-11-05,2.3000000000,Won General,812.0000000000,2997.0000000000
+32703943069,Texas,CITY,Town Council,Paducah Town Council - Place 5,2025-05-03,4.9900000000,Won General,null,null
+21825256878,Florida,COUNTY,Judge,Broward County Court Judge - Group 10,2024-11-05,1.5800000000,Won General,368039.0000000000,676418.0000000000
+35992115469,Kansas,LOCAL,School Board,Fort Scott USD 234 School Board - Position 5,2025-11-04,2.6300000000,Won General,null,null
+34242026319,Ohio,LOCAL,null,Vandalia-Butler City School Board,2025-11-04,1.4100000000,Not on Ballot,null,null
+36256183605,Utah,CITY,City Council,Ivins City Council,2025-11-04,1.3100000000,Lost General,null,null
+32187887234,Massachusetts,CITY,Town Council,Danvers Town Meeting Board - Precinct 1,2025-05-06,5.0000000000,Won General,224.0000000000,2340.0000000000
+40419362403,Ohio,CITY,Judge,Crawford County Municipal Court Judge,2025-11-04,2.0600000000,Won General,null,null
+22751694664,District Of Columbia,CITY,City Council,District of Columbia Advisory Neighborhood Commission - District 5A02,2024-11-05,0.5400000000,Won General,670.0000000000,702.0000000000
+36989922631,North Carolina,CITY,Town Council,Landis Town Council,2025-11-04,3.9600000000,Won General,null,null
+25166852743,Nevada,CITY,City Council,Reno City Council - Ward 3,2024-11-05,3.2500000000,Won General,7167.0000000000,11452.0000000000
+37650796092,North Carolina,CITY,Town Council,Tabor City Town Council,2025-11-04,2.5300000000,Won General,null,null
+30770102931,Illinois,CITY,Mayor,DeKalb City Mayor,2024-11-05,2.0700000000,Lost General,736.0000000000,4581.0000000000
+37325804692,Tennessee,CITY,City Council,Humboldt City Council - Ward 5,2025-11-04,2.1100000000,Lost General,null,null
+32001224741,Colorado,LOCAL,null,Thompson R2-J School Board - District B,2025-11-04,1.5200000000,Not on Ballot,null,null
+37012685391,Massachusetts,CITY,null,Boston City Council - At Large,2025-11-04,2.2500000000,Not on Ballot,null,null
+35055280429,Pennsylvania,LOCAL,School Board,Purchase Line School Board,2025-11-04,4.9800000000,Lost General,128.0000000000,805.0000000000
+39495618051,North Carolina,CITY,Mayor,Gaston Town Mayor,2025-11-04,1.3800000000,Won General,null,null
+23648427396,California,CITY,City Council,Coronado City Council,2024-11-05,1.6700000000,Lost General,921.0000000000,11981.0000000000
+41002241055,Iowa,CITY,City Council,Bettendorf City Council - Ward 2,2025-11-04,2.1200000000,Won General,null,null
+30761290033,Minnesota,LOCAL,Town Council,Otter Tail County: Tordenskjold Township Supervisor,2025-03-11,3.8700000000,Won General,null,null
+42034344836,New Jersey,LOCAL,School Board,Hillsborough Township School Board,2025-11-04,null,Lost General,null,null
+35316523416,Kansas,CITY,City Council,Emporia City Commission,2025-11-04,1.4300000000,Lost General,null,null
+35921773435,Washington,COUNTY,County Supervisor,Snohomish County Council - District 1,2025-11-04,0.9900000000,Lost General,null,null
+31757461009,Illinois,LOCAL,School Board,Blackstone Millville Regional School Committee - Blackstone,2025-04-07,1.4200000000,Lost General,450.0000000000,1184.0000000000
+35881373030,Washington,LOCAL,Other,"Skagit County Hospital Board - District 2, Position 4",2025-11-04,2.7900000000,Won General,null,null
+23520424849,Oregon,CITY,City Council,Portland City Council - District 3,2024-11-05,1.0700000000,Won General,20649.0000000000,74940.0000000000
+21897181085,Washington,CITY,Mayor,Everett City Mayor,2025-11-04,0.8300000000,Not on Ballot,null,null
+28925484165,Oklahoma,CITY,City Council,Oklahoma City Council - Ward 1,2025-04-01,null,Lost General,220.0000000000,704.0000000000
+27989457327,Illinois,LOCAL,School Board,Steeleville 138 School Board,2025-04-01,4.3200000000,Won General,118.0000000000,537.0000000000
+31402374180,Wisconsin,LOCAL,School Board,New London School Board,2025-04-01,2.6100000000,Won General,2755.0000000000,7671.0000000000
+23587495316,California,LOCAL,School Board,Selma Unified School Board - Area 1,2024-11-05,3.6000000000,Lost General,253.0000000000,761.0000000000
+23054338454,California,CITY,City Council,Rancho Cucamonga City Council - District 1,2024-11-05,1.8300000000,Lost General,2683.0000000000,9084.0000000000
+31509175174,Wisconsin,LOCAL,Town Council,Waushara County: Poy Sippi Town Board - Seat 1,2025-04-01,4.9900000000,Won General,null,null
+38437045555,Massachusetts,CITY,City Council,Watertown Town City Council - District A,2025-11-04,3.5800000000,Won General,null,null
+34638040699,Ohio,CITY,Town Council,North Kingsville Village Council,2025-11-04,3.0700000000,Not on Ballot,null,null
+40099601246,Ohio,LOCAL,School Board,Fairland Local School Board,2025-11-04,2.8800000000,Won General,null,null
+22907266672,Maine,Local,School Board,School board,2024-11-05,null,Lost General,4048.0000000000,14191.0000000000
+31864525229,null,CITY,City Council,City Council,2025-04-22,4.9900000000,Won General,null,null
+29655005204,Oklahoma,CITY,City Council,Hominy City Council - Ward 4,2025-04-01,2.4000000000,Won General,134.0000000000,222.0000000000
+35465981100,Washington,LOCAL,School Board,Yakima District 7 School Board - District 2,2025-11-04,1.1700000000,Lost General,null,null
+29669867560,Illinois,REGIONAL,School Board,Libertyville 70 School Board,2025-04-01,1.5200000000,Lost General,1263.0000000000,13417.0000000000
+23724504847,Minnesota,LOCAL,School Board,Waubun-Ogema-White Earth School Board,2024-11-05,2.6800000000,Lost General,464.0000000000,3333.0000000000
+35046405165,Washington,LOCAL,School Board,Tumwater District 33 School Board - District 1,2025-11-04,0.5800000000,Lost General,6017.0000000000,13083.0000000000
+38119450146,New Jersey,LOCAL,School Board,Haledon Borough School Board,2025-11-04,2.7800000000,Won General,908.0000000000,4068.0000000000
+36791537683,New York,COUNTY,County Supervisor,Herkimer County Legislature - District 8,2025-11-04,2.1900000000,Lost General,114.0000000000,428.0000000000
+28492142955,Illinois,CITY,Mayor,Sleepy Hollow Village President,2025-04-01,1.6100000000,Won General,613.0000000000,963.0000000000
+40759711593,New Mexico,LOCAL,Other,Paradise Hills Special Zoning District Board,2025-11-04,2.1500000000,Won General,null,null
+33458562348,Oregon,LOCAL,Other,Port Orford Rural Fire Protection District Board - Position 3,2025-05-20,5.0000000000,Won General,null,234.0000000000
+36027635528,Kansas,CITY,Mayor,Bronson City Mayor,2025-11-04,2.0800000000,Won General,null,null
+36684927342,Virginia,COUNTY,City Council,Buena Vista City Council,2025-11-04,2.3900000000,Lost General,514.0000000000,5057.0000000000
+40059733074,null,Local,null,Winterville Town Council,null,null,Won General,null,null
+22341995588,Michigan,LOCAL,School Board,Grand Haven Area Public School Board,2024-11-05,3.6600000000,Won General,9372.0000000000,19356.0000000000
+36297248819,Kansas,LOCAL,School Board,"Wellington USD 353 School Board - District 1, Position 4",2025-11-04,2.9800000000,Won General,null,null
+23053861906,South Carolina,LOCAL,School Board,Lexington 1 School Board,2024-11-05,1.4000000000,Lost General,14512.0000000000,142717.0000000000
+22822987794,New Jersey,LOCAL,School Board,Somerset Hills School Board - Far Hills District,2024-11-05,2.2900000000,Won General,798.0000000000,3776.0000000000
+21950319994,Florida,LOCAL,Utilities Commissioner,Hillsborough County Soil and Water Conservation District Board - District 2,2024-11-05,2.4100000000,Won General,352638.0000000000,544808.0000000000
+36578444652,Utah,CITY,City Council,Cottonwood Heights City Council - District 3,2025-11-04,0.9700000000,Lost General,null,null
+22345087136,Oklahoma,CITY,Mayor,Norman City Mayor,2025-02-11,0.8400000000,Won General,11273.0000000000,18452.0000000000
+23403129967,California,LOCAL,School Board,Nevada City Elementary School Board,2024-11-05,4.9900000000,Lost General,1148.0000000000,3043.0000000000
+21230173553,Montana,COUNTY,County Supervisor,Silver Bow County Commission - District 12,2024-11-05,1.9100000000,Won General,1203.0000000000,1983.0000000000
+34964139529,New York,COUNTY,Attorney,New York County District Attorney,2025-11-04,0.9600000000,Lost General,null,null
+22327006104,Kentucky,CITY,City Council,Richlawn City Council,2024-11-05,4.9900000000,Won General,129.0000000000,301.0000000000
+32868272489,New York,CITY,null,Albany City Council - Ward 4,2025-11-04,1.1400000000,Won General,null,null
+38220641373,Ohio,LOCAL,School Board,Pickerington Local School Board,2025-11-04,1.4100000000,Won General,null,null
+22291048880,Wyoming,CITY,City Council,Worland City Council - Ward 1,2024-11-05,5.0000000000,Not on Ballot,null,716.0000000000
+33395754346,New York,COUNTY,Mayor,Germantown Town Supervisor / Columbia County Supervisor,2025-11-04,4.9900000000,Won General,null,null
+31667575823,Ohio,CITY,Mayor,Garfield Heights City Mayor,2025-11-04,0.4100000000,Lost General,1224.0000000000,4131.0000000000
+23444127120,California,Local,City Council,City Council,2024-11-05,null,Won General,2076.0000000000,4948.0000000000
+38511019646,Ohio,CITY,City Council,Sunbury City Council,2025-11-04,2.6000000000,Won General,null,null
+25120842379,California,LOCAL,School Board,Santa Ana Unified School Board,2024-11-05,4.9900000000,Lost General,640.0000000000,2711.0000000000
+35737588602,Washington,LOCAL,School Board,Battle Ground District 119 School Board - District 1,2025-11-04,1.7300000000,Won General,6935.0000000000,13137.0000000000
+34941307302,Massachusetts,CITY,City Council,Somerville City Council - At Large,2025-11-04,1.0600000000,Won General,11306.0000000000,70489.0000000000
+23002984831,Virginia,CITY,Mayor,Tazewell Town Mayor,2024-11-05,3.4300000000,Won General,1351.0000000000,1938.0000000000
+20588597390,California,CITY,City Council,Santa Barbara City Council - District 1,2024-11-05,2.0600000000,Not on Ballot,null,null
+35859367216,Washington,CITY,null,Auburn City Council - Position 2,2025-11-04,1.0800000000,Not on Ballot,null,null
+32159286054,Massachusetts,CITY,Town Council,Shrewsbury Town Meeting Board - Precinct 1,2025-05-06,4.9900000000,Not on Ballot,270.0000000000,7236.0000000000
+40833009473,Massachusetts,CITY,City Council,Braintree Town City Council - At Large,2025-11-04,3.5800000000,Won General,2922.0000000000,12141.0000000000
+42050230397,Kansas,LOCAL,School Board,Manhattan-Ogden USD 383 School Board,2025-11-04,1.5300000000,Won General,3695.0000000000,19907.0000000000
+37431235368,Virginia,LOCAL,School Board,Wise County School Board - District 2,2025-11-04,2.3900000000,Won General,null,null
+23903495717,California,LOCAL,Utilities Commissioner,Orange County Municipal Water District Board - Division 4,2024-11-05,1.0600000000,Not on Ballot,null,74506.0000000000
+30378109576,Iowa,null,null,President of the United States,2025-02-26,null,Cannot Determine,null,null
+22729083978,Vermont,STATE,State Senate,Vermont State Senate - Lamoille District,2024-11-05,0.4800000000,Lost General,3868.0000000000,11669.0000000000
+33693894044,Georgia,CITY,City Council,Sycamore City Council,2025-11-04,3.6600000000,Won General,null,null
+36294052970,Washington,CITY,Mayor,Davenport City Mayor,2025-11-04,0.8300000000,Won General,null,null
+40978457953,Florida,CITY,Mayor,Miami City Mayor,2025-11-04,1.3900000000,Lost General,null,null
+23513835898,California,CITY,City Council,Angels Camp City Council,2024-11-05,4.2200000000,Won General,943.0000000000,3757.0000000000
+22751658385,Kentucky,LOCAL,School Board,Jefferson County School Board - District 7,2024-11-05,2.0600000000,Not on Ballot,null,26273.0000000000
+29351578143,Illinois,CITY,Town Council,Winfield Village Council,2025-04-01,1.6400000000,Won General,980.0000000000,5813.0000000000
+43720237853,Ohio,TOWNSHIP,null,Stark County: Lake Township Trustee,2025-11-04,null,Lost General,null,null
+39520776560,Utah,CITY,Mayor,Nibley City Mayor,2025-11-04,2.0900000000,Won General,null,null
+23226826363,Minnesota,LOCAL,School Board,Glenville-Emmons School Board,2024-11-05,2.6800000000,Lost General,368.0000000000,3543.0000000000
+31432266337,Virginia,STATE,null,Virginia House of Delegates - District 76,2025-11-04,0.3000000000,Lost General,null,null
+31255463579,Missouri,CITY,Mayor,Mayor,2025-04-08,1.4400000000,Won General,21.0000000000,35.0000000000
+41305028642,Iowa,Local,School Board,Decorah Community School Board-To Fill Vacancy,2025-11-04,3.8700000000,Won General,null,null
+19183077435,Missouri,FEDERAL,Congressional,U.S. Senate - Missouri,2024-11-05,0.1000000000,Not on Ballot,null,null
+21836684078,Arizona,CITY,Mayor,Cave Creek Town Mayor,2024-11-05,3.4600000000,Won General,1154.0000000000,2145.0000000000
+32382278244,Montana,LOCAL,School Board,Livingston Public School Board - At Large,2025-05-06,3.9700000000,Won General,1828.0000000000,4884.0000000000
+23473054273,Kentucky,CITY,City Council,Morgantown City Council,2024-11-05,5.0000000000,Won General,318.0000000000,1868.0000000000
+32790863665,Oregon,LOCAL,School Board,Bandon 54 School Board - Seat 7,2025-05-20,1.5600000000,Lost General,923.0000000000,1874.0000000000
+28751196852,Illinois,LOCAL,School Board,Northfield Township High School District 225,2025-04-01,1.5200000000,Lost General,5335.0000000000,45507.0000000000
+22810114487,South Carolina,LOCAL,School Board,Dorchester 2 School Board,2024-11-05,2.5000000000,Not on Ballot,null,null
+25073908320,Illinois,null,Town Council,Trustee,2025-04-08,null,Won General,null,null
+23807701895,Tennessee,CITY,Town Council,Jonesborough Town Council,2024-11-05,5.0000000000,Won General,100.0000000000,561.0000000000
+21867035675,Washington,STATE,State House,"Washington House of Representatives - District 14, Position 2",2024-11-05,0.2300000000,Lost General,870.0000000000,14262.0000000000
+36244513694,Kansas,LOCAL,Other,Johnson County Community College Board - At Large,2025-11-04,1.1400000000,Lost General,28324.0000000000,363778.0000000000
+22248302159,Colorado,STATE,State House,Colorado House of Representatives - District 37,2024-11-05,0.2700000000,Lost General,0E-10,29900.0000000000
+21693865773,Colorado,STATE,State Senate,Colorado State Senate - District 26,2024-11-05,0.0700000000,Lost General,5.0000000000,35139.0000000000
+36867779757,North Carolina,CITY,Town Council,Edenton Town Council - Ward 3,2025-11-04,3.6100000000,Won General,69.0000000000,123.0000000000
+23961289110,Minnesota,CITY,City Council,Butterfield City Council,2024-11-05,2.5700000000,Lost General,32.0000000000,296.0000000000
+36293434933,Alabama,CITY,City Council,Sheffield City Council - District 1,2025-08-26,1.7200000000,Won General,null,null
+28997030300,New Mexico,CITY,City Council,Albuquerque City Council - District 9,2025-11-04,0.5400000000,Not on Ballot,null,null
+28154591756,Illinois,REGIONAL,School Board,Gavin School Dist 37,2025-04-01,5.0000000000,Won General,null,null
+21427980967,Texas,CITY,City Council,El Paso City Council - District 7,2024-11-05,1.0600000000,Lost General,null,null
+22129591178,New Jersey,CITY,Mayor,Stone Harbor Borough Mayor,2024-11-05,1.5100000000,Lost General,220.0000000000,471.0000000000
+45871140490,Massachusetts,CITY,City Council,Quincy City Council - Ward 6,2025-11-04,1.5700000000,Won General,1748.0000000000,2954.0000000000
+30633181528,Illinois,LOCAL,Town Council,Lake County: Warren Township Supervisor,2025-04-01,3.8800000000,Won General,3425.0000000000,6756.0000000000
+31398682917,Illinois,CITY,City Council,Monmouth City Council - Ward 1,2025-04-01,5.0000000000,Won General,null,null
+33611475371,Washington,CITY,City Council,Centralia City Council - District 1,2025-11-04,0.9100000000,Lost General,231.0000000000,757.0000000000
+23463127668,California,LOCAL,Utilities Commissioner,Antelope Valley East Kern Water District Board - Division 4,2024-11-05,3.7400000000,Won General,null,null
+23214488106,Minnesota,LOCAL,School Board,Wadena-Deer Creek School Board,2024-11-05,1.7500000000,Lost General,1782.0000000000,9161.0000000000
+25000532141,Tennessee,CITY,City Council,Johnson City Commission,2024-11-05,1.5500000000,Lost General,66.0000000000,816.0000000000
+34362371693,Ohio,LOCAL,School Board,Parma City School District Board,2025-11-04,2.8800000000,Not on Ballot,null,null
+32389169826,Texas,CITY,City Council,Seven Points City Council,2025-05-03,2.5600000000,Not on Ballot,null,null
+22033443427,Michigan,LOCAL,School Board,Comstock Public School Board,2024-11-05,2.6900000000,Lost General,1739.0000000000,12154.0000000000
+23770861429,Minnesota,LOCAL,Town Council,St. Louis County: Culver Township Supervisor - Seat 1,2024-11-05,5.0000000000,Won General,127.0000000000,129.0000000000
+32104638989,Oregon,LOCAL,School Board,"Centennial School Board - Position 6, At Large",2025-05-20,1.1000000000,Lost General,471.0000000000,4977.0000000000
+36677824695,Massachusetts,CITY,City Council,Northampton City Council - At Large,2025-11-04,2.2700000000,Won General,4235.0000000000,15920.0000000000
+37008945480,North Carolina,CITY,Town Council,Wingate Town Council,2025-11-04,2.5300000000,Lost General,null,null
+39516010337,Alabama,Local,City Council,Perdido Beach City Council - Place 5,2025-09-23,1.7100000000,Won General,null,null
+39277389132,Georgia,CITY,City Council,Hogansville City Council - Post 1,2025-11-04,1.6600000000,Lost General,null,null
+49664338511,Utah,CITY,Town Council,Alta Town Council,2025-11-04,3.0500000000,Won General,null,null
+36068279222,Kansas,LOCAL,Other,Wilroads Gardens Drainage District,2025-11-04,1.4100000000,Won General,null,null
+23795195503,California,CITY,City Council,Fullerton City Council - District 1,2024-11-05,3.6300000000,Won General,7219.0000000000,10026.0000000000
+22387996067,California,LOCAL,Utilities Commissioner,John C. Fremont Healthcare Board,2024-11-05,3.3900000000,Won General,3771.0000000000,14404.0000000000
+37885166132,North Carolina,CITY,Town Council,Stoneville Town Council,2025-11-04,2.0500000000,Won General,96.0000000000,172.0000000000
+37010240004,Virginia,CITY,Town Council,Christiansburg Town Council,2025-11-04,3.0600000000,Won General,null,null
+41018356308,Washington,LOCAL,School Board,Evergreen District 114 School Board - District 1,2025-11-04,1.1700000000,Lost General,7212.0000000000,19405.0000000000
+35642783061,Washington,LOCAL,Other,Chelan County Hospital District 2 Board - Seat 4,2025-11-04,2.7900000000,Won General,null,null
+32843039790,Texas,CITY,City Council,League City Council - Position 5,2025-05-03,0.9000000000,Lost General,115.0000000000,5171.0000000000
+36662876242,Alabama,CITY,City Council,Southside City Council - Place 1,2025-08-26,1.7200000000,Won General,null,null
+40773050242,Pennsylvania,LOCAL,School Board,Erie Public School Board,2025-11-04,null,Won General,null,null
+37026622122,North Carolina,CITY,City Council,Mount Holly City Council,2025-11-04,2.0600000000,Won General,null,null
+34516227644,Ohio,LOCAL,Town Council,Marion County: Waldo Township Trustee,2025-11-04,3.0600000000,Won General,null,null
+35886739547,Ohio,LOCAL,School Board,Westerville City School Board,2025-11-04,1.4100000000,Lost General,null,null
+31709623971,New Jersey,LOCAL,Mayor,Essex County: Bloomfield Township Mayor,2025-11-04,1.3700000000,Not on Ballot,null,null
+30549516637,Illinois,LOCAL,School Board,Rock Island-Milan 41 School Board,2025-04-01,1.5200000000,Lost General,2873.0000000000,20019.0000000000
+37100144748,Alabama,CITY,City Council,Magnolia Springs City Council - Place 4,2025-08-26,1.7200000000,Lost General,null,null
+31762366279,Missouri,CITY,City Council,Marionville City Council - Ward 2,2025-04-08,5.0000000000,Won General,null,null
+32487067237,Oregon,LOCAL,School Board,Salem-Keizer 24J School Board - Zone 1 (At Large),2025-05-20,2.4700000000,Lost General,21813.0000000000,48413.0000000000
+40826738832,New Jersey,LOCAL,School Board,Bloomfield Township School Board,2025-11-04,2.7800000000,Lost General,null,null
+39350306864,New Jersey,LOCAL,School Board,North Hanover Township School Board,2025-11-04,2.7800000000,Lost General,null,null
+37401206319,North Carolina,CITY,Town Council,Rich Square Town Council,2025-11-04,2.5300000000,Won General,null,null
+31599974209,Wisconsin,LOCAL,Town Council,Shawano County: Wittenberg Town Board,2025-04-01,4.3300000000,Won General,185.0000000000,498.0000000000
+35855159441,Washington,County,County Supervisor,"Clark County Councilor District No. 3 Charter Review Commissioner, District 3, Pos. 1",2025-08-05,0.7900000000,Lost General,1936.0000000000,21018.0000000000
+31838945366,Missouri,LOCAL,School Board,Hazelwood School Board,2025-04-08,1.1700000000,Won General,null,null
+35372544074,Washington,LOCAL,School Board,Evergreen District 114 School Board - District 5,2025-11-04,1.1700000000,Lost General,null,null
+39190345309,Alaska,COUNTY,City Council,Kenai Peninsula Borough Assembly - District 5,2026-10-06,3.3500000000,Won General,null,null
+33258814044,New York,LOCAL,School Board,Brunswick (Brittonkill) School Board,2025-05-20,2.0700000000,Won General,null,null
+29303148802,Illinois,CITY,Mayor,Island Lake Village Mayor,2025-04-01,2.9000000000,Lost General,292.0000000000,1387.0000000000
+36390295711,Utah,CITY,Town Council,Town Council,2025-11-04,2.8400000000,Won General,76.0000000000,156.0000000000
+37459273137,Washington,CITY,City Council,Pacific City Council - Position 2,2025-11-04,2.3900000000,Won General,null,null
+23957865862,Michigan,CITY,City Council,Sturgis City Commission - At Large,2024-11-05,2.2400000000,Lost General,385.0000000000,997.0000000000
+39621683532,Georgia,CITY,City Council,Gillsville City Council - Post 2,2025-11-04,3.2500000000,Won General,null,1.0000000000
+40588057377,Connecticut,LOCAL,School Board,Westport School Board,2025-11-04,null,Lost General,null,null
+22009598322,Florida,CITY,City Council,Palm Bay City Council - Seat 3,2024-11-05,2.7900000000,Lost General,856.0000000000,17644.0000000000
+22058432817,New York,STATE,null,New York Supreme Court - District 1,2025-11-04,1.1200000000,Not on Ballot,null,null
+31548101932,Texas,CITY,City Council,Frisco City Council - Place 2,2025-05-03,2.7900000000,Lost General,null,null
+36388494949,Ohio,CITY,Mayor,Woodmere Village Mayor,2025-11-04,0.8100000000,Lost General,41.0000000000,196.0000000000
+39170093727,Minnesota,Local,School Board,Mounds View School Board,2025-11-04,2.6800000000,Lost General,null,null
+22810248011,Minnesota,CITY,City Council,Wyoming City Council,2024-11-05,4.3300000000,Won General,2143.0000000000,6193.0000000000
+40198756490,Idaho,Local,Other,Bc South Fire Sub District 3,2025-11-03,null,Won General,null,null
+38958321079,Ohio,CITY,Town Council,Baltimore Village Council,2025-11-04,1.4900000000,Won General,null,null
+23959597451,Minnesota,LOCAL,School Board,Swanville School Board,2024-11-05,5.0000000000,Won General,825.0000000000,2320.0000000000
+38980126073,Massachusetts,LOCAL,School Board,Watertown School Committee,2025-11-04,null,Lost General,null,null
+20405778295,TX,CITY,City Council,City Council,null,1.9500000000,Lost General,0E-10,101.0000000000
+23029861702,New Jersey,LOCAL,null,North Plainfield School Board,2025-11-04,3.0100000000,Not on Ballot,null,null
+23828896054,Florida,LOCAL,Other,Portofino Isles Community Development District Board - Seat 2,2024-11-05,5.0000000000,Won General,null,null
+31061258756,Texas,LOCAL,School Board,Alice Independent School Board - Position 2,2025-05-03,3.6000000000,Won General,1100.0000000000,2197.0000000000
+39268310035,New Mexico,CITY,Town Council,Tularosa Village Council,2025-11-04,2.4900000000,Lost General,153.0000000000,841.0000000000
+36261607562,Kansas,LOCAL,School Board,Colby USD 315 School Board,2025-11-04,1.5300000000,Won General,null,null
+23087596408,Minnesota,CITY,City Council,Moose Lake City Council,2024-11-05,2.4100000000,Won General,469.0000000000,995.0000000000
+38548535607,Ohio,CITY,City Council,Maumee City Council,2025-11-04,1.1300000000,Not on Ballot,null,null
+39521549574,North Carolina,CITY,null,Graham City Mayor,2025-11-04,null,Not on Ballot,null,null
+41666610435,North Carolina,CITY,Town Council,Wallace Town Council,2025-11-04,3.9600000000,Lost General,null,null
+20461718289,Texas,LOCAL,School Board,Galena Park Independent School Board - Position 2,2024-05-04,2.5800000000,Won General,838.0000000000,1637.0000000000
+39220749205,New Mexico,CITY,Town Council,Edgewood Town Commission - District 1,2025-11-04,2.0000000000,Won General,null,null
+37001912669,Virginia,COUNTY,County Supervisor,Mathews County Board,2025-11-04,1.8000000000,Won General,2421.0000000000,7910.0000000000
+38438282424,Ohio,TOWNSHIP,Town Council,Licking County: Mary Ann Township Trustee,2025-11-04,3.0700000000,Won General,null,null

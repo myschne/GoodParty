@@ -73,7 +73,7 @@ clf.fit(X_train, y_train)
 # predict on test
 proba = clf.predict_proba(X_test)[:, 1]
 
-pred = (proba >= 0.49).astype(int) #changeable threshold for classification 
+pred = (proba >= 0.475).astype(int) #changeable threshold for classification 
 
 # evaluation
 print("ROC-AUC:", roc_auc_score(y_test, proba))
