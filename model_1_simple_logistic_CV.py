@@ -39,6 +39,10 @@ def prep(df: pd.DataFrame):
     df["election_year"]  = df["election_date"].dt.year
     df["election_month"] = df["election_date"].dt.month
     df["election_doy"]   = df["election_date"].dt.dayofyear
+    df["is_midterm"] = ((df["election_year"] % 4 != 0) & (df["election_year"] % 2 == 0)).astype(int)
+    df["is_presidential"] = (df["election_year"] % 4 == 0).astype(int)
+
+
 
     y = df["Win"].astype(int)
     X = df.drop(columns=DROP_COLS, errors="ignore")
