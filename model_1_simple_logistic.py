@@ -9,8 +9,8 @@ import numpy as np
 from sklearn.impute import SimpleImputer
 
 #load train/test files (change file paths as needed)
-train_df = pd.read_csv("Queries/Candidate_Data_Query.csv")
-test_df  = pd.read_csv("Queries/Candidate_Data_Query2.csv")
+train_df = pd.read_csv("Queries/Candidate_Contested_1.csv")
+test_df  = pd.read_csv("Queries/Candidate_Contested_2.csv")
 
 DROP_COLS = [
     "Win",
@@ -26,9 +26,6 @@ def prep(df: pd.DataFrame):
     # target
     df = df.copy()
     df["Win"] = (df["general_election_result"] == "Won General").astype(int)
-
-    #uncontested
-    df["is_uncontested"] = (df["is_uncontested"] == "UnContested").astype(int)
 
     y = df["Win"].astype(int)
     X = df.drop(columns=DROP_COLS, errors="ignore")
@@ -76,11 +73,7 @@ clf.fit(X_train, y_train)
 # predict on test
 proba = clf.predict_proba(X_test)[:, 1]
 
-# hard rule: uncontested => proba=1
-mask = X_test["is_uncontested"].astype(bool)
-proba = np.where(mask, 1.0, proba)
-
-pred = (proba >= 0.5).astype(int)
+pred = (proba >= 0.49).astype(int) #changeable threshold for classification 
 
 # evaluation
 print("ROC-AUC:", roc_auc_score(y_test, proba))
