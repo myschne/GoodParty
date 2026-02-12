@@ -29,6 +29,27 @@ DROP_COLS = [
     "election_date"
 ]
 
+# -----------------------
+# Viability (0–5) + bucket labels (1–5 categories)
+# -----------------------
+VIAB_LABELS = ["No Chance", "Unlikely to Win", "Has a Chance", "Likely to Win", "Frontrunner"]
+
+def proba_to_viability_score(proba: np.ndarray) -> np.ndarray:
+    return 5.0 * proba
+
+def viability_score_to_bucket(v: np.ndarray) -> pd.Categorical:
+    return pd.cut(
+        v,
+        bins=[0, 1, 2, 3, 4, 5],
+        labels=VIAB_LABELS,
+        right=False,
+        include_lowest=True
+    )
+
+# -----------------------
+# Preprocessing function (feature engineering)
+# -----------------------
+
 def prep(df: pd.DataFrame):
     # target
     df = df.copy()
@@ -92,6 +113,8 @@ fold_aucs = []
 
 y_all = []
 proba_all = []
+rows_all = [] 
+coef_series_list = []
 
 for k in range(K):
     test_df = fold_dfs[k].copy()
@@ -116,6 +139,23 @@ for k in range(K):
 
     clf.fit(X_train, y_train)
 
+    # ---- collect per-fold feature importances (coef) ----
+    pre = clf.named_steps["preprocess"]
+    model = clf.named_steps["model"]
+
+    # numeric feature names
+    num_names = list(pre.named_transformers_["num"].feature_names_in_) \
+        if hasattr(pre.named_transformers_["num"], "feature_names_in_") else list(num_cols)
+
+    # categorical feature names after one-hot
+    ohe = pre.named_transformers_["cat"].named_steps["onehot"]
+    cat_names = ohe.get_feature_names_out(cat_cols)
+
+    feature_names = np.r_[num_names, cat_names]
+    coefs = model.coef_.ravel()
+
+    coef_series_list.append(pd.Series(coefs, index=feature_names, name=f"fold_{k}"))
+
     proba = clf.predict_proba(X_test)[:, 1]
     auc = roc_auc_score(y_test, proba)
     fold_aucs.append(auc)
@@ -128,6 +168,12 @@ for k in range(K):
 
     y_all.append(y_test.to_numpy())
     proba_all.append(proba)
+
+    # attach predictions back to the original (un-prepped) test rows
+    scored = test_df.copy()
+    scored["proba_win"] = proba
+    scored["pred_win"] = pred
+    rows_all.append(scored)
 
 # -----------------------
 # Aggregate metrics
@@ -147,30 +193,86 @@ print("\nPooled ROC-AUC:", roc_auc_score(y_all, proba_all))
 print("Pooled confusion matrix:\n", confusion_matrix(y_all, pred_all))
 print(classification_report(y_all, pred_all))    
 
-# ======================== Feature Importance ===========================
 
-# fitted pipeline: clf
-pre = clf.named_steps["preprocess"]
-model = clf.named_steps["model"]
+# -----------------------
+# Build results dataframe w/ viability (0–5) and 1–5 bucket classification
+# -----------------------
+results = pd.concat(rows_all, ignore_index=True)
 
-# numeric feature names
-num_names = list(pre.transformers_[0][2])  # ("num", ..., num_cols)
+results["viability_score_model"] = proba_to_viability_score(results["proba_win"].to_numpy())
+results["viability_bucket_model"] = viability_score_to_bucket(results["viability_score_model"].to_numpy())
+results["viability_bucket_num"] = results["viability_bucket_model"].cat.codes + 1  # 1..5
 
-# categorical feature names after one-hot
-ohe = pre.named_transformers_["cat"].named_steps["onehot"]
-cat_cols = pre.transformers_[1][2]         # ("cat", ..., cat_cols)
-cat_names = ohe.get_feature_names_out(cat_cols)
+print("\nViability bucket distribution (model):")
+print(results["viability_bucket_model"].value_counts(dropna=False))
 
-# all feature names in order the model sees them
-feature_names = np.r_[num_names, cat_names]
+# Example preview
+print("\nSample scored rows:")
+print(results[[
+    "hubspot_id",
+    "proba_win",
+    "pred_win",
+    "viability_score_model",
+    "viability_bucket_num",
+    "viability_bucket_model"
+]].head(20).to_string(index=False))
 
-coefs = model.coef_.ravel()
-df_imp = pd.DataFrame({"feature": feature_names, "coef": coefs})
-df_imp["abs_coef"] = df_imp["coef"].abs()
 
-# top positive (push toward Win=1) and top negative (push toward Win=0)
-top_pos = df_imp.sort_values("coef", ascending=False).head(25)
-top_neg = df_imp.sort_values("coef", ascending=True).head(25)
+# -----------------------
+# Compare to original viability_score (0–5) from dataset
+# -----------------------
 
-print("Top features pushing toward Win=1:\n", top_pos[["feature","coef"]].to_string(index=False))
-print("\nTop features pushing toward Win=0:\n", top_neg[["feature","coef"]].to_string(index=False))
+# Original score -> bucket
+results["viability_bucket_orig"] = viability_score_to_bucket(results["viability_score_mean"].to_numpy())
+results["viability_bucket_orig_num"] = results["viability_bucket_orig"].cat.codes + 1  # 1..5
+
+# Crosstab (orig vs model)
+ct = pd.crosstab(
+    results["viability_bucket_orig"],
+    results["viability_bucket_model"],
+    dropna=False
+)
+print("\nCrosstab: original viability bucket (rows) vs model bucket (cols)")
+print(ct)
+
+# Exact agreement rate
+agree = (results["viability_bucket_orig"] == results["viability_bucket_model"]).mean()
+print("\nExact bucket agreement:", round(float(agree), 4))
+
+# How far off (0..4 buckets away)
+results["bucket_distance"] = (
+    results["viability_bucket_orig_num"] - results["viability_bucket_num"]
+).abs()
+
+print("\nBucket distance distribution (0=match, 1=adjacent, ...):")
+print(results["bucket_distance"].value_counts(dropna=False).sort_index())
+
+print("\nMean bucket distance:", round(float(results["bucket_distance"].mean()), 4))
+
+# Optional: compare continuous scores too
+valid = results[["viability_score_mean", "viability_score_model"]].dropna()
+corr = valid["viability_score_mean"].corr(valid["viability_score_model"])
+print("\nCorrelation between original viability_score and model-derived viability_score:", round(float(corr), 4))
+
+
+# ======================== Fold-averaged Feature Importance =========================
+# Align features across folds (union), fill missing with 0
+coef_df = pd.concat(coef_series_list, axis=1).fillna(0.0)  # rows=features, cols=folds
+
+imp = pd.DataFrame({
+    "mean_coef": coef_df.mean(axis=1),
+    "std_coef": coef_df.std(axis=1),
+    "mean_abs_coef": coef_df.abs().mean(axis=1),
+    "sign_consistency": (np.sign(coef_df).replace(0, np.nan).mean(axis=1)).abs()
+}).sort_values("mean_abs_coef", ascending=False)
+
+# Top features overall (by average absolute effect)
+print("\nTop 25 features by mean absolute coefficient across folds:")
+print(imp.head(25).to_string())
+
+# Top positive and negative on average
+print("\nTop 25 features pushing toward Win=1 on average:")
+print(imp.sort_values("mean_coef", ascending=False).head(25)[["mean_coef","std_coef","mean_abs_coef","sign_consistency"]].to_string())
+
+print("\nTop 25 features pushing toward Win=0 on average:")
+print(imp.sort_values("mean_coef", ascending=True).head(25)[["mean_coef","std_coef","mean_abs_coef","sign_consistency"]].to_string())
