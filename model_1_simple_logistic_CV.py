@@ -25,7 +25,8 @@ DROP_COLS = [
     "general_election_result",
     "general_votes_received",
     "total_general_votes_cast",
-    "viability_score",
+    "viability_score_mean",
+    "viability_score_max",
     "election_date"
 ]
 
@@ -249,7 +250,7 @@ print(results["bucket_distance"].value_counts(dropna=False).sort_index())
 
 print("\nMean bucket distance:", round(float(results["bucket_distance"].mean()), 4))
 
-# Optional: compare continuous scores too
+#compare continuous scores
 valid = results[["viability_score_mean", "viability_score_model"]].dropna()
 corr = valid["viability_score_mean"].corr(valid["viability_score_model"])
 print("\nCorrelation between original viability_score and model-derived viability_score:", round(float(corr), 4))
