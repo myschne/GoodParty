@@ -1,0 +1,9 @@
+Confusion matrix (tn fp / fn tp):
+[[1166 1222]
+ [ 604 2008]]
+
+Rates:
+TPR: 0.7688
+FPR: 0.5117
+TNR: 0.4883
+FNR: 0.2312

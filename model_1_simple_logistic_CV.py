@@ -27,7 +27,8 @@ DROP_COLS = [
     "total_general_votes_cast",
     "viability_score_mean",
     "viability_score_max",
-    "election_date"
+    "election_date",
+    "latest_outreach"
 ]
 
 # -----------------------
@@ -56,6 +57,7 @@ def prep(df: pd.DataFrame):
     df = df.copy()
     #df["Win"] = (df["general_election_result"] == "Won General").astype(int)
     df["election_date"] = pd.to_datetime(df["election_date"], errors="coerce")
+    df["latest_outreach"] = pd.to_datetime(df["latest_outreach"], errors="coerce")
 
     # simple components
     df["election_year"]  = df["election_date"].dt.year
@@ -63,6 +65,9 @@ def prep(df: pd.DataFrame):
     df["election_doy"]   = df["election_date"].dt.dayofyear
     df["is_midterm"] = ((df["election_year"] % 4 != 0) & (df["election_year"] % 2 == 0)).astype(int)
     df["is_presidential"] = (df["election_year"] % 4 == 0).astype(int)
+    delta_days = (df["election_date"] - df["latest_outreach"]).dt.days
+    df["days_between_outreach_and_election"] = delta_days.fillna(99999).astype("Int64")
+
 
 
 
@@ -277,3 +282,6 @@ print(imp.sort_values("mean_coef", ascending=False).head(25)[["mean_coef","std_c
 
 print("\nTop 25 features pushing toward Win=0 on average:")
 print(imp.sort_values("mean_coef", ascending=True).head(25)[["mean_coef","std_coef","mean_abs_coef","sign_consistency"]].to_string())
+
+from viz_outreach_model_outputs import make_all_plots
+make_all_plots(fold_aucs, y_all, proba_all, THRESHOLD, results, imp, outdir="viz_outputs")

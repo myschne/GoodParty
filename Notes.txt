@@ -1,0 +1,24 @@
+Model Improvement To Dos:
+Change Threshold
+Change Viability Calculation
+Add has_script, num_scripts, num_messages, differ
+Start on candidate level -> make dynamic
+Create new features
+Combine with elections tables to add more features
+Try different models (random forest)
+Add sentiment analysis and word count for outreach column
+
+Incorporate Vote counts (close race vs not close) - logitshare
+
+
+Chat Advice: 
+Feature engineering for dynamic updates (in SQL)
+
+At each event time t, create state features:
+touch_number (1st, 2nd, 3rd…)
+days_since_first_touch, days_since_last_touch
+touches_last_7d, touches_last_30d
+script_used_last, channel_used_last
+cumulative response counts/rates up to t: n_replies, n_positive, reply_rate
+“last known status” indicators
+
