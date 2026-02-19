@@ -9,8 +9,9 @@ import numpy as np
 from sklearn.impute import SimpleImputer
 import matplotlib.pyplot as plt
 from sklearn.metrics import precision_score, recall_score, f1_score
+import re
 
-THRESHOLD = 0.475
+THRESHOLD = 0.55
 
 FOLD_PATHS = [
     "Queries/Individual_Candidate_Query_1.csv",
@@ -28,7 +29,11 @@ DROP_COLS = [
     "viability_score_mean",
     "viability_score_max",
     "election_date",
-    "latest_outreach"
+    "latest_outreach",
+    "election_year",
+    "election_dow",
+    "hubspot_id",
+    "office_level"
 ]
 
 # -----------------------
@@ -52,6 +57,65 @@ def viability_score_to_bucket(v: np.ndarray) -> pd.Categorical:
 # Preprocessing function (feature engineering)
 # -----------------------
 
+def norm_office_level(x):
+    if pd.isna(x):
+        return ""
+    s = str(x).strip().lower()
+    s = re.sub(r"\s+", " ", s)                 # collapse whitespace (handles "CITY ")
+    s = re.sub(r"[^\w\s-]", "", s)             # drop punctuation, keep hyphen
+    return s
+
+# 2) mapping to canonical buckets
+OFFICE_LEVEL_MAP = {
+    # null-ish / junk
+    "": pd.NA,
+    "null": pd.NA,
+    "n/a": pd.NA,
+    "na": pd.NA,
+    "undefined": pd.NA,
+    "2": pd.NA,
+    "3": pd.NA,
+
+    # local / municipal / city / town / township / county
+    "local": "local",
+    "city": "local",
+    "municipal": "local",
+    "town": "local",
+    "township": "local",
+    "county": "local",
+    "regional": "local",   # if you want "regional" separate, change this
+
+    # state
+    "state": "state",
+    "state1": "state",
+    "statewide": "state",
+    "state legislative": "state",
+    "legislative": "state",  # ambiguous; if you have federal legislative too, handle separately
+
+    # federal
+    "federal": "federal",
+    "federal-download": "federal",
+    "presidential": "federal",  # or "presidential" if you want its own class
+}
+
+def clean_office_level(series: pd.Series) -> pd.Series:
+    s = series.map(norm_office_level)
+
+    # direct map first
+    out = s.map(OFFICE_LEVEL_MAP)
+
+    # 3) fallback rules for anything not caught by exact mapping
+    # (handles unexpected variants like "Federal Senate", "City Council", etc.)
+    still = out.isna() & s.notna() & (s != "")
+    out.loc[still & s.str.contains(r"\bfederal\b|\bpresident\b", regex=True)] = "federal"
+    out.loc[still & s.str.contains(r"\bstate\b|\bstatewide\b|\blegisl", regex=True)] = "state"
+    out.loc[still & s.str.contains(r"\blocal\b|\bcity\b|\bmunicipal\b|\bcounty\b|\btown\b|\btownship\b|\bregional\b", regex=True)] = "local"
+
+    # anything remaining -> other (or pd.NA)
+    out = out.fillna("other")
+
+    return out.astype("category")
+
 def prep(df: pd.DataFrame):
     # target
     df = df.copy()
@@ -62,13 +126,26 @@ def prep(df: pd.DataFrame):
     # simple components
     df["election_year"]  = df["election_date"].dt.year
     df["election_month"] = df["election_date"].dt.month
-    df["election_doy"]   = df["election_date"].dt.dayofyear
     df["is_midterm"] = ((df["election_year"] % 4 != 0) & (df["election_year"] % 2 == 0)).astype(int)
     df["is_presidential"] = (df["election_year"] % 4 == 0).astype(int)
     delta_days = (df["election_date"] - df["latest_outreach"]).dt.days
     df["days_between_outreach_and_election"] = delta_days.fillna(99999).astype("Int64")
+    df["is_normal_election"] = (
+        (df["election_date"].dt.month == 11) &
+        (df["election_date"].dt.dayofweek == 1) &   # Monday=0, Tuesday=1u, ...
+        (df["election_date"].dt.day.between(2, 8))
+    ).astype(int)
+    #Make dow categorical
+    names = ["mon","tue","wed","thu","fri","sat","sun"]
+    doy_dummies = pd.get_dummies(
+        df["election_date"].dt.day_name().str[:3].str.lower(),
+        prefix="election_dow",
+        dtype=int
+    ).reindex(columns=[f"election_dow_{n}" for n in names], fill_value=0)
 
+    df = pd.concat([df, doy_dummies], axis=1)
 
+    df["office_level_clean"] = clean_office_level(df["office_level"])
 
 
     y = df["Win"].astype(int)
@@ -271,6 +348,10 @@ imp = pd.DataFrame({
     "mean_abs_coef": coef_df.abs().mean(axis=1),
     "sign_consistency": (np.sign(coef_df).replace(0, np.nan).mean(axis=1)).abs()
 }).sort_values("mean_abs_coef", ascending=False)
+
+
+n_features_total = coef_df.shape[0]
+print("Total features (union across folds):", n_features_total)
 
 # Top features overall (by average absolute effect)
 print("\nTop 25 features by mean absolute coefficient across folds:")

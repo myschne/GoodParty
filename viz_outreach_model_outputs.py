@@ -287,10 +287,11 @@ def plot_metrics_table(y_true: np.ndarray, proba: np.ndarray, threshold: float, 
     tnr = tn / (tn + fp) if (tn + fp) else np.nan  # specificity
     fnr = fn / (fn + tp) if (fn + tp) else np.nan
     auc = roc_auc_score(y_true, proba)
-
+    ap = average_precision_score(y_true, proba)
     # Build a compact display table
     rows = [
         ["ROC-AUC", f"{auc:.3f}"],
+        ["Avg Precision (PR-AUC)", f"{ap:.3f}"],
         ["Threshold", f"{threshold:.3f}"],
         ["TPR (Recall)", f"{tpr:.3f}"],
         ["FPR", f"{fpr:.3f}"],
