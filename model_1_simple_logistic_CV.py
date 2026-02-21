@@ -33,7 +33,8 @@ DROP_COLS = [
     "election_year",
     "election_dow",
     "hubspot_id",
-    "office_level"
+    "office_level",
+    "state"
 ]
 
 # -----------------------
@@ -68,13 +69,13 @@ def norm_office_level(x):
 # 2) mapping to canonical buckets
 OFFICE_LEVEL_MAP = {
     # null-ish / junk
-    "": pd.NA,
-    "null": pd.NA,
-    "n/a": pd.NA,
-    "na": pd.NA,
-    "undefined": pd.NA,
-    "2": pd.NA,
-    "3": pd.NA,
+    "": np.nan,
+    "null": np.nan,
+    "n/a": np.nan,
+    "na": np.nan,
+    "undefined": np.nan,
+    "2": np.nan,
+    "3": np.nan,
 
     # local / municipal / city / town / township / county
     "local": "local",
@@ -116,6 +117,107 @@ def clean_office_level(series: pd.Series) -> pd.Series:
 
     return out.astype("category")
 
+
+# -----------------------
+# State -> USPS + Region
+# -----------------------
+
+US_STATE_CODES = {
+    'AL','AK','AZ','AR','CA','CO','CT','DE','FL','GA','HI','ID','IL','IN','IA','KS','KY','LA','ME','MD','MA','MI',
+    'MN','MS','MO','MT','NE','NV','NH','NJ','NM','NY','NC','ND','OH','OK','OR','PA','RI','SC','SD','TN','TX','UT',
+    'VT','VA','WA','WV','WI','WY','DC'
+}
+
+US_TERRITORY_CODES = {'AS','GU','MP','PR','VI','PW'}
+US_CODES_ALL = US_STATE_CODES | US_TERRITORY_CODES
+
+STATE_NAME_TO_USPS = {
+    "ALABAMA":"AL","ALASKA":"AK","ARIZONA":"AZ","ARKANSAS":"AR","CALIFORNIA":"CA","COLORADO":"CO","CONNECTICUT":"CT",
+    "DELAWARE":"DE","DISTRICT OF COLUMBIA":"DC","FLORIDA":"FL","GEORGIA":"GA","HAWAII":"HI","IDAHO":"ID","ILLINOIS":"IL",
+    "INDIANA":"IN","IOWA":"IA","KANSAS":"KS","KENTUCKY":"KY","LOUISIANA":"LA","MAINE":"ME","MARYLAND":"MD",
+    "MASSACHUSETTS":"MA","MICHIGAN":"MI","MINNESOTA":"MN","MISSISSIPPI":"MS","MISSOURI":"MO","MONTANA":"MT",
+    "NEBRASKA":"NE","NEVADA":"NV","NEW HAMPSHIRE":"NH","NEW JERSEY":"NJ","NEW MEXICO":"NM","NEW YORK":"NY",
+    "NORTH CAROLINA":"NC","NORTH DAKOTA":"ND","OHIO":"OH","OKLAHOMA":"OK","OREGON":"OR","PENNSYLVANIA":"PA",
+    "RHODE ISLAND":"RI","SOUTH CAROLINA":"SC","SOUTH DAKOTA":"SD","TENNESSEE":"TN","TEXAS":"TX","UTAH":"UT",
+    "VERMONT":"VT","VIRGINIA":"VA","WASHINGTON":"WA","WEST VIRGINIA":"WV","WISCONSIN":"WI","WYOMING":"WY",
+    # Territories (if present as names)
+    "AMERICAN SAMOA":"AS","GUAM":"GU","NORTHERN MARIANA ISLANDS":"MP","PUERTO RICO":"PR",
+    "VIRGIN ISLANDS":"VI","U.S. VIRGIN ISLANDS":"VI","PALAU":"PW",
+}
+
+# Common variants/typos -> either USPS or canonical name handled above
+STATE_ALIASES = {
+    "DELEWARE": "DE",
+    "WASHINGTON DC": "DC",
+    "WASHINGTON D.C.": "DC",
+    "DISTRICT OF COLUMBIA": "DC",
+    # add more if you discover them
+}
+
+REGION_MAP = {
+    "NORTHEAST": {"CT","ME","MA","NH","RI","VT","NJ","NY","PA"},
+    "MIDWEST":   {"IL","IN","MI","OH","WI","IA","KS","MN","MO","NE","ND","SD"},
+    "SOUTH":     {"DE","FL","GA","MD","NC","SC","VA","WV","AL","KY","MS","TN","AR","LA","OK","TX","DC"},
+    "WEST":      {"AZ","CO","ID","MT","NV","NM","UT","WY","AK","CA","HI","OR","WA"},
+}
+def norm_state(x) -> str:
+    if pd.isna(x):
+        return ""
+    s = str(x).strip()
+    if s == "":
+        return ""
+    s = re.sub(r"\s+", " ", s)          # collapse whitespace
+    s = s.replace(".", "")              # remove periods (D.C. -> DC)
+    return s.upper()
+
+def clean_state_to_usps(series: pd.Series, keep_only_us_territories: bool = True) -> pd.Series:
+    """
+    Returns USPS code for US states/DC/territories.
+    If keep_only_us_territories=True, anything else becomes pd.NA.
+    """
+    s = series.map(norm_state)
+
+    def _map_one(val: str):
+        if val == "" or val in {"NULL", "N/A", "NA", "UNDEFINED"}:
+            return np.nan
+
+        # direct alias (typos/variants)
+        if val in STATE_ALIASES:
+            code = STATE_ALIASES[val]
+            return code if code in US_CODES_ALL else np.nan
+
+        # if it's already a code, only accept if it's a real US code
+        if len(val) == 2 and val.isalpha():
+            return val if val in US_CODES_ALL else (np.nan if keep_only_us_territories else val)
+
+        # full name to code
+        if val in STATE_NAME_TO_USPS:
+            return STATE_NAME_TO_USPS[val]
+
+        # otherwise: non-US or unmapped
+        return np.nan if keep_only_us_territories else val
+
+    out = s.map(_map_one).astype("string")
+    return out.astype("category")
+
+def state_usps_to_region(state_usps: pd.Series) -> pd.Series:
+    """
+    Maps USPS -> {NORTHEAST, MIDWEST, SOUTH, WEST, TERRITORY, UNKNOWN}.
+    """
+    def _region(code):
+        if pd.isna(code) or str(code).strip() == "":
+            return "Unknown"
+        c = str(code)
+        if c in US_TERRITORY_CODES:
+            return "TERRITORY"
+        for region, codes in REGION_MAP.items():
+            if c in codes:
+                return region
+        return "OTHER_US"
+
+    return state_usps.map(_region).astype("category")
+
+
 def prep(df: pd.DataFrame):
     # target
     df = df.copy()
@@ -147,7 +249,13 @@ def prep(df: pd.DataFrame):
 
     df["office_level_clean"] = clean_office_level(df["office_level"])
 
+      #state + region ---
+    df["state_usps"] = clean_state_to_usps(df["state"], keep_only_us_territories=True).astype("object")
+    df["region"] = state_usps_to_region(df["state_usps"]).astype("object")
 
+    df["state_usps"] = df["state_usps"].astype(object).replace({pd.NA: "Unknown"})
+    df["region"] = df["region"].astype(object).replace({pd.NA: "Unknown"})
+    
     y = df["Win"].astype(int)
     X = df.drop(columns=DROP_COLS, errors="ignore")
 
@@ -366,3 +474,6 @@ print(imp.sort_values("mean_coef", ascending=True).head(25)[["mean_coef","std_co
 
 from viz_outreach_model_outputs import make_all_plots
 make_all_plots(fold_aucs, y_all, proba_all, THRESHOLD, results, imp, outdir="viz_outputs")
+
+
+
