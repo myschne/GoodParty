@@ -34,7 +34,12 @@ DROP_COLS = [
     "election_dow",
     "hubspot_id",
     "office_level",
-    "state"
+    "state",
+    "number_of_opponents",
+    "most_common_outreach_type",
+    "incumbent",
+    "open_seat",
+    "seats_available",
 ]
 
 # -----------------------
@@ -253,8 +258,24 @@ def prep(df: pd.DataFrame):
     df["state_usps"] = clean_state_to_usps(df["state"], keep_only_us_territories=True).astype("object")
     df["region"] = state_usps_to_region(df["state_usps"]).astype("object")
 
+    df["number_avail_seats"] = pd.to_numeric(df["seats_available"].replace({"null": np.nan, 0E-10 : 0}), errors="coerce")
     df["state_usps"] = df["state_usps"].astype(object).replace({pd.NA: "Unknown"})
     df["region"] = df["region"].astype(object).replace({pd.NA: "Unknown"})
+    df["number_of_opponents_num"] = pd.to_numeric(df["number_of_opponents"].replace({"10+": 10, "null": np.nan}), errors="coerce")
+    df["candidates - available seats"] = (df["number_of_opponents_num"] - df["number_avail_seats"] + 1).astype("Int64")
+    str_cols = df.select_dtypes(include=["object", "string"]).columns
+    df[str_cols] = df[str_cols].replace(r"^\s*$", "Unknown", regex=True)
+
+    #incumbency status
+    df["incumbency_status"] = np.select(
+    [
+        df["incumbent"] == 1,
+        (df["incumbent"] == 0) & (df["open_seat"] == 0),
+        (df["incumbent"] == 0) & (df["open_seat"] == 1),
+    ],
+    ["is incumbent", "is challenger", "open seat"],
+    default="Unknown"
+)
     
     y = df["Win"].astype(int)
     X = df.drop(columns=DROP_COLS, errors="ignore")

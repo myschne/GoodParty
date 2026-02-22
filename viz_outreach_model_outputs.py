@@ -56,50 +56,6 @@ def _maybe_int_series(s):
 # -----------------------
 # Plotting functions
 # -----------------------
-
-def plot_fold_aucs(fold_aucs, savepath=None):
-    fig = plt.figure()
-    x = np.arange(1, len(fold_aucs) + 1)
-    plt.plot(x, fold_aucs, marker="o")
-    plt.axhline(np.mean(fold_aucs), linestyle="--")
-    plt.xticks(x)
-    plt.xlabel("Fold")
-    plt.ylabel("ROC-AUC")
-    plt.title("Per-fold ROC-AUC")
-    plt.tight_layout()
-    if savepath:
-        plt.savefig(savepath, dpi=200)
-    return fig
-
-def plot_roc_curve(y_true, proba, savepath=None):
-    fig = plt.figure()
-    fpr, tpr, _ = roc_curve(y_true, proba)
-    auc = roc_auc_score(y_true, proba)
-    plt.plot(fpr, tpr, label=f"AUC={auc:.3f}")
-    plt.plot([0, 1], [0, 1], linestyle="--")
-    plt.xlabel("False Positive Rate")
-    plt.ylabel("True Positive Rate")
-    plt.title("ROC Curve (Pooled)")
-    plt.legend()
-    plt.tight_layout()
-    if savepath:
-        plt.savefig(savepath, dpi=200)
-    return fig
-
-def plot_pr_curve(y_true, proba, savepath=None):
-    fig = plt.figure()
-    p, r, _ = precision_recall_curve(y_true, proba)
-    ap = average_precision_score(y_true, proba)
-    plt.plot(r, p, label=f"Avg Precision={ap:.3f}")
-    plt.xlabel("Recall")
-    plt.ylabel("Precision")
-    plt.title("Precision–Recall Curve (Pooled)")
-    plt.legend()
-    plt.tight_layout()
-    if savepath:
-        plt.savefig(savepath, dpi=200)
-    return fig
-
 def plot_score_hist_by_class(y_true, proba, threshold, savepath=None):
     fig = plt.figure()
     proba = np.asarray(proba)
@@ -179,22 +135,21 @@ def plot_threshold_sweep(y_true, proba, savepath=None):
     return fig
 
 def plot_viability_bucket_distributions(results: pd.DataFrame, savepath=None):
-    # Requires results["viability_bucket_orig"] and results["viability_bucket_model"]
     fig = plt.figure()
 
-    orig = results["viability_bucket_orig"].astype(str).value_counts().sort_index()
-    model = results["viability_bucket_model"].astype(str).value_counts().sort_index()
+    order = ["No Chance", "Unlikely to Win", "Has a Chance", "Likely to Win", "Frontrunner"]
 
-    # align indices
-    idx = sorted(set(orig.index).union(set(model.index)))
-    orig = orig.reindex(idx, fill_value=0)
-    model = model.reindex(idx, fill_value=0)
+    orig = results["viability_bucket_orig"].astype(str).value_counts()
+    model = results["viability_bucket_model"].astype(str).value_counts()
 
-    x = np.arange(len(idx))
+    orig = orig.reindex(order, fill_value=0)
+    model = model.reindex(order, fill_value=0)
+
+    x = np.arange(len(order))
     width = 0.4
     plt.bar(x - width/2, orig.values, width=width, label="Original")
     plt.bar(x + width/2, model.values, width=width, label="Model")
-    plt.xticks(x, idx, rotation=30, ha="right")
+    plt.xticks(x, order, rotation=30, ha="right")
     plt.ylabel("Count")
     plt.title("Viability bucket distribution: Original vs Model")
     plt.legend()
@@ -216,22 +171,47 @@ def plot_bucket_distance(results: pd.DataFrame, savepath=None):
     return fig
 
 def plot_bucket_crosstab_heatmap(results: pd.DataFrame, savepath=None):
-    fig = plt.figure()
-    ct = pd.crosstab(results["viability_bucket_orig"], results["viability_bucket_model"], dropna=False)
-    plt.imshow(ct.values, aspect="auto")
-    plt.xticks(np.arange(ct.shape[1]), ct.columns.astype(str), rotation=30, ha="right")
-    plt.yticks(np.arange(ct.shape[0]), ct.index.astype(str))
-    plt.xlabel("Model bucket")
-    plt.ylabel("Original bucket")
-    plt.title("Crosstab heatmap: Original vs Model viability buckets")
+    fig, ax = plt.subplots(figsize=(7.8, 5.8))
 
-    for i in range(ct.shape[0]):
-        for j in range(ct.shape[1]):
-            plt.text(j, i, str(ct.iloc[i, j]), ha="center", va="center")
+    ct = pd.crosstab(
+        results["viability_bucket_orig"],
+        results["viability_bucket_model"],
+        dropna=False
+    )
 
-    plt.tight_layout()
+    # row-normalize (% within each original bucket)
+    row_sums = ct.sum(axis=1).replace(0, np.nan)
+    pct = ct.div(row_sums, axis=0)  # 0..1
+
+    vmax = float(np.nanmax(pct.values)) if pct.size else 1.0
+    im = ax.imshow(pct.values, aspect="auto", cmap="RdBu", vmin=0, vmax=vmax)
+
+    ax.set_xticks(np.arange(pct.shape[1]))
+    ax.set_xticklabels(pct.columns.astype(str), rotation=30, ha="right")
+    ax.set_yticks(np.arange(pct.shape[0]))
+    ax.set_yticklabels(pct.index.astype(str))
+
+    ax.set_xlabel("Model bucket")
+    ax.set_ylabel("Original bucket")
+    ax.set_title("Row-normalized crosstab (% of each original bucket)")
+
+    cbar = fig.colorbar(im, ax=ax)
+    cbar.set_label("Share of original bucket")
+    # optional: show colorbar tick labels as %
+    ticks = np.linspace(0, vmax, 5)
+    cbar.set_ticks(ticks)
+    cbar.set_ticklabels([f"{t*100:.0f}%" for t in ticks])
+
+    # annotate with %
+    for i in range(pct.shape[0]):
+        for j in range(pct.shape[1]):
+            val = pct.iat[i, j]
+            label = "" if pd.isna(val) else f"{val*100:.1f}%"
+            ax.text(j, i, label, ha="center", va="center", color="black")
+
+    fig.tight_layout()
     if savepath:
-        plt.savefig(savepath, dpi=200)
+        fig.savefig(savepath, dpi=200)
     return fig
 
 def plot_top_features(imp: pd.DataFrame, top_n=25, which="mean_abs_coef", savepath=None):
@@ -336,7 +316,51 @@ def plot_metrics_table(y_true: np.ndarray, proba: np.ndarray, threshold: float, 
     fig.savefig(outdir / "metrics_table.png", dpi=200)
     plt.close(fig)
 
+def bucket_summary_table(
+    results: pd.DataFrame,
+    bucket_col: str,
+    win_col: str = "Win",
+    proba_col: str = "proba_win",
+) -> pd.DataFrame:
+    """
+    Per-bucket:
+      - n_rows
+      - observed win rate (%)
+      - avg predicted probability (%)
+    """
+    df = results[[bucket_col, win_col, proba_col]].copy()
+    df[win_col] = pd.to_numeric(df[win_col], errors="coerce")
+    df[proba_col] = pd.to_numeric(df[proba_col], errors="coerce")
 
+    out = (
+        df.groupby(bucket_col, dropna=False)
+          .agg(
+              n_rows=(win_col, "count"),
+              win_rate=(win_col, "mean"),
+              avg_proba=(proba_col, "mean"),
+          )
+          .reset_index()
+    )
+    out["win_pct"] = 100.0 * out["win_rate"]
+    out["avg_proba_pct"] = 100.0 * out["avg_proba"]
+    return out.sort_values(bucket_col)
+
+def plot_bucket_calibration(results: pd.DataFrame, bucket_col: str, savepath=None):
+    fig = plt.figure()
+    tbl = bucket_summary_table(results, bucket_col)
+
+    x = np.arange(len(tbl))
+    w = 0.4
+    plt.bar(x - w/2, tbl["win_pct"].values, width=w, label="Observed win %")
+    plt.bar(x + w/2, tbl["avg_proba_pct"].values, width=w, label="Avg predicted %")
+    plt.xticks(x, tbl[bucket_col].astype(str).values, rotation=30, ha="right")
+    plt.ylabel("Percent")
+    plt.title(f"Bucket calibration: {bucket_col}")
+    plt.legend()
+    plt.tight_layout()
+    if savepath:
+        plt.savefig(savepath, dpi=200)
+    return fig
 
 # -----------------------
 # Main entry point
@@ -358,13 +382,6 @@ def make_all_plots(
     y_all = np.asarray(y_all)
     proba_all = np.asarray(proba_all)
 
-
-    # 1) Fold AUCs
-    plot_fold_aucs(fold_aucs, savepath=f"{outdir}/fold_aucs.png")
-
-    # 2) ROC + PR
-    plot_roc_curve(y_all, proba_all, savepath=f"{outdir}/roc_curve.png")
-    plot_pr_curve(y_all, proba_all, savepath=f"{outdir}/pr_curve.png")
 
     # 3) Score distributions
     plot_score_hist_by_class(y_all, proba_all, threshold, savepath=f"{outdir}/score_hist_by_class.png")
@@ -404,6 +421,17 @@ def make_all_plots(
     
     # 8) Metrics table
     plot_metrics_table(y_all, proba_all, threshold, outdir)
+
+    if "Win" in results.columns and "proba_win" in results.columns:
+        if "viability_bucket_model" in results.columns:
+            tbl_model = bucket_summary_table(results, "viability_bucket_model")
+            tbl_model.to_csv(f"{outdir}/bucket_summary_model.csv", index=False)
+
+        if "viability_bucket_orig" in results.columns:
+            tbl_orig = bucket_summary_table(results, "viability_bucket_orig")
+            tbl_orig.to_csv(f"{outdir}/bucket_summary_orig.csv", index=False)
+    
+    plot_bucket_calibration(results, "viability_bucket_model", savepath=f"{outdir}/bucket_calibration_model.png")
     
     
 

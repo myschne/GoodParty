@@ -1,0 +1,7 @@
+viability_bucket_orig  n_rows  win_rate   win_pct
+            No Chance     572  0.241259 24.125874
+      Unlikely to Win    1338  0.360239 36.023916
+         Has a Chance    1090  0.516514 51.651376
+        Likely to Win     709  0.692525 69.252468
+          Frontrunner     343  0.865889 86.588921
+                  NaN     948  0.593882 59.388186
