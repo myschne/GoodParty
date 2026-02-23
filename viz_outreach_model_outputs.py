@@ -22,6 +22,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from pathlib import Path
+import re
 
 
 from sklearn.metrics import (
@@ -52,10 +53,382 @@ def _maybe_int_series(s):
     # Helpful if bucket labels are categorical and you want stable ordering
     return s.astype("Int64") if pd.api.types.is_integer_dtype(s) or str(s.dtype) == "Int64" else s
 
+import re
 
+def pretty_feature_name(name: str) -> str:
+    s = str(name)
+
+    # common one-hot prefixes
+    s = s.replace("state_usps_", "State: ")
+    s = s.replace("region_", "Region: ")
+    s = s.replace("office_level_clean_", "Office level: ")
+    s = s.replace("office_type_", "Office type: ")
+    s = s.replace("partisan_type_", "Partisan: ")
+    s = s.replace("incumbency_status_", "Incumbency: ")
+    s = s.replace("election_dow_", "Election DOW: ")
+
+    # your engineered names
+    s = s.replace("candidates - available seats", "Competitiveness (candidates − seats)")
+    s = s.replace("days_between_outreach_and_election", "Days between outreach & election")
+    s = s.replace("n_outreach_rows", "# outreach rows")
+
+    # cleanup
+    s = s.replace("_", " ")
+    s = re.sub(r"\s+", " ", s).strip()
+    return s
 # -----------------------
 # Plotting functions
 # -----------------------
+
+US_STATE_CODES = {
+    'AL','AK','AZ','AR','CA','CO','CT','DE','FL','GA','HI','ID','IL','IN','IA','KS','KY','LA','ME','MD','MA','MI',
+    'MN','MS','MO','MT','NE','NV','NH','NJ','NM','NY','NC','ND','OH','OK','OR','PA','RI','SC','SD','TN','TX','UT',
+    'VT','VA','WA','WV','WI','WY','DC'
+}
+US_TERRITORY_CODES = {'AS','GU','MP','PR','VI','PW'}
+US_CODES_ALL = US_STATE_CODES | US_TERRITORY_CODES
+
+STATE_NAME_TO_USPS = {
+    "ALABAMA":"AL","ALASKA":"AK","ARIZONA":"AZ","ARKANSAS":"AR","CALIFORNIA":"CA","COLORADO":"CO","CONNECTICUT":"CT",
+    "DELAWARE":"DE","DISTRICT OF COLUMBIA":"DC","FLORIDA":"FL","GEORGIA":"GA","HAWAII":"HI","IDAHO":"ID","ILLINOIS":"IL",
+    "INDIANA":"IN","IOWA":"IA","KANSAS":"KS","KENTUCKY":"KY","LOUISIANA":"LA","MAINE":"ME","MARYLAND":"MD",
+    "MASSACHUSETTS":"MA","MICHIGAN":"MI","MINNESOTA":"MN","MISSISSIPPI":"MS","MISSOURI":"MO","MONTANA":"MT",
+    "NEBRASKA":"NE","NEVADA":"NV","NEW HAMPSHIRE":"NH","NEW JERSEY":"NJ","NEW MEXICO":"NM","NEW YORK":"NY",
+    "NORTH CAROLINA":"NC","NORTH DAKOTA":"ND","OHIO":"OH","OKLAHOMA":"OK","OREGON":"OR","PENNSYLVANIA":"PA",
+    "RHODE ISLAND":"RI","SOUTH CAROLINA":"SC","SOUTH DAKOTA":"SD","TENNESSEE":"TN","TEXAS":"TX","UTAH":"UT",
+    "VERMONT":"VT","VIRGINIA":"VA","WASHINGTON":"WA","WEST VIRGINIA":"WV","WISCONSIN":"WI","WYOMING":"WY",
+    # Territories (optional)
+    "AMERICAN SAMOA":"AS","GUAM":"GU","NORTHERN MARIANA ISLANDS":"MP","PUERTO RICO":"PR",
+    "VIRGIN ISLANDS":"VI","U.S. VIRGIN ISLANDS":"VI","PALAU":"PW",
+}
+
+STATE_ALIASES = {
+    "DELEWARE": "DE",
+    "WASHINGTON DC": "DC",
+    "WASHINGTON D.C.": "DC",
+    "WASHINGTON D C": "DC",
+    "DISTRICT OF COLUMBIA": "DC",
+}
+def plot_diverging_top_features(imp: pd.DataFrame, top_each=10, savepath=None):
+    """
+    One chart: top positive + top negative mean_coef.
+    Sorted by absolute magnitude.
+    """
+    df = imp.copy()
+    df = df[df["mean_coef"].notna()]
+
+    pos = df.sort_values("mean_coef", ascending=False).head(top_each)
+    neg = df.sort_values("mean_coef", ascending=True).head(top_each)
+    d = pd.concat([neg, pos], axis=0)
+
+    # sort by absolute magnitude (small to large, so largest at bottom for barh)
+    d = d.reindex(d["mean_coef"].abs().sort_values().index)
+
+    labels = [pretty_feature_name(i) for i in d.index]
+    vals = d["mean_coef"].values
+
+    fig, ax = plt.subplots(figsize=(11, 7))
+    y = np.arange(len(d))
+    ax.barh(y, vals)
+    ax.axvline(0, linewidth=1)
+
+    ax.set_yticks(y)
+    ax.set_yticklabels(labels)
+    ax.set_xlabel("Mean coefficient (log-odds)")
+    ax.set_title(f"Top drivers (mean coefficients): {top_each} negative + {top_each} positive")
+
+    fig.tight_layout()
+    if savepath:
+        fig.savefig(savepath, dpi=200, bbox_inches="tight")
+    return fig
+
+def plot_odds_ratio_dotplot(imp: pd.DataFrame, top_n=20, savepath=None):
+    """
+    Plot odds ratios = exp(mean_coef) with a reference line at OR=1.
+    Shows the biggest effects by mean_abs_coef.
+    """
+    df = imp.copy().dropna(subset=["mean_coef"])
+    df = df.sort_values("mean_abs_coef", ascending=False).head(top_n).copy()
+
+    df["odds_ratio"] = np.exp(df["mean_coef"])
+    # optional CI-ish band using std of coef across folds
+    if "std_coef" in df.columns:
+        df["or_lo"] = np.exp(df["mean_coef"] - df["std_coef"])
+        df["or_hi"] = np.exp(df["mean_coef"] + df["std_coef"])
+
+    df = df.iloc[::-1]  # so top is at top in barh/dot plot
+    y = np.arange(len(df))
+    labels = [pretty_feature_name(i) for i in df.index]
+
+    fig, ax = plt.subplots(figsize=(11, 7))
+    ax.axvline(1.0, linewidth=1, linestyle="--")
+
+    ax.plot(df["odds_ratio"].values, y, marker="o", linestyle="None")
+
+    if "or_lo" in df.columns and "or_hi" in df.columns:
+        for i, (lo, hi) in enumerate(zip(df["or_lo"], df["or_hi"])):
+            ax.hlines(i, lo, hi)
+
+    ax.set_yticks(y)
+    ax.set_yticklabels(labels)
+    ax.set_xscale("log")
+    ax.set_xlabel("Odds ratio (log scale)  —  >1 increases odds of Win")
+    ax.set_title(f"Top {top_n} effects as odds ratios (mean ± std across folds)")
+
+    fig.tight_layout()
+    if savepath:
+        fig.savefig(savepath, dpi=200, bbox_inches="tight")
+    return fig
+
+
+def feature_domain(name: str) -> str:
+    s = str(name)
+    if s.startswith("state_usps_") or s.startswith("region_"):
+        return "Geography"
+    if s.startswith("office_level_clean_") or s.startswith("office_type_"):
+        return "Office"
+    if s.startswith("incumbency_status_") or "seats" in s or "opponents" in s:
+        return "Race structure"
+    if "election_" in s or "midterm" in s or "presidential" in s or "normal_election" in s:
+        return "Election timing"
+    if "outreach" in s:
+        return "Outreach"
+    return "Election Type"
+
+def plot_grouped_small_multiples(imp: pd.DataFrame, per_group=10, savepath=None):
+    """
+    Small multiples by feature domain, all with the same x-axis scale.
+    """
+    df = imp.copy().dropna(subset=["mean_coef"])
+    df["domain"] = [feature_domain(i) for i in df.index]
+    df = df.sort_values("mean_abs_coef", ascending=False)
+
+    domains = [d for d in ["Race structure","Office","Geography","Election timing","Outreach","Election Type"]
+               if d in df["domain"].unique()]
+
+    # Collect the specific rows that will be plotted (so scaling reflects what's on the figure)
+    plotted = []
+    for dom in domains:
+        sub = df[df["domain"] == dom].head(per_group).copy()
+        plotted.append(sub)
+    plotted_df = pd.concat(plotted) if plotted else df.head(per_group)
+
+    # Global symmetric limit (same for all panels)
+    m = float(plotted_df["mean_coef"].abs().max())
+    m = max(m, 1e-6)  # avoid zero-width axis
+    pad = 0.10
+    xlim = (-m * (1 + pad), m * (1 + pad))
+
+    # Build subplots with shared x
+    n = len(domains)
+    fig, axes = plt.subplots(n, 1, figsize=(11, 3.0*n), sharex=True)
+    if n == 1:
+        axes = [axes]
+
+    for ax, dom in zip(axes, domains):
+        sub = df[df["domain"] == dom].head(per_group).copy()
+        sub = sub.reindex(sub["mean_abs_coef"].sort_values().index)
+
+        y = np.arange(len(sub))
+        ax.barh(y, sub["mean_coef"].values)
+        ax.axvline(0, linewidth=1)
+
+        ax.set_yticks(y)
+        ax.set_yticklabels([pretty_feature_name(i) for i in sub.index])
+        ax.set_title(dom)
+        ax.set_xlim(*xlim)
+        ax.set_xlabel("Mean coefficient")
+
+    fig.suptitle("Top effects by feature domain (common x-axis scale)", y=1.01, fontsize=14, fontweight="bold")
+    fig.tight_layout()
+    if savepath:
+        fig.savefig(savepath, dpi=200, bbox_inches="tight")
+    return fig
+
+
+def plot_top_features_stability(imp: pd.DataFrame, top_n=20, savepath=None):
+    """
+    Error bars: mean_coef ± std_coef, sorted by mean_abs_coef.
+    Shows sign_consistency as text.
+    """
+    df = imp.copy().dropna(subset=["mean_coef"])
+    df = df.sort_values("mean_abs_coef", ascending=False).head(top_n).copy()
+    df = df.iloc[::-1]
+
+    y = np.arange(len(df))
+    labels = [pretty_feature_name(i) for i in df.index]
+    means = df["mean_coef"].values
+    stds = df["std_coef"].values if "std_coef" in df.columns else np.zeros_like(means)
+
+    fig, ax = plt.subplots(figsize=(11, 7))
+    ax.errorbar(means, y, xerr=stds, fmt="o")
+    ax.axvline(0, linewidth=1, linestyle="--")
+
+    ax.set_yticks(y)
+    ax.set_yticklabels(labels)
+    ax.set_xlabel("Mean coefficient (± 1 std across folds)")
+    ax.set_title(f"Top {top_n} features — effect size + stability")
+
+    # annotate sign consistency if present
+    if "sign_consistency" in df.columns:
+        for i, sc in enumerate(df["sign_consistency"].values):
+            ax.text(ax.get_xlim()[0] + 0.02*(ax.get_xlim()[1]-ax.get_xlim()[0]), i,
+                    f"sign={sc:.2f}", va="center", fontsize=8, color="#444444")
+
+    fig.tight_layout()
+    if savepath:
+        fig.savefig(savepath, dpi=200, bbox_inches="tight")
+    return fig
+
+def plot_structural_vs_state_effects(imp: pd.DataFrame, top_struct=12, top_states=8, savepath=None):
+    """
+    Two-panel: structural features vs state one-hots.
+    """
+    df = imp.copy().dropna(subset=["mean_coef"])
+
+    states = df[df.index.to_series().astype(str).str.startswith("state_usps_")].copy()
+    non_states = df[~df.index.to_series().astype(str).str.startswith("state_usps_")].copy()
+
+    # structural: take biggest abs effects excluding states
+    struct = non_states.sort_values("mean_abs_coef", ascending=False).head(top_struct).copy()
+    struct = struct.reindex(struct["mean_abs_coef"].sort_values().index)
+
+    # states: show top +/- by abs coef
+    st = states.sort_values("mean_abs_coef", ascending=False).head(top_states).copy()
+    st = st.reindex(st["mean_abs_coef"].sort_values().index)
+
+    fig, axes = plt.subplots(1, 2, figsize=(14, 6), sharex=False)
+
+    # left: structural
+    ax = axes[0]
+    y = np.arange(len(struct))
+    ax.barh(y, struct["mean_coef"].values)
+    ax.axvline(0, linewidth=1)
+    ax.set_yticks(y)
+    ax.set_yticklabels([pretty_feature_name(i) for i in struct.index])
+    ax.set_title("Structural drivers (non-state)")
+    ax.set_xlabel("Mean coefficient")
+
+    # right: states
+    ax = axes[1]
+    y = np.arange(len(st))
+    ax.barh(y, st["mean_coef"].values)
+    ax.axvline(0, linewidth=1)
+    ax.set_yticks(y)
+    ax.set_yticklabels([pretty_feature_name(i) for i in st.index])
+    ax.set_title("State effects (top by |coef|)")
+    ax.set_xlabel("Mean coefficient")
+
+    fig.suptitle("Separate structural effects from geography (reduces over-interpretation of states)", y=1.02,
+                 fontsize=14, fontweight="bold")
+    fig.tight_layout()
+    if savepath:
+        fig.savefig(savepath, dpi=200, bbox_inches="tight")
+    return fig
+
+
+def _norm_state(x) -> str:
+    if pd.isna(x):
+        return ""
+    s = str(x).strip()
+    if s == "":
+        return ""
+    s = re.sub(r"\s+", " ", s)
+    s = s.replace(".", "")
+    return s.upper()
+
+def add_state_usps(results: pd.DataFrame, state_col: str = "state") -> pd.DataFrame:
+    """
+    Adds results['state_usps'] mapped from results[state_col].
+    Keeps only US states/DC (drops territories for the map by default).
+    """
+    out = results.copy()
+    if "state_usps" in out.columns:
+        return out
+
+    s = out[state_col].map(_norm_state) if state_col in out.columns else pd.Series([""] * len(out), index=out.index)
+
+    def _map_one(v: str):
+        if v == "" or v in {"NULL", "N/A", "NA", "UNDEFINED"}:
+            return np.nan
+        if v in STATE_ALIASES:
+            v = STATE_ALIASES[v]
+        # already code
+        if len(v) == 2 and v.isalpha():
+            return v if v in US_STATE_CODES else np.nan  # keep states/DC only for map
+        # full name
+        if v in STATE_NAME_TO_USPS:
+            code = STATE_NAME_TO_USPS[v]
+            return code if code in US_STATE_CODES else np.nan
+        return np.nan
+
+    out["state_usps"] = s.map(_map_one)
+    return out
+
+def state_win_rate_table(results: pd.DataFrame, win_col: str = "Win") -> pd.DataFrame:
+    """
+    Returns per-state counts and win rate (%), using results['state_usps'].
+    """
+    df = results[["state_usps", win_col]].copy()
+    df[win_col] = pd.to_numeric(df[win_col], errors="coerce")
+    df = df.dropna(subset=["state_usps"])
+
+    tbl = (
+        df.groupby("state_usps", dropna=False)[win_col]
+          .agg(n_rows="count", win_rate="mean")
+          .reset_index()
+    )
+    tbl["win_pct"] = 100.0 * tbl["win_rate"]
+    return tbl.sort_values("n_rows", ascending=False)
+
+def plot_state_win_rate_map(results: pd.DataFrame, outdir: Path, min_n: int = 50):
+    """
+    Saves:
+      - state_win_rate_map.html (always)
+      - state_win_rate_map.png (if kaleido is installed)
+    """
+    outdir = Path(outdir)
+    outdir.mkdir(parents=True, exist_ok=True)
+
+    try:
+        import plotly.express as px
+    except ImportError:
+        print("[viz] plotly not installed; skipping state map.")
+        return None
+
+    if "state_usps" not in results.columns:
+        raise ValueError("results must contain 'state_usps' (call add_state_usps first).")
+    if "Win" not in results.columns:
+        raise ValueError("results must contain 'Win' (0/1).")
+
+    tbl = state_win_rate_table(results, win_col="Win")
+    tbl = tbl[tbl["n_rows"] >= min_n].copy()
+
+    fig = px.choropleth(
+        tbl,
+        locations="state_usps",
+        locationmode="USA-states",
+        color="win_pct",
+        scope="usa",
+        hover_data={"state_usps": True, "n_rows": True, "win_pct": ":.1f"},
+        labels={"win_pct": "Win rate (%)"},
+        title=f"Observed Win Rate by State (n ≥ {min_n})"
+    )
+
+    # save HTML (works everywhere)
+    html_path = outdir / "state_win_rate_map.html"
+    fig.write_html(str(html_path))
+
+    # try to save PNG (requires kaleido)
+    png_path = outdir / "state_win_rate_map.png"
+    try:
+        fig.write_image(str(png_path), scale=2)
+    except Exception:
+        print("[viz] PNG export requires kaleido. HTML saved at:", html_path)
+
+    return fig
+
+
 def plot_score_hist_by_class(y_true, proba, threshold, savepath=None):
     fig = plt.figure()
     proba = np.asarray(proba)
@@ -433,8 +806,18 @@ def make_all_plots(
     
     plot_bucket_calibration(results, "viability_bucket_model", savepath=f"{outdir}/bucket_calibration_model.png")
     
-    
+        # 9) Win rate by state map
+    if "state" in results.columns and "Win" in results.columns:
+        results_with_state = add_state_usps(results, state_col="state")
+        plot_state_win_rate_map(results_with_state, Path(outdir), min_n=50)
 
+
+        # NEW: better coefficient visuals
+    plot_diverging_top_features(imp, top_each=10, savepath=f"{outdir}/coef_diverging_top10_each.png")
+    plot_odds_ratio_dotplot(imp, top_n=20, savepath=f"{outdir}/coef_odds_ratio_top20.png")
+    plot_grouped_small_multiples(imp, per_group=10, savepath=f"{outdir}/coef_small_multiples_by_domain.png")
+    plot_top_features_stability(imp, top_n=20, savepath=f"{outdir}/coef_stability_top20.png")
+    plot_structural_vs_state_effects(imp, top_struct=12, top_states=8, savepath=f"{outdir}/coef_structural_vs_states.png")
     # Close figures to avoid memory accumulation in notebooks
     plt.close("all")
 
