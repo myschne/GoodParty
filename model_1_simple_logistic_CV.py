@@ -4,13 +4,19 @@ from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.pipeline import Pipeline
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import roc_auc_score, classification_report, confusion_matrix
-import numpy as np
+from sklearn.metrics import roc_auc_score, classification_report, confusion_matrix, precision_score, recall_score, f1_score, accuracy_score
 from sklearn.impute import SimpleImputer
+import numpy as np
 import matplotlib.pyplot as plt
-from sklearn.metrics import precision_score, recall_score, f1_score
 import re
+import mlflow
+import mlflow.sklearn
 
+# =============================================================================
+#                                    INPUTS
+# =============================================================================
+
+# Threshold for converting probabilities to binary predictions
 THRESHOLD = 0.55
 
 FOLD_PATHS = [
@@ -21,26 +27,41 @@ FOLD_PATHS = [
     "Queries/Individual_Candidate_Query_5.csv",
 ]
 
+# Columns to drop from feature set (target and identifiers, plus redundant info)
 DROP_COLS = [
+    # Outcome Columns
     "Win",
     "general_election_result",
     "general_votes_received",
     "total_general_votes_cast",
+
+    # Identifier
+    "hubspot_id",
+
+    # Previous Model Scores
     "viability_score_mean",
     "viability_score_max",
-    "election_date",
-    "latest_outreach",
-    "election_year",
-    "election_dow",
-    "hubspot_id",
-    "office_level",
-    "state",
-    "number_of_opponents",
-    "most_common_outreach_type",
-    "incumbent",
-    "open_seat",
-    "seats_available",
+    
+    # Re-Engineered Features
+    "election_date", 
+    "latest_outreach", # -> days since outreach
+    "election_year", # -> is_presidential, is_midterm
+    "election_dow", # -> changed to categorical dummies
+    "office_level", # -> office_level_cleaned
+    "state", # -> state_usps (two letter code)
+    "number_of_opponents", # -> number_of_opponents_num
+    "incumbent", # -> incumbency_status (3 state variable)
+    "open_seat", # -> incumbency_status (3 state variable)
+    "seats_available", # -> number_avail_seats
+
+    # Not included at the moment
+    "most_common_outreach_type" # Only includes (text) types
+    
 ]
+
+# =========================================================================================
+#                                        HELPER FUNCTIONS
+# =========================================================================================
 
 # -----------------------
 # Viability (0–5) + bucket labels (1–5 categories)
@@ -48,9 +69,11 @@ DROP_COLS = [
 VIAB_LABELS = ["No Chance", "Unlikely to Win", "Has a Chance", "Likely to Win", "Frontrunner"]
 
 def proba_to_viability_score(proba: np.ndarray) -> np.ndarray:
+    """Scale probability to a 0-5 viability score."""
     return 5.0 * proba
 
 def viability_score_to_bucket(v: np.ndarray) -> pd.Categorical:
+    """Convert a continuous viability score to 1–5 categorical buckets."""
     return pd.cut(
         v,
         bins=[0, 1, 2, 3, 4, 5],
@@ -60,10 +83,10 @@ def viability_score_to_bucket(v: np.ndarray) -> pd.Categorical:
     )
 
 # -----------------------
-# Preprocessing function (feature engineering)
+# Preprocessing functions (feature engineering): normalize and categorize office level
 # -----------------------
-
 def norm_office_level(x):
+    """Standardize office_level strings: lowercase, strip spaces, remove punctuation."""
     if pd.isna(x):
         return ""
     s = str(x).strip().lower()
@@ -71,7 +94,7 @@ def norm_office_level(x):
     s = re.sub(r"[^\w\s-]", "", s)             # drop punctuation, keep hyphen
     return s
 
-# 2) mapping to canonical buckets
+# mapping to buckets
 OFFICE_LEVEL_MAP = {
     # null-ish / junk
     "": np.nan,
@@ -105,26 +128,27 @@ OFFICE_LEVEL_MAP = {
 }
 
 def clean_office_level(series: pd.Series) -> pd.Series:
+    """Clean office_level column: normalize, map to categories, fallback rules."""
     s = series.map(norm_office_level)
 
     # direct map first
     out = s.map(OFFICE_LEVEL_MAP)
 
-    # 3) fallback rules for anything not caught by exact mapping
+    # fallback rules for anything not caught by exact mapping
     # (handles unexpected variants like "Federal Senate", "City Council", etc.)
     still = out.isna() & s.notna() & (s != "")
     out.loc[still & s.str.contains(r"\bfederal\b|\bpresident\b", regex=True)] = "federal"
     out.loc[still & s.str.contains(r"\bstate\b|\bstatewide\b|\blegisl", regex=True)] = "state"
     out.loc[still & s.str.contains(r"\blocal\b|\bcity\b|\bmunicipal\b|\bcounty\b|\btown\b|\btownship\b|\bregional\b", regex=True)] = "local"
 
-    # anything remaining -> other (or pd.NA)
+    # anything remaining -> other
     out = out.fillna("other")
-
+    
     return out.astype("category")
 
 
 # -----------------------
-# State -> USPS + Region
+# State cleaning and region mapping
 # -----------------------
 
 US_STATE_CODES = {
@@ -145,6 +169,7 @@ STATE_NAME_TO_USPS = {
     "NORTH CAROLINA":"NC","NORTH DAKOTA":"ND","OHIO":"OH","OKLAHOMA":"OK","OREGON":"OR","PENNSYLVANIA":"PA",
     "RHODE ISLAND":"RI","SOUTH CAROLINA":"SC","SOUTH DAKOTA":"SD","TENNESSEE":"TN","TEXAS":"TX","UTAH":"UT",
     "VERMONT":"VT","VIRGINIA":"VA","WASHINGTON":"WA","WEST VIRGINIA":"WV","WISCONSIN":"WI","WYOMING":"WY",
+
     # Territories (if present as names)
     "AMERICAN SAMOA":"AS","GUAM":"GU","NORTHERN MARIANA ISLANDS":"MP","PUERTO RICO":"PR",
     "VIRGIN ISLANDS":"VI","U.S. VIRGIN ISLANDS":"VI","PALAU":"PW",
@@ -156,7 +181,7 @@ STATE_ALIASES = {
     "WASHINGTON DC": "DC",
     "WASHINGTON D.C.": "DC",
     "DISTRICT OF COLUMBIA": "DC",
-    # add more if you discover them
+    # add more if discovered
 }
 
 REGION_MAP = {
@@ -166,6 +191,7 @@ REGION_MAP = {
     "WEST":      {"AZ","CO","ID","MT","NV","NM","UT","WY","AK","CA","HI","OR","WA"},
 }
 def norm_state(x) -> str:
+    """Normalize state string: uppercase, remove periods, collapse whitespace."""
     if pd.isna(x):
         return ""
     s = str(x).strip()
@@ -178,29 +204,29 @@ def norm_state(x) -> str:
 def clean_state_to_usps(series: pd.Series, keep_only_us_territories: bool = True) -> pd.Series:
     """
     Returns USPS code for US states/DC/territories.
-    If keep_only_us_territories=True, anything else becomes pd.NA.
+    If keep_only_us_territories=True, anything else becomes "Unknown"
     """
     s = series.map(norm_state)
 
     def _map_one(val: str):
         if val == "" or val in {"NULL", "N/A", "NA", "UNDEFINED"}:
-            return np.nan
+            return "Unknown"
 
         # direct alias (typos/variants)
         if val in STATE_ALIASES:
             code = STATE_ALIASES[val]
-            return code if code in US_CODES_ALL else np.nan
+            return code if code in US_CODES_ALL else "Unknown"
 
         # if it's already a code, only accept if it's a real US code
         if len(val) == 2 and val.isalpha():
-            return val if val in US_CODES_ALL else (np.nan if keep_only_us_territories else val)
+            return val if val in US_CODES_ALL else ("Unknown" if keep_only_us_territories else val)
 
         # full name to code
         if val in STATE_NAME_TO_USPS:
             return STATE_NAME_TO_USPS[val]
 
         # otherwise: non-US or unmapped
-        return np.nan if keep_only_us_territories else val
+        return "Unknown" if keep_only_us_territories else val
 
     out = s.map(_map_one).astype("string")
     return out.astype("category")
@@ -210,39 +236,56 @@ def state_usps_to_region(state_usps: pd.Series) -> pd.Series:
     Maps USPS -> {NORTHEAST, MIDWEST, SOUTH, WEST, TERRITORY, UNKNOWN}.
     """
     def _region(code):
-        if pd.isna(code) or str(code).strip() == "":
-            return "Unknown"
+        if pd.isna(code) or str(code).strip() == "" or str(code).strip() == "Unknown":
+            return "UNKNOWN"
         c = str(code)
         if c in US_TERRITORY_CODES:
             return "TERRITORY"
         for region, codes in REGION_MAP.items():
             if c in codes:
                 return region
-        return "OTHER_US"
+        return "UNKNOWN"
 
     return state_usps.map(_region).astype("category")
 
 
+# -----------------------
+# Prep Function
+# -----------------------
+
 def prep(df: pd.DataFrame):
-    # target
+    """
+    Prepare dataframe for modeling:
+    - feature engineering (dates, incumbency, office_level, state/region)
+    - convert to numeric and categorical features
+    - separate X/y
+    """
+
     df = df.copy()
-    #df["Win"] = (df["general_election_result"] == "Won General").astype(int)
+
+    # Convert dates
     df["election_date"] = pd.to_datetime(df["election_date"], errors="coerce")
     df["latest_outreach"] = pd.to_datetime(df["latest_outreach"], errors="coerce")
 
-    # simple components
+    # Election date features
     df["election_year"]  = df["election_date"].dt.year
     df["election_month"] = df["election_date"].dt.month
     df["is_midterm"] = ((df["election_year"] % 4 != 0) & (df["election_year"] % 2 == 0)).astype(int)
     df["is_presidential"] = (df["election_year"] % 4 == 0).astype(int)
     delta_days = (df["election_date"] - df["latest_outreach"]).dt.days
+
+    # Days between last outreach and election
     df["days_between_outreach_and_election"] = delta_days.fillna(99999).astype("Int64")
+
+    # Is normal election? (Nov, first Tuesday)
     df["is_normal_election"] = (
         (df["election_date"].dt.month == 11) &
         (df["election_date"].dt.dayofweek == 1) &   # Monday=0, Tuesday=1u, ...
         (df["election_date"].dt.day.between(2, 8))
     ).astype(int)
-    #Make dow categorical
+
+
+    # Election day-of-week dummies
     names = ["mon","tue","wed","thu","fri","sat","sun"]
     doy_dummies = pd.get_dummies(
         df["election_date"].dt.day_name().str[:3].str.lower(),
@@ -252,21 +295,23 @@ def prep(df: pd.DataFrame):
 
     df = pd.concat([df, doy_dummies], axis=1)
 
+    # Office level cleaning
     df["office_level_clean"] = clean_office_level(df["office_level"])
 
-      #state + region ---
+    # State + region
     df["state_usps"] = clean_state_to_usps(df["state"], keep_only_us_territories=True).astype("object")
     df["region"] = state_usps_to_region(df["state_usps"]).astype("object")
 
+    # Number of available seats
     df["number_avail_seats"] = pd.to_numeric(df["seats_available"].replace({"null": np.nan, 0E-10 : 0}), errors="coerce")
-    df["state_usps"] = df["state_usps"].astype(object).replace({pd.NA: "Unknown"})
-    df["region"] = df["region"].astype(object).replace({pd.NA: "Unknown"})
     df["number_of_opponents_num"] = pd.to_numeric(df["number_of_opponents"].replace({"10+": 10, "null": np.nan}), errors="coerce")
     df["candidates - available seats"] = (df["number_of_opponents_num"] - df["number_avail_seats"] + 1).astype("Int64")
+
+    # Fill empty strings for all object/string columns (redundant)
     str_cols = df.select_dtypes(include=["object", "string"]).columns
     df[str_cols] = df[str_cols].replace(r"^\s*$", "Unknown", regex=True)
 
-    #incumbency status
+    # Incumbency status feature
     df["incumbency_status"] = np.select(
     [
         df["incumbent"] == 1,
@@ -276,15 +321,20 @@ def prep(df: pd.DataFrame):
     ["is incumbent", "is challenger", "open seat"],
     default="Unknown"
 )
-    
+
+    # Define target and features
     y = df["Win"].astype(int)
     X = df.drop(columns=DROP_COLS, errors="ignore")
 
     return X, y
 
 
+# =================================================================================================
+#                                      PULL IN AND CLEAN DATA
+# =================================================================================================
+
 # -----------------------
-# Define pipelines ONCE (reused each fold)
+# Pipelines for preprocessing numeric and categorical features
 # -----------------------
 numeric_pipe = Pipeline([
     ("imputer", SimpleImputer(strategy="median")),
@@ -297,11 +347,13 @@ categorical_pipe = Pipeline([
 ])
 
 # -----------------------
-# Load folds
+# Fold-based cross-validation
 # -----------------------
 fold_dfs = [pd.read_csv(p) for p in FOLD_PATHS]
 
-# normalize ids
+# -----------------------
+# Check for overlap of hubspot_id across folds
+# -----------------------
 fold_sets = [
     set(df["hubspot_id"].astype(str).str.strip())
     for df in fold_dfs
@@ -317,8 +369,12 @@ for i in range(len(fold_sets)):
 print("Total cross-fold hubspot_id overlap:", total_overlap)
 
 
+# =====================================================================================
+#                                     BUILD MODEL
+# =====================================================================================
+
 # -----------------------
-# Batch-as-fold CV
+# Batch-as-fold CV training & evaluation
 # -----------------------
 K = len(fold_dfs)
 fold_aucs = []
@@ -335,7 +391,6 @@ for k in range(K):
     X_train, y_train = prep(train_df)
     X_test,  y_test  = prep(test_df)
 
-    # IMPORTANT: compute column lists from THIS fold's training data
     num_cols = X_train.select_dtypes(include=["number"]).columns
     cat_cols = X_train.select_dtypes(exclude=["number"]).columns
 
@@ -351,44 +406,38 @@ for k in range(K):
 
     clf.fit(X_train, y_train)
 
-    # ---- collect per-fold feature importances (coef) ----
+    # Store feature coefficients per fold
     pre = clf.named_steps["preprocess"]
     model = clf.named_steps["model"]
 
-    # numeric feature names
     num_names = list(pre.named_transformers_["num"].feature_names_in_) \
         if hasattr(pre.named_transformers_["num"], "feature_names_in_") else list(num_cols)
-
-    # categorical feature names after one-hot
+    
     ohe = pre.named_transformers_["cat"].named_steps["onehot"]
     cat_names = ohe.get_feature_names_out(cat_cols)
-
     feature_names = np.r_[num_names, cat_names]
     coefs = model.coef_.ravel()
 
     coef_series_list.append(pd.Series(coefs, index=feature_names, name=f"fold_{k}"))
 
+    # Predict & evaluate
     proba = clf.predict_proba(X_test)[:, 1]
     auc = roc_auc_score(y_test, proba)
     fold_aucs.append(auc)
-
     pred = (proba >= THRESHOLD).astype(int)
     cm = confusion_matrix(y_test, pred)
-
     print(f"\nFold {k+1}/{K} ROC-AUC: {auc:.4f}")
     print("Confusion matrix:\n", cm)
 
     y_all.append(y_test.to_numpy())
     proba_all.append(proba)
-
-    # attach predictions back to the original (un-prepped) test rows
     scored = test_df.copy()
     scored["proba_win"] = proba
     scored["pred_win"] = pred
     rows_all.append(scored)
 
 # -----------------------
-# Aggregate metrics
+# Aggregate metrics & feature importance
 # -----------------------
 y_all = np.concatenate(y_all)
 proba_all = np.concatenate(proba_all)
@@ -405,6 +454,9 @@ print("\nPooled ROC-AUC:", roc_auc_score(y_all, proba_all))
 print("Pooled confusion matrix:\n", confusion_matrix(y_all, pred_all))
 print(classification_report(y_all, pred_all))    
 
+# ========================================================================================
+#                                      MODEL INSIGHTS
+# ========================================================================================
 
 # -----------------------
 # Build results dataframe w/ viability (0–5) and 1–5 bucket classification
@@ -413,8 +465,7 @@ results = pd.concat(rows_all, ignore_index=True)
 
 results["viability_score_model"] = proba_to_viability_score(results["proba_win"].to_numpy())
 results["viability_bucket_model"] = viability_score_to_bucket(results["viability_score_model"].to_numpy())
-results["viability_bucket_num"] = results["viability_bucket_model"].cat.codes + 1  # 1..5
-
+results["viability_bucket_num"] = results["viability_bucket_model"].cat.codes + 1  
 print("\nViability bucket distribution (model):")
 print(results["viability_bucket_model"].value_counts(dropna=False))
 
@@ -435,7 +486,9 @@ print(results[[
 # -----------------------
 
 # Original score -> bucket
-results["viability_bucket_orig"] = viability_score_to_bucket(results["viability_score_mean"].to_numpy())
+results["viability_bucket_orig"] = viability_score_to_bucket(
+    pd.to_numeric(results["viability_score_mean"], errors="coerce")
+)
 results["viability_bucket_orig_num"] = results["viability_bucket_orig"].cat.codes + 1  # 1..5
 
 # Crosstab (orig vs model)
@@ -461,13 +514,15 @@ print(results["bucket_distance"].value_counts(dropna=False).sort_index())
 
 print("\nMean bucket distance:", round(float(results["bucket_distance"].mean()), 4))
 
-#compare continuous scores
+# Compare Continuous Scores
 valid = results[["viability_score_mean", "viability_score_model"]].dropna()
 corr = valid["viability_score_mean"].corr(valid["viability_score_model"])
 print("\nCorrelation between original viability_score and model-derived viability_score:", round(float(corr), 4))
 
 
-# ======================== Fold-averaged Feature Importance =========================
+# -----------------------
+# Feature importance aggregation
+# -----------------------
 # Align features across folds (union), fill missing with 0
 coef_df = pd.concat(coef_series_list, axis=1).fillna(0.0)  # rows=features, cols=folds
 
@@ -493,6 +548,9 @@ print(imp.sort_values("mean_coef", ascending=False).head(25)[["mean_coef","std_c
 print("\nTop 25 features pushing toward Win=0 on average:")
 print(imp.sort_values("mean_coef", ascending=True).head(25)[["mean_coef","std_coef","mean_abs_coef","sign_consistency"]].to_string())
 
+# -----------------------
+# Produce Visualizations
+# -----------------------
 from viz_outreach_model_outputs import make_all_plots
 make_all_plots(fold_aucs, y_all, proba_all, THRESHOLD, results, imp, outdir="viz_outputs")
 
