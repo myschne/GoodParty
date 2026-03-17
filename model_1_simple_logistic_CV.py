@@ -18,6 +18,8 @@ import mlflow.sklearn
 
 # Threshold for converting probabilities to binary predictions
 THRESHOLD = 0.55
+alpha = 0.1  # Decay rate for recency weighting (tune as needed)
+MAX_DAYS = 365  # Cap for days between outreach and election to avoid extreme values
 
 FOLD_PATHS = [
     "Queries/Individual_Candidate_Query_1.csv",
@@ -53,6 +55,7 @@ DROP_COLS = [
     "incumbent", # -> incumbency_status (3 state variable)
     "open_seat", # -> incumbency_status (3 state variable)
     "seats_available", # -> number_avail_seats
+    "days_between_outreach_and_election", # -> recency_weighted_days, recency_election_interaction
 
     # Not included at the moment
     "most_common_outreach_type" # Only includes (text) types
@@ -275,7 +278,16 @@ def prep(df: pd.DataFrame):
     delta_days = (df["election_date"] - df["latest_outreach"]).dt.days
 
     # Days between last outreach and election
-    df["days_between_outreach_and_election"] = delta_days.fillna(99999).astype("Int64")
+    df["days_between_outreach_and_election"] = (
+    delta_days
+    .fillna(MAX_DAYS)
+    .clip(lower=0, upper=MAX_DAYS)
+    .astype(float)
+)
+    
+    # Recency weight: closer outreach gets higher weight
+    df["recency_weighted_days"] = np.exp(-alpha * df["days_between_outreach_and_election"])
+    df["recency_election_interaction"] = df["n_outreach_rows"] * df["recency_weighted_days"]
 
     # Is normal election? (Nov, first Tuesday)
     df["is_normal_election"] = (
