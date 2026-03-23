@@ -7,7 +7,10 @@ scikit-learn pipeline. It provides separate loaders for labeled training data
 and scoring data, while keeping query execution logic centralized and reusable.
 """
 
-from sql_query import TRAINING_QUERY, SCORING_QUERY
+from sql_query import TRAINING_QUERY, SCORING_QUERY, TRAINING_MESSAGE_QUERY, SCORING_MESSAGE_QUERY
+import pandas as pd
+import numpy as np
+
 
 def load_training_data(spark):
     """
@@ -33,7 +36,7 @@ def load_training_data(spark):
     - Assumes the query result is small enough to fit in memory, since
       `.toPandas()` collects all rows to the driver.
     """
-    return spark.sql(TRAINING_QUERY).toPandas()
+    return spark.sql(TRAINING_MESSAGE_QUERY).toPandas()
 
 def load_scoring_data(spark):
     """
@@ -59,4 +62,4 @@ def load_scoring_data(spark):
     - Assumes the query result is small enough to fit in memory, since
       `.toPandas()` collects all rows to the driver.
     """
-    return spark.sql(SCORING_QUERY).toPandas()
+    return spark.sql(SCORING_MESSAGE_QUERY).toPandas()

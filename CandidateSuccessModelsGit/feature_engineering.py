@@ -209,8 +209,6 @@ def state_usps_to_region(state_usps: pd.Series) -> pd.Series:
 
     return state_usps.map(_region).astype("category")
 
-
-
 def build_features(df: pd.DataFrame) -> pd.DataFrame:
     """
     Create engineered modeling features from the raw candidate-level dataset.
@@ -386,8 +384,83 @@ def build_features(df: pd.DataFrame) -> pd.DataFrame:
         ["is incumbent", "is challenger", "open seat"],
         default="Unknown"
     )
+    # -----------------------------------------------------
+    # Squared features
+    # -----------------------------------------------------
+
+    squared_features = [
+        "days_between_outreach_and_election",
+        "n_outreach_rows",
+        "number_of_opponents_num",
+        "competitiveness",
+    ]
+
+    for col in squared_features:
+        if col in df.columns:
+            df[f"{col}_sq"] = pd.to_numeric(df[col], errors="coerce") ** 2
 
     return df
+
+def aggregate_message_level_data(df: pd.DataFrame, training: bool = True) -> pd.DataFrame:
+    df = df.copy()
+
+    df["hubspot_id"] = df["hubspot_id"].fillna("Unknown").astype(str).str.strip()
+    df["election_date"] = pd.to_datetime(df["election_date"], errors="coerce")
+    df["outreach_date"] = pd.to_datetime(df["outreach_date"], errors="coerce")
+
+    df["valid_outreach_date"] = df["outreach_date"].where(
+        df["outreach_date"] <= df["election_date"]
+    )
+
+    group_cols = ["hubspot_id", "election_date"]
+
+    out = (
+        df.groupby(group_cols, dropna=False)
+        .agg(
+            state=("state", "first"),
+            office_level=("office_level", "first"),
+            office_type=("office_type", "first"),
+            open_seat=("open_seat", "first"),
+            incumbent=("incumbent", "first"),
+            number_of_opponents=("number_of_opponents", "first"),
+            partisan_type=("partisan_type", "first"),
+            seats_available=("seats_available", "max"),
+            viability_score_mean=("viability_score", "mean"),
+            viability_score_max=("valid_outreach_date", "max"),
+            latest_outreach=("outreach_date", "max"),
+            n_outreach_rows=("hubspot_id", "size"),
+            score_theme_trust_pct=("score_theme_trust_pct", "first"),
+            score_theme_hope_pct=("score_theme_hope_pct", "first"),
+            score_theme_fear_pct=("score_theme_fear_pct", "first"),
+            score_theme_anger_pct=("score_theme_anger_pct", "first"),
+            score_candidate_authenticity=("score_candidate_authenticity", "first"),
+            score_perspective_candidate_avg=("score_perspective_candidate_avg", "first"),
+            score_perspective_voter_avg=("score_perspective_voter_avg", "first"),
+            **({"Win": ("Win", "max")} if training else {})
+        )
+        .reset_index()
+    )
+
+    type_counts = (
+        df.loc[df["outreach_type"].notna() & (df["outreach_type"].astype(str).str.strip() != "")]
+        .groupby(group_cols + ["outreach_type"], dropna=False)
+        .size()
+        .reset_index(name="n")
+    )
+
+    most_common_type = (
+        type_counts.sort_values(
+            ["hubspot_id", "election_date", "n", "outreach_type"],
+            ascending=[True, True, False, True]
+        )
+        .drop_duplicates(group_cols)
+        .rename(columns={"outreach_type": "most_common_outreach_type"})
+        [group_cols + ["most_common_outreach_type"]]
+    )
+
+    out = out.merge(most_common_type, on=group_cols, how="left")
+
+    return out
 
 
 def split_X_y(df: pd.DataFrame, target_col: str = "Win"):

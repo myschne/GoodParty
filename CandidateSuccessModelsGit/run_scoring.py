@@ -30,6 +30,9 @@ from config import (
     MODEL_CONFIGS,
 )
 
+from sentiment import add_message_level_text_features
+from feature_engineering import aggregate_message_level_data
+
 
 # =========================================================
 # Configuration
@@ -168,7 +171,11 @@ def main(spark, model_name):
 
     # 1) Load current scoring data from Spark
     score_df = load_scoring_data(spark)
-    print(f"Loaded {len(score_df)} rows for scoring.")
+    print(f"Loaded {len(score_df)} raw rows for scoring.")
+
+    score_df = add_message_level_text_features(score_df)
+    score_df = aggregate_message_level_data(score_df, training=False)
+    print(f"Loaded {len(score_df)} aggregated rows for scoring.")
 
     # 2) Load trained model from MLflow
     model = mlflow.sklearn.load_model(model_uri)

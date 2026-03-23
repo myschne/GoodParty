@@ -173,3 +173,128 @@ def extract_model_importance(clf, num_cols, cat_cols, fold_name):
         return pd.Series(model.feature_importances_, index=feature_names, name=fold_name)
 
     return None
+
+def build_feature_catalog(clf, X, model_name, model_type, importance_df=None):
+    """
+    Build a feature catalog for the fitted model, including:
+    - raw input features before preprocessing
+    - transformed features actually seen by the estimator
+    - feature types
+    - importance / coefficient values when available
+    """
+    pre = clf.named_steps["preprocess"]
+    model = clf.named_steps["model"]
+
+    # Raw input feature types from X
+    raw_num_cols = X.select_dtypes(include=["number"]).columns.tolist()
+    raw_cat_cols = X.select_dtypes(exclude=["number"]).columns.tolist()
+
+    raw_rows = []
+    for col in raw_num_cols:
+        raw_rows.append({
+            "model_name": model_name,
+            "model_type": model_type,
+            "feature_stage": "raw_model_input",
+            "feature_name": col,
+            "source_feature": col,
+            "value_type": "numeric",
+            "importance": None,
+            "importance_abs": None,
+            "importance_kind": "not_available",
+        })
+
+    for col in raw_cat_cols:
+        raw_rows.append({
+            "model_name": model_name,
+            "model_type": model_type,
+            "feature_stage": "raw_model_input",
+            "feature_name": col,
+            "source_feature": col,
+            "value_type": "categorical",
+            "importance": None,
+            "importance_abs": None,
+            "importance_kind": "not_available",
+        })
+
+    # Transformed feature names
+    ohe = pre.named_transformers_["cat"].named_steps["onehot"]
+    cat_feature_names = ohe.get_feature_names_out(raw_cat_cols).tolist()
+    transformed_feature_names = raw_num_cols + cat_feature_names
+
+    transformed_rows = []
+
+    # Numeric transformed features
+    for col in raw_num_cols:
+        transformed_rows.append({
+            "model_name": model_name,
+            "model_type": model_type,
+            "feature_stage": "transformed_model_input",
+            "feature_name": col,
+            "source_feature": col,
+            "value_type": "numeric",
+            "importance": None,
+            "importance_abs": None,
+            "importance_kind": "not_available",
+        })
+
+    # One-hot encoded categorical transformed features
+    for feat in cat_feature_names:
+        source_col = None
+        for c in raw_cat_cols:
+            prefix = f"{c}_"
+            if feat.startswith(prefix):
+                source_col = c
+                break
+
+        transformed_rows.append({
+            "model_name": model_name,
+            "model_type": model_type,
+            "feature_stage": "transformed_model_input",
+            "feature_name": feat,
+            "source_feature": source_col,
+            "value_type": "onehot_encoded_categorical",
+            "importance": None,
+            "importance_abs": None,
+            "importance_kind": "not_available",
+        })
+
+    out = pd.DataFrame(transformed_rows)
+
+    # Attach importance if available
+    if importance_df is not None and not importance_df.empty:
+        imp = importance_df.copy().reset_index().rename(columns={"index": "feature_name"})
+
+        if "mean_importance" in imp.columns:
+            imp["importance"] = imp["mean_importance"]
+            imp["importance_abs"] = imp.get("mean_abs_importance", imp["importance"].abs())
+            imp["importance_kind"] = "coefficient"
+        elif "mean_abs_importance" in imp.columns:
+            # defensive fallback
+            imp["importance"] = imp["mean_abs_importance"]
+            imp["importance_abs"] = imp["mean_abs_importance"]
+            imp["importance_kind"] = "feature_importance"
+        else:
+            imp["importance"] = None
+            imp["importance_abs"] = None
+            imp["importance_kind"] = "not_available"
+
+        # For tree models, aggregated importance may already be in mean_importance too,
+        # so use model family to label it more clearly.
+        if model_type in {"random_forest", "xgboost"}:
+            imp["importance_kind"] = "feature_importance"
+
+        out = out.merge(
+            imp[["feature_name", "importance", "importance_abs", "importance_kind"]],
+            on="feature_name",
+            how="left",
+            suffixes=("", "_imp"),
+        )
+
+        # fill from merged columns where applicable
+        for col in ["importance", "importance_abs", "importance_kind"]:
+            imp_col = f"{col}_imp"
+            if imp_col in out.columns:
+                out[col] = out[imp_col].combine_first(out[col])
+                out = out.drop(columns=[imp_col])
+
+    return out

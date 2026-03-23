@@ -16,6 +16,8 @@ import mlflow
 import mlflow.sklearn
 from mlflow.models import infer_signature
 from mlflow.tracking import MlflowClient
+from sentiment import add_message_level_text_features
+
 
 from config import (
     THRESHOLD,
@@ -30,8 +32,12 @@ from config import (
 )
 from load_data import load_training_data
 from cv import make_group_folds
-from feature_engineering import split_X_y
-from modeling import make_model_pipeline, extract_model_importance
+from feature_engineering import split_X_y, aggregate_message_level_data
+from modeling import (
+    make_model_pipeline,
+    extract_model_importance,
+    build_feature_catalog,
+)
 from evaluation import (
     compute_fold_metrics,
     compute_pooled_metrics,
@@ -445,3 +451,26 @@ def log_and_register_model(
     )
 
     return model_info.model_uri
+
+def get_feature_catalog_table_name(model_name: str) -> str:
+    return f"{UC_CATALOG}.{UC_SCHEMA}.{model_name}_feature_catalog"
+
+
+def write_feature_catalog_to_uc(spark, feature_catalog_df, model_name):
+    """
+    Write model feature catalog / importance table to Unity Catalog.
+    """
+    output_table = get_feature_catalog_table_name(model_name)
+
+    df = feature_catalog_df.copy()
+
+    # Force stable numeric schema for Delta / Spark
+    for col in ["importance", "importance_abs"]:
+        if col in df.columns:
+            df[col] = pd.to_numeric(df[col], errors="coerce").astype("float64")
+
+    spark_df = spark.createDataFrame(df)
+    spark_df.write.mode("overwrite").option("overwriteSchema", "true").saveAsTable(output_table)
+
+    print(f"Wrote feature catalog table to: {output_table}")
+    return output_table

@@ -39,7 +39,7 @@ EXPERIMENT_PATH = "/Shared/CandidateSuccessModels"
 # Example:
 # - predicted probability >= 0.55 -> predict Win = 1
 # - predicted probability <  0.55 -> predict Win = 0
-THRESHOLD = 0.55
+THRESHOLD = 0.8
 
 # Exponential decay rate for outreach recency weighting.
 # Higher values would place more weight on recent outreach
@@ -134,6 +134,13 @@ MODEL_CONFIGS = {
 
             # Random seed for reproducibility
             "random_state": RANDOM_STATE,
+
+            # Inverse regularization strength
+            # Smaller C = stronger regularization
+            "C": 0.1,
+
+            #More weight to the minority class and less weight to the majority class.
+            "class_weight": "balanced",
         },
     },
 
@@ -151,7 +158,7 @@ MODEL_CONFIGS = {
 
             # Mix between L1 and L2 regularization
             # 0.0 = pure L2, 1.0 = pure L1
-            "l1_ratio": 0.5,
+            "l1_ratio": 0.2,
 
             # Inverse regularization strength
             # Smaller C = stronger regularization
@@ -162,6 +169,7 @@ MODEL_CONFIGS = {
 
             # Random seed for reproducibility
             "random_state": RANDOM_STATE,
+
         },
     },
     "random_forest": {
@@ -195,17 +203,34 @@ MODEL_CONFIGS = {
     },
 
     "xgboost": {
+        # XGBoost classifier
+        # Gradient-boosted trees are useful for capturing nonlinear
+        # relationships and feature interactions with strong predictive performance.
         "type": "xgboost",
         "params": {
-            "n_estimators": 300,
-            "max_depth": 4,
-            "learning_rate": 0.05,
+            # Number of boosting rounds / trees
+            "n_estimators": 200,
+            # Maximum depth of each tree
+            # Higher values increase model complexity
+            "max_depth": 6,
+            # Step size shrinkage applied at each boosting round
+            # Smaller values are more conservative and often require more trees
+            "learning_rate": 0.03,
+            # Fraction of training rows sampled for each tree
+            # Helps reduce overfitting
             "subsample": 0.8,
+            # Fraction of features sampled for each tree
+            # Helps reduce overfitting and improve generalization
             "colsample_bytree": 0.8,
-            "reg_alpha": 0.0,
+            # L1 regularization strength on leaf weights
+            "reg_alpha": 0.1,
+            # L2 regularization strength on leaf weights
             "reg_lambda": 1.0,
+             # Random seed for reproducibility
             "random_state": RANDOM_STATE,
+            # Use all available CPU cores
             "n_jobs": -1,
+            # Evaluation metric for binary classification training
             "eval_metric": "logloss",
         },
     },
@@ -284,6 +309,7 @@ DROP_COLS = [
     "days_between_outreach_and_election", # -> recency_weighted_days, recency_election_interaction
     "number_avail_seats", # -> competitiveness
     "number_of_opponents_num", # -> competitiveness
+    "script" # -> sentiment features
     
     # Not included at the moment
     # Excluded for now because we were not given access to

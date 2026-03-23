@@ -33,7 +33,13 @@ from training_pipeline import (
     summarize_feature_importance,
     fit_final_model,
     log_and_register_model,
+    write_feature_catalog_to_uc
 )
+from modeling import build_feature_catalog
+
+from sentiment import add_message_level_text_features
+from feature_engineering import aggregate_message_level_data
+
 
 # =========================================================
 # Configuration
@@ -77,7 +83,14 @@ def main(spark, model_name=None):
     print(f"Model params: {model_params}")
 
     full_df = load_training_data(spark).copy()
-    print(f"Loaded training rows: {len(full_df)}")
+    print(f"Loaded raw training rows: {len(full_df)}")
+
+    # message-level -> text features -> candidate-election level
+    full_df = add_message_level_text_features(full_df)
+    full_df = aggregate_message_level_data(full_df, training=True)
+
+    print(f"Aggregated training rows: {len(full_df)}")
+    print(full_df.columns.tolist())
 
     cv_outputs = run_cross_validation(full_df, model_type, model_params)
     fold_aucs = [m["roc_auc"] for m in cv_outputs["fold_metrics"]]
@@ -106,6 +119,19 @@ def main(spark, model_name=None):
         fold_aucs=fold_aucs,
         pooled_metrics=cv_outputs["pooled_metrics"],
     )
+    feature_catalog_df = build_feature_catalog(
+        clf=final_model,
+        X=X_full,
+        model_name=model_name,
+        model_type=model_type,
+        importance_df=imp,
+    )
+
+    feature_catalog_table = write_feature_catalog_to_uc(
+        spark=spark,
+        feature_catalog_df=feature_catalog_df,
+        model_name=model_name,
+    )
 
     print("\nFinal model saved at:", model_uri)
 
@@ -132,11 +158,13 @@ def main(spark, model_name=None):
         "interpretation": {
             "feature_importance": imp,
             "importance_method": "aggregate_feature_importance" if not imp.empty else None,
+            "feature_catalog": feature_catalog_df,
         },
         "artifacts": {
             "final_model": final_model,
             "model_uri": model_uri,
             "plot_output_dir": PLOT_OUTPUT_DIR,
+            "feature_catalog_table": feature_catalog_table,
         },
         "diagnostics": {
             "viability_comparison": viability_comparison,
