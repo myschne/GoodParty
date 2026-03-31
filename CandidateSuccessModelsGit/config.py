@@ -339,7 +339,7 @@ DROP_COLS = [
     "days_between_outreach_and_election", # -> recency_weighted_days, recency_election_interaction
     "number_avail_seats", # -> competitiveness
     "number_of_opponents_num", # -> competitiveness
-    "script" # -> sentiment features
+    "script", # -> sentiment features
     
     # Not included at the moment
     # Excluded for now because we were not given access to

@@ -306,6 +306,16 @@ def pretty_feature_name(feature: str) -> str:
         "recency_weighted_days": "Recency weighted outreach",
         "days_between_outreach_and_election": "Days between outreach and election",
         "recency_election_interaction": "Outreach × recency",
+        "n_outreach_rows": "# Outreach rows",
+        "score_theme_trust_pct": "Trust theme %",
+        "score_theme_hope_pct": "Hope theme %",
+        "score_theme_fear_pct": "Fear theme %",
+        "score_theme_anger_pct": "Anger theme %",
+        "score_candidate_authenticity": "Candidate authenticity",
+        "score_perspective_candidate_avg": "Candidate-focused language",
+        "score_perspective_voter_avg": "Voter-focused language",
+        "incumbency_status_": "Incumbency: ",
+        "most_common_outreach_type_": "Outreach type: ",
     }
 
     out = feature
@@ -322,20 +332,42 @@ def _domain_from_feature_name(feature: str) -> str:
     """
     f = str(feature).lower()
 
-    if any(x in f for x in ["opponent", "seat", "incumb", "competit"]):
+    if any(x in f for x in ["opponent", "seat", "incumb", "competit", "partisan"]):
         return "Race structure"
-    if any(x in f for x in ["office", "federal", "state_", "local", "partisan"]):
+
+    if any(x in f for x in ["office", "federal", "state_", "local"]):
         return "Office"
+
     if any(x in f for x in ["state_usps", "region", "west", "south", "midwest", "northeast", "territory"]):
         return "Geography"
+
     if any(x in f for x in ["election_", "midterm", "presidential", "normal_election", "_dow_"]):
         return "Election timing"
-    if any(x in f for x in ["outreach", "message", "script", "persona", "recency", "days_between"]):
+
+    if any(x in f for x in [
+        "outreach",
+        "recency",
+        "days_between",
+        "n_outreach_rows",
+    ]):
         return "Outreach"
+
     if any(x in f for x in ["general", "runoff", "special", "primary"]):
         return "Election Type"
-    if any(x in f for x in ["sentiment", "angry", "positive", "negative"]):
-        return "Text / sentiment"
+
+    if any(x in f for x in [
+        "score_theme_",
+        "score_candidate_authenticity",
+        "score_perspective_",
+        "trust",
+        "hope",
+        "fear",
+        "anger",
+        "authenticity",
+        "perspective",
+    ]):
+        return "Text / messaging"
+
     return "Other"
 
 
@@ -1018,6 +1050,8 @@ def plot_grouped_small_multiples(
             "Election timing",
             "Outreach",
             "Election Type",
+            "Text / messaging",
+            "Other",
         ]
         if d in df["domain"].unique()
     ]

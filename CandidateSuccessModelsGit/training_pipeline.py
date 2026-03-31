@@ -16,7 +16,6 @@ import mlflow
 import mlflow.sklearn
 from mlflow.models import infer_signature
 from mlflow.tracking import MlflowClient
-from sentiment import add_message_level_text_features
 
 
 from config import (
@@ -30,9 +29,9 @@ from config import (
     UC_SCHEMA,
     EXPERIMENT_PATH,
 )
-from load_data import load_training_data
+
 from cv import make_group_folds
-from feature_engineering import split_X_y, aggregate_message_level_data
+from feature_engineering import split_X_y
 from modeling import (
     make_model_pipeline,
     extract_model_importance,
@@ -49,10 +48,7 @@ from evaluation import (
 )
 
 from mlflow_utils import (
-    ensure_experiment,
     get_registered_model_name,
-    validate_model_config,
-    parse_args,
 )
 
 # =========================================================

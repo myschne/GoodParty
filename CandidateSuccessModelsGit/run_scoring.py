@@ -15,7 +15,6 @@ from model training. It assumes a trained model has already been registered
 in MLflow and assigned the alias specified in config.py.
 """
 
-import argparse
 import mlflow
 import mlflow.sklearn
 from pyspark.sql import functions as F
@@ -23,11 +22,9 @@ from pyspark.sql import functions as F
 from load_data import load_scoring_data
 from scoring import score_candidates
 from config import (
-    MODEL_NAME as DEFAULT_MODEL_NAME,
     UC_CATALOG,
     UC_SCHEMA,
     MODEL_ALIAS,
-    MODEL_CONFIGS,
 )
 
 from sentiment import add_message_level_text_features
