@@ -249,6 +249,7 @@ def build_features(df: pd.DataFrame) -> pd.DataFrame:
         - number_avail_seats
         - number_of_opponents_num
         - competitiveness
+        - is_partisan
 
     Incumbency features
         - incumbency_status

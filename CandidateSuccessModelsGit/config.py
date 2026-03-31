@@ -73,7 +73,8 @@ MAX_ITER = 2000
 # - "logistic_regression"
 # - "elastic_net_logistic"
 # - "random_forest"
-MODEL_NAME = "xgboost"
+# - "mixture_of_experts"
+MODEL_NAME = "mixture_of_experts"
 
 # Alias assigned to the currently promoted production model
 # in MLflow Model Registry / Unity Catalog.
@@ -82,6 +83,14 @@ MODEL_NAME = "xgboost"
 # scoring code can load models:/<registered_model_name>@champion
 # so that it always uses the currently promoted model version.
 MODEL_ALIAS = "champion"
+
+
+MOE_DEFAULT_EXPERTS = [
+    "logistic_regression",
+    "random_forest",
+    "xgboost",
+    "elastic_net_logistic",
+]
 
 # =========================================================
 # Output paths
@@ -234,6 +243,14 @@ MODEL_CONFIGS = {
             "eval_metric": "logloss",
         },
     },
+    "mixture_of_experts": {
+    "type": "mixture_of_experts",
+    "params": {
+        "expert_model_names": MOE_DEFAULT_EXPERTS,
+        "gate_C": 1.0,
+        "random_state": RANDOM_STATE,
+    },
+},
 }
 
 # =========================================================

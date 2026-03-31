@@ -17,6 +17,7 @@ from sklearn.ensemble import RandomForestClassifier
 import numpy as np
 import pandas as pd
 from xgboost import XGBClassifier
+from mixture_of_experts import MixtureOfExpertsClassifier
 
 
 def build_estimator(model_type, params):
@@ -62,6 +63,8 @@ def build_estimator(model_type, params):
     
     if model_type == "xgboost":
         return XGBClassifier(**params)
+    if model_type == "mixture_of_experts":
+        return MixtureOfExpertsClassifier(**params)
     
     # Add more models here
 
@@ -153,9 +156,14 @@ def extract_model_importance(clf, num_cols, cat_cols, fold_name):
     - coef_ for linear models such as logistic regression
     - feature_importances_ for tree-based models such as random forest
     """
+
     # Pull fitted preprocessing and model steps from the pipeline.
     pre = clf.named_steps["preprocess"]
     model = clf.named_steps["model"]
+
+    # Skip MoE because it does not have one honest global feature-importance vector
+    if model.__class__.__name__ == "MixtureOfExpertsClassifier":
+        return None
 
     # Recover expanded one-hot encoded categorical feature names.
     ohe = pre.named_transformers_["cat"].named_steps["onehot"]

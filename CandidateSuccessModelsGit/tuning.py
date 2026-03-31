@@ -34,6 +34,9 @@ PARAM_GRIDS = {
         "model__reg_alpha": [0.0, 0.1],
         "model__reg_lambda": [1.0, 5.0],
     },
+    "mixture_of_experts": {
+        "model__gate_C": [0.1, 1.0, 5.0],
+    },
 }
 
 

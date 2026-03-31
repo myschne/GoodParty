@@ -64,7 +64,13 @@ def parse_args():
         choices=list(MODEL_CONFIGS.keys()),
         help="Model name to score with",
     )
-    return parser.parse_args()
+
+    args, unknown = parser.parse_known_args()
+
+    if unknown:
+        print(f"Ignoring unknown args: {unknown}")
+
+    return args
 
 
 def get_registered_model_name(model_name: str) -> str:
