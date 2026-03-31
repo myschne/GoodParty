@@ -7,7 +7,7 @@ scikit-learn pipeline. It provides separate loaders for labeled training data
 and scoring data, while keeping query execution logic centralized and reusable.
 """
 
-from sql_query import TRAINING_QUERY, SCORING_QUERY, TRAINING_MESSAGE_QUERY, SCORING_MESSAGE_QUERY
+from sql_query import TRAINING_MESSAGE_QUERY, SCORING_MESSAGE_QUERY
 import pandas as pd
 import numpy as np
 
