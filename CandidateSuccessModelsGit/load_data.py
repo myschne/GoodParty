@@ -16,7 +16,7 @@ def load_training_data(spark):
     """
     Load the model training dataset from Spark SQL into a pandas DataFrame.
 
-    This function executes the predefined `TRAINING_QUERY` against the active
+    This function executes the predefined `TRAINING__MESSAGE_QUERY` against the active
     Spark session and converts the resulting Spark DataFrame to pandas for
     downstream modeling in scikit-learn.
 
@@ -28,7 +28,7 @@ def load_training_data(spark):
     Returns
     -------
     pandas.DataFrame
-        Training dataset returned by `TRAINING_QUERY`.
+        Training dataset returned by `TRAINING_MESSAGE_QUERY`.
 
     Notes
     -----
@@ -42,7 +42,7 @@ def load_scoring_data(spark):
     """
     Load the scoring dataset from Spark SQL into a pandas DataFrame.
 
-    This function executes the predefined `SCORING_QUERY` against the active
+    This function executes the predefined `SCORING_MESSAGE_QUERY` against the active
     Spark session and converts the resulting Spark DataFrame to pandas for
     downstream batch scoring or prediction generation.
 
@@ -54,7 +54,7 @@ def load_scoring_data(spark):
     Returns
     -------
     pandas.DataFrame
-        Scoring dataset returned by `SCORING_QUERY`.
+        Scoring dataset returned by `SCORING_MESSAGE_QUERY`.
 
     Notes
     -----

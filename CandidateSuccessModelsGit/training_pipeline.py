@@ -452,13 +452,49 @@ def log_and_register_model(
 
     return model_info.model_uri
 
+# =========================================================
+# Unity Catalog table helpers
+# =========================================================
+
 def get_feature_catalog_table_name(model_name: str) -> str:
+    """
+    Build the fully qualified Unity Catalog table name for the feature catalog.
+
+    Parameters
+    ----------
+    model_name : str
+        Logical model name used throughout the project.
+
+    Returns
+    -------
+    str
+        Fully qualified table name for storing the model's feature catalog.
+    """
     return f"{UC_CATALOG}.{UC_SCHEMA}.{model_name}_feature_catalog"
 
 
 def write_feature_catalog_to_uc(spark, feature_catalog_df, model_name):
     """
-    Write model feature catalog / importance table to Unity Catalog.
+    Write the model feature catalog to a Unity Catalog table.
+
+    This helper converts the pandas feature catalog into a Spark DataFrame,
+    enforces stable numeric types for importance columns, overwrites the
+    target table, and returns the written table name.
+
+    Parameters
+    ----------
+    spark : SparkSession
+        Active Spark session used to write the table.
+    feature_catalog_df : pandas.DataFrame
+        Feature catalog dataframe describing model inputs and, when available,
+        feature importance values.
+    model_name : str
+        Logical model name used to build the target table name.
+
+    Returns
+    -------
+    str
+        Fully qualified Unity Catalog table name written by this function.
     """
     output_table = get_feature_catalog_table_name(model_name)
 
@@ -475,12 +511,62 @@ def write_feature_catalog_to_uc(spark, feature_catalog_df, model_name):
     print(f"Wrote feature catalog table to: {output_table}")
     return output_table
 
+
 def write_df_to_uc(spark, df, table_name):
+    """
+    Write a pandas DataFrame to a Unity Catalog table.
+
+    This helper provides a generic path for persisting pandas outputs from
+    the training workflow, such as out-of-fold predictions or fold metrics,
+    into overwrite-mode Spark tables.
+
+    Parameters
+    ----------
+    spark : SparkSession
+        Active Spark session used to write the table.
+    df : pandas.DataFrame
+        Dataframe to convert to Spark and persist.
+    table_name : str
+        Fully qualified Unity Catalog table name.
+
+    Returns
+    -------
+    str
+        The table name that was written.
+    """
     spark.createDataFrame(df).write.mode("overwrite").option("overwriteSchema", "true").saveAsTable(table_name)
     return table_name
 
+
 def get_oof_table(model_name):
+    """
+    Build the fully qualified Unity Catalog table name for out-of-fold predictions.
+
+    Parameters
+    ----------
+    model_name : str
+        Logical model name used throughout the project.
+
+    Returns
+    -------
+    str
+        Fully qualified table name for storing out-of-fold prediction outputs.
+    """
     return f"{UC_CATALOG}.{UC_SCHEMA}.{model_name}_oof_predictions"
 
+
 def get_fold_metrics_table(model_name):
+    """
+    Build the fully qualified Unity Catalog table name for fold-level metrics.
+
+    Parameters
+    ----------
+    model_name : str
+        Logical model name used throughout the project.
+
+    Returns
+    -------
+    str
+        Fully qualified table name for storing cross-validation fold metrics.
+    """
     return f"{UC_CATALOG}.{UC_SCHEMA}.{model_name}_fold_metrics"

@@ -56,6 +56,24 @@ mlflow.set_registry_uri("databricks-uc")
 # =========================================================
 
 def summarize_cv_metrics(fold_aucs, cv_outputs):
+    """
+    Print a concise summary of cross-validation performance.
+
+    This helper reports:
+    - fold-level ROC-AUC values
+    - mean and standard deviation of fold ROC-AUC
+    - pooled out-of-fold ROC-AUC
+    - pooled confusion matrix
+    - pooled classification report
+
+    Parameters
+    ----------
+    fold_aucs : list[float]
+        ROC-AUC values computed for each cross-validation fold.
+    cv_outputs : dict
+        Dictionary returned by `run_cross_validation()` containing pooled
+        metrics and other cross-validation outputs.
+    """
     print("\n============================")
     print(f"{N_FOLDS}-Fold CV Summary")
     print("============================")
@@ -72,12 +90,15 @@ def summarize_cv_metrics(fold_aucs, cv_outputs):
 # =========================================================
 
 def main(spark, model_name=None):
+    # Use the configured default model if no override was provided.
     if model_name is None:
         model_name = DEFAULT_MODEL_NAME
-
+    
+    # Ensure the MLflow experiment exists and make it the active run destination.
     experiment_id = ensure_experiment(EXPERIMENT_PATH)
     print(f"Using MLflow experiment_id={experiment_id} at {EXPERIMENT_PATH}")
 
+    # Validate the selected model configuration and unpack its type/parameters.
     model_spec = validate_model_config(model_name)
     model_type = model_spec["type"]
     model_params = model_spec["params"]
@@ -86,9 +107,12 @@ def main(spark, model_name=None):
     print(f"Model type: {model_type}")
     print(f"Model params: {model_params}")
 
+    # Load raw training data from Spark into pandas for downstream sklearn modeling.
     full_df = load_training_data(spark).copy()
     print(f"Loaded raw training rows: {len(full_df)}")
 
+    # Convert message-level outreach data into candidate-election-level rows
+    # after adding text-derived features.
     # message-level -> text features -> candidate-election level
     full_df = add_message_level_text_features(full_df)
     full_df = aggregate_message_level_data(full_df, training=True)
@@ -96,16 +120,23 @@ def main(spark, model_name=None):
     print(f"Aggregated training rows: {len(full_df)}")
     print(full_df.columns.tolist())
 
+    # Run grouped cross-validation to generate fold metrics, pooled metrics,
+    # out-of-fold predictions, and fold-level importance outputs.
     cv_outputs = run_cross_validation(full_df, model_type, model_params)
     fold_aucs = [m["roc_auc"] for m in cv_outputs["fold_metrics"]]
 
+    # Print a concise diagnostic summary of model performance across folds.
     summarize_cv_metrics(fold_aucs, cv_outputs)
 
+    # Build post-CV diagnostics for viability alignment and feature importance.
     results, viability_comparison = summarize_viability(cv_outputs["oof_df"].copy())
     imp = summarize_feature_importance(cv_outputs["importance_series_list"],model_name)
-    os.makedirs(PLOT_OUTPUT_DIR, exist_ok=True)
 
+    # Refit the selected model on the full aggregated training dataset.
     final_model, X_full, _ = fit_final_model(full_df, model_type, model_params)
+
+    # Log the final model and evaluation metadata to MLflow, then register it
+    # in Unity Catalog / Model Registry.
     model_uri = log_and_register_model(
         final_model=final_model,
         X_full=X_full,
@@ -115,6 +146,8 @@ def main(spark, model_name=None):
         fold_aucs=fold_aucs,
         pooled_metrics=cv_outputs["pooled_metrics"],
     )
+
+    # Build a feature catalog describing both raw and transformed model inputs.
     feature_catalog_df = build_feature_catalog(
         clf=final_model,
         X=X_full,
@@ -122,7 +155,7 @@ def main(spark, model_name=None):
         model_type=model_type,
         importance_df=imp,
     )
-
+    # Persist the feature catalog and CV artifacts to Unity Catalog tables.
     feature_catalog_table = write_feature_catalog_to_uc(
         spark=spark,
         feature_catalog_df=feature_catalog_df,
@@ -143,6 +176,8 @@ def main(spark, model_name=None):
 
     print("\nFinal model saved at:", model_uri)
 
+    # Return training outputs, evaluation summaries, interpretation artifacts,
+    # and saved table/model references for downstream inspection.
     return {
         "run_info": {
             "model_name": model_name,

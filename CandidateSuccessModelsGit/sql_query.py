@@ -47,7 +47,7 @@ SELECT
     is_partisan,
     seats_available,
     CASE WHEN is_open_seat THEN 1 ELSE 0 END AS open_seat,
-    CASE WHEN is_incumbent THEN 1 ELSE 0 END AS incumbent
+    CASE WHEN is_incumbent THEN 1 ELSE 0 END AS incumbent,
+    CASE WHEN is_uncontested = TRUE THEN 1 ELSE 0 END AS is_uncontested
 FROM mart_mban2026.candidates_outreach
-WHERE (is_uncontested IS NULL OR is_uncontested = FALSE)
 """

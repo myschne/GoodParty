@@ -1,3 +1,23 @@
+"""
+Hyperparameter tuning utilities for the Candidate Success modeling pipeline.
+
+This module provides grouped GridSearchCV helpers for tuning one model or
+multiple models using the same candidate-election grouping logic as the main
+cross-validation workflow. It reuses the project's feature engineering and
+model-pipeline construction so tuning stays consistent with training.
+
+This tuning layer supports:
+- model-specific parameter grids
+- grouped cross-validation to prevent candidate-election leakage
+- single-model grid search
+- multi-model tuning and comparison
+- ranked summaries of best scores and best parameter settings
+
+In practice, this file is used for interactive model selection and
+hyperparameter experimentation prior to choosing a final training
+configuration.
+"""
+
 import pandas as pd
 from sklearn.model_selection import GridSearchCV, GroupKFold
 

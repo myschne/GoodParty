@@ -1,3 +1,25 @@
+"""
+Experimental text-feature engineering utilities for outreach script analysis.
+
+This file contains exploratory helper functions for generating sentiment,
+theme, authenticity, and perspective-related text features from campaign
+script data. It uses external NLP tools such as VADER Sentiment and
+TextBlob to create candidate-level or candidate-election-level summary
+features from raw outreach text.
+
+Current functionality includes:
+- VADER-based positive / negative / neutral theme profiles
+- TextBlob polarity and subjectivity profiles
+- introductory-authenticity indicators
+- voter-focus perspective features based on "you" versus "I" language
+
+This file is intended for experimentation and feature exploration rather
+than the production modeling pipeline. It may include setup steps,
+duplicate prototype functions, and alternate approaches that are useful
+for testing but are not currently integrated into model training or scoring.
+"""
+
+
 ############################################################
 ############ALL FUNCTIONS USING VADER SENTIMENT#############
 ############################################################

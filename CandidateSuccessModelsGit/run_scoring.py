@@ -32,6 +32,7 @@ from config import (
 
 from sentiment import add_message_level_text_features
 from feature_engineering import aggregate_message_level_data
+from mlflow_utils import parse_args, get_registered_model_name
 
 
 # =========================================================
@@ -42,57 +43,9 @@ from feature_engineering import aggregate_message_level_data
 mlflow.set_registry_uri("databricks-uc")
 
 
-def parse_args():
-    """
-    Parse command-line arguments for scoring.
-
-    Supported arguments
-    -------------------
-    --model_name : str
-        Name of the model configuration to use for scoring. Must be one of
-        the keys in MODEL_CONFIGS. Defaults to DEFAULT_MODEL_NAME.
-
-    Returns
-    -------
-    argparse.Namespace
-        Parsed arguments object containing the selected model name.
-    """
-    parser = argparse.ArgumentParser()
-    parser.add_argument(
-        "--model_name",
-        default=DEFAULT_MODEL_NAME,
-        choices=list(MODEL_CONFIGS.keys()),
-        help="Model name to score with",
-    )
-
-    args, unknown = parser.parse_known_args()
-
-    if unknown:
-        print(f"Ignoring unknown args: {unknown}")
-
-    return args
-
-
-def get_registered_model_name(model_name: str) -> str:
-    """
-    Build the fully qualified registered model name in Unity Catalog.
-
-    The scoring workflow assumes each trained model is registered under:
-        <catalog>.<schema>.<model_name>_model
-
-    Parameters
-    ----------
-    model_name : str
-        Short project model name.
-
-    Returns
-    -------
-    str
-        Fully qualified registered model name.
-    """
-    return f"{UC_CATALOG}.{UC_SCHEMA}.{model_name}_model"
-
-
+# =========================================================
+# Naming helpers
+# =========================================================
 def get_model_uri(model_name: str) -> str:
     """
     Build the MLflow model URI for the selected registered model alias.

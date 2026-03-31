@@ -16,7 +16,7 @@ This configuration covers:
 - viability label definitions
 - columns excluded from modeling features
 
-In practice, this file acts as the single source of truth for project-level
+This file acts as the single source of truth for project-level
 constants. Other modules import from this file rather than hard-coding values
 such as thresholds, model names, registry paths, or dropped columns.
 """
@@ -84,7 +84,8 @@ MODEL_NAME = "mixture_of_experts"
 # so that it always uses the currently promoted model version.
 MODEL_ALIAS = "champion"
 
-
+# Default expert models used by the mixture_of_experts configuration.
+# Each value must match a key in MODEL_CONFIGS below.
 MOE_DEFAULT_EXPERTS = [
     "logistic_regression",
     "random_forest",
@@ -98,7 +99,7 @@ MOE_DEFAULT_EXPERTS = [
 
 # Directory where diagnostic plots and evaluation visualizations
 # are saved after training.
-PLOT_OUTPUT_DIR = "/Workspace/Users/myschne@umich.edu/CandidateSuccessModels/viz_outputs"
+PLOT_OUTPUT_DIR = "/Workspace/Users/myschne@umich.edu/CandidateSuccessModels/multimodel_viz_outputs"
 
 # =========================================================
 # Unity Catalog registration settings
@@ -244,10 +245,18 @@ MODEL_CONFIGS = {
         },
     },
     "mixture_of_experts": {
+    # Mixture of Experts classifier
+    # Combines predictions from multiple base models and uses
+    # a gating model to learn how to weight each expert.
     "type": "mixture_of_experts",
     "params": {
+        # Default expert models to include in the ensemble
+        # Each value must match a key in MODEL_CONFIGS
         "expert_model_names": MOE_DEFAULT_EXPERTS,
-        "gate_C": 1.0,
+        # Inverse regularization strength for the gating model
+        # Smaller values apply stronger regularization
+        "gate_C": 5.0,
+        # Random seed for reproducibility
         "random_state": RANDOM_STATE,
     },
 },
@@ -275,8 +284,12 @@ VIAB_LABELS = [
 ]
 
 # =========================================================
-# Columns excluded from model training features
+# Grouping columns and olumns excluded from model training features
 # =========================================================
+
+# The prediction frame is grouped on these columns
+group_cols = ["hubspot_id", "election_date"]
+
 # These columns are dropped before modeling because they fall into
 # one of these buckets:
 # - target / outcome leakage

@@ -1,7 +1,24 @@
+"""
+Text-feature engineering utilities for message-level outreach data.
+
+This module creates lightweight text-derived features from campaign scripts
+before the data is aggregated to the candidate-election level. It adds
+interpretable measures of emotional theme, candidate authenticity, and
+candidate-versus-voter perspective based on simple rule-based text patterns.
+
+Current feature groups include:
+- theme classification into trust, hope, fear, anger, or neutral
+- authenticity scoring based on introductory and campaign-style language
+- perspective features based on first-person versus second-person word usage
+
+In practice, this file enriches raw message-level outreach records with
+candidate-election-level text summaries that can be merged into the broader
+feature engineering and modeling pipeline.
+"""
+
 import pandas as pd
 import numpy as np
-
-GROUP_COLS = ["hubspot_id", "election_date"]
+from config import group_cols
 
 
 def add_message_level_text_features(df: pd.DataFrame) -> pd.DataFrame:
@@ -76,7 +93,7 @@ def add_message_level_text_features(df: pd.DataFrame) -> pd.DataFrame:
     # Aggregate text features to candidate-election grain
     # -----------------------------------
     text_agg = (
-        df.groupby(GROUP_COLS, dropna=False)
+        df.groupby(group_cols, dropna=False)
           .agg(
               score_theme_trust_pct=("_is_trust", "mean"),
               score_theme_hope_pct=("_is_hope", "mean"),
@@ -89,7 +106,7 @@ def add_message_level_text_features(df: pd.DataFrame) -> pd.DataFrame:
           .reset_index()
     )
 
-    df = df.merge(text_agg, on=GROUP_COLS, how="left")
+    df = df.merge(text_agg, on=group_cols, how="left")
 
     drop_cols = [
         "_theme", "_is_trust", "_is_hope", "_is_fear", "_is_anger",

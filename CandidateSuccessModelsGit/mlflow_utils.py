@@ -1,16 +1,18 @@
 """
-Utility functions for MLflow experiment setup and model configuration.
+Utility functions for MLflow experiment setup and shared model configuration.
 
-This module centralizes a few small but important helpers used by the
-training pipeline:
+This module centralizes small but important helpers used across the
+training and scoring workflows of the Candidate Success modeling pipeline.
 
+These helpers support:
 - ensuring an MLflow experiment exists and is active
-- building a fully qualified Unity Catalog model name
+- building fully qualified Unity Catalog model names
 - parsing command-line arguments for model selection
 - validating that a selected model exists in MODEL_CONFIGS
 
-These helpers keep the main training script cleaner and make model
-selection/registration logic easier to reuse.
+Keeping this logic in one place makes the main training and scoring scripts
+cleaner and helps keep model selection, registry naming, and configuration
+validation consistent across the project.
 """
 
 import argparse

@@ -1,4 +1,21 @@
-""" Evaluation and reporting utilities for model validation. This module contains helper functions used after model training to standardize prediction outputs, compute classification metrics, compare model-derived viability scores against the original benchmark scores, and aggregate feature importance across cross-validation folds. The functions in this file support several stages of the evaluation workflow: - organizing fold-level metrics into tidy tables - building row-level out-of-fold prediction frames - standardizing model outputs across estimator types - computing fold-level and pooled classification metrics - comparing model viability outputs to original viability labels - summarizing feature importance stability across folds Keeping these functions in one module makes the training pipeline cleaner and ensures that evaluation logic is reusable, consistent, and easier to maintain. 
+"""
+Evaluation and reporting utilities for the Candidate Success modeling pipeline.
+
+This file contains helper functions used to standardize model outputs,
+compute classification metrics, compare model-derived viability scores
+against the original benchmark scores, and aggregate feature importance
+across cross-validation folds.
+
+This evaluation layer supports:
+- fold-level and pooled performance summaries
+- standardized prediction outputs across model types
+- confusion-matrix and classification-metric reporting
+- viability score and bucket comparisons
+- cross-fold feature importance aggregation
+
+In practice, this file keeps evaluation logic centralized so training,
+reporting, and visualization workflows can use a consistent set of
+metrics and comparison outputs across all supported models.
 """
 
 import numpy as np

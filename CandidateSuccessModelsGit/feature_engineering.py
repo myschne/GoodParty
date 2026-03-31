@@ -23,7 +23,7 @@ feature-building logic is used during both training and inference.
 import numpy as np
 import pandas as pd
 import re
-from config import ALPHA, DROP_COLS, VIAB_LABELS
+from config import ALPHA, DROP_COLS, VIAB_LABELS, group_cols
 
 # -----------------------
 # Viability (0–5) + bucket labels (1–5 categories)
@@ -144,6 +144,8 @@ STATE_ALIASES = {
     "DISTRICT OF COLUMBIA": "DC",
     # add more if discovered
 }
+
+# Census-style regional grouping used after USPS normalization.
 
 REGION_MAP = {
     "NORTHEAST": {"CT","ME","MA","NH","RI","VT","NJ","NY","PA"},
@@ -389,6 +391,9 @@ def build_features(df: pd.DataFrame) -> pd.DataFrame:
     # Squared features
     # -----------------------------------------------------
 
+    # Create squared terms for selected numeric features so linear models
+    # can capture simple nonlinear effects without manual interaction terms.
+
     squared_features = [
         "days_between_outreach_and_election",
         "n_outreach_rows",
@@ -403,44 +408,94 @@ def build_features(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 def aggregate_message_level_data(df: pd.DataFrame, training: bool = True) -> pd.DataFrame:
+    """
+    Aggregate message-level outreach data to the candidate-election level.
+
+    This function converts multiple outreach rows per candidate-election into
+    a single modeling row by grouping on:
+    - hubspot_id
+    - election_date
+
+    It preserves static candidate/race attributes, summarizes outreach and
+    text-derived features, computes the latest valid outreach date, and adds
+    the most common outreach type.
+
+    Parameters
+    ----------
+    df : pd.DataFrame
+        Message-level dataframe containing one row per outreach record.
+    training : bool, default=True
+        If True, carries forward the target column `Win` using a max
+        aggregation. If False, skips target aggregation for scoring use.
+
+    Returns
+    -------
+    pd.DataFrame
+        Candidate-election-level dataframe with one row per
+        (hubspot_id, election_date).
+
+    Notes
+    -----
+    - outreach dates after the election are excluded from `latest_outreach`
+      via the `valid_outreach_date` field
+    - if present, `is_uncontested` is carried through so scoring logic can
+      override predictions for uncontested races
+    """
+    
     df = df.copy()
+
+    # Standardize identifiers and date fields before aggregation.
 
     df["hubspot_id"] = df["hubspot_id"].fillna("Unknown").astype(str).str.strip()
     df["election_date"] = pd.to_datetime(df["election_date"], errors="coerce")
     df["outreach_date"] = pd.to_datetime(df["outreach_date"], errors="coerce")
 
+    # Keep only outreach dates on or before election day when computing recency.
     df["valid_outreach_date"] = df["outreach_date"].where(
         df["outreach_date"] <= df["election_date"]
     )
 
-    group_cols = ["hubspot_id", "election_date"]
+    # Aggregate message-level records to candidate-election grain.
+    # Static fields use first/max, outreach counts use size, and text features
+    # are carried from the already-computed group-level values.
+
+    agg_dict = {
+        "state": ("state", "first"),
+        "office_level": ("office_level", "first"),
+        "office_type": ("office_type", "first"),
+        "open_seat": ("open_seat", "first"),
+        "incumbent": ("incumbent", "first"),
+        "number_of_opponents": ("number_of_opponents", "first"),
+        "partisan_type": ("is_partisan", "first"),
+        "seats_available": ("seats_available", "max"),
+        "viability_score_mean": ("viability_score", "mean"),
+        "viability_score_max": ("viability_score", "max"),
+        "latest_outreach": ("valid_outreach_date", "max"),
+        "n_outreach_rows": ("hubspot_id", "size"),
+        "score_theme_trust_pct": ("score_theme_trust_pct", "first"),
+        "score_theme_hope_pct": ("score_theme_hope_pct", "first"),
+        "score_theme_fear_pct": ("score_theme_fear_pct", "first"),
+        "score_theme_anger_pct": ("score_theme_anger_pct", "first"),
+        "score_candidate_authenticity": ("score_candidate_authenticity", "first"),
+        "score_perspective_candidate_avg": ("score_perspective_candidate_avg", "first"),
+        "score_perspective_voter_avg": ("score_perspective_voter_avg", "first"),
+    }
+
+    # Add training-only and scoring-only fields when available.
+
+    if training and "Win" in df.columns:
+        agg_dict["Win"] = ("Win", "max")
+
+    if "is_uncontested" in df.columns:
+        agg_dict["is_uncontested"] = ("is_uncontested", "max")
 
     out = (
         df.groupby(group_cols, dropna=False)
-        .agg(
-            state=("state", "first"),
-            office_level=("office_level", "first"),
-            office_type=("office_type", "first"),
-            open_seat=("open_seat", "first"),
-            incumbent=("incumbent", "first"),
-            number_of_opponents=("number_of_opponents", "first"),
-            partisan_type=("is_partisan", "first"),
-            seats_available=("seats_available", "max"),
-            viability_score_mean=("viability_score", "mean"),
-            viability_score_max=("valid_outreach_date", "max"),
-            latest_outreach=("outreach_date", "max"),
-            n_outreach_rows=("hubspot_id", "size"),
-            score_theme_trust_pct=("score_theme_trust_pct", "first"),
-            score_theme_hope_pct=("score_theme_hope_pct", "first"),
-            score_theme_fear_pct=("score_theme_fear_pct", "first"),
-            score_theme_anger_pct=("score_theme_anger_pct", "first"),
-            score_candidate_authenticity=("score_candidate_authenticity", "first"),
-            score_perspective_candidate_avg=("score_perspective_candidate_avg", "first"),
-            score_perspective_voter_avg=("score_perspective_voter_avg", "first"),
-            **({"Win": ("Win", "max")} if training else {})
-        )
+        .agg(**agg_dict)
         .reset_index()
     )
+
+    # Identify the most common outreach type within each candidate-election group.
 
     type_counts = (
         df.loc[df["outreach_type"].notna() & (df["outreach_type"].astype(str).str.strip() != "")]

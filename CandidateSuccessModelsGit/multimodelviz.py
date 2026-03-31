@@ -55,7 +55,7 @@ from sklearn.metrics import (
     roc_auc_score,
 )
 
-from config import THRESHOLD, UC_CATALOG, UC_SCHEMA
+from config import THRESHOLD, UC_CATALOG, UC_SCHEMA, VIAB_LABELS, PLOT_OUTPUT_DIR
 
 
 # ============================================================================
@@ -67,6 +67,7 @@ MODEL_NAMES = [
     "elastic_net_logistic",
     "random_forest",
     "xgboost",
+    "mixture_of_experts",
 ]
 
 # Only these models get coefficient-style feature plots
@@ -82,13 +83,6 @@ MODEL_DISPLAY_NAMES = {
     "xgboost": "XGBoost",
 }
 
-VIAB_LABELS = [
-    "No Chance",
-    "Unlikely to Win",
-    "Has a Chance",
-    "Likely to Win",
-    "Frontrunner",
-]
 
 # Threshold grid used for sweep plots
 DEFAULT_SWEEP_THRESHOLDS = np.linspace(0.05, 0.95, 19)
@@ -1240,7 +1234,7 @@ def main(
     spark,
     model_names: list[str] = MODEL_NAMES,
     include_results: bool = False,
-    outdir: str = "/Workspace/Users/myschne@umich.edu/CandidateSuccessModels/multimodel_viz_outputs",
+    outdir: str = "PLOT_OUTPUT_DIR",
 ) -> dict:
     """
     Load saved model artifacts from Unity Catalog and generate plots.
