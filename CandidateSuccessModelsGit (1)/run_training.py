@@ -21,7 +21,6 @@ from config import (
     EXPERIMENT_PATH,
 )
 from load_data import load_training_data
-from LogisticModelViz import make_all_plots
 from mlflow_utils import (
     ensure_experiment,
     validate_model_config,
@@ -38,10 +37,8 @@ from training_pipeline import (
     get_fold_metrics_table,
     write_df_to_uc
 
-
 )
 from modeling import build_feature_catalog
-
 from sentiment import add_message_level_text_features
 from feature_engineering import aggregate_message_level_data
 
@@ -105,14 +102,6 @@ def main(spark, model_name=None):
     results, viability_comparison = summarize_viability(cv_outputs["oof_df"].copy())
     imp = summarize_feature_importance(cv_outputs["importance_series_list"],model_name)
     os.makedirs(PLOT_OUTPUT_DIR, exist_ok=True)
-    make_all_plots(
-        fold_metrics_df=cv_outputs["fold_metrics_df"],
-        oof_df=cv_outputs["oof_df"],
-        threshold=THRESHOLD,
-        results=results,
-        imp=imp,
-        outdir=PLOT_OUTPUT_DIR,
-    )
 
     final_model, X_full, _ = fit_final_model(full_df, model_type, model_params)
     model_uri = log_and_register_model(
