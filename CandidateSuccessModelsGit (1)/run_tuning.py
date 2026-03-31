@@ -21,4 +21,4 @@ all_results = run_grid_search_all_models(
     scoring="roc_auc",
 )
 
-print(all_results["summary_df"])
+display(all_results["summary_df"])

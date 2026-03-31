@@ -47,7 +47,7 @@ from evaluation import (
     build_fold_prediction_frame,
     build_fold_metrics_df,
 )
-from LogisticModelViz import make_all_plots
+
 from mlflow_utils import (
     ensure_experiment,
     get_registered_model_name,
@@ -474,3 +474,13 @@ def write_feature_catalog_to_uc(spark, feature_catalog_df, model_name):
 
     print(f"Wrote feature catalog table to: {output_table}")
     return output_table
+
+def write_df_to_uc(spark, df, table_name):
+    spark.createDataFrame(df).write.mode("overwrite").option("overwriteSchema", "true").saveAsTable(table_name)
+    return table_name
+
+def get_oof_table(model_name):
+    return f"{UC_CATALOG}.{UC_SCHEMA}.{model_name}_oof_predictions"
+
+def get_fold_metrics_table(model_name):
+    return f"{UC_CATALOG}.{UC_SCHEMA}.{model_name}_fold_metrics"

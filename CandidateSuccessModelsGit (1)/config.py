@@ -37,9 +37,9 @@ EXPERIMENT_PATH = "/Shared/CandidateSuccessModels"
 # into binary class predictions.
 #
 # Example:
-# - predicted probability >= 0.55 -> predict Win = 1
-# - predicted probability <  0.55 -> predict Win = 0
-THRESHOLD = 0.8
+# - predicted probability >= 0.7 -> predict Win = 1
+# - predicted probability <  0.7 -> predict Win = 0
+THRESHOLD = 0.7
 
 # Exponential decay rate for outreach recency weighting.
 # Higher values would place more weight on recent outreach
@@ -179,11 +179,11 @@ MODEL_CONFIGS = {
         "type": "random_forest",
         "params": {
             # Number of trees in the forest
-            "n_estimators": 300,
+            "n_estimators": 500,
 
             # Maximum depth of each tree
             # None means nodes expand until stopping rules are met
-            "max_depth": None,
+            "max_depth": 10,
 
             # Minimum samples required to split an internal node
             "min_samples_split": 2,
@@ -209,13 +209,13 @@ MODEL_CONFIGS = {
         "type": "xgboost",
         "params": {
             # Number of boosting rounds / trees
-            "n_estimators": 200,
+            "n_estimators": 300,
             # Maximum depth of each tree
             # Higher values increase model complexity
-            "max_depth": 6,
+            "max_depth": 4,
             # Step size shrinkage applied at each boosting round
             # Smaller values are more conservative and often require more trees
-            "learning_rate": 0.03,
+            "learning_rate": 0.05,
             # Fraction of training rows sampled for each tree
             # Helps reduce overfitting
             "subsample": 0.8,
@@ -223,7 +223,7 @@ MODEL_CONFIGS = {
             # Helps reduce overfitting and improve generalization
             "colsample_bytree": 0.8,
             # L1 regularization strength on leaf weights
-            "reg_alpha": 0.1,
+            "reg_alpha": 0.0,
             # L2 regularization strength on leaf weights
             "reg_lambda": 1.0,
              # Random seed for reproducibility

@@ -33,7 +33,12 @@ from training_pipeline import (
     summarize_feature_importance,
     fit_final_model,
     log_and_register_model,
-    write_feature_catalog_to_uc
+    write_feature_catalog_to_uc,
+    get_oof_table,
+    get_fold_metrics_table,
+    write_df_to_uc
+
+
 )
 from modeling import build_feature_catalog
 
@@ -133,6 +138,18 @@ def main(spark, model_name=None):
         model_name=model_name,
     )
 
+    oof_table = write_df_to_uc(
+        spark,
+        cv_outputs["oof_df"],
+        get_oof_table(model_name),
+    )
+
+    fold_metrics_table = write_df_to_uc(
+        spark,
+        cv_outputs["fold_metrics_df"],
+        get_fold_metrics_table(model_name),
+    )
+
     print("\nFinal model saved at:", model_uri)
 
     return {
@@ -165,6 +182,8 @@ def main(spark, model_name=None):
             "model_uri": model_uri,
             "plot_output_dir": PLOT_OUTPUT_DIR,
             "feature_catalog_table": feature_catalog_table,
+            "oof_table": oof_table,
+            "fold_metrics_table": fold_metrics_table,
         },
         "diagnostics": {
             "viability_comparison": viability_comparison,
