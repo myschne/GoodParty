@@ -8,7 +8,6 @@ downstream feature engineering and modeling pipeline can be used consistently
 across both training and inference.
 """
 
-
 TRAINING_MESSAGE_QUERY = """
 SELECT
     TRIM(CAST(hubspot_id AS STRING)) AS hubspot_id,
@@ -17,12 +16,14 @@ SELECT
     state,
     office_level,
     office_type,
+    l2_district_type,
+    l2_district_name,
     viability_score,
     outreach_type,
     script,
     number_of_opponents,
-    is_partisan,
     seats_available,
+    CASE WHEN is_partisan THEN 1 ELSE 0 END AS is_partisan,
     CASE WHEN is_open_seat THEN 1 ELSE 0 END AS open_seat,
     CASE WHEN is_incumbent THEN 1 ELSE 0 END AS incumbent,
     general_election_result,
@@ -40,12 +41,14 @@ SELECT
     state,
     office_level,
     office_type,
+    l2_district_type,
+    l2_district_name,
     viability_score,
     outreach_type,
     script,
     number_of_opponents,
-    is_partisan,
     seats_available,
+    CASE WHEN is_partisan THEN 1 ELSE 0 END AS is_partisan,
     CASE WHEN is_open_seat THEN 1 ELSE 0 END AS open_seat,
     CASE WHEN is_incumbent THEN 1 ELSE 0 END AS incumbent,
     CASE WHEN is_uncontested = TRUE THEN 1 ELSE 0 END AS is_uncontested

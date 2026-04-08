@@ -397,7 +397,6 @@ def build_features(df: pd.DataFrame) -> pd.DataFrame:
     squared_features = [
         "days_between_outreach_and_election",
         "n_outreach_rows",
-        "number_of_opponents_num",
         "competitiveness",
     ]
 
@@ -466,7 +465,7 @@ def aggregate_message_level_data(df: pd.DataFrame, training: bool = True) -> pd.
         "open_seat": ("open_seat", "first"),
         "incumbent": ("incumbent", "first"),
         "number_of_opponents": ("number_of_opponents", "first"),
-        "partisan_type": ("is_partisan", "first"),
+        "is_partisan": ("is_partisan", "first"),
         "seats_available": ("seats_available", "max"),
         "viability_score_mean": ("viability_score", "mean"),
         "viability_score_max": ("viability_score", "max"),
@@ -480,6 +479,19 @@ def aggregate_message_level_data(df: pd.DataFrame, training: bool = True) -> pd.
         "score_perspective_candidate_avg": ("score_perspective_candidate_avg", "first"),
         "score_perspective_voter_avg": ("score_perspective_voter_avg", "first"),
     }
+
+    agg_dict.update({
+        "district_n_voters": ("district_n_voters", "first"),
+        "avg_age_in_district": ("avg_age_in_district", "first"),
+        "pct_female_in_district": ("pct_female_in_district", "first"),
+        "pct_male_in_district": ("pct_male_in_district", "first"),
+        "pct_no_hs_in_district": ("pct_no_hs_in_district", "first"),
+        "pct_hs_grad_in_district": ("pct_hs_grad_in_district", "first"),
+        "pct_some_college_in_district": ("pct_some_college_in_district", "first"),
+        "pct_vocational_in_district": ("pct_vocational_in_district", "first"),
+        "pct_college_grad_in_district": ("pct_college_grad_in_district", "first"),
+        "pct_grad_school_in_district": ("pct_grad_school_in_district", "first"),
+    })
 
     # Add training-only and scoring-only fields when available.
 

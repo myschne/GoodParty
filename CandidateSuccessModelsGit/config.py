@@ -29,6 +29,14 @@ such as thresholds, model names, registry paths, or dropped columns.
 # artifacts, and model registration history for this project.
 EXPERIMENT_PATH = "/Shared/CandidateSuccessModels"
 
+# ============================================================================
+# Configurable source table names
+# ============================================================================
+# Tables used for sql query
+OUTREACH_TABLE = "mart_mban2026.candidates_outreach"
+VOTER_TABLE = "goodparty_data_catalog.mart_mban2026.deid_voters"
+
+
 # =========================================================
 # Modeling and evaluation settings
 # =========================================================
@@ -340,6 +348,9 @@ DROP_COLS = [
     "number_avail_seats", # -> competitiveness
     "number_of_opponents_num", # -> competitiveness
     "script", # -> sentiment features
+
+    "l2_district_type", # -> used to join in voter features
+    "l2_district_name", # -> used to join in voter features
     
     # Not included at the moment
     # Excluded for now because we were not given access to

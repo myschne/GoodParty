@@ -26,6 +26,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.utils.validation import check_is_fitted
 from xgboost import XGBClassifier
+from scipy import sparse
 
 from config import MODEL_CONFIGS
 
@@ -120,6 +121,14 @@ class MixtureOfExpertsClassifier(ClassifierMixin, BaseEstimator):
         self.expert_model_names = expert_model_names
         self.gate_C = gate_C
         self.random_state = random_state
+    
+    def _prepare_X(self, X):
+        """
+        Preserve sparse matrices as CSR and coerce dense inputs to ndarray.
+        """
+        if sparse.issparse(X):
+            return X.tocsr()
+        return np.asarray(X)
 
     def _build_default_experts(self):
         """
@@ -196,7 +205,7 @@ class MixtureOfExpertsClassifier(ClassifierMixin, BaseEstimator):
         The gating target is defined as the expert whose predicted
         probability is closest to the observed label for each training row.
         """
-        X = np.asarray(X)
+        X = self._prepare_X(X)
         y = np.asarray(y).astype(int)
 
         # Store sklearn-compatible class labels.
@@ -249,7 +258,7 @@ class MixtureOfExpertsClassifier(ClassifierMixin, BaseEstimator):
             Matrix of shape (n_samples, n_experts) containing class-1
             predicted probabilities from each fitted expert.
         """
-        X = np.asarray(X)
+        X = self._prepare_X(X)
         probs = []
         for _, expert in self.experts_:
             probs.append(expert.predict_proba(X)[:, 1])
@@ -276,7 +285,7 @@ class MixtureOfExpertsClassifier(ClassifierMixin, BaseEstimator):
         """
         check_is_fitted(self, ["experts_", "gate_", "n_experts_"])
 
-        X = np.asarray(X)
+        X = self._prepare_X(X)
         expert_probas = self._expert_matrix(X)
         gate_weights = self.gate_.predict_proba(X)
 

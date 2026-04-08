@@ -316,6 +316,16 @@ def pretty_feature_name(feature: str) -> str:
         "score_perspective_voter_avg": "Voter-focused language",
         "incumbency_status_": "Incumbency: ",
         "most_common_outreach_type_": "Outreach type: ",
+        "district_n_voters": "District voter count",
+        "avg_age_in_district": "District average age",
+        "pct_female_in_district": "District % female",
+        "pct_male_in_district": "District % male",
+        "pct_no_hs_in_district": "District % no HS",
+        "pct_hs_grad_in_district": "District % HS graduate",
+        "pct_some_college_in_district": "District % some college",
+        "pct_vocational_in_district": "District % vocational",
+        "pct_college_grad_in_district": "District % college graduate",
+        "pct_grad_school_in_district": "District % graduate school",
     }
 
     out = feature
@@ -367,6 +377,19 @@ def _domain_from_feature_name(feature: str) -> str:
         "perspective",
     ]):
         return "Text / messaging"
+    if any(x in f for x in [
+        "district_n_voters",
+        "avg_age_in_district",
+        "pct_female_in_district",
+        "pct_male_in_district",
+        "pct_no_hs_in_district",
+        "pct_hs_grad_in_district",
+        "pct_some_college_in_district",
+        "pct_vocational_in_district",
+        "pct_college_grad_in_district",
+        "pct_grad_school_in_district",
+    ]):
+        return "District demographics"
 
     return "Other"
 
@@ -1047,6 +1070,7 @@ def plot_grouped_small_multiples(
             "Race structure",
             "Office",
             "Geography",
+            "District demographics",
             "Election timing",
             "Outreach",
             "Election Type",

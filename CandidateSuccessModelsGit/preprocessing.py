@@ -89,7 +89,7 @@ def make_preprocessor(X, model_type=None) -> tuple[ColumnTransformer, list[str],
     # scoring time that were not seen during training.
     categorical_pipe = Pipeline([
         ("imputer", SimpleImputer(strategy="constant", fill_value="Unknown")),
-        ("onehot", OneHotEncoder(handle_unknown="ignore", sparse_output=False)),
+        ("onehot", OneHotEncoder(handle_unknown="ignore", sparse_output=True)),
     ])
 
     # Apply the numeric and categorical pipelines to their respective columns.

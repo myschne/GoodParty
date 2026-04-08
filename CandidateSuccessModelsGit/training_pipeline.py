@@ -12,6 +12,7 @@ Unity Catalog.
 import os
 import numpy as np
 import pandas as pd
+from decimal import Decimal
 import mlflow
 import mlflow.sklearn
 from mlflow.models import infer_signature
@@ -430,6 +431,16 @@ def log_and_register_model(
         mlflow.log_metric("f1_score", float(pooled_metrics["f1_score"]))
 
         # Log and register the final sklearn model.
+
+        input_example = X_full.head(5).copy()
+
+        for col in input_example.columns:
+            input_example[col] = input_example[col].apply(
+                lambda x: float(x) if isinstance(x, Decimal) else x
+            )
+
+        input_example = input_example.infer_objects(copy=False)
+
         model_info = mlflow.sklearn.log_model(
             sk_model=final_model,
             artifact_path="model",
